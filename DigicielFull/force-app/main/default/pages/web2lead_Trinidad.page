@@ -1,0 +1,568 @@
+<apex:page docType="html-5.0" standardController="Lead" showHeader="false" showChat="false" sidebar="false" cache="false" expires="0">
+
+    <!--  ------------------------------------------------------------------g----  -->
+    <!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+    <!--  If necessary, please modify the charset parameter to specify the        -->
+    <!--  character set of your HTML page.                                        -->
+    <!--  ----------------------------------------------------------------------  -->
+    
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8"/>
+    <script>
+        var datefield=document.createElement("input")
+        datefield.setAttribute("type", "date")
+        if (datefield.type!="date"){ 
+            document.write('<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />\n')
+            document.write('<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"><\/script>\n')
+            document.write('<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"><\/script>\n')
+        }
+    
+    
+        navigator.geolocation.getAccurateCurrentPosition = function (geolocationSuccess, geolocationError, geoprogress, options) {
+            var lastCheckedPosition,
+                locationEventCount = 0,
+                watchID,
+                timerID;
+        
+            options = options || {};
+        
+            var checkLocation = function (position) {
+                lastCheckedPosition = position;
+                locationEventCount = locationEventCount + 1;
+
+                if ((position.coords.accuracy <= options.desiredAccuracy) && (locationEventCount > 1)) {
+                    clearTimeout(timerID);
+                    navigator.geolocation.clearWatch(watchID);
+                    foundPosition(position);
+                } else {
+                    geoprogress(position);
+                }
+            };
+        
+            var stopTrying = function () {
+                navigator.geolocation.clearWatch(watchID);
+                foundPosition(lastCheckedPosition);
+            };
+        
+            var onError = function (error) {
+                clearTimeout(timerID);
+                navigator.geolocation.clearWatch(watchID);
+                geolocationError(error);
+            };
+        
+            var foundPosition = function (position) {
+                geolocationSuccess(position);
+            };
+        
+            if (!options.maxWait)            options.maxWait = 10000; // Default 10 seconds
+            if (!options.desiredAccuracy)    options.desiredAccuracy = 20; // Default 20 meters
+            if (!options.timeout)            options.timeout = options.maxWait; // Default to maxWait
+        
+            options.maximumAge = 0; // Force current locations only
+            options.enableHighAccuracy = true; // Force high accuracy (otherwise, why are you using this function?)
+        
+            watchID = navigator.geolocation.watchPosition(checkLocation, onError, options);
+            timerID = setTimeout(stopTrying, options.maxWait); // Set a timeout that will abandon the location loop
+        };
+    
+        function initGeolocation()
+         {
+            if( navigator.geolocation )
+            {
+               // Call getCurrentPosition with success and failure callbacks
+               navigator.geolocation.getAccurateCurrentPosition( success, fail, progress, {desiredAccuracy:20, maxWait:15000});
+            }
+            else
+            {
+               alert("Sorry, your browser does not support geolocation services.");
+            }
+         }
+    
+         function success(position)
+         {
+             document.getElementById('d00Nd0000007kRmN').value = position.coords.longitude;
+             document.getElementById('d00Nd0000007kRmS').value = position.coords.latitude;
+             document.getElementById('0BCd0000000Caz5').value = position.coords.longitude;
+             document.getElementById('0BCd0000000Caz4').value = position.coords.latitude
+         }
+         
+         function progress(position)
+         {
+             document.getElementById('d00Nd0000007kRmN').value = position.coords.longitude;
+             document.getElementById('d00Nd0000007kRmS').value = position.coords.latitude;
+             document.getElementById('0BCd0000000Caz5').value = position.coords.longitude;
+             document.getElementById('0BCd0000000Caz4').value = position.coords.latitude;
+         }
+    
+         function fail()
+         {
+            alert("Sorry, the browser could not recover your location, please set for this page to access it.");
+         }
+         
+         function setDates(){
+             document.getElementById('00Nd0000004zZ17').value = document.getElementById('00Nd0000004zZ17').value;
+         }
+         
+         if (datefield.type!="date"){ 
+            jQuery(function($){ 
+                $('#birthday').datepicker();
+            })
+        }
+        
+         
+         function validateGPSInfo(){
+             if(document.getElementById("dont_send_GPS").checked){
+                 document.getElementById('d00Nd0000007kRmN').value = "";
+                 document.getElementById('d00Nd0000007kRmS').value = "";
+                 document.getElementById('0BCd0000000Caz5').value = "";
+                 document.getElementById('0BCd0000000Caz4').value = "";
+             }else{
+                 document.getElementById('d00Nd0000007kRmN').value = position.coords.longitude;
+                 document.getElementById('d00Nd0000007kRmS').value = position.coords.latitude;
+                 document.getElementById('0BCd0000000Caz5').value = position.coords.longitude;
+                 document.getElementById('0BCd0000000Caz4').value = position.coords.latitude;
+             }
+         }
+        
+    </script>
+    
+    <style>
+        .bPageBlock {
+            border-top: red;
+        }
+        
+        .pbSubheader.first {
+            background-color: red;
+        }
+        
+        .pbSubheader {
+            background-color: red;
+        }
+        
+        .leadTab .tertiaryPalette, .individualPalette .leadBlock .tertiaryPalette, .layoutEdit .individualPalette .leadBlock .tertiaryPalette {
+            background-color: red;
+            border-color: red;
+        }
+        
+        .dateOnlyInput input {
+            width: 6em;
+        }
+        
+        .requiredBlock {
+            background-color: #c00;
+            position: absolute;
+            left: -4px;
+            width: 3px;
+            top: 1px;
+            bottom: 1px;
+        }
+    </style>
+    <!--  ----------------------------------------------------------------------  -->
+    <!--  NOTE: Please add the following <FORM> element to your page.             -->
+    <!--  ----------------------------------------------------------------------  -->
+    <!-- <apex:form >-->
+        <body onLoad="initGeolocation();">
+            <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+            
+                <input type="hidden" name="oid" value="00Dd0000000fRCw"/>
+                <input type="hidden" name="retURL" value="http://digicelgroup.force.com/web2lead/thankyou?market=web2lead_Trinidad"/>
+                
+                <input id="recordType" name="recordType" type="hidden" value="012d0000000tM9j"/>
+                <input id="lead_source" name="lead_source" type="hidden" value="Consumer Sales Agent"/>
+                <input  id="0BCd0000000Caz5" name="0BCd0000000Caz5" type="hidden"/>
+                <input  id="0BCd0000000Caz4" name="0BCd0000000Caz4" type="hidden"/>
+                <!--  ----------------------------------------------------------------------  -->
+                <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+                <!--  these lines if you wish to test in debug mode.                          -->
+                <!--  <input type="hidden" name="debug" value=1>                              -->
+                <!--  <input type="hidden" name="debugEmail"                                  -->
+                <!--  value="crivera@doblegroup.com">                                         -->
+                <!--  ----------------------------------------------------------------------  -->
+                <apex:pageBlock >
+                    <div>
+                        <apex:image url="{!$Resource.Digicel_Logo_HiRes}" width="150" height="100%"/>
+                    </div>
+                    <h2>
+                        Trinidad and Tobago
+                    </h2>
+                    <apex:pageBlockSection title="Customer Information" collapsible="false">
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Customer Type"/>
+                            <select  id="00Nd0000007kQXq" name="00Nd0000007kQXq" title="Service Type">
+                                <option value="">--None--</option>
+                                <option value="New">New</option>
+                                <option value="Existing Customer">Existing Customer</option>
+                                <option value="Upgrade">Upgrade</option>
+                            </select>
+                        </apex:pageBlockSectionItem>
+                        
+                        <apex:pageBlockSectionItem >
+                            
+                        </apex:pageBlockSectionItem>
+                        
+                        <apex:pageBlockSectionItem >
+                            <apex:outputPanel >
+                                <apex:outputLabel value="First Name"/>
+                                <span class="requiredLegend brandTertiaryFgr">
+                                    <span class="requiredExampleOuter">
+                                        <span class="requiredExample"></span>
+                                    </span>
+                                    <span class="requiredMark">*</span>
+                                </span>
+                            </apex:outputPanel>
+                            
+                            <apex:outputPanel >
+                                <select  id="salutation" name="salutation">
+                                    <option value="">--None--</option>
+                                    <option value="Mr.">Mr.</option>
+                                    <option value="Ms.">Ms.</option>
+                                    <option value="Mrs.">Mrs.</option>
+                                    <option value="Dr.">Dr.</option>
+                                    <option value="Prof.">Prof.</option>
+                                    <option value="The Honorable">The Honorable</option>
+                                    <option value="The Most Honorable">The Most Honorable</option>
+                                    <option value="His Excellency">His Excellency</option>
+                                    <option value="Senator">Senator</option>
+                                    <option value="His Worship Mayor">His Worship Mayor</option>
+                                    <option value="Her Worship Mayor">Her Worship Mayor</option>
+                                    <option value="Ambassador">Ambassador</option>
+                                </select>
+                                <input  id="first_name" maxlength="40" name="first_name" size="20" type="text" required="true"/>
+                            </apex:outputPanel>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputPanel >
+                                <apex:outputLabel value="Last Name"/>
+                                <span class="requiredLegend brandTertiaryFgr">
+                                    <span class="requiredExampleOuter">
+                                        <span class="requiredExample"></span>
+                                    </span>
+                                    <span class="requiredMark">*</span>
+                                </span>
+                            </apex:outputPanel>
+                            <input  id="last_name" maxlength="80" name="last_name" size="20" type="text" required="true"/>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Phone"/>
+                            <input  id="phone" maxlength="40" name="phone" size="20" type="text" />
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Email"/>
+                            <input  id="email" maxlength="80" name="email" size="40" type="text" />
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Mobile"/>
+                            <input  id="mobile" maxlength="40" name="mobile" size="20" type="text" />
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Birthday"/>
+                            <span class="dateInput dateOnlyInput">
+                                <input  id="00Nd0000004zZ17" name="00Nd0000004zZ17" size="12" type="text"/> DD/MM/YYYY
+                            </span>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Street"/>
+                            <textarea cols="80" rows="5" id="00Nd0000004zuwH" name="00Nd0000004zuwH" type="text" wrap="soft"></textarea>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Primary ID Type"/>
+                            <select  id="00Nd0000007kRBv" name="00Nd0000007kRBv" title="Primary ID Type">
+                                <option value="">--None--</option>
+                                <option value="Passport">Passport</option>
+                                <option value="Drivers Licenses">Drivers Licenses</option>
+                                <option value="National ID">National ID</option>
+                            </select>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="District"/>
+                            <select  id="00Nd0000004zuwR" name="00Nd0000004zuwR" title="Parish / Region / Department">
+                                <option value="">--None--</option>
+                                <option value="Chaguanas">Chaguanas</option>
+                                <option value="Couva/Tabaquite/Talparo">Couva/Tabaquite/Talparo</option>
+                                <option value="Diego Martin">Diego Martin</option>
+                                <option value="Penel/Debe">Penel/Debe</option>
+                                <option value="Point Fortin">Point Fortin</option>
+                                <option value="Port of Spain">Port of Spain</option>
+                                <option value="Princes Town">Princes Town</option>
+                                <option value="Rio Claro-Mayaro">Rio Claro-Mayaro</option>
+                                <option value="San Fernando">San Fernando</option>
+                                <option value="Sangre Grande">Sangre Grande</option>
+                                <option value="San Juan/Lavantille">San Juan/Lavantille</option>
+                                <option value="Siparia">Siparia</option>
+                                <option value="Tobago">Tobago</option>
+                                <option value="Tunapuna/Piarco">Tunapuna/Piarco</option>
+                            </select>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Primary ID Number"/>
+                            <input  id="00Nd0000007kRC0" maxlength="100" name="00Nd0000007kRC0" size="20" type="text" />
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="City"/>
+                            <select  id="00Nd0000005bEUh" name="00Nd0000005bEUh" title="City">
+                                <option value="">--None--</option>
+                            </select>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Secondary ID Type"/>
+                            <select  id="00Nd0000007kRC5" name="00Nd0000007kRC5" title="Secondary ID Type">
+                                <option value="">--None--</option>
+                                <option value="Passport">Passport</option>
+                                <option value="Drivers Licenses">Drivers Licenses</option>
+                                <option value="National ID">National ID</option>
+                            </select>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Country"/>
+                            <select  id="00Nd0000004zYjH" name="00Nd0000004zYjH" title="Country">
+                                <option value="Trinidad & Tobago">Trinidad and Tobago</option>
+                            </select>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Secondary ID Number"/>
+                            <input  id="00Nd0000007kRCA" maxlength="100" name="00Nd0000007kRCA" size="20" type="text" />
+                        </apex:pageBlockSectionItem>
+                    </apex:pageBlockSection>
+                    <apex:pageBlockSection title="Community Information" collapsible="false">
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Community Type"/>
+                            <select  id="00Nd0000007kd3V" name="00Nd0000007kd3V" title="Community Type">
+                                <option value="">--None--</option>
+                                <option value="MDU">MDU</option>
+                                <option value="Gated Community">Gated Community</option>
+                            </select>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Primary Community Contact Position"/>
+                            <select  id="00Nd0000007kd3u" name="00Nd0000007kd3u" title="Primary Community Contact Position">
+                                <option value="">--None--</option>
+                                <option value="Supervisor">Supervisor</option>
+                                <option value="Manager">Manager</option>
+                                <option value="Admin">Admin</option>
+                                <option value="Owner">Owner</option>
+                            </select>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Community Name"/>
+                            <input  id="00Nd0000007kd3a" maxlength="80" name="00Nd0000007kd3a" size="20" type="text" />
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Primary Community Contact Name"/>
+                            <input  id="00Nd0000007kd3f" maxlength="80" name="00Nd0000007kd3f" size="20" type="text" />
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Community Street Address"/>
+                            <input  id="00Nd0000007kd4n" maxlength="50" name="00Nd0000007kd4n" size="20" type="text" />
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Secondary Community Contact Position"/>
+                            <select  id="00Nd0000007kd3z" name="00Nd0000007kd3z" title="Secondary Community Contact Position">
+                                <option value="">--None--</option>
+                                <option value="Supervisor">Supervisor</option>
+                                <option value="Manager">Manager</option>
+                                <option value="Admin">Admin</option>
+                                <option value="Owner">Owner</option>
+                            </select>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Community Contact Phone"/>
+                            <input  id="00Nd0000007kd44" maxlength="40" name="00Nd0000007kd44" size="20" type="text" />
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Secondary Community Name"/>
+                            <input  id="00Nd0000007kd3k" maxlength="80" name="00Nd0000007kd3k" size="20" type="text" />
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Community Contact Mobile"/>
+                            <input  id="00Nd0000007kd49" maxlength="40" name="00Nd0000007kd49" size="20" type="text" />
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Number of Residence"/>
+                            <input  id="00Nd0000007kd4O" name="00Nd0000007kd4O" size="20" type="text" />
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Community Contact Email"/>
+                            <input  id="00Nd0000007kd4E" maxlength="80" name="00Nd0000007kd4E" size="20" type="text" />
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Number of Units"/>
+                            <input  id="00Nd0000007kd4J" name="00Nd0000007kd4J" size="20" type="text" />
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Existing Infrastructure"/>
+                            <select  id="00Nd0000007kd4T" multiple="multiple" name="00Nd0000007kd4T" title="Existing Infrastructure">
+                                <option value="Direct TV">Direct TV</option>
+                                <option value="Dish Network">Dish Network</option>
+                                <option value="BLINK">BLINK</option>
+                                <option value="GREEN DOT">GREEN DOT</option>
+                                <option value="D/VALE CABLE COMPANY">D/VALE CABLE COMPANY</option>
+                            </select>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="List Your Current Providers"/>
+                            <select  id="00Nd0000007kRw3" multiple="multiple" name="00Nd0000007kRw3" title="List Your Current Providers">
+                                <option value="Direct TV">Direct TV</option>
+                                <option value="FLOW">FLOW</option>
+                                <option value="BLINK">BLINK</option>
+                                <option value="GREEN DOT">GREEN DOT</option>
+                                <option value="D/VALE CABLE COMPANY">D/VALE CABLE COMPANY</option>
+                            </select>
+                        </apex:pageBlockSectionItem>
+                    </apex:pageBlockSection>
+                    <apex:pageBlockSection title="Current Cable/Broadband Information" collapsible="false">
+                        <apex:pageBlockSectionItem >
+                                <apex:outputLabel value="Are you a current Customer?"/>
+                                <select  id="00Nd0000007kQYy" name="00Nd0000007kQYy" title="Are you a current Customer?">
+                                    <option value="">--None--</option>
+                                    <option value="YES">YES</option>
+                                    <option value="NO">NO</option>
+                                </select>
+                        </apex:pageBlockSectionItem>
+                        
+                        <apex:pageBlockSectionItem >
+                        </apex:pageBlockSectionItem>
+                        
+                        <apex:pageblockSectionItem >
+                            <apex:outputLabel value="If Yes, what type of service?"/>
+                            <select  id="00Nd0000007kRoY" multiple="multiple" name="00Nd0000007kRoY" title="If Yes, what type of service?">
+                                <option value="Fibre - TV">Fibre - TV</option>
+                                <option value="Fibre - Broadband">Fibre - Broadband</option>
+                                <option value="Fibre - Telephone">Fibre - Telephone</option>
+                                <option value="Mobile">Mobile</option>
+                            </select>
+                        </apex:pageblockSectionItem>
+                        
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="What Services are you interested in?"/>
+                            <select  id="00Nd0000007kT2M" multiple="multiple" name="00Nd0000007kT2M" title="What Services are you interested in?">
+                                <option value="Fibre - TV">Fibre - TV</option>
+                                <option value="Fibre - Broadband">Fibre - Broadband</option>
+                                <option value="Fibre - Telephone">Fibre - Telephone</option>
+                                <option value="Not interested in services">Not interested in services</option>
+                            </select>
+                        </apex:pageBlockSectionItem>
+                        
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Under what name did you have service?"/>
+                            <input  id="00Nd0000007kQZD" maxlength="50" name="00Nd0000007kQZD" size="20" type="text" />
+                        </apex:pageBlockSectionItem>
+                        
+                        <!--<apex:pageblockSectionItem >
+                            <apex:outputLabel value="List Current Providers"/>
+                            <select  id="00Nd0000007kRw3" multiple="multiple" name="00Nd0000007kRw3" title="If No, List Current Providers">
+                                <option value="Direct TV">Direct TV</option>
+                                <option value="FLOW">FLOW</option>
+                                <option value="BLINK">BLINK</option>
+                                <option value="GREEN DOT">GREEN DOT</option>
+                                <option value="D/VALE CABLE COMPANY">D/VALE CABLE COMPANY</option>
+                                
+                            </select>
+                        </apex:pageblockSectionItem>-->
+                        
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Landlord/Home Owner's Name"/>
+                            <input  id="00Nd0000007kQZ8" maxlength="50" name="00Nd0000007kQZ8" size="40" type="text" />
+                        </apex:pageBlockSectionItem>
+                        
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Reason for not Choosing the services"/>
+                            <select  id="00Nd0000007kSKj" multiple="multiple" name="00Nd0000007kSKj" title="Reason for not Choosing the services" size="10">
+                                <option value="Not Interested - FLOW Cable">Not Interested - FLOW Cable</option>
+                                <option value="Not Interested - FLOW Broadband">Not Interested - FLOW Broadband</option>
+                                <option value="Not Interested - FLOW landline">Not Interested - FLOW landline</option>
+                                <option value="Not Interested - BLINK Cable">Not Interested - BLINK Cable</option>
+                                <option value="Not Interested - BLINK Broadband">Not Interested - BLINK Broadband</option>
+                                <option value="Not Interested - BLINK landline">Not Interested - BLINK landline</option>
+                                <option value="Not Interested - D/VALE Cable">Not Interested - D/VALE Cable</option>
+                                <option value="Not Interested - DIRECT TV">Not Interested - DIRECT TV</option>
+                                <option value="Not Interested - GREEN DOT Broadband">Not Interested - GREEN DOT Broadband</option>
+                                <option value="Not Interested - GREEN DOT Cable">Not Interested - GREEN DOT Cable</option>
+                            </select>
+                        </apex:pageBlockSectionItem>
+                        
+                    </apex:pageBlockSection>
+                    <apex:pageBlockSection title="Billing Information" collapsible="false">
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Billing Options"/>
+                            <select  id="00Nd0000007kR1q" name="00Nd0000007kR1q" title="Billing Options">
+                                <option value="">--None--</option>
+                                <option value="Paper Billing">Paper Billing</option>
+                                <option value="E-Billing">E-Billing</option>
+                            </select>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputPanel >
+                                <apex:outputLabel value="Salesperson"/>
+                                <span class="requiredLegend brandTertiaryFgr">
+                                    <span class="requiredExampleOuter">
+                                        <span class="requiredExample"></span>
+                                    </span>
+                                    <span class="requiredMark">*</span>
+                                </span>
+                            </apex:outputPanel>
+                            <select  id="00Nd0000007kR1l" name="00Nd0000007kR1l" title="Sales Person" required="true">
+                                <option value="">--None--</option>
+                                <option value="Akielya Placide">Akielya Placide</option>
+                                <option value="Alston Drakes">Alston Drakes</option>
+                                <option value="Arlinghton Stewart">Arlinghton Stewart</option>
+                                <option value="Jonathan Santana">Jonathan Santana</option>
+                                <option value="Marcela Jones">Marcela Jones</option>
+                                <option value="Shakira Long">Shakira Long</option>
+                                <option value="Virginia Hernandez">Virginia Hernandez</option>
+                                <option value="Micheal Trapp">Micheal Trapp</option>
+                                <option value="Nigel Williams">Nigel Williams</option>
+                                <option value="Quacy Cooper">Quacy Cooper</option>
+                                <option value="Scott Raghunat">Scott Raghunat</option>
+                                <option value="Allison Jute">Allison Jute</option>
+                                <option value="Shelly Ann Joseph">Shelly Ann Joseph</option>
+                            </select>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Schedule Installation/Connection Date"/>
+                            <span class="dateInput dateOnlyInput">
+                                <input  id="00Nd0000007kQYP" name="00Nd0000007kQYP" size="12" type="text"/> DD/MM/YYYY
+                            </span>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Sale"/>
+                            <select  id="00Nd0000007kgll" name="00Nd0000007kgll" title="Deposit Collected">
+                                <option value="">-- Not selected --</option>
+                                <option value="Paid">Paid</option>
+                                <option value="Presale">Presale</option>
+                                <option value="None">None</option>
+                            </select>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Deposit Collected"/>
+                            <select  id="00Nd0000007kpRp" name="00Nd0000007kpRp" title="Deposit Collected">
+                                <option value="">--None--</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                            </select>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputLabel value="Total Amount Collected"/>
+                            <input  id="00Nd0000007kpRu" name="00Nd0000007kpRu" size="20" type="text" />
+                        </apex:pageBlockSectionItem>
+                    </apex:pageBlockSection>
+                    <apex:pageBlockSection collapsible="false" title="GPS Information">
+                        <apex:pageBlockSectionItem >
+                            <apex:outputlabel value="Latitude"/>
+                            <input  id="d00Nd0000007kRmS" name="d00Nd0000007kRmS" size="20" type="text" disabled="true"/>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputlabel value="Longitude"/>
+                            <input  id="d00Nd0000007kRmN" name="d00Nd0000007kRmN" size="20" type="text" disabled="true"/>
+                        </apex:pageBlockSectionItem>
+                        <apex:pageBlockSectionItem >
+                            <apex:outputlabel value="Don't send GPS Information"/>
+                            <input type="checkbox" id="dont_send_GPS" name="dont_send_GPS" value="true" />
+                        </apex:pageBlockSectionItem>
+                    </apex:pageBlockSection>
+                    <apex:pageBlockButtons location="bottom">
+                        <input type="submit" onclick="setDates(); validateGPSInfo();" name="submit"/>
+                    </apex:pageBlockButtons>
+                </apex:pageBlock>
+            </form>
+        </body>
+   <!-- </apex:form>   -->     
+</apex:page>

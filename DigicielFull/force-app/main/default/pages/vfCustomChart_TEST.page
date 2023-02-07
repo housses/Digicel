@@ -1,0 +1,17 @@
+<apex:page controller="controllerCustomChart" sidebar="false" showHeader="false" cache="false" expires="0" title="Custom Chart" action="{!init}" id="thePage">
+    <script>
+        function redirect(url){
+            if(url.length > 0)
+                window.open(url,'_blank');
+        }
+    </script>
+    
+    <apex:form id="theForm">
+        <apex:pageBlock >
+            <apex:pageMessages />
+            <div style="overflow:auto;max-width:400px">
+            	<apex:image id="chart" url="{!chartURL}" onclick="redirect('{!customChartSource}');" rendered="{!displayChart}"/>
+            </div>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

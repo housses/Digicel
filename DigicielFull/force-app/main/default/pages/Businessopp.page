@@ -1,0 +1,58 @@
+<apex:page standardController="Opportunity" docType="html-5.0" showHeader="false" showChat="false" sidebar="false" cache="false" expires="0">
+   <apex:sectionHeader title="Opportunity Edit" subtitle="New Opportunity"/>
+
+    <apex:form >
+        <apex:pageBlock title="Opportunity Edit" mode="maindetail">
+             <apex:pageBlockButtons location="bottom">
+                <apex:commandButton value="Save" action="{!save}"/>
+                <apex:commandButton value="Cancel" action="{!cancel}"/>
+             </apex:pageBlockButtons>
+                        
+            <apex:pageBlockSection title="Opportunity Information" columns="2">
+                <apex:inputField value="{!Opportunity.OwnerId}" required="false"/>
+                <apex:inputField value="{!Opportunity.CloseDate}" required="true"/>
+                <apex:inputField value="{!Opportunity.Name}" required="true"/>
+                <apex:inputField value="{!Opportunity.Estimated_Billed_Date__c}" required="true"/>
+                <apex:inputField value="{!Opportunity.AccountId}" required="true"/>
+                <apex:inputField value="{!Opportunity.StageName}" required="true"/>
+                <apex:inputField value="{!Opportunity.CurrencyIsoCode}" required="true"/>
+                <apex:inputField value="{!Opportunity.Probability}" required="false"/>
+                <apex:inputField value="{!Opportunity.Country__c}" required="true"/>
+                <apex:inputField value="{!Opportunity.Loss_Reason__c}" required="true"/>
+                <apex:pageBlockSectionItem />
+                <apex:inputField value="{!Opportunity.Other_Reason__c}" required="false"/>
+            </apex:pageBlockSection>            
+            
+            <apex:pageBlockSection title="Units" columns="2">
+                <apex:inputField value="{!Opportunity.Broadband_Units__c}" required="false"/>
+                <apex:inputField value="{!Opportunity.M2M__c}" required="false"/>
+                <apex:inputField value="{!Opportunity.Fixed_Line__c}" required="false"/>
+                <apex:inputField value="{!Opportunity.Microsoft_Office_Licenses__c}" required="false"/>
+                <apex:inputField value="{!Opportunity.Hosted_PBX_Extensions__c}" required="false"/>
+                <apex:inputField value="{!Opportunity.Prepaid_Units__c}" required="false"/>
+                <apex:inputField value="{!Opportunity.Metro_Connection__c}" required="false"/>
+                <apex:inputField value="{!Opportunity.Postpaid_Units_Voice_Only__c}" required="false"/>
+                <apex:inputField value="{!Opportunity.TV_Units__c}" required="false"/>
+                <apex:inputField value="{!Opportunity.Postpaid_Units_with_Voice_and_Data__c}" required="false"/>
+                <apex:inputField value="{!Opportunity.TV_Setup_Boxes__c}" required="false"/>
+                <apex:inputField value="{!Opportunity.Dongle_Mifi__c}" required="false"/>
+            </apex:pageBlockSection>            
+            
+            <apex:pageBlockSection title="Additional Information" columns="2">
+                <apex:inputField value="{!Opportunity.Opportunity_Status__c}" required="true"/>
+                <apex:inputField value="{!Opportunity.Mega_Opportunity__c}" required="false"/>
+                <apex:inputField value="{!Opportunity.CampaignId}" required="false"/>
+                <apex:inputField value="{!Opportunity.NextStep}" required="false"/>
+                <apex:inputField value="{!Opportunity.LeadSource}" required="false"/>
+                <apex:inputField value="{!Opportunity.Description}" required="false"/>
+                <apex:inputField value="{!Opportunity.Service_Desk_ID__c}" required="false"/>
+                <apex:pageBlockSectionItem />
+                <apex:inputField value="{!Opportunity.BAN__c}" required="false"/>
+                <apex:pageBlockSectionItem />
+            </apex:pageBlockSection>            
+            
+                
+        </apex:pageBlock>
+    </apex:form>
+
+</apex:page>

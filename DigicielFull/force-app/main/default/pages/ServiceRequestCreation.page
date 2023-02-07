@@ -1,0 +1,38 @@
+<apex:page standardController="Service_Request__c" extensions="redirectServiceRequestController">
+
+<apex:form >
+    <apex:actionFunction action="{!redirectServiceRequest}" name="redirect" reRender="content">
+        <apex:param name="currentPageURL" value=""/>
+    </apex:actionFunction>
+</apex:form>
+<div id="userMsg" style="display:none">
+    <h2>Warning!</h2>
+    <p>
+        Service Requests must be created from Opportunity.
+    </p>
+    <p>
+         Go to <a style="color:#015ba7" href="{!OpportunityLandingPage}">Opportunities</a> page.
+    </p>
+</div>
+<script>
+    function getUrlVars()
+    {
+        var vars = [], hash;
+        var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+        for(var i = 0; i < hashes.length; i++)
+        {
+            hash = hashes[i].split('=');
+            vars.push(hash[0]);
+            vars[hash[0]] = hash[1];
+        }
+        return vars;
+    }
+    if (getUrlVars()["scontrolCaching"])
+        redirect(window.location.href);
+    else
+    {
+        var hiddenMsg = document.getElementById('userMsg');
+        hiddenMsg.setAttribute("style","display:block");
+    }
+</script>
+</apex:page>

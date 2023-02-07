@@ -1,0 +1,13 @@
+<apex:page showHeader="false" sidebar="false" applyBodyTag="false" applyHtmlTag="false" docType="html-5.0">
+    <script type="text/javascript">
+        (function() {
+            var redir = window.location.href;
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+                redir = redir.replace("vfChatRedirect", "vfPreFormLiveAgentChat_Mobile");
+            }else{
+                redir = redir.replace("vfChatRedirect", "vfPreFormLiveAgentChat");
+            }
+            window.location.href = redir;
+        })();
+    </script>
+</apex:page>

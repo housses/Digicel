@@ -1,0 +1,42 @@
+<apex:page docType="html-5.0" standardController="Lead" showHeader="false" showChat="false" sidebar="false" cache="false" expires="0">
+    <style>
+        .bPageBlock {
+            border-top: red;
+        }
+        
+        .pbSubheader.first {
+            background-color: red;
+        }
+        
+        .pbSubheader {
+            background-color: red;
+        }
+        
+        .leadTab .tertiaryPalette, .individualPalette .leadBlock .tertiaryPalette, .layoutEdit .individualPalette .leadBlock .tertiaryPalette {
+            background-color: red;
+            border-color: red;
+        }
+        
+        p {
+            text-align: center;
+        }
+    </style>
+    
+    <apex:form >
+        <apex:pageBlock >
+            <div>
+                <apex:image url="{!$Resource.Digicel_Logo_HiRes}" width="150" height="100%"/>
+            </div>
+            
+            <p style="font-size: 16px"> 
+                <h1 style="font-size: 24px">
+                    The lead has been successfully submitted.
+                </h1>
+                <br/>
+                If you want to submit a new lead from the same market, please <a href="http://digicelgroup.force.com/web2lead/{!$CurrentPage.parameters.market}">Click here</a>
+                <br/>
+                If you want to submit a new lead from a different market, please <a href="http://digicelgroup.force.com/web2lead">Click here</a>
+            </p>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,211 @@
+<apex:page sidebar="false" showHeader="false">
+
+    <style type='text/css'>
+    
+        body {
+            overflow: hidden;
+            background-color: #ACACAC;
+        }
+        
+        #main {
+            position: absolute; top: 50%;
+            margin-top: -30px;
+            width: 100%;
+        }
+        
+        .drops {
+            list-style: none;
+            position: relative;
+            height: 10px;
+            width: 140px;
+            margin: 0 auto; /* center the animation */
+            margin-top: 15px; /* padd the top from the text */
+        }
+        .drops li {
+          position: absolute;
+          top: 0px;
+          height: 10px;
+          width: 10px;
+          background-color: black;
+          border-radius: 5px;
+          margin-left: -3000px; /* the dots like to jump out of place without this */
+          -webkit-animation-name: loading;
+          -webkit-animation-duration: 5s;
+          -webkit-animation-timing-function: ease-in-out;
+          -webkit-animation-iteration-count: infinite;
+          -webkit-animation-direction: normal;
+          animation-name: loading;
+          animation-duration: 4s;
+          animation-timing-function: ease-in-out;
+          animation-iteration-count: infinite;
+          animation-direction: normal;
+          background-color: #99deff;
+          box-shadow:  0 0 5px #99afff, 
+                       0 0 10px #99afff, 
+                       0 0 15px #99afff, 
+                       0 0 20px #99afff, 
+                       0 0 30px #99afff, 
+                       0 0 40px #99afff;
+        }
+        .drops li:nth-child(1) {
+          left: 0px;
+          -webkit-animation-delay: 0ms;
+          animation-delay: 0ms;
+        }
+        .drops li:nth-child(2) {
+          left: 40px;
+          -webkit-animation-delay: 250ms;
+          animation-delay: 250ms;
+        }
+        .drops li:nth-child(3) {
+          left: 80px;
+          -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+        }
+        .drops li:nth-child(4) {
+          left: 120px;
+          -webkit-animation-delay: 750ms;
+          animation-delay: 750ms;
+        }
+        .drops li:nth-child(5) {
+          left: 160px;
+          -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+        }
+        @-webkit-keyframes loading {
+          0% { margin-left: -3000px; }
+          30%,70% { margin-left: 0px; }
+          100% { margin-left: 3000px; }
+        }
+        @keyframes loading {
+          0% { margin-left: -3000px; }
+          30%,70% { margin-left: 0px; }
+          100% { margin-left: 3000px; }
+        }
+        
+        #status {
+            display: block;
+            text-align: center;
+            letter-spacing: 0.15em;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #E0E0E0; 
+            text-shadow: 0px 2px 3px #555;
+            font-size: 2.6em; 
+        }
+
+        /* Smartphones (portrait and landscape) */
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            #status {
+                font-size: 1.2em;
+            }
+        }
+    
+    </style>
+    
+    <script type='text/javascript' src="{!URLFOR($Resource.MA_VerifyLocation, 'jquery-2.1.1.min.js')}"></script>
+    <script type='text/javascript' src="{!URLFOR($Resource.MA_VerifyLocation, 'moment/moment.min.js')}"></script>
+    <script type='text/javascript' src="{!URLFOR($Resource.MA_VerifyLocation, 'ForceTK/forcetk.js')}"></script>
+    <script type='text/javascript' src='/canvas/sdk/js/publisher.js'></script>
+    
+    <script type='text/javascript'>
+
+        var objDefinitions = {
+            '001': {
+                name: 'Account',
+                coordinateFields: {
+                    lat: 'GPS__Latitude__s',
+                    lng: 'GPS__Longitude__s'
+                },
+                statusMessages: {
+                    updating: 'Updating GPS Coordinates...'
+                }
+            }
+        };
+        var objDef = objDefinitions[p('id').substring(0,3)];
+        
+        $(function () {
+
+            if (objDef) {
+                navigator.geolocation.getCurrentPosition(
+                    function (geo) {
+                        setTimeout(function () {
+                            verifyLocation(geo.coords.latitude, geo.coords.longitude, geo.coords.accuracy);
+                        }, 2500);
+                    },
+                    function () {
+                        //verifyLocation(0, 0, 0);
+                        $('#status').text('Unable To Get Position');
+                        $('#loader').hide();
+                    }
+                );
+            }
+            else if (p('id')) {
+                $('#status').text('Invalid Record');
+                $('#loader').hide();
+            }
+            else {
+                $('#status').text('Please Use Salesforce1');
+                $('#loader').hide();
+            }
+        });
+        
+        function p(name) {
+            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
+            var results = regex.exec(location.search);
+            return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+        function verifyLocation(lat, lng, accuracy) {
+
+            //create client
+            var client = new forcetk.Client();
+            client.setSessionToken('{!$Api.Session_ID}');
+
+            //update status
+            $('#status').text(objDef.statusMessages.updating);
+            setTimeout(function () {
+                    
+                //build object to update
+                var objToUpdate = {};
+                objToUpdate[objDef.coordinateFields.lat] = lat;
+                objToUpdate[objDef.coordinateFields.lng] = lng;
+
+                //update
+                client.update(
+                    objDef.name,
+                    p('id'),
+                    objToUpdate,
+                    function (response) {
+
+                        //haven't figured out how to determine if this is in the publisher so just try that first
+                        try {
+                            Sfdc.canvas.publisher.publish({ name: "publisher.close", payload:{ refresh:"true" }});
+                        }
+                        catch (err) {
+                            window.location = '/' + p('id');
+                        }
+                    }, 
+                    function (response) {
+                        $('#status').text('Error Verifying Location');
+                        $('#loader').hide();
+                    }
+                );
+
+            }, 2500);
+        }
+        
+    </script>
+    
+    <div id='main'>
+        <h1 id='status'>Getting Position...</h1>
+        <ul id='loader' class="drops blue">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    
+</apex:page>

@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Conv_FS_Joey';
+	src: url('fonts/FS_Joey.eot');
+	src: local('☺'), url('fonts/FS_Joey.woff') format('woff'), url('fonts/FS_Joey.ttf') format('truetype'), url('fonts/FS_Joey.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_FS_Joey-Bold';
+	src: url('fonts/FS_Joey-Bold.eot');
+	src: local('☺'), url('fonts/FS_Joey-Bold.woff') format('woff'), url('fonts/FS_Joey-Bold.ttf') format('truetype'), url('fonts/FS_Joey-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

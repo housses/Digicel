@@ -1,0 +1,26 @@
+<apex:page standardController="Case" docType="html-5.0" showHeader="false" showChat="false" sidebar="false" cache="false" expires="0">
+   <apex:sectionHeader title="Case Edit" subtitle="New Case"/>
+
+    <apex:form >
+        <apex:pageBlock title="Case Edit" mode="detail">
+             <apex:pageBlockButtons location="bottom">
+                <apex:commandButton value="Save" action="{!save}"/>
+                <apex:commandButton value="Cancel" action="{!cancel}"/>
+             </apex:pageBlockButtons>
+                        
+            <apex:pageBlockSection title="Case Information" columns="2">
+                <apex:inputField value="{!Case.Origin}" required="false"/>
+                <apex:inputField value="{!Case.Priority}" required="false"/>
+                <apex:pageBlockSectionItem />
+                <apex:inputField value="{!Case.Due_Date__c}" required="false"/>
+            </apex:pageBlockSection>            
+            
+            <apex:pageBlockSection title="Additional Information" columns="1">
+                <apex:inputField value="{!Case.Internal_Support_Category__c}" required="true"/>
+                <apex:inputField value="{!Case.Subject}" required="true"/>
+                <apex:inputField value="{!Case.Description}" required="true"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+    
+</apex:page>

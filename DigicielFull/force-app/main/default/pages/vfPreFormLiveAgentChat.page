@@ -1,0 +1,466 @@
+<apex:page showHeader="false" sidebar="false"> 
+    <!-- This script takes the endpoint URL parameter passed from the deployment page and makes it the action for the form -->
+    <apex:includeScript value="{!URLFOR($Resource.jQuery)}"/>
+    <script type="text/javascript">
+        (function() {
+            function handlePageLoad() {
+                var endpointMatcher = new RegExp("[\\?\\&]endpoint=([^&#]*)");
+                document.getElementById('prechatForm').setAttribute('action',
+                decodeURIComponent(endpointMatcher.exec(document.location.search)[1]));
+            }
+            
+            if (window.addEventListener) {
+                window.addEventListener('load', handlePageLoad, false);
+            } else { 
+                window.attachEvent('onload', handlePageLoad, false);
+            }
+        })();
+                      
+        function combine() {
+            document.getElementById('prechat_field').value = document.getElementById('customField1').value + ' ' + document.getElementById('customField2').value;
+        }
+        
+        var j$ = jQuery.noConflict()
+        //dependent fields function
+        j$(document).ready(function() {
+            j$('#select_reason').change(function () {
+                var elemtValue = j$(this).val();
+                if (elemtValue == "Unable to Register Account" || elemtValue == "Unable to Activate Account" || elemtValue == "Unable to login" || elemtValue == "Digicel Rewards") {
+                    j$('tr:not(.o1).o2,tr:not(.o1).o3,tr:not(.o1).o4,.o4').hide(250);
+                    j$('.o1,#prechat_submit').show(250);
+                    j$('.o5').hide(250);
+                } else if (elemtValue == "Unable to send top up" || elemtValue == "Promotional Credit Balance" || elemtValue == "Top up sent to wrong number") {
+                    j$('tr:not(.o2).o1,tr:not(.o2).o3,tr:not(.o2).o4,.o4').hide(250);
+                    j$('.o2,#prechat_submit').show(250);
+                    j$('.o5').hide(250);
+                } else if (elemtValue == "Promotional Offer Details") {
+                    j$('tr:not(.o3).o1,tr:not(.o3).o2,tr:not(.o3).o4,.o4').hide(250);
+                    j$('.o3,#prechat_submit').show(250);
+                    j$('.o5').hide(250);
+                } else if (elemtValue == "Non-Online Top Up Related Query") {
+                    j$('.o1,.o2,.o3,#prechat_submit').hide(250);
+                    j$('.o4').show(250);
+                    j$('.o5').hide(250);
+                } else {
+                    j$("#prechat_submit,.o1,.o2,.o3,.o4").hide(250);
+                    j$('.o5').show(250);
+                }
+            });
+            j$("#select_country").change(function() {
+                var elemt = j$("#local_info td[data-country='"+j$(this).val()+"']");
+                if (elemt.length > 0) {
+                    j$("#local_info").show(250);
+                    j$("#local_info td[data-country]").hide();
+                    elemt.show(250);
+                } else {
+                    j$("#local_info").hide(250);
+                }
+            });
+        });
+    </script>
+    <style>
+        body {margin:20px; }
+        .required label:after {
+            color: #e32;
+            content: ' *';
+            display:inline;
+        }
+        p {font-weight: bolder }
+        .p3{
+            margin:10px 0 0 20px;
+        }
+        .quote {
+            padding-left: 2em;
+            width:auto;
+        }
+        .quote {
+            line-height:1.75em;
+        }
+        .quote a {
+            color:#00F;
+        }
+        .o4 {
+            margin-top:10px;
+            display:none;
+        }
+        .o4 p {
+            font-weight: normal;
+            margin: 0px;
+        }
+        .o4 table{
+            border-spacing: 2px;
+        }
+        .o1,.o2,.o3 {
+            margin-top:10px;
+            display:none;
+        }
+        .o5 {
+            display:block;
+        }
+    </style>
+    <apex:image style="padding-bottom: 10px;" value="/servlet/servlet.ImageServer?id=0150W00000CrqXp&oid=00Dd0000000fRCw&lastMod=1406631071000"/><br/>
+    <h1 class="o5">How can we help you today? Select an option from the dropdown list below:</h1>
+    <h1 class="o1 o2 o3">Please fill in the details to help us support your query. Any information that is not filled in correctly will increase the resolution time.</h1>
+    <form style="padding-top: 10px;" method='post' id='prechatForm'>
+        <table border="0">
+            <tr>
+                <td style="padding:2px; height:20px;"><div class="required"><label>Reason</label></div></td>
+                <td style="padding:2px; height:20px;">
+                    <select name="liveagent.prechat:caseReason" id="select_reason" required="required">
+                        <option value="-- None --">-- None --</option>
+                        <option value="Unable to Register Account">Unable to Register Account</option>
+                        <option value="Unable to Activate Account">Unable to Activate Account</option>
+                        <option value="Unable to login">Unable to Login</option>
+                        <option value="Unable to send top up">Unable to Send Top Up</option>
+                        <option value="Promotional Offer Details">Promotional Offer Details</option>  
+                        <option value="Promotional Credit Balance">Promotional Credit Balance</option> 
+                        <option value="Digicel Rewards">Digicel Rewards</option> 
+                        <option value="Non-Online Top Up Related Query">Non-Online Top Up Related Query</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="o1 o2 o3">
+                <td style="padding:2px; height:20px;"><div class="required"><label>First Name</label></div></td>
+                <td style="padding:2px; height:20px;"><input type='text' name='liveagent.prechat:contactFirstName' required="true" id="customField1"/></td><!-- -->
+            </tr>
+            <tr class="o1 o2 o3">
+                <td style="padding:2px; height:20px;"><div class="required"><label>Last Name</label></div></td>
+                <td style="padding:2px; height:20px;"><input type='text' name='liveagent.prechat:contactLastName' required="true" id="customField2"/></td><!-- -->
+            </tr>
+            <tr class="o1 o2 o3">
+                <td style="padding:2px; height:20px;"><div class="required"><label>Valid Email Address</label></div></td>
+                <td style="padding:2px; height:20px;"><input type='text' name='liveagent.prechat:contactEmail' required="true"/><br /> </td>
+            </tr>
+            <tr class="o1 o2">
+                <td style="padding:2px; height:20px;">Sender Phone Number (XXX-XXX-XXXX)</td>
+                <td style="padding:2px; height:20px;"><input type='text' name='liveagent.prechat:contactPhoneNumber'/></td>
+            </tr>
+            <tr class="o2">
+                <td style="padding:2px; height:20px;">Receiver Phone Number (XXX-XXX-XXXX)</td>
+                <td style="padding:2px; height:20px;"><input type='text' name='liveagent.prechat:contactReceiverPhone'/></td>
+            </tr>
+            <tr class="o4" >
+                <td style="padding:2px; height:20px;"><div class="required"><label>Country</label></div></td>
+                <td style="padding:2px; height:20px;">
+                    <select name="liveagent.prechat:caseCountry" id="select_country" required="required">
+                        <option value="-- None --">-- None --</option>
+                        <option value="Anguilla">Anguilla</option>
+                        <option value="Aruba">Aruba</option>
+                        <option value="Antigua & Barbuda">Antigua &amp; Barbuda</option>
+                        <option value="Barbados">Barbados</option>
+                        <option value="Bermuda">Bermuda</option>
+                        <option value="Bonaire">Bonaire</option>
+                        <option value="BVI">BVI</option>
+                        <option value="Cayman">Cayman</option>
+                        <option value="Curacao">Curacao</option>
+                        <option value="Dominica">Dominica</option>
+                        <option value="Fiji">Fiji</option>
+                        <option value="Grenada">Grenada</option>
+                        <option value="Guyana">Guyana</option>
+                        <option value="Jamaica">Jamaica</option>
+                        <option value="Nauru">Nauru</option>
+                        <option value="Papua New Guinea">Papua New Guinea</option>
+                        <option value="Samoa">Samoa</option>
+                        <option value="St Kitts and Nevis">St Kitts and Nevis</option>
+                        <option value="St Lucia">St Lucia</option>
+                        <option value="St Vincent & the Grenadines">St Vincent &amp; the Grenadines</option>
+                        <option value="Tonga">Tonga</option>
+                        <option value="Trinidad & Tobago">Trinidad &amp; Tobago</option>
+                        <option value="Turks & Caicos">Turks &amp; Caicos</option>
+                        <option value="Vanuatu">Vanuatu</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <div class="o4" style="display:none;">
+            <div id="local_info" style="display:none;">
+                <table border="0">
+                    <tr>
+                        <td>
+                            <p>For all queries regarding broadband, mobile, roaming, postpaid accounts or other general info not related to Online Top Up, 
+                           please contact your local customer care at:</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-country="Anguilla" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:250px">
+                                <a class="yinfo" href="mailto:customercareanguilla@digicelgroup.com">customercareanguilla@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+12644983444">+1 264-498-DIGI (3444)</a><br/>
+                                <span class="yinfo">100</span><br/>
+                                For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18559186787">1-855-918-6787</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Aruba" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:250px">
+                                <a class="yinfo" href="mailto:customercarearuba@digicelgroup.com">customercarearuba@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+2975222200">+297-522-2200</a><br/>
+                                <span class="yinfo">145</span><br/>
+                                 For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18559186787">1-855-918-6787</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Antigua & Barbuda" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:250px">
+                                <a class="yinfo" href="mailto:customercareantiguaandbarbuda@digicelgroup.com">customercareantiguaandbarbuda@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+12684813444">+1 268-481-DIGI (3444)</a><br/>
+                                <span class="yinfo">100</span><br/>
+                                 For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18559186787">1-855-918-6787</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Barbados" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:250px">
+                                <a class="yinfo" href="mailto:BDS_CustomerCare_External@digicelgroup.com">BDS_CustomerCare_External@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+12464343444">+1 246-434-3444</a><br/>
+                                <span class="yinfo">100</span><br/>
+                                 For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18559186787">1-855-918-6787</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Bermuda" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:250px">
+                                <a class="yinfo" href="mailto:info.bermuda@digicelgroup.com">info.bermuda@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+14415005000">+1 441-500-5000</a><br/>
+                                <span class="yinfo">611</span><br/>
+                                 For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18559186787">1-855-918-6787</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Bonaire" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:250px">
+                                <a class="yinfo" href="mailto:customercarebonaire@digicelgroup.com">customercarebonaire@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+5997174400">+599-717-4400</a><br/>
+                                <span class="yinfo">145</span><br/>
+                                  For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18559186787">1-855-918-6787</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="BVI" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:250px">
+                                <a class="yinfo" href="mailto:bvicustomercare@digicelgroup.com">bvicustomercare@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+12843000001">+1-284-300-0001</a><br/>
+                                <span class="yinfo">100</span><br/>
+                                  For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18559186787">1-855-918-6787</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Cayman" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:250px">
+                                <a class="yinfo" href="mailto:caycustomercare@digicelgroup.com">caycustomercare@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+13456233444">+1-345-623-3444</a><br/>
+                                <span class="yinfo">100</span><br/>
+                                 For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18559186787">1-855-918-6787</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Curacao" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:250px">
+                                <a class="yinfo" href="mailto:customercarecuracao@digicelgroup.com">customercarecuracao@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+59997361056">+5-999-736-1056</a><br/>
+                                <span class="yinfo">145</span><br/>
+                                  For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18559186787">1-855-918-6787</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Dominica" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:250px">
+                                <a class="yinfo" href="mailto:customercaredominica@digicelgroup.com">customercaredominica@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+17676163444">+1-767-616-3444</a><br/>
+                                <span class="yinfo">100</span><br/>
+                                 For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18559186787">1-855-918-6787</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Grenada" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:250px">
+                                <a class="yinfo" href="mailto:grenadacustomercare@digicelgroup.com">grenadacustomercare@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+14734394500">+1-473-439-4500</a> or <a class="yinfo" href="tel:+14734150028">+1-473-415-0028</a><br/>
+                                <span class="yinfo">100</span><br/>
+                                 For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18559186787">1-855-918-6787</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Guyana" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:250px">
+                                <a class="yinfo" href="mailto:guy_CCRoamingSupport@digicelgroup.com">guy_CCRoamingSupport@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+5926693444">+592-669-3444</a><br/>
+                                <span class="yinfo">100</span><br/>
+                                 For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18559186787">1-855-918-6787</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Jamaica" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:350px">
+                                <a class="yinfo" href="mailto:customercare@digicelgroup.com">customercare@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+18763807626">+1-876-380-7626 (local)</a> | <a class="yinfo" href="tel:+18766195000">+1-876-619-5000 (outside Jamaica)</a><br/>
+                                <span class="yinfo">100</span>
+                            </p>
+                        </td>
+                        <td data-country="St Kitts and Nevis" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:250px">
+                                <a class="yinfo" href="mailto:kncustomercare@digicelgroup.com">kncustomercare@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:18697624000">1-869-762-4000</a><br/>
+                                <span class="yinfo">100</span><br/>
+                                 For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18559186787">1-855-918-6787</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="St Lucia" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:250px">
+                                <a class="yinfo" href="mailto:slucustomercare@digicelgroup.com">slucustomercare@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:17587283400">1-758-728-3400</a>; outside of St. Lucia <a class="yinfo" href="tel:17587167626">1-758-7167626</a><br/>
+                                <span class="yinfo">100</span><br/>
+                                 For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18559186787">1-855-918-6787</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="St Vincent & the Grenadines" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:250px">
+                                <a class="yinfo" href="mailto:svgcustcare@digicelgroup.com">svgcustcare@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+17844533444">+1-784-453-3444</a><br/>
+                                <span class="yinfo">100</span><br/>
+                                  For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18559186787">1-855-918-6787</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Trinidad & Tobago" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:250px">
+                                <a class="yinfo" href="mailto:TT.Customer.Care@digicelgroup.com">TT.Customer.Care@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+18683999999">+1-868-399-9999</a><br/>
+                                <span class="yinfo">100</span><br/>
+                                 For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18559186787">1-855-918-6787</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Turks & Caicos" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:250px">
+                                <a class="yinfo" href="mailto:Tci.CustomerCare@digicelgroup.com">Tci.CustomerCare@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+16493313444">+1-649-333-DIGI (3444)</a><br/>
+                                <span class="yinfo">100</span><br/>
+                                 For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18559186787">1-855-918-6787</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Fiji" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:350px">
+                                <a class="yinfo" href="mailto:CCTech_Fiji@digicelgroup.com">CCTech_Fiji@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:7007626">700 3555 (Local Landlines)</a>;<a class="yinfo" href="tel:+6797007626">+679 700 7626 (International Calls)</a><br/>
+                                <span class="yinfo">124</span><br/>
+                                 For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18448941212">1844-894-1212</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Nauru" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:350px">
+                                <a class="yinfo" href="mailto:Nauru_CC_Agents@digicelgroup.com">Nauru_CC_Agents@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+6797007626 ">+679 7007626</a><br/>
+                                <span class="yinfo">123</span><br/>
+                                 For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18448941212">1844-894-1212</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Papua New Guinea" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:350px">
+                                <a class="yinfo" href="mailto:CustomerCare.PNG@digicelgroup.com">CustomerCare.PNG@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+67572222123">+675 7222 2123</a><br/>
+                                <span class="yinfo">123</span><br/>
+                                 For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18448941212">1844-894-1212</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Samoa" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:350px">
+                                <a class="yinfo" href="mailto:WS-CustomerCarePublic@digicelgroup.com">WS-CustomerCarePublic@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+6858428003">+685 842 8003</a><br/>
+                                <span class="yinfo">123</span><br/>
+                                 For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18448941212">1844-894-1212</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Vanuatu" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:350px">
+                                <a class="yinfo" href="mailto:customercarevanuatu@digicelgroup.com">customercarevanuatu@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+6785556001">+678 5556 001</a><br/>
+                                <span class="yinfo">123</span><br/>
+                                 For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18448941212">1844-894-1212</a><br/>
+                            </p>
+                        </td>
+                        <td data-country="Tonga" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">Email:<br/>Phone:<br/>Mobile:</p>
+                            <p style="float:left;display:block;width:350px">
+                                <a class="yinfo" href="mailto:CustomerCare.Tonga@digicelgroup.com">CustomerCare.Tonga@digicelgroup.com</a><br/>
+                                <a class="yinfo" href="tel:+6768761000">+676 8761000</a><br/>
+                                <span class="yinfo">123</span><br/>
+                                 For international customers in the USA, you may call us toll free at: <a class="yinfo" href="tel:+18448941212">1844-894-1212</a><br/>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-country="Jamaica" style="display:none" class="quote">
+                            <p>For international customers, you may call us toll free at:</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-country="Jamaica" style="display:none" class="quote">
+                            <p style="float:left;display:block;width:75px">USA:<br/>UK:<br/>CAN:</p>
+                            <p style="float:left;display:block;width:250px">
+                                <a href="tel:18559186787">1-855-918-6787</a><br/>
+                                <a href="tel:08081688525">0808-168-8526</a><br/>
+                                <a href="tel:18553444235">1-855-344-4235</a>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <br />
+        
+        <input type="hidden" name='liveagent.prechat.contactName' id="prechat_field" value=""/>
+        <!-- Map the detail inputs to the Contact fields --> 
+        <input type="hidden" name="liveagent.prechat.findorcreate.map:Contact" value="FirstName,contactFirstName;LastName,contactLastName;Contact_Name__c,contactName;Email,contactEmail;" />
+        
+        <!-- Map the detail inputs to the Account fields --> 
+        <input type="hidden" name="liveagent.prechat.findorcreate.map:Account" value="FirstName,contactFirstName;LastName,contactLastName;Contact_Name__pc,contactName;PersonEmail,contactEmail;" />
+         
+        <!-- Try to find the Contact by email (exact match) -->
+        <input type="hidden" name="liveagent.prechat.findorcreate.map.doFind:Contact" value="Email,true;" /><!--Contact_Name__c,true;-->
+        <input type="hidden" name="liveagent.prechat.findorcreate.map.isExactMatch:Contact" value="Email,true;" />
+        
+        <!-- Try to find the Account by email (exact match) -->
+        <input type="hidden" name="liveagent.prechat.findorcreate.map.doFind:Account" value="PersonEmail,true;" /><!--Contact_Name__pc,true;-->
+        <input type="hidden" name="liveagent.prechat.findorcreate.map.isExactMatch:Account" value="PersonEmail,true;" />
+        
+        <!-- If the Account is not found, then create one with the following fields set -->
+        <input type="hidden" name="liveagent.prechat.findorcreate.map.doCreate:Account" value="FirstName,true;LastName,true;PersonEmail,true;" />
+         
+        <!-- Show the Contact when it is found or created -->
+        <input type="hidden" name="liveagent.prechat.findorcreate.showOnCreate:Account" value="true" />
+         
+        <!-- Create a Case every time -->
+        <input type="hidden" name="liveagent.prechat:caseOrigin" value="Chat" />
+        <input type="hidden" name="liveagent.prechat.findorcreate.map:Case" value="Origin,caseOrigin;Reason,caseReason;" />
+        <input type="hidden" name="liveagent.prechat.findorcreate.map.doCreate:Case" value="Origin,true;Reason,true;" />
+        <input type="hidden" name="liveagent.prechat.findorcreate.saveToTranscript:Case" value="Case" />
+        <input type="hidden" name="liveagent.prechat.findorcreate.showOnCreate:Case" value="true" />
+         
+        <!-- Link the Contact to the Case -->
+        <input type= "hidden" name="liveagent.prechat.findorcreate.linkToEntity:Contact" value="Case,ContactId" />
+        <input type= "hidden" name="liveagent.prechat.findorcreate.linkToEntity:Account" value="Case,AccountId" />
+        
+        <!-- Save the Contact id to transcript's field ContactId -->
+        <input type="hidden" name="liveagent.prechat.findorcreate.saveToTranscript:Contact" value="ContactId" />
+        
+        <!-- Save the Account id to transcript's field ContactId -->
+        <input type="hidden" name="liveagent.prechat.findorcreate.saveToTranscript:Account" value="AccountId" />
+        
+        <!-- Save the info to transcript's custom fields -->
+        <input type="hidden" name="liveagent.prechat.save:contactEmail" value="Top_Up_Account_Email__c" />
+        <input type="hidden" name="liveagent.prechat.save:contactPhoneNumber" value="Top_Up_Account_Phone_Number__c" />
+        <input type="hidden" name="liveagent.prechat.save:caseReason" value="Case_Reason__c" />
+         
+        <input type='submit' style="display:none;" value='Request Chat' id='prechat_submit' onclick="combine();"/>
+    </form>
+</apex:page>
