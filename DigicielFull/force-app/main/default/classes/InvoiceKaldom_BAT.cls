@@ -106,7 +106,17 @@ global class InvoiceKaldom_BAT implements Database.Batchable<sObject>, Database.
 
         if(lstInvoiceToUpsert.size() > 0){
             try {
-                database.upsert(lstInvoiceToUpsert, Invoice__c.InvoiceID__c, true );      
+                //limit size for list DML can't exceed 10 000 record 
+                List<Invoice__c> lstInvoiceToUpsertPartToDelete = new List<Invoice__c>();
+                while (lstInvoiceToUpsert.size() < 10000) {
+                    Integer sizeList = lstInvoiceToUpsert.size();
+                    for (Integer i = sizeList - 10000; i < sizeList; i++) {
+                        lstInvoiceToUpsertPartToDelete.add(lstInvoiceToUpsert[10000]);
+                    }
+                    System.enqueueJob(new InvoiceKaldom_QUE(lstInvoiceToUpsertPartToDelete));
+                }
+                
+                //database.upsert(lstInvoiceToUpsert, Invoice__c.InvoiceID__c, true );      
             } catch(DmlException e) {
                 System.debug('Exception sur l\'upsert des factures: ' + e.getMessage());
             }  
