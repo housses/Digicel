@@ -45,7 +45,7 @@ global class InvoiceKaldom_BAT implements Database.Batchable<sObject>, Database.
 
     global void execute(Database.BatchableContext bc, List<Account> accountsKaldom){
 
-        List<Invoice__c> lstInvoiceToUpsert = new List<Invoice__c>();
+        Map<Id, List<Invoice__c>> maplstInvoiceGroupByAccId = new Map<Id, List<Invoice__c>>();
         List<Account> lstAccount = new List<Account>();
         if(accountsKaldom.size() > 0){
             for(Integer i = 0; i < accountsKaldom.size(); i++){   
@@ -76,7 +76,10 @@ global class InvoiceKaldom_BAT implements Database.Batchable<sObject>, Database.
                                 } else {
                                     inv.TechMoreOlderThen12Months__c = false;
                                 }
-                                lstInvoiceToUpsert.add(inv);   
+                                if(!maplstInvoiceGroupByAccId.containsKey(acc.Id)){
+                                    maplstInvoiceGroupByAccId.put(acc.Id,new List<Invoice__c>());
+                                }
+                                maplstInvoiceGroupByAccId.get(acc.Id).add(inv);
                         }
                     }
                 }
@@ -104,9 +107,13 @@ global class InvoiceKaldom_BAT implements Database.Batchable<sObject>, Database.
         }
 
 
-        if(lstInvoiceToUpsert.size() > 0){
+        if(maplstInvoiceGroupByAccId.keySet().size() > 0){
             try {
-                database.upsert(lstInvoiceToUpsert, Invoice__c.InvoiceID__c, true );      
+                for(Id accId : maplstInvoiceGroupByAccId.keySet()){
+                    if(maplstInvoiceGroupByAccId.get(accId).size() > 0){
+                        System.enqueueJob(new InvoiceKaldom_QUE(maplstInvoiceGroupByAccId.get(accId)));
+                    }
+                }
             } catch(DmlException e) {
                 System.debug('Exception sur l\'upsert des factures: ' + e.getMessage());
             }  
