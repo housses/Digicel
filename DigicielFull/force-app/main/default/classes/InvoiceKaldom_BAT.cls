@@ -18,8 +18,8 @@ global class InvoiceKaldom_BAT implements Database.Batchable<sObject>, Database.
     }
 
     global Database.QueryLocator start(Database.BatchableContext bc) {    
-        DateTime todaysDate = System.today().addMonths(-firstNumber);
-        DateTime lastMonthDate = System.today().addMonths(-secondNumber);
+        DateTime todaysDate = System.today().addDays(-firstNumber);
+        DateTime lastMonthDate = System.today().addDays(-secondNumber);
         String todaysDateStr = todaysDate.format('yyyy-MM-dd');
         String lstMonthDateStr = lastMonthDate.format('yyyy-MM-dd');
         Set<String> setAccount = new Set<String>();
@@ -45,7 +45,7 @@ global class InvoiceKaldom_BAT implements Database.Batchable<sObject>, Database.
 
     global void execute(Database.BatchableContext bc, List<Account> accountsKaldom){
 
-        Map<Id, List<Invoice__c>> maplstInvoiceGroupByAccId = new Map<Id, List<Invoice__c>>();
+        List<Invoice__c> lstInvoiceToUpsert = new List<Invoice__c>();
         List<Account> lstAccount = new List<Account>();
         if(accountsKaldom.size() > 0){
             for(Integer i = 0; i < accountsKaldom.size(); i++){   
@@ -76,10 +76,7 @@ global class InvoiceKaldom_BAT implements Database.Batchable<sObject>, Database.
                                 } else {
                                     inv.TechMoreOlderThen12Months__c = false;
                                 }
-                                if(!maplstInvoiceGroupByAccId.containsKey(acc.Id)){
-                                    maplstInvoiceGroupByAccId.put(acc.Id,new List<Invoice__c>());
-                                }
-                                maplstInvoiceGroupByAccId.get(acc.Id).add(inv);
+                                lstInvoiceToUpsert.add(inv);   
                         }
                     }
                 }
@@ -107,13 +104,9 @@ global class InvoiceKaldom_BAT implements Database.Batchable<sObject>, Database.
         }
 
 
-        if(maplstInvoiceGroupByAccId.keySet().size() > 0){
+        if(lstInvoiceToUpsert.size() > 0){
             try {
-                for(Id accId : maplstInvoiceGroupByAccId.keySet()){
-                    if(maplstInvoiceGroupByAccId.get(accId).size() > 0){
-                        System.enqueueJob(new InvoiceKaldom_QUE(maplstInvoiceGroupByAccId.get(accId)));
-                    }
-                }
+                database.upsert(lstInvoiceToUpsert, Invoice__c.InvoiceID__c, true );      
             } catch(DmlException e) {
                 System.debug('Exception sur l\'upsert des factures: ' + e.getMessage());
             }  
