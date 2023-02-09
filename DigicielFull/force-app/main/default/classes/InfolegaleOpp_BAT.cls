@@ -1,9 +1,8 @@
 /**
- * @description       : 
- * @author            : JBBARTHELEMY
- * @group             : 
- * @last modified on  : 08/11/2022
- * @last modified by  : JBBARTHELEMY
+ * @description       : Retrieve information for Opportuntiy from Infolegale Webservice.
+ * @author            : CLEPILLOUER
+ * @last modified on  : 09/02/2023
+ * @last modified by  : CLEPILLOUER
 **/
 global class InfolegaleOpp_BAT implements Database.Batchable<sObject>, Database.AllowsCallouts, Database.stateful {
 
@@ -13,10 +12,20 @@ global class InfolegaleOpp_BAT implements Database.Batchable<sObject>, Database.
         setIdOpp = strParam;
     }
 
+    /**
+     * Method to retrieve opportunties from database if present on the setIdOpp
+     * @param bc  BatchableContext object for executing batch job
+     * @return query locator for retrieved opportunties
+     */
     global Database.QueryLocator start(Database.BatchableContext bc) {    
         return Database.getQueryLocator([SELECT Id, INFOLEGALERating__c, Score_INFOLEGALE__c, AccountId, StageName, Account.Owner.Digicel_Country__c FROM Opportunity WHERE Id IN :setIdOpp AND Account.Owner.Digicel_Country__c = 'FWI' ]);            
     }
 
+    /**
+     * method to update the INFOLEGALERating__c and Score_INFOLEGALE__c field on the Opportunity records.
+     * @param bc Database.BatchableContext - context of the batch job
+     * @param listOpps List<Opportunity> - list of opportunties to be updated
+     */
     global void execute(Database.BatchableContext bc, List<Opportunity> listOpps){
         List<Opportunity> listOppToUpdate = new List<Opportunity>();
         List<Account> accToUpdate = new List<Account>();
@@ -60,10 +69,15 @@ global class InfolegaleOpp_BAT implements Database.Batchable<sObject>, Database.
         }
     }
     
+    /**
+     * End of the Batch class and Enabled the Account and opportunity trigger
+     * @param bc Database.BatchableContext
+     * @return none
+     */
     global void finish(Database.BatchableContext bc){   
         AccountTriggerHandler.triggerDisabled = false;
         OpportunityTriggerHandler.triggerDisabled = false;
-        system.debug('Traitement Batch terminé');
+        system.debug('InfolegaleOpp_BAT ------- FINISH -------------');      
     }    
 
 }

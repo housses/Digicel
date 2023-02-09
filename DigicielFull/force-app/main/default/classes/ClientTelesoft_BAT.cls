@@ -1,5 +1,5 @@
 /**
- * @description       : Retrieve information about Account from Telesoft Webservice.
+ * @description       : Retrieve information for Account from Telesoft Webservice.
  * @author            : CLEPILLOUER
  * @last modified on  : 09/02/2023
  * @last modified by  : CLEPILLOUER
@@ -10,7 +10,7 @@ global class ClientTelesoft_BAT implements Database.Batchable<sObject>, Database
 
     /**
      * This method calls Telesoft Webservice and returns all the clients of their database, then query Salesforce Database to match and get the associated Accounts
-     * @param Database.BatchableContext the start date of the range
+     * @param bc Database.BatchableContext the start date of the range
      * @return Database.QueryLocator SOQL query that retrieves records from the Account where the Registration_Number__c field is in the setIdAccount set and the Owner.Digicel_Country__c field is equal to 'FWI'.
      */
     global Database.QueryLocator start(Database.BatchableContext bc) {
@@ -37,7 +37,7 @@ global class ClientTelesoft_BAT implements Database.Batchable<sObject>, Database
     /**
      * This method takes in a list of accounts and updates their TelesoftNumber__c field with information obtained from the Telesoft Web Service.
      * @param Database.BatchableContext
-     * @param List<Account> accountsToCheck - A list of accounts to update with information from the Telesoft Web Service.
+     * @param accountsToCheck List<Account> - A list of accounts to update with information from the Telesoft Web Service.
      * @return none
      */
     global void execute(Database.BatchableContext bc, List<Account> accountsToCheck){
@@ -90,7 +90,7 @@ global class ClientTelesoft_BAT implements Database.Batchable<sObject>, Database
 
     /**
      * End of the Batch class
-     * @param Database.BatchableContext
+     * @param bc atabase.BatchableContext
      * @return none
      */
     global void finish(Database.BatchableContext bc){      

@@ -1,9 +1,8 @@
 /**
- * @description       : 
- * @author            : JBBARTHELEMY
- * @group             : 
- * @last modified on  : 08/11/2022
- * @last modified by  : JBBARTHELEMY
+ * @description       : Retrieve information for Account from Infolegale Webservice.
+ * @author            : CLEPILLOUER
+ * @last modified on  : 09/02/2023
+ * @last modified by  : CLEPILLOUER
 **/
 global class Infolegale_BAT implements Database.Batchable<sObject>, Database.AllowsCallouts, Database.stateful {
 
@@ -13,11 +12,20 @@ global class Infolegale_BAT implements Database.Batchable<sObject>, Database.All
         setIdAccount = strParam;
     }
 
-    global Database.QueryLocator start(Database.BatchableContext bc) {  
-        // return Database.getQueryLocator([SELECT Id, INFOLEGALERating__c, Registration_Number__c FROM Account WHERE Id IN :setIdAccount]);            
+    /**
+     * Method to retrieve accounts from database if present on the setIdAccount
+     * @param bc  BatchableContext object for executing batch job
+     * @return query locator for retrieved accounts
+     */
+    global Database.QueryLocator start(Database.BatchableContext bc) {        
         return Database.getQueryLocator([SELECT Id, INFOLEGALERating__c, Registration_Number__c FROM Account WHERE Id IN :setIdAccount AND Owner.Digicel_Country__c = 'FWI']);            
     }
 
+    /**
+     * method to update the INFOLEGALERating__c field on the Account records.
+     * @param bc Database.BatchableContext - context of the batch job
+     * @param accountsToUpdate List<Account> - list of accounts to be updated
+     */
     global void execute(Database.BatchableContext bc, List<Account> accountsToUpdate){
         for(Account account : accountsToUpdate){
             String siren = account.Registration_Number__c;
@@ -38,6 +46,13 @@ global class Infolegale_BAT implements Database.Batchable<sObject>, Database.All
         AccountTriggerHandler.triggerDisabled = false;
     }
 
-    global void finish(Database.BatchableContext bc){}    
+    /**
+     * End of the Batch class
+     * @param bc Database.BatchableContext
+     * @return none
+     */
+    global void finish(Database.BatchableContext bc){
+        system.debug('Infolegale_BAT ------- FINISH -------------');      
+    }    
 
 }
