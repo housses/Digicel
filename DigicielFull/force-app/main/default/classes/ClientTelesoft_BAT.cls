@@ -1,27 +1,45 @@
 /**
- * @description       : 
- * @author            : JBBARTHELEMY
- * @group             : 
- * @last modified on  : 08/11/2022
- * @last modified by  : JBBARTHELEMY
+ * @description       : Retrieve information about Account from Telesoft Webservice.
+ * @author            : CLEPILLOUER
+ * @last modified on  : 09/02/2023
+ * @last modified by  : CLEPILLOUER
 **/
 global class ClientTelesoft_BAT implements Database.Batchable<sObject>, Database.AllowsCallouts, Database.stateful {
 
     private List<ClientTelesoftWrapper> repBody;
 
+    /**
+     * This method calls Telesoft Webservice and returns all the clients of their database, then query Salesforce Database to match and get the associated Accounts
+     * @param Database.BatchableContext the start date of the range
+     * @return Database.QueryLocator SOQL query that retrieves records from the Account where the Registration_Number__c field is in the setIdAccount set and the Owner.Digicel_Country__c field is equal to 'FWI'.
+     */
     global Database.QueryLocator start(Database.BatchableContext bc) {
         HttpResponse resAccounts = new HttpResponse();
-        resAccounts = TelesoftWebService.getAllAccounts();
-        repBody = ClientTelesoftWrapper.parse(resAccounts.getBody());
         Set<String> setIdAccount = new Set<String>();
-        for(ClientTelesoftWrapper client : repBody){
-            if (client.cus_sir_ren != null && client.cus_sir_ren != '') {
-                setIdAccount.add(client.cus_sir_ren);
+
+        if(TelesoftWebService.getAllAccounts().getStatusCode() == 200){
+            resAccounts = TelesoftWebService.getAllAccounts();
+            repBody = ClientTelesoftWrapper.parse(resAccounts.getBody());
+        } else {
+            System.debug('ClientTelesoft_BAT ------- Exception Server : Status code : ' + TelesoftWebService.getAllAccounts().getStatusCode() );
+        }
+      
+        if(repBody.size() > 0){
+            for(ClientTelesoftWrapper client : repBody){
+                if (client.cus_sir_ren != null && client.cus_sir_ren != '') {
+                    setIdAccount.add(client.cus_sir_ren);
+                }
             }
         }
         return Database.getQueryLocator([SELECT Id, Name, TelesoftNumber__c , Registration_Number__c FROM Account WHERE Registration_Number__c IN :setIdAccount AND Owner.Digicel_Country__c = 'FWI']);            
     }
 
+    /**
+     * This method takes in a list of accounts and updates their TelesoftNumber__c field with information obtained from the Telesoft Web Service.
+     * @param Database.BatchableContext
+     * @param List<Account> accountsToCheck - A list of accounts to update with information from the Telesoft Web Service.
+     * @return none
+     */
     global void execute(Database.BatchableContext bc, List<Account> accountsToCheck){
         
         List<Account> accountToUpdate = new List<Account>();
@@ -65,13 +83,18 @@ global class ClientTelesoft_BAT implements Database.Batchable<sObject>, Database
                 database.upsert(accountToUpdate);            
                 AccountTriggerHandler.triggerDisabled = false;
             } catch(DmlException e) {
-                System.debug('Exception sur l\'upsert des accounts Telesoft: ' + e.getMessage());
+                System.debug('ClientTelesoft_BAT ------- Exception on upsert Telesoft Accounts : ' + e.getMessage());
             }  
         }     
     }
 
+    /**
+     * End of the Batch class
+     * @param Database.BatchableContext
+     * @return none
+     */
     global void finish(Database.BatchableContext bc){      
-        system.debug('END-------------');         
+        system.debug('ClientTelesoft_BAT ------- FINISH -------------');         
     }    
 
 }
