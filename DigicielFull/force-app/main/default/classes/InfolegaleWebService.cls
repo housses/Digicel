@@ -1,13 +1,21 @@
 global class InfolegaleWebService {
 
-    public class serverException extends Exception {}
+    public class ServerException extends Exception {}
+
+    private static Boolean isSandbox = true;
+
+    /*
+    * Method to update global variable isSandbox 
+    */
+    private static void updateBoolOrg(){
+        isSandbox = [SELECT IsSandbox FROM Organization LIMIT 1].IsSandbox; 
+    }
 
     /*
     * Method to retrieve the name of the named credential based on organization's sandbox status.
     * @return String wth the value of the named credential
     */
     global static String getNamedCredentialBasedOnOrg(){
-        Boolean isSandBox = [SELECT IsSandbox FROM Organization LIMIT 1].IsSandbox;
         String response;
         if(isSandBox) {
             response = 'Infolegale_Dev';
@@ -22,7 +30,6 @@ global class InfolegaleWebService {
     * @return String wth the value of the custom label
     */
     global static String getNamedCustomLabelBasedOnOrg(){
-        Boolean isSandBox = [SELECT IsSandbox FROM Organization LIMIT 1].IsSandbox;
         String url;
         if(isSandBox) {
             url = system.Label.Api_Infolegale_Url;
@@ -37,6 +44,7 @@ global class InfolegaleWebService {
     * @return HttpResponse with the token 
     */
     public static HttpResponse apiLogin() { 
+        InfolegaleWebService.updateBoolOrg();
         String namedCredential = InfolegaleWebService.getNamedCredentialBasedOnOrg();
     
         HttpRequest req = new HttpRequest();
@@ -50,7 +58,7 @@ global class InfolegaleWebService {
         try {
             response = http.send(req);
             if (response.getStatusCode() != 200){
-                throw new serverException('Error Infolegale server : status code : ' + response.getStatusCode() );
+                throw new ServerException('Error Infolegale server : status code : ' + response.getStatusCode() );
             } 
         } catch(Exception e){
             System.debug('Error from InfolegaleWebService.apiLogin() Method => ' + e.getMessage()); 
@@ -94,7 +102,7 @@ global class InfolegaleWebService {
         try {
             response = http.send(req);
             if (response.getStatusCode() != 200){
-                throw new serverException('Error Infolegale server : status code : ' + response.getStatusCode() );
+                throw new ServerException('Error Infolegale server : status code : ' + response.getStatusCode() );
             } 
         } catch(Exception e){
             System.debug('Error from InfolegaleWebService.getDataInfolegale() Method => ' + e.getMessage()); 

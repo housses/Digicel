@@ -5,8 +5,11 @@
  * @last modified by  : CLEPILLOUER
 **/
 global class ClientTelesoft_BAT implements Database.Batchable<sObject>, Database.AllowsCallouts, Database.stateful {
+    
+    public class ServerException extends Exception {}
 
     private List<ClientTelesoftWrapper> repBody;
+    
 
     /**
      * This method calls Telesoft Webservice and returns all the clients of their database, then query Salesforce Database to match and get the associated Accounts
@@ -21,7 +24,7 @@ global class ClientTelesoft_BAT implements Database.Batchable<sObject>, Database
             resAccounts = TelesoftWebService.getAllAccounts();
             repBody = ClientTelesoftWrapper.parse(resAccounts.getBody());
         } else {
-            System.debug('ClientTelesoft_BAT ------- Exception Server : Status code : ' + TelesoftWebService.getAllAccounts().getStatusCode() );
+            throw new ServerException('ClientTelesoft_BAT ------- Exception Server : Status code : ' + TelesoftWebService.getAllAccounts().getStatusCode() );
         }
       
         if(repBody.size() > 0){
@@ -52,26 +55,25 @@ global class ClientTelesoft_BAT implements Database.Batchable<sObject>, Database
             mapSirenLstAccounts.get(acc.Registration_Number__c).add(acc);
         }
 
-        Map<string, Set<string>> client_ids_by_account_id = new Map<string, Set<string>>();
+        Map<string, Set<string>> clientIdsByAccountId = new Map<string, Set<string>>();
         for(ClientTelesoftWrapper client : repBody){
-            if (!client_ids_by_account_id.containsKey(client.cus_sir_ren)) {
-                client_ids_by_account_id.put(client.cus_sir_ren, new Set<string>());
+            if (!clientIdsByAccountId.containsKey(client.cus_sir_ren)) {
+                clientIdsByAccountId.put(client.cus_sir_ren, new Set<string>());
             }
-            client_ids_by_account_id.get(client.cus_sir_ren).add(client.cus_cpt);
+            clientIdsByAccountId.get(client.cus_sir_ren).add(client.cus_cpt);
         }
 
         Map<String, Account> toSave = new Map<String, Account>();
-        for(String siren : client_ids_by_account_id.keySet()){
-            Set<String> numClients = client_ids_by_account_id.get(siren);
-            List<String> numeroClients = new list<string>(numClients);
+        for(String siren : clientIdsByAccountId.keySet()){
+            Set<String> numClients = clientIdsByAccountId.get(siren);
             if(mapSirenLstAccounts.containsKey(siren)){
                 List<Account> listAccount = mapSirenLstAccounts.get(siren);
                 for(Account account : listAccount){
-                    if(numeroClients.size() == 1){
-                        account.TelesoftNumber__c = numeroClients[0];
-                    } 
-                    else if(numeroClients.size() > 1){
-                        account.TelesoftNumber__c = String.join(numeroClients, ';');
+                    if(numClients.size() == 1){
+                        account.TelesoftNumber__c = (new List<string>(numClients)).get(0);
+                    }
+                    else if(numClients.size() > 1){
+                        account.TelesoftNumber__c = String.join((Iterable<String>)(numClients), ';');
                     }
                     accountToUpdate.add(account);
                 }
@@ -83,7 +85,7 @@ global class ClientTelesoft_BAT implements Database.Batchable<sObject>, Database
                 database.upsert(accountToUpdate);            
                 AccountTriggerHandler.triggerDisabled = false;
             } catch(DmlException e) {
-                System.debug('ClientTelesoft_BAT ------- Exception on upsert Telesoft Accounts : ' + e.getMessage());
+                throw new ServerException('ClientTelesoft_BAT ------- Exception on upsert Telesoft Accounts : ' + e.getMessage());
             }  
         }     
     }

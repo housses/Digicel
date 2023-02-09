@@ -6,6 +6,7 @@
 **/
 global class InfolegaleOpp_BAT implements Database.Batchable<sObject>, Database.AllowsCallouts, Database.stateful {
 
+    public class applicationException extends Exception {}
     private Set<Id> setIdOpp;
 
     public InfolegaleOpp_BAT(Set<Id> strParam) {
@@ -47,14 +48,21 @@ global class InfolegaleOpp_BAT implements Database.Batchable<sObject>, Database.
                     if(code == 200){
                         InfolegaleWrapper repBody = InfolegaleWrapper.parse(resScore.getBody());
                         score = repBody.score;
+
+                        // à modifier avec champs formule => voir si on peut directement travailler avec un set accIds et mettre a jour que l'acc et modifier les champs sur opp pour les passer en champs formule.
+                        opp.INFOLEGALERating__c = score;
+                        opp.Score_INFOLEGALE__c = score;
+                        listOppToUpdate.add(opp);
+                        // à modifier
+
+                        if(acc.INFOLEGALERating__c != score){
+                            acc.INFOLEGALERating__c = score;
+                            accToUpdate.add(acc);
+                        }
+
                     } else {
-                        score = null;
+                        throw new applicationException('InfolegaleOpp_BAT => Error');
                     }
-                    opp.INFOLEGALERating__c = score;
-                    opp.Score_INFOLEGALE__c = score;
-                    acc.INFOLEGALERating__c = score;
-                    accToUpdate.add(acc);
-                    listOppToUpdate.add(opp);
                 }  
             }
 
