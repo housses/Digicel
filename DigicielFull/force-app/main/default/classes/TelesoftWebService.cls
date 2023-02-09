@@ -49,8 +49,8 @@ global class TelesoftWebService {
     /**
      * This method returns the invoices data from Telesoft web service by given date range.
      * 
-     * @param dateDebut the start date of the range
-     * @param dateFin the end date of the range
+     * @param dateDebut String the start date of the range
+     * @param dateFin String  the end date of the range
      * @return HttpResponse the response from Telesoft web service
      */
     public static HttpResponse apiReturnFacturesByDate(String dateDebut, String dateFin) { 
