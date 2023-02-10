@@ -4,7 +4,7 @@ global class InvoiceKaldom_SCH implements Schedulable {
         if(Test.isRunningTest()) {
             Id batchJobId = Database.executebatch(new InvoiceKaldom_BAT(13,14), 100);   
          } else 
-        Id batchJobId = Database.executebatch(new InvoiceKaldom_BAT(0,10), 50);   
+        Id batchJobId = Database.executebatch(new InvoiceKaldom_BAT(0,7), 100);   
     }
 
 }
