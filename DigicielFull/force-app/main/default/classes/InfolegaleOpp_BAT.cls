@@ -6,7 +6,6 @@
 **/
 global class InfolegaleOpp_BAT implements Database.Batchable<sObject>, Database.AllowsCallouts, Database.stateful {
 
-    public class applicationException extends Exception {}
     private Set<Id> setIdOpp;
 
     public InfolegaleOpp_BAT(Set<Id> strParam) {
@@ -61,7 +60,7 @@ global class InfolegaleOpp_BAT implements Database.Batchable<sObject>, Database.
                         }
 
                     } else {
-                        throw new applicationException('InfolegaleOpp_BAT => Error');
+                        throw new MyException('InfolegaleOpp_BAT => Error');
                     }
                 }  
             }

@@ -1,7 +1,5 @@
 global class TelesoftWebService {
 
-    public class serverException extends Exception {}
-
     /*
     * Method to retrieve the name of the named credential based on organization's sandbox status.
     * @return String wth the value of the named credential
@@ -35,14 +33,11 @@ global class TelesoftWebService {
         try {
             response = http.send(req);
             if (response.getStatusCode() != 200){
-                throw new serverException('Error Telesoft server : status code : ' + response.getStatusCode() );
+                throw new MyException('Error Telesoft server : status code : ' + response.getStatusCode() );
             } 
         } catch(Exception e){
-            System.debug('Error from TelesoftWebService.getAllAccounts() Method => ' + e.getMessage()); 
+            throw new MyException('Error from TelesoftWebService.getAllAccounts() Method => ' + e.getMessage() );
         }  
-
-        System.debug('response '+ response);
-
         return response;
     }
 
@@ -66,12 +61,11 @@ global class TelesoftWebService {
         try {
             response = http.send(req);
             if (response.getStatusCode() != 200){
-                throw new serverException('Error Telesoft server : status code : ' + response.getStatusCode() );
+                throw new MyException('Error Telesoft server : status code : ' + response.getStatusCode() );
             } 
         } catch(Exception e){
-            System.debug('Error from TelesoftWebService.apiReturnFacturesByDate() Method => ' + e.getMessage()); 
+            throw new MyException('Error from TelesoftWebService.apiReturnFacturesByDate() Method => ' + e.getMessage());
         }  
-        System.debug('response '+ response);
         return response;
     }
 }

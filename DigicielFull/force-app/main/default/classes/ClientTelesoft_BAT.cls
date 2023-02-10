@@ -6,10 +6,7 @@
 **/
 global class ClientTelesoft_BAT implements Database.Batchable<sObject>, Database.AllowsCallouts, Database.stateful {
     
-    public class ServerException extends Exception {}
-
-    private List<ClientTelesoftWrapper> repBody;
-    
+    private List<ClientTelesoftWrapper> repBody;  
 
     /**
      * This method calls Telesoft Webservice and returns all the clients of their database, then query Salesforce Database to match and get the associated Accounts
@@ -24,7 +21,7 @@ global class ClientTelesoft_BAT implements Database.Batchable<sObject>, Database
             resAccounts = TelesoftWebService.getAllAccounts();
             repBody = ClientTelesoftWrapper.parse(resAccounts.getBody());
         } else {
-            throw new ServerException('ClientTelesoft_BAT ------- Exception Server : Status code : ' + TelesoftWebService.getAllAccounts().getStatusCode() );
+            throw new MyException('ClientTelesoft_BAT ------- Exception Server : Status code : ' + TelesoftWebService.getAllAccounts().getStatusCode() );
         }
       
         if(repBody.size() > 0){
@@ -85,7 +82,7 @@ global class ClientTelesoft_BAT implements Database.Batchable<sObject>, Database
                 database.upsert(accountToUpdate);            
                 AccountTriggerHandler.triggerDisabled = false;
             } catch(DmlException e) {
-                throw new ServerException('ClientTelesoft_BAT ------- Exception on upsert Telesoft Accounts : ' + e.getMessage());
+                throw new MyException('ClientTelesoft_BAT ------- Exception on upsert Telesoft Accounts : ' + e.getMessage());
             }  
         }     
     }

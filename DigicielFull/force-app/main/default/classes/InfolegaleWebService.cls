@@ -1,7 +1,5 @@
 global class InfolegaleWebService {
 
-    public class ServerException extends Exception {}
-
     private static Boolean isSandbox = true;
 
     /*
@@ -58,10 +56,10 @@ global class InfolegaleWebService {
         try {
             response = http.send(req);
             if (response.getStatusCode() != 200){
-                throw new ServerException('Error Infolegale server : status code : ' + response.getStatusCode() );
+                throw new MyException('Error Infolegale server : status code : ' + response.getStatusCode() );
             } 
         } catch(Exception e){
-            System.debug('Error from InfolegaleWebService.apiLogin() Method => ' + e.getMessage()); 
+            throw new MyException('Error from InfolegaleWebService.apiLogin() Method => ' + e.getMessage());
         }  
         return response;
     }
@@ -102,10 +100,10 @@ global class InfolegaleWebService {
         try {
             response = http.send(req);
             if (response.getStatusCode() != 200){
-                throw new ServerException('Error Infolegale server : status code : ' + response.getStatusCode() );
+                throw new MyException('Error Infolegale server : status code : ' + response.getStatusCode() );
             } 
         } catch(Exception e){
-            System.debug('Error from InfolegaleWebService.getDataInfolegale() Method => ' + e.getMessage()); 
+            throw new MyException('Error from InfolegaleWebService.getDataInfolegale() Method => ' + e.getMessage());
         }  
         return response;
     }    
