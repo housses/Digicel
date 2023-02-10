@@ -24,10 +24,11 @@ global class Infolegale_BAT implements Database.Batchable<sObject>, Database.All
     /**
      * method to update the INFOLEGALERating__c field on the Account records.
      * @param bc Database.BatchableContext - context of the batch job
-     * @param accountsToUpdate List<Account> - list of accounts to be updated
+     * @param accountsToCheck List<Account> - list of accounts to be updated
      */
-    global void execute(Database.BatchableContext bc, List<Account> accountsToUpdate){
-        for(Account account : accountsToUpdate){
+    global void execute(Database.BatchableContext bc, List<Account> accountsToCheck){
+        List<Account> accToUpdate = new List<Account>();
+        for(Account account : accountsToCheck){
             String siren = account.Registration_Number__c;
             HttpResponse resScore = new HttpResponse();
             resScore = InfolegaleWebService.getDataInfolegale(siren);
@@ -36,14 +37,20 @@ global class Infolegale_BAT implements Database.Batchable<sObject>, Database.All
             if(code == 200){
                 InfolegaleWrapper repBody = InfolegaleWrapper.parse(resScore.getBody());               
                 score = repBody.score;
+                if(score != account.INFOLEGALERating__c ){
+                    account.INFOLEGALERating__c = score;
+                    accToUpdate.add(account);
+                }
             } else {
-                score = null;
+                throw new MyException('Infolegale_BAT : Error Infologale : Status Code : ' + code);
             }
-            account.INFOLEGALERating__c = score;
         }
-        AccountTriggerHandler.triggerDisabled = true;
-        database.update(accountsToUpdate);     
-        AccountTriggerHandler.triggerDisabled = false;
+
+        if(accToUpdate.size() > 0){
+            AccountTriggerHandler.triggerDisabled = true;
+            database.update(accToUpdate);     
+            AccountTriggerHandler.triggerDisabled = false;
+        }
     }
 
     /**
