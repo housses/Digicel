@@ -17,11 +17,11 @@ global class ClientTelesoft_BAT implements Database.Batchable<sObject>, Database
         HttpResponse resAccounts = new HttpResponse();
         Set<String> setIdAccount = new Set<String>();
 
-        if(TelesoftWebService.getAllAccounts().getStatusCode() == 200){
-            resAccounts = TelesoftWebService.getAllAccounts();
+        resAccounts = TelesoftWebService.getAllAccounts();
+        if(resAccounts.getStatusCode() == 200){
             repBody = ClientTelesoftWrapper.parse(resAccounts.getBody());
         } else {
-            throw new MyException('ClientTelesoft_BAT ------- Exception Server : Status code : ' + TelesoftWebService.getAllAccounts().getStatusCode() );
+            throw new MyException('ClientTelesoft_BAT ------- Exception Server : Status code : ' + resAccounts.getStatusCode() );
         }
       
         if(repBody.size() > 0){
