@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Subscriber Detail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Subscriber Details</value>
+    </caseValues>
+    <layouts>
+        <layout>Subscriber Detail Layout</layout>
+        <sections>
+            <label></label>
+            <section>CUG Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Plan Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Subscription Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

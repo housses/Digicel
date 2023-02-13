@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>MC4SF__Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>MC4SF__ListDetail</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>MC4SF__Stats</name>
+    </fieldSets>
+    <webLinks>
+        <label></label>
+        <name>MC4SF__MailChimp_Field_Mapping</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>MC4SF__Retrieve_from_MailChimp_detail</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>MC4SF__Retrieve_from_MailChimp_list</name>
+    </webLinks>
+</CustomObjectTranslation>

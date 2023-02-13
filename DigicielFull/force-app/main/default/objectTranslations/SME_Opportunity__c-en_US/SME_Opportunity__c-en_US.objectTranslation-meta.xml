@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SME Opportunity</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SME Opportunities</value>
+    </caseValues>
+    <layouts>
+        <layout>SME Opportunity Layout</layout>
+        <sections>
+            <label></label>
+            <section>Bundles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Equipment</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label></label>
+        <name>Mobile_Service_Agreement</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Supplemental_Service_Agreement</name>
+    </webLinks>
+</CustomObjectTranslation>

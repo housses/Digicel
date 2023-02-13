@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Market Monthly Budget</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Market Monthly Budgets</value>
+    </caseValues>
+    <layouts>
+        <layout>Market Monthly Budget Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Revenue Figures</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Market Monthly MRC Record Type</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Revenue Figures</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Market Monthly OTC Record Type</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Revenue Figures</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Market Monthly Roll Forecast Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Revenue Figures</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>Budget</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>One_Off_Revenue</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Recurring_Revenue</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Roll_Forecast</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>eric.berenguer1@digicelgroup.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Step 1</label>
+        <name>Step_1</name>
+    </approvalStep>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Revenue Validation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordType</field>
+            <operation>equals</operation>
+            <value>Digicel Panama GSM</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.UserRole</field>
+            <operation>equals</operation>
+            <value>Panama CAM Account Executive</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Opportunity_Proposal_Submission_has_been_approved</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Opportunity_Revenue_Validated_TRUE</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Opportunity_Revenue_Validation_has_been_rejected</name>
+            <type>Alert</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Panama GSM - Opportunity (CAM)</label>
+    <processOrder>4</processOrder>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

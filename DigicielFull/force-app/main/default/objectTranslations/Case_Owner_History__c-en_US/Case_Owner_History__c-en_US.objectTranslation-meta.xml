@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Case Owner History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Case Owner Histories</value>
+    </caseValues>
+    <layouts>
+        <layout>Case Status/Owner Tracker Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Stop_Record_from_Merging</name>
+    </validationRules>
+</CustomObjectTranslation>

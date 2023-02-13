@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Custom Chart Field</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Custom Chart Fields</value>
+    </caseValues>
+    <layouts>
+        <layout>Custom Chart Field Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Formula</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Condition_In_Not_In_Value_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Condition_Value_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Custom_Field_Number_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Custom_Formula_Field_A_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Custom_Formula_Field_B_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Field_API_Name_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>isplay_Order_By_Mandatory</name>
+    </validationRules>
+</CustomObjectTranslation>

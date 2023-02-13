@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>danesh.sahadeo@digicelgroup.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Additional approvers for Trinidad</description>
+        <entryCriteria>
+            <booleanFilter>(1 OR 4) AND 2 AND 3</booleanFilter>
+            <criteriaItems>
+                <field>User.Profile</field>
+                <operation>equals</operation>
+                <value>DBS Sales Representative</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>User.Digicel_Country__c</field>
+                <operation>equals</operation>
+                <value>Trinidad and Tobago</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Approval_Status__c</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>User.Profile</field>
+                <operation>equals</operation>
+                <value>ChannelPro User (TT Vendor)</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Trinidad and Tobago</label>
+        <name>Trinidad_and_Tobago</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>mathieu.dion@digicelgroup.com</name>
+                <type>user</type>
+            </approver>
+            <approver>
+                <name>stephania.seraphin@digicelgroup.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Additional approvers for Haiti</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>User.Profile</field>
+                <operation>equals</operation>
+                <value>DBS Sales Representative</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>User.Digicel_Country__c</field>
+                <operation>equals</operation>
+                <value>Haiti</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Approval_Status__c</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Haiti</label>
+        <name>Haiti</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>ricardo.andino@digicelgroup.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Additional approvers for El Salvador</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>User.Profile</field>
+                <operation>equals</operation>
+                <value>DBS Sales Representative</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>User.Digicel_Country__c</field>
+                <operation>equals</operation>
+                <value>El Salvador</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Approval_Status__c</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>El Salvador</label>
+        <name>El_Salvador</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>shiral.nair@digicelgroup.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Additional approvers for Barbados</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>User.Profile</field>
+                <operation>equals</operation>
+                <value>DBS Sales Representative</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>User.Digicel_Country__c</field>
+                <operation>equals</operation>
+                <value>Barbados</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Approval_Status__c</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Barbados</label>
+        <name>Barbados</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>ashton.fearon@digicelgroup.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Additional approvers for Antigua and Barbuda</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>User.Profile</field>
+                <operation>equals</operation>
+                <value>DBS Sales Representative</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>User.Digicel_Country__c</field>
+                <operation>equals</operation>
+                <value>Antigua and Barbuda</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Approval_Status__c</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Antigua and Barbuda</label>
+        <name>Antigua_and_Barbuda</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>gavin.jones@digicelgroup.com</name>
+                <type>user</type>
+            </approver>
+            <approver>
+                <name>mark.shoebridge@digicelgroup.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Additional approvers for Curacao</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>User.Profile</field>
+                <operation>equals</operation>
+                <value>DBS Sales Representative</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>User.Digicel_Country__c</field>
+                <operation>equals</operation>
+                <value>Curacao</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Approval_Status__c</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Curacao</label>
+        <name>Curacao</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <type>userHierarchyField</type>
+            </approver>
+        </assignedApprover>
+        <description>Account submitted for approval to Sales Rep&apos;s Manager</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>User.Profile</field>
+                <operation>equals</operation>
+                <value>DBS Sales Representative</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Approval_Status__c</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+        </entryCriteria>
+        <label>Manager Approve</label>
+        <name>Manager_Approve</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <description>Approval process for account created by sales reps allowing additional approvers</description>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Account.RecordType</field>
+            <operation>equals</operation>
+            <value>Digicel Business Account</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.Profile</field>
+            <operation>equals</operation>
+            <value>DBS Sales Representative</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.Profile</field>
+            <operation>equals</operation>
+            <value>ChannelPro User (TT Vendor)</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Account_approved_email</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Manager_Approve</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Account_rejected_email</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Manager_Reject</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Approve Created Account 8</label>
+    <nextAutomatedApprover>
+        <useApproverFieldOfRecordOwner>false</useApproverFieldOfRecordOwner>
+        <userHierarchyField>Manager</userHierarchyField>
+    </nextAutomatedApprover>
+    <processOrder>1</processOrder>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

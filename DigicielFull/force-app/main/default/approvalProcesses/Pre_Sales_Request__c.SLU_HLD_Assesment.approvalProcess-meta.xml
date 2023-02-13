@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>kentonia.censey-smith@digicelgroup.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Pre_Sales_Request__c.RecordType</field>
+                <operation>equals</operation>
+                <value>SLU Pricing/Scoping,SLU LoS/Capacity Check,SLU Desktop Survey,SLU Customer Questionnaire PBX,SLU Hosted Exchange Questionaire</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>RejectRecord</ifCriteriaNotMet>
+        <label>Step 1</label>
+        <name>Step_1</name>
+    </approvalStep>
+    <emailTemplate>Digicel_Internal/Approval_for_HLD</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Pre_Sales_Request__c.HLD_Document_Attached__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Pre_Sales_Request__c.Country__c</field>
+            <operation>contains</operation>
+            <value>Saint Lucia</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Update_HLD_Approved_Checkbox</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Update_Pre_Sales_Request_Status</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>SLU HLD Assesment</label>
+    <processOrder>1</processOrder>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

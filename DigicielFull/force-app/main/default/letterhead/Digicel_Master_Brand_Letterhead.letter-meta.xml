@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Letterhead xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <backgroundColor>#FFFFFF</backgroundColor>
+    <bodyColor>#FFFFFF</bodyColor>
+    <bottomLine>
+        <color>#FFFFFF</color>
+        <height>5</height>
+    </bottomLine>
+    <description>Master Brand - Digicel
+
+This branded letterhead is to be used for all corporate communications (e.g. anything you send to customers as part of the regular day to day of doing business. 
+
+This includes billing, bid documents, business cards, non-campaign emails, letters, project plans, customer care correspondence etc. will use the master brand</description>
+    <footer>
+        <backgroundColor>#FFFFFF</backgroundColor>
+        <height>100</height>
+        <horizontalAlignment>Left</horizontalAlignment>
+        <verticalAlignment>Top</verticalAlignment>
+    </footer>
+    <header>
+        <backgroundColor>#FFFFFF</backgroundColor>
+        <height>100</height>
+        <horizontalAlignment>Left</horizontalAlignment>
+        <logo>Digicel_Org_Images/Digicel_App_Logo_2017_Rebrand.png</logo>
+        <verticalAlignment>Middle</verticalAlignment>
+    </header>
+    <middleLine>
+        <color>#FFFFFF</color>
+        <height>5</height>
+    </middleLine>
+    <name>Digicel Master Brand Letterhead</name>
+    <topLine>
+        <color>#FFFFFF</color>
+        <height>5</height>
+    </topLine>
+</Letterhead>

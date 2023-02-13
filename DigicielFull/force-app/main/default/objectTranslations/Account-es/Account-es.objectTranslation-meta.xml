@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>MC4SF__Account_Filter_Fields</name>
+    </fieldSets>
+    <layouts>
+        <layout>Diaspora Account Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Digicel Business Account Layout</layout>
+        <sections>
+            <label></label>
+            <section>Account Comments</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Account Hierarchy Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Address Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Customer Segmentation Data</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Decision Makers</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>FWI Address</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Digicel PNG Account Layout</layout>
+        <sections>
+            <label></label>
+            <section>Revenue Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Digicel Person Account Layout</layout>
+        <sections>
+            <label></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Digicel Play Account Layout</layout>
+        <sections>
+            <label></label>
+            <section>Account Comments</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>ID Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Premises Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Digicel Regional Account Layout</layout>
+        <sections>
+            <label></label>
+            <section>Account Hierarchy Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Decision Makers</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PNG Customer Account Page Layout</layout>
+        <sections>
+            <label></label>
+            <section>Account Hierarchy Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Competitor 2</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Competitor&apos;s Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Customer Segmentation Data</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Decision Maker</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>PNG Account Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Primary /Billing Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Required Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PNG Customer Layout</layout>
+        <sections>
+            <label></label>
+            <section>Competitor 2</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Competitor&apos;s Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Group Required Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Mobile Service Agreement Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>PNG Account Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Primary /Billing Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Required Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>Fi_Financialdetails</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Fi_details</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>NewEvent_acc</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>New_Task_acc</name>
+    </quickActions>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Digicel_Business_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Digicel_Online_Top_Up_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Digicel_PNG</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Digicel_PNG_Archive</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Digicel_PNG_TV</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Digicel_Pacific_Group</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Digicel_Person_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Digicel_Regional_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Digicel_Trends</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Partner</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BB_Must_fill_in_GPS_Coordinates</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>PNG_AccountActivationValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>PNG_MakeAccLevelMandatoryForCustomerAcc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Segmentation_Data_Must_Be_Populated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>validrecord</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Account_Plans_With_Strategies</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Billed_Opportunities_Report_Current_FY</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Business_Mobile_Service_Agreement</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Clone_Account_Custom</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Individual_Mobile_Service_Agreement</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Key_Account_Contacts</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Lightning_Billed_Opportunity_Report</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Lightning_Opportunity_Pipeline_Report</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>MA_MapIt_a0pd0000004wKaFAAU</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>MC4SF__MailChimp_Subscriptions</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Opportunity_Pipeline_Report_Current_FY</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>PNG_Google_Map</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Regional_Billed_Opps_in_Hierarchy</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Send_with_DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Synoptic__Synoptic_View</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>View_Account_Hierarchy</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>YahooMaps</name>
+    </webLinks>
+</CustomObjectTranslation>

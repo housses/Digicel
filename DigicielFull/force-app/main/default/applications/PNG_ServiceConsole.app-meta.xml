@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>PNG_Account_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>Digicel_Logo2</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Digicel PNG Service Console</label>
+    <navType>Console</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_SupportCasePage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.PNG_SupportCase</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Service Manager + Pre-sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_SupportCasePage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.PNG_SupportCase</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Sales Executive</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_SupportCasePage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.PNG_SupportCase</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Sales Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_SupportCasePage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.PNG_SupportCase</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Pre-sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_SupportCasePage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.PNG_SupportCase</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Billing/Legal</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_SupportCasePage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.PNG_SupportCase</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Sales Operations</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_SupportCasePage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.PNG_SupportCase</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Service Executive</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_SupportCasePage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.PNG_SupportCase</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Service Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_SupportCasePage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.PNG_SupportCase</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Service Operations</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_SupportCasePage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.PNG_SupportCase</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_ImplementationCasePage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.PNG_ImplementationCase</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Billing/Legal</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_ImplementationCasePage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.PNG_ImplementationCase</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Pre-sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_ImplementationCasePage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.PNG_ImplementationCase</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Service Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_ImplementationCasePage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.PNG_ImplementationCase</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Service Operations</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_ImplementationCasePage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.PNG_ImplementationCase</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Service Executive</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_ImplementationCasePage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.PNG_ImplementationCase</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Sales Operations</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_ImplementationCasePage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.PNG_ImplementationCase</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PNG_Digicel_ICT_GSM</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Billing/Legal</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PNG_Digicel_ICT_GSM</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Chatter Only User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PNG_Digicel_ICT_GSM</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Integration User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PNG_Digicel_ICT_GSM</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Pre-sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PNG_Digicel_ICT_GSM</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Sales Executive</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PNG_Digicel_ICT_GSM</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Sales Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PNG_Digicel_ICT_GSM</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Sales Operations</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PNG_Digicel_ICT_GSM</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Service Executive</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PNG_Digicel_ICT_GSM</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Service Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PNG_Digicel_ICT_GSM</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Service Manager + Pre-sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PNG_Digicel_ICT_GSM</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Service Operations</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>PNG_Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PNG_Digicel_ICT_GSM</recordType>
+        <type>Flexipage</type>
+        <profile>PNG - Power User</profile>
+    </profileActionOverrides>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Task</tabs>
+    <tabs>Site__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Service_Console_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>Site__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Case</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Task</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>

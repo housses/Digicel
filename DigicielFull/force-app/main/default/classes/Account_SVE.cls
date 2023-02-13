@@ -1,12 +1,11 @@
-/**
- * @description       : 
- * @author            : JBBARTHELEMY
- * @group             : 
- * @last modified on  : 08/11/2022
- * @last modified by  : JBBARTHELEMY
-**/
 public with sharing class Account_SVE {
 
+    /**
+     * @description :  This method checks the conditions on the account records and if met, adds the account ID to a set of IDs 
+     * and then the method executes a batch job (Infolegale_BAT).
+     * @param newItems Map<Id,Account>
+     * @param oldItems Map<Id,Account>
+    **/
 	public static void invokeInfoLegalBat(Map<Id,Account> newItems, Map<Id,Account> oldItems){
         Set<Id> setIdAccount = new Set<Id>();
         for(Account acc : newItems.values()){
@@ -24,12 +23,17 @@ public with sharing class Account_SVE {
         }
 	} 
 
+    /**
+     * @description :  This method checks if the Registration Number field has changed on the account records and if so, updates the related fields and adds the account ID to a set of IDs. 
+     * If there is at least one account ID in the set, the method executes a batch job (DeleteInvoiceByAccountId_BAT) to delete all invoices for the account.
+     * @param newItems Map<Id,Account>
+     * @param oldItems Map<Id,Account>
+    **/
 	public static void resetExternalIdAndDeleteInvoice(Map<Id,Account> newItems, Map<Id,Account> oldItems){
         Set<String> setAccountId = new Set<String>();
         List<Account> lstAccToUpdate = new List<Account>();
 
         for(Account acc : newItems.values()){
-            System.debug('acc.Registration_Number__c'+acc.Registration_Number__c);
             if(oldItems.get(acc.Id).Registration_Number__c != acc.Registration_Number__c ){
                 setAccountId.add(acc.Id);
                 if(acc.Registration_Number__c != null){
@@ -48,8 +52,6 @@ public with sharing class Account_SVE {
                         TelesoftNumber__c = ''
                     ));
                 }
-
-               
             }
         }
 
@@ -61,7 +63,6 @@ public with sharing class Account_SVE {
 
         if(setAccountId.size() > 0){
             Id batchJobId = Database.executebatch(new DeleteInvoiceByAccountId_BAT(setAccountId), 200);   
-            // database.delete([SELECT Id FROM Invoice__c WHERE AccountName__c IN :setAccountId]);
         }
 	} 
 }
