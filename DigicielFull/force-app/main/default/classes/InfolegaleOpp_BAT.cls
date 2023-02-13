@@ -33,12 +33,11 @@ global class InfolegaleOpp_BAT implements Database.Batchable<sObject>, Database.
         for(Opportunity opp : listOpps){
             setIdAccount.add(opp.AccountId);
         }
-        Map<Id,Account> mapAcc = new Map<Id,Account>([SELECT Id, INFOLEGALERating__c, Registration_Number__c FROM Account WHERE Id IN :setIdAccount]);
+        List<Account> listAcc = [SELECT Id, INFOLEGALERating__c, Registration_Number__c FROM Account WHERE Id IN :setIdAccount];
 
 
-        if(listOpps.size() > 0 && mapAcc.size()>0){
-            for(Opportunity opp : listOpps){
-                Account acc = mapAcc.get(opp.AccountId);
+        if(listOpps.size() > 0 && listAcc.size()>0){
+            for(Account acc : listAcc){
                 if(acc.Registration_Number__c != null){
                     HttpResponse resScore = new HttpResponse();
                     resScore = InfolegaleWebService.getDataInfolegale(acc.Registration_Number__c);
@@ -47,31 +46,19 @@ global class InfolegaleOpp_BAT implements Database.Batchable<sObject>, Database.
                     if(code == 200){
                         InfolegaleWrapper repBody = InfolegaleWrapper.parse(resScore.getBody());
                         score = repBody.score;
-
-                        // à modifier avec champs formule => voir si on peut directement travailler avec un set accIds et mettre a jour que l'acc et modifier les champs sur opp pour les passer en champs formule.
-                        opp.INFOLEGALERating__c = score;
-                        opp.Score_INFOLEGALE__c = score;
-                        listOppToUpdate.add(opp);
-                        // à modifier
-
                         if(acc.INFOLEGALERating__c != score){
-                            acc.INFOLEGALERating__c = score;
-                            accToUpdate.add(acc);
+                            acc.INFOLEGALERating__c = score;   
                         }
-
                     } else {
-                        throw new MyException('InfolegaleOpp_BAT => Error');
+                        acc.Description = 'Erreur lors de l\'appel à infogreffe le ' + Datetime.now() + ' : ' + resScore.getBody(); 
                     }
+                    accToUpdate.add(acc);
                 }  
             }
 
             if(accToUpdate.size() > 0){
                 AccountTriggerHandler.triggerDisabled = true;
                 database.update(accToUpdate);   
-            }
-            if(listOppToUpdate.size() > 0){
-                OpportunityTriggerHandler.triggerDisabled = true;
-                database.update(listOppToUpdate);     
             }
         }
     }
