@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>PNG - Postpaid TV Sales</name>
+    <queueMembers>
+        <users>
+            <user>cheryl.wangihomie@digicelgroup.com</user>
+            <user>raysie.walevo@digicelgroup.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Case_Owner_History__c</sobjectType>
+    </queueSobject>
+</Queue>

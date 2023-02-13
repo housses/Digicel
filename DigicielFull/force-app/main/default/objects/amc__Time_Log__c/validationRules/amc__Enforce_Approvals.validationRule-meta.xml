@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Enforce_Approvals</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL(amc__Approval_Status__c, &quot;Approved&quot;), 
+
+OR(
+
+AND( 
+amc__Action__r.amc__Milestone__r.amc__Project__r.amc__Role_Manager_Timesheet_Approval_Reqd__c = TRUE, NOT(ISPICKVAL( amc__Role_Manager_Approval_Status__c , &quot;Approved&quot;))
+),  
+
+AND( 
+amc__Action__r.amc__Milestone__r.amc__Project__r.amc__Project_Owner_Timesheet_Approval_Reqd__c  , 
+NOT(ISPICKVAL(  amc__Project_Owner_Approval_Status__c  , &quot;Approved&quot;))
+)
+
+))</errorConditionFormula>
+    <errorMessage>You cannot set the Approval Status to Approved yet as either the Role Manager or Project Owner have not approved the Time Log</errorMessage>
+</ValidationRule>

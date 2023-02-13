@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gnx__Legal_entity__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Entité légale</label>
+    <referenceTo>gnx__Legal_entity__c</referenceTo>
+    <relationshipLabel>Configurations d&apos;entité légale</relationshipLabel>
+    <relationshipName>Legal_entity_configuration</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

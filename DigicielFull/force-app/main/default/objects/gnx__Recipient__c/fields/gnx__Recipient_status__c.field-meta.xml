@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gnx__Recipient_status__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>notified</fullName>
+                <default>false</default>
+                <label>notified</label>
+            </value>
+            <value>
+                <fullName>signed</fullName>
+                <default>false</default>
+                <label>signed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

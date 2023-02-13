@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>360 Comms</masterLabel>
+        <translation><!-- 360 Comms --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>7HK</masterLabel>
+        <translation><!-- 7HK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ANSA POLYMAR</masterLabel>
+        <translation><!-- ANSA POLYMAR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ANSA POS</masterLabel>
+        <translation><!-- ANSA POS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ARIMA SOUTH</masterLabel>
+        <translation><!-- ARIMA SOUTH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AROUCA</masterLabel>
+        <translation><!-- AROUCA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Account Development Plan</masterLabel>
+        <translation><!-- Account Development Plan --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Advertisement</masterLabel>
+        <translation>Anuncio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>August Callout</masterLabel>
+        <translation><!-- August Callout --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Avaya  Radvision Launch</masterLabel>
+        <translation><!-- Avaya  Radvision Launch --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Avaya Upgrade</masterLabel>
+        <translation><!-- Avaya Upgrade --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BB Fibre Mapped Cst</masterLabel>
+        <translation><!-- BB Fibre Mapped Cst --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Back to Business</masterLabel>
+        <translation><!-- Back to Business --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bermuda FTTB Project</masterLabel>
+        <translation><!-- Bermuda FTTB Project --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Blitz</masterLabel>
+        <translation><!-- Blitz --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Broadband</masterLabel>
+        <translation><!-- Broadband --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Business Continuity</masterLabel>
+        <translation><!-- Business Continuity --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Business Essentials</masterLabel>
+        <translation><!-- Business Essentials --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Business Essentials Campaign</masterLabel>
+        <translation><!-- Business Essentials Campaign --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Business Hub</masterLabel>
+        <translation><!-- Business Hub --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Business Hub Q4</masterLabel>
+        <translation><!-- Business Hub Q4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Business Phone</masterLabel>
+        <translation><!-- Business Phone --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Business Sales Agent</masterLabel>
+        <translation><!-- Business Sales Agent --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Business Site</masterLabel>
+        <translation>Sitio de Web</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Business in Retail</masterLabel>
+        <translation><!-- Business in Retail --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CCTV</masterLabel>
+        <translation><!-- CCTV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CHAGUANAS CHIN CHIN</masterLabel>
+        <translation><!-- CHAGUANAS CHIN CHIN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CHAGUANAS MONTROSE</masterLabel>
+        <translation><!-- CHAGUANAS MONTROSE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CHAGUANAS SWITCH</masterLabel>
+        <translation><!-- CHAGUANAS SWITCH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CROWN POINT TOBAGO</masterLabel>
+        <translation><!-- CROWN POINT TOBAGO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Call In</masterLabel>
+        <translation>Llamada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Campaign</masterLabel>
+        <translation>Campaña</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Carnival 2017</masterLabel>
+        <translation><!-- Carnival 2017 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cisco Meraki</masterLabel>
+        <translation><!-- Cisco Meraki --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Client Services</masterLabel>
+        <translation>Servicios Clientes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed User Groups</masterLabel>
+        <translation><!-- Closed User Groups --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cloud PBX</masterLabel>
+        <translation><!-- Cloud PBX --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cold Call</masterLabel>
+        <translation>Llamada Fría</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Communication and Collaboration</masterLabel>
+        <translation><!-- Communication and Collaboration --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consumer Sales Agent</masterLabel>
+        <translation>Agente de conumidores</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Contact Form</masterLabel>
+        <translation><!-- Contact Form --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Corp-Corp</masterLabel>
+        <translation><!-- Corp-Corp --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Corporate Hybrid</masterLabel>
+        <translation><!-- Corporate Hybrid --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cyber Security</masterLabel>
+        <translation><!-- Cyber Security --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cyber Security H1 FY22</masterLabel>
+        <translation><!-- Cyber Security H1 FY22 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>D&apos;ABADIE</masterLabel>
+        <translation><!-- D&apos;ABADIE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIBE</masterLabel>
+        <translation><!-- DIBE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Digicel Event</masterLabel>
+        <translation><!-- Digicel Event --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Digicel Supplier List</masterLabel>
+        <translation>Lista de proveedores</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Discovery Meeting</masterLabel>
+        <translation><!-- Discovery Meeting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Door 2 Door</masterLabel>
+        <translation>Puerta a Puerta</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EL SOCORO</masterLabel>
+        <translation><!-- EL SOCORO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Email Blast</masterLabel>
+        <translation>Campaña de correo electronico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Employee Referral</masterLabel>
+        <translation>Recomendación de Empleado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Existing Customer</masterLabel>
+        <translation>Cliente Existente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>External Referral</masterLabel>
+        <translation>Recomendación de Afuera</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FLOW Listing</masterLabel>
+        <translation><!-- FLOW Listing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FNP</masterLabel>
+        <translation><!-- FNP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FTTB</masterLabel>
+        <translation><!-- FTTB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FTTB Network Reach</masterLabel>
+        <translation><!-- FTTB Network Reach --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Facebook</masterLabel>
+        <translation><!-- Facebook --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fibre Zone 1</masterLabel>
+        <translation><!-- Fibre Zone 1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fibre Zone 10</masterLabel>
+        <translation><!-- Fibre Zone 10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fibre Zone 11</masterLabel>
+        <translation><!-- Fibre Zone 11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fibre Zone 12</masterLabel>
+        <translation><!-- Fibre Zone 12 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fibre Zone 2</masterLabel>
+        <translation><!-- Fibre Zone 2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fibre Zone 3</masterLabel>
+        <translation><!-- Fibre Zone 3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fibre Zone 4</masterLabel>
+        <translation><!-- Fibre Zone 4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fibre Zone 5</masterLabel>
+        <translation><!-- Fibre Zone 5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fibre Zone 6</masterLabel>
+        <translation><!-- Fibre Zone 6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fibre Zone 7</masterLabel>
+        <translation><!-- Fibre Zone 7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fibre Zone 8</masterLabel>
+        <translation><!-- Fibre Zone 8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fibre Zone 9</masterLabel>
+        <translation><!-- Fibre Zone 9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FibreLaunchFY23</masterLabel>
+        <translation><!-- FibreLaunchFY23 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Flexible Workplace</masterLabel>
+        <translation><!-- Flexible Workplace --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GENCOE WASA</masterLabel>
+        <translation><!-- GENCOE WASA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GRENADIAN HILL</masterLabel>
+        <translation><!-- GRENADIAN HILL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GSM</masterLabel>
+        <translation><!-- GSM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Gateway Migration</masterLabel>
+        <translation><!-- Gateway Migration --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>General &amp; RAC</masterLabel>
+        <translation><!-- General &amp; RAC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Group BI Renewals</masterLabel>
+        <translation><!-- Group BI Renewals --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Indi-Corp</masterLabel>
+        <translation><!-- Indi-Corp --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>International Connectivity</masterLabel>
+        <translation><!-- International Connectivity --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Key Account</masterLabel>
+        <translation><!-- Key Account --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LAVENTILLE</masterLabel>
+        <translation><!-- LAVENTILLE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LESS EFFORT</masterLabel>
+        <translation><!-- LESS EFFORT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LinkedIn</masterLabel>
+        <translation><!-- LinkedIn --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lookout Mobile Security</masterLabel>
+        <translation><!-- Lookout Mobile Security --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MACOYA</masterLabel>
+        <translation><!-- MACOYA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MNP Attractors</masterLabel>
+        <translation><!-- MNP Attractors --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MNP Detractors</masterLabel>
+        <translation><!-- MNP Detractors --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MORVANT WASA</masterLabel>
+        <translation><!-- MORVANT WASA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MS Inward Sales Drive</masterLabel>
+        <translation><!-- MS Inward Sales Drive --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Managed Next Generation Firewall</masterLabel>
+        <translation><!-- Managed Next Generation Firewall --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Managed Services</masterLabel>
+        <translation><!-- Managed Services --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Managed WiFi</masterLabel>
+        <translation><!-- Managed WiFi --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Microsoft 365</masterLabel>
+        <translation><!-- Microsoft 365 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Microsoft Cloud</masterLabel>
+        <translation><!-- Microsoft Cloud --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Microsoft Cloud H1 FY22</masterLabel>
+        <translation><!-- Microsoft Cloud H1 FY22 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Microsoft Event</masterLabel>
+        <translation><!-- Microsoft Event --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mobile Advertisement</masterLabel>
+        <translation><!-- Mobile Advertisement --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mobile Broadband</masterLabel>
+        <translation><!-- Mobile Broadband --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Number Portability</masterLabel>
+        <translation><!-- Number Portability --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OROPOUCHE DOW VILLAGE</masterLabel>
+        <translation><!-- OROPOUCHE DOW VILLAGE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PASEA</masterLabel>
+        <translation><!-- PASEA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PBX Campaign</masterLabel>
+        <translation><!-- PBX Campaign --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PGA Bermuda Campaign 2022</masterLabel>
+        <translation><!-- PGA Bermuda Campaign 2022 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partner</masterLabel>
+        <translation><!-- Partner --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Premium Corporate Care</masterLabel>
+        <translation><!-- Premium Corporate Care --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Private Data Network</masterLabel>
+        <translation><!-- Private Data Network --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product - Broadband</masterLabel>
+        <translation><!-- Product - Broadband --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product - Dedicated Internet</masterLabel>
+        <translation><!-- Product - Dedicated Internet --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product - Global Private Network</masterLabel>
+        <translation><!-- Product - Global Private Network --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product - Managed LAN</masterLabel>
+        <translation><!-- Product - Managed LAN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product - Managed WAN</masterLabel>
+        <translation><!-- Product - Managed WAN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product - Managed Wifi</masterLabel>
+        <translation><!-- Product - Managed Wifi --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Product - Metro Ethernet</masterLabel>
+        <translation><!-- Product - Metro Ethernet --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Products CAT - Cloud &amp; Collaboration</masterLabel>
+        <translation><!-- Products CAT - Cloud &amp; Collaboration --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Products CAT - Connectivity</masterLabel>
+        <translation><!-- Products CAT - Connectivity --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Products CAT - Digital Transformation</masterLabel>
+        <translation><!-- Products CAT - Digital Transformation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Products CAT - Mobile Solutions</masterLabel>
+        <translation><!-- Products CAT - Mobile Solutions --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Products CAT - Smart Solutions</masterLabel>
+        <translation><!-- Products CAT - Smart Solutions --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Products CAT- Cybersecurity</masterLabel>
+        <translation><!-- Products CAT- Cybersecurity --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Project White Space</masterLabel>
+        <translation><!-- Project White Space --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Public Relations</masterLabel>
+        <translation><!-- Public Relations --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RFP</masterLabel>
+        <translation><!-- RFP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RFQ</masterLabel>
+        <translation><!-- RFQ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Raising the Bar</masterLabel>
+        <translation><!-- Raising the Bar --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Renewal</masterLabel>
+        <translation><!-- Renewal --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Request for Proposal (RFP)</masterLabel>
+        <translation><!-- Request for Proposal (RFP) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retail</masterLabel>
+        <translation><!-- Retail --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retail Store</masterLabel>
+        <translation><!-- Retail Store --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Revenue Assurance</masterLabel>
+        <translation><!-- Revenue Assurance --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SANGRE GRANDE</masterLabel>
+        <translation><!-- SANGRE GRANDE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SCARBOROUGH</masterLabel>
+        <translation><!-- SCARBOROUGH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SF DUNCAN VILLAGES</masterLabel>
+        <translation><!-- SF DUNCAN VILLAGES --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SF MARABELLA</masterLabel>
+        <translation><!-- SF MARABELLA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SIPARIA LOT</masterLabel>
+        <translation><!-- SIPARIA LOT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SMB Trend Bundles</masterLabel>
+        <translation><!-- SMB Trend Bundles --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ST JOSEPH</masterLabel>
+        <translation><!-- ST JOSEPH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>School Project</masterLabel>
+        <translation><!-- School Project --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Seminar</masterLabel>
+        <translation><!-- Seminar --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Smart Solutions</masterLabel>
+        <translation><!-- Smart Solutions --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sponsored Event</masterLabel>
+        <translation><!-- Sponsored Event --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Symptai</masterLabel>
+        <translation><!-- Symptai --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TSTT Listing</masterLabel>
+        <translation><!-- TSTT Listing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tele-Engine</masterLabel>
+        <translation><!-- Tele-Engine --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tender</masterLabel>
+        <translation><!-- Tender --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tertiary Mi-Fi Campaign</masterLabel>
+        <translation><!-- Tertiary Mi-Fi Campaign --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Total Communication</masterLabel>
+        <translation><!-- Total Communication --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Trade Show</masterLabel>
+        <translation><!-- Trade Show --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Trend TV Ad</masterLabel>
+        <translation><!-- Trend TV Ad --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UPPER SAN JUAN</masterLabel>
+        <translation><!-- UPPER SAN JUAN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Upgrade</masterLabel>
+        <translation><!-- Upgrade --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VSaaS 360 View</masterLabel>
+        <translation><!-- VSaaS 360 View --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VSaaS 360 View H1 FY22</masterLabel>
+        <translation><!-- VSaaS 360 View H1 FY22 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Vehicle Tracking</masterLabel>
+        <translation><!-- Vehicle Tracking --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>WINBACK</masterLabel>
+        <translation><!-- WINBACK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Walk In</masterLabel>
+        <translation><!-- Walk In --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Web</masterLabel>
+        <translation><!-- Web --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Word of mouth</masterLabel>
+        <translation><!-- Word of mouth --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Fixed_Price_Hours_Scheduled</fullName>
+    <active>false</active>
+    <description>Prevents Time Logs that are &apos;Billable&apos; being submitted if it will push the Hours Completed - Billable over the Hours Scheduled - Billable</description>
+    <errorConditionFormula>OR(
+    AND(ISNEW(), amc__Non_Billable_Tracker__c = FALSE, ISPICKVAL( amc__Action__r.amc__Milestone__r.amc__Project__r.amc__Billing_Type__c , &quot;Fixed Price&quot;), amc__Action__r.amc__Hours_Completed__c + amc__Hours_Completed__c &gt; amc__Action__r.amc__Hours_Scheduled__c )
+    ,
+    AND(
+        AND(ISCHANGED(amc__Hours_Completed__c), amc__Non_Billable_Tracker__c = FALSE, ISPICKVAL( amc__Action__r.amc__Milestone__r.amc__Project__r.amc__Billing_Type__c , &quot;Fixed Price&quot;), (amc__Action__r.amc__Hours_Completed__c - PRIORVALUE(amc__Hours_Completed__c) + amc__Hours_Completed__c) &gt; amc__Action__r.amc__Hours_Scheduled__c  )
+    )
+)</errorConditionFormula>
+    <errorMessage>This is a Fixed Price Project. Logging this billable time will exceed the Billable Hours Scheduled for this Action.</errorMessage>
+</ValidationRule>

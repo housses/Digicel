@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gnx__Override_salesforce_file_sharing__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked, if the versioning policy is set to erase and replace, even if the user don&apos;t have right to delete content document, it will be done to force the replacement of the document</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Si vous cochez cette case et que vous êtes en politique de version Supprimer et remplacer le fichier, le document anciennement présent sera remplacé même si l&apos;utilisateur faisant une nouvelle génération n&apos;a pas le droit de suppression</inlineHelpText>
+    <label>Override Salesforce file sharing</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>nonotification@fake.com</email>
+    <name>SFDC Admin Queue</name>
+    <queueMembers>
+        <users>
+            <user>arielle.khan@digicelgroup.com</user>
+            <user>hadassah.noray@digicelgroup.com</user>
+            <user>keron.namsoo@digicelgroup.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Case_Owner_History__c</sobjectType>
+    </queueSobject>
+</Queue>

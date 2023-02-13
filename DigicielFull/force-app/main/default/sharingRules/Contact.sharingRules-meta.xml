@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>ICT_BB_Timba_Survey_Users</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>ICT BB Timba Survey Users</label>
+        <sharedTo>
+            <group>ICT_BB_Timba_Surveys</group>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Timba_Surveys</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Timba Surveys</label>
+        <sharedTo>
+            <group>Timba_Surveys_Barbados</group>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

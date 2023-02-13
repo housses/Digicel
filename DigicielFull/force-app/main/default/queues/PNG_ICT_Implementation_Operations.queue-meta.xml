@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>PNG - ICT Implementation &amp; Operations</name>
+    <queueMembers>
+        <users>
+            <user>andrew.ilu@digicelgroup.com</user>
+            <user>andy.hanana@digicelgroup.com</user>
+            <user>benson.kupepe@digicelgroup.com</user>
+            <user>bernard.saliau@digicelgroup.com</user>
+            <user>jemimah.niara@digicelgroup.com</user>
+            <user>kitts.kiroha@digicelgroup.com</user>
+            <user>mairi.sabila@digicelgroup.com</user>
+            <user>rachael.ioka@digicelgroup.com</user>
+            <user>shane.gegeyo@digicelgroup.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Case_Owner_History__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

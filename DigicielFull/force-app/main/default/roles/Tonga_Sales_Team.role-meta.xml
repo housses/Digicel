@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Tonga Sales Team</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Tonga Sales Team</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>Tonga_Head_of_Business_Solution</parentRole>
+</Role>

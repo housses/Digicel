@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>BB_ICT_Sales_Rep_Updates_Service_Delivery_Update</fullName>
+        <description>BB ICT Sales Rep Updates Service Delivery Update</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ICT_Barbados_Service_Delivery_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_Barbados_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>geraldine.ryan@digicelgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <field>Opportunity_Owner_Look_Up__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Barbados_ICT_Templates/BB_ICT_SD_Update_from_Sales_Rep</template>
+    </alerts>
+    <alerts>
+        <fullName>BB_ICT_Service_Delivery_Update_Created</fullName>
+        <description>BB ICT Service Delivery Update Created</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ICT_Barbados_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <field>Opportunity_Owner_Look_Up__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Pilot_Email_Templates/BB_ICT_SD_Update2</template>
+    </alerts>
+    <alerts>
+        <fullName>Bonaire_Curacao_Service_Delivery_Update_Created</fullName>
+        <ccEmails>donald_dindial@digicelgroup.com</ccEmails>
+        <description>Bonaire/Curacao Service Delivery Update Created</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Curacao</recipient>
+            <type>role</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Pilot_Email_Templates/BB_ICT_SD_Update2</template>
+    </alerts>
+    <alerts>
+        <fullName>El_Salvador_Service_Delivery_Update_Created</fullName>
+        <description>El Salvador Service Delivery Update Created</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>eduardo.escapini@digicelgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>ivannia.arias@digicelgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Pilot_Email_Templates/BB_ICT_SD_Update2</template>
+    </alerts>
+    <alerts>
+        <fullName>Guadeloupe_ICT_SD_Update</fullName>
+        <description>Guadeloupe ICT SD Update</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jhtrompette@idom.net</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/BB_ICT_SD_Update</template>
+    </alerts>
+    <alerts>
+        <fullName>Guyana_ICT_SD_Update</fullName>
+        <description>Guyana ICT SD Update</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>bismark.monzon@digicelgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>marlon.samaroo@digicelgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>petal.beaton@digicelgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/BB_ICT_SD_Update</template>
+    </alerts>
+    <alerts>
+        <fullName>Haiti_SD_Update</fullName>
+        <ccEmails>HAI_BSE@digicelgroup.com</ccEmails>
+        <ccEmails>Business_P2P_Delivery@digicelgroup.com</ccEmails>
+        <description>Haiti SD Update</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Opportunity_Owner_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_Technical_Service_Delivery</recipient>
+            <type>role</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/BB_ICT_SD_Update</template>
+    </alerts>
+    <alerts>
+        <fullName>ICT_BB_Alert_to_Update_GOB_Project_Managers</fullName>
+        <description>ICT BB Alert to Update GOB Project Managers</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ICT_BB_GOB_Project_PM</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/BB_ICT_GOB_Project_Update</template>
+    </alerts>
+    <alerts>
+        <fullName>Jamaica_Service_Delivery_Update_Created</fullName>
+        <ccEmails>Jam_ServiceDelivery@digicelgroup.com</ccEmails>
+        <description>Jamaica Service Delivery Update Created</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Opportunity_Owner_Look_Up__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Pilot_Email_Templates/BB_ICT_SD_Update2</template>
+    </alerts>
+    <alerts>
+        <fullName>Martinique_ICT_SD_Update</fullName>
+        <description>Martinique ICT - SD Update</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jhtrompette@idom.net</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/BB_ICT_SD_Update</template>
+    </alerts>
+    <alerts>
+        <fullName>SLU_Service_Delivery_Update_Created</fullName>
+        <ccEmails>SLU_corporate_team@digicelgroup.com</ccEmails>
+        <description>SLU Service Delivery Update Created</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>St_Lucia</recipient>
+            <type>role</type>
+        </recipients>
+        <recipients>
+            <recipient>kentonia.censey-smith@digicelgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Pilot_Email_Templates/BB_ICT_SD_Update2</template>
+    </alerts>
+    <alerts>
+        <fullName>TT_ICT_SD_Update</fullName>
+        <description>TT ICT SD Update</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Trinidad_Service_Request</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Digicel_Internal/TT_ICT_SD_Update_Creation_or_Updated</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Check_Test_Checkbox</fullName>
+        <field>Test_checkbox__c</field>
+        <literalValue>1</literalValue>
+        <name>Check Test Checkbox</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ICT_Service_Delivery_Update_Name</fullName>
+        <field>Name</field>
+        <formula>Service_Request__r.Name&amp; &quot;_&quot; &amp; TEXT( TODAY() )</formula>
+        <name>ICT Service Delivery Update Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Opp_Owner_Email_On_Srv_Updt</fullName>
+        <field>Opportunity_Owner_Email__c</field>
+        <formula>Opportunity_Owner_Look_Up__r.Email</formula>
+        <name>Opp Owner Email On Srv Updt</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>BB ICT SD Update</fullName>
+        <actions>
+            <name>BB_ICT_Service_Delivery_Update_Created</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Check_Test_Checkbox</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Service_Delivery_Updates__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>ICT Barbados</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <offsetFromField>Service_Delivery_Updates__c.CreatedDate</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Bonaire%2FCuracao SD Update</fullName>
+        <actions>
+            <name>Bonaire_Curacao_Service_Delivery_Update_Created</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Service_Delivery_Updates__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Bonaire Service Delivery Update,Curacao Service Delivery Update</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Guadeloupe ICT SD Update</fullName>
+        <actions>
+            <name>Guadeloupe_ICT_SD_Update</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>User.Digicel_Country__c</field>
+            <operation>equals</operation>
+            <value>Guadeloupe</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Guyana ICT SD Update</fullName>
+        <actions>
+            <name>Guyana_ICT_SD_Update</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>User.Digicel_Country__c</field>
+            <operation>equals</operation>
+            <value>Guyana</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Haiti ICT SD Update</fullName>
+        <actions>
+            <name>Haiti_SD_Update</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>User.Digicel_Country__c</field>
+            <operation>equals</operation>
+            <value>Haiti</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ICT BB Update Opp Owner Email on SD Update</fullName>
+        <actions>
+            <name>Opp_Owner_Email_On_Srv_Updt</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Service_Delivery_Updates__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>ICT Barbados,Haiti Service Delivery Update,Trinidad Service Delivery Update</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>ICT BB Update to GOB PMs</fullName>
+        <actions>
+            <name>ICT_BB_Alert_to_Update_GOB_Project_Managers</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Service_Delivery_Updates__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>ICT Barbados</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Service_Delivery_Updates__c.ICT_BB_Project__c</field>
+            <operation>equals</operation>
+            <value>GOB Project</value>
+        </criteriaItems>
+        <description>used to update GOB PMs on Service Delivery updates</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Jamaica SD Update</fullName>
+        <actions>
+            <name>Jamaica_Service_Delivery_Update_Created</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Service_Delivery_Updates__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Jamaica Service Delivery Update</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Martinique ICT SD Update</fullName>
+        <actions>
+            <name>Martinique_ICT_SD_Update</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>User.Digicel_Country__c</field>
+            <operation>equals</operation>
+            <value>French Guiana,Martinique</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Panama SD Update</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Service_Delivery_Updates__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Panama Service Delivery Update</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>SLU SD Update</fullName>
+        <actions>
+            <name>SLU_Service_Delivery_Update_Created</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Service_Delivery_Updates__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>SLU Service Delivery Update</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Service Delivery Update Naming Convention</fullName>
+        <actions>
+            <name>ICT_Service_Delivery_Update_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Service_Delivery_Updates__c.CreatedDate</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

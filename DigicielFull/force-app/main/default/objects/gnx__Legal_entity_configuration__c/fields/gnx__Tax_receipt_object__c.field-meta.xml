@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gnx__Tax_receipt_object__c</fullName>
+    <defaultValue>&quot;Opportunity&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Objet à partir duquel les informations de votre reçu fiscal seront initialisées</inlineHelpText>
+    <label>Nom API Objet (Reçu Fiscal)</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

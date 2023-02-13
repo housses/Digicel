@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Prevent_Hours_Change_If_BE_Is_Deposit</fullName>
+    <active>true</active>
+    <description>Prevents a Time Log Hours Completed field being increased if it relates to a Billing Event where Deposit = TRUE</description>
+    <errorConditionFormula>AND(ISCHANGED(amc__Hours_Completed__c) , PRIORVALUE(amc__Hours_Completed__c) &lt; amc__Hours_Completed__c,  amc__Billing_Event_Item__r.amc__Billing_Event__r.amc__Deposit__c = TRUE)</errorConditionFormula>
+    <errorMessage>You are unable to increase the Hours Completed of a Time Log that relates to a Billing Event where Deposit = TRUE</errorMessage>
+</ValidationRule>

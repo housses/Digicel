@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gnx__Remove_table_if_empty__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Le tableau du document word sera supprimé si aucun enregistrement enfant n&apos;est trouvé</inlineHelpText>
+    <label>Remove table if empty</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

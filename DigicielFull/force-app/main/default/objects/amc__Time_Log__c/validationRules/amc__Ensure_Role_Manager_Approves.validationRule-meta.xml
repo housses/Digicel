@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Ensure_Role_Manager_Approves</fullName>
+    <active>true</active>
+    <description>Prevent anyone other than the Role Manager Approver from setting the Role Manager Approval Status field to Approved / Rejected</description>
+    <errorConditionFormula>AND(
+ $User.Id !=  amc__Role_Manager_Approver__r.amc__User__r.Id,
+ OR(ISPICKVAL(amc__Role_Manager_Approval_Status__c, &quot;Approved&quot;), ISPICKVAL(amc__Role_Manager_Approval_Status__c, &quot;Rejected&quot;)),
+ ISCHANGED(amc__Role_Manager_Approval_Status__c)
+)</errorConditionFormula>
+    <errorMessage>Only the specified Role Manager can set the Role Manager Approval Status to Approved or Rejected</errorMessage>
+</ValidationRule>

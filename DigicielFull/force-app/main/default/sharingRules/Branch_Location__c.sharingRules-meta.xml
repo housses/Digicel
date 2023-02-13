@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Anguilla_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Anguilla - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>Anguilla</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Anguilla</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Antigua_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Antigua - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>Antigua</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Antigua</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Aruba_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Aruba - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>Aruba</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Aruba</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Barbados_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Barbados - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>Barbados</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Barbados</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Bermuda_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Bermuda - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>Bermuda</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Bermuda</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Bonaire_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Bonaire - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>Bonaire</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Bonaire</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Cayman_Islands_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Cayman Islands - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>Cayman_Islands</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Cayman_Islands</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Curacao_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Curacao - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>Curacao</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Curacao</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Curacao_Share_with_Tres</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Curacao Share with Tres</label>
+        <sharedTo>
+            <roleAndSubordinates>Tres_Networks</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Curacao</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Dominica_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Dominica - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>Dominica</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Dominica</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>El_Salvador_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>El Salvador - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>El_Salvador</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>El_Salvador</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>FWI_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>FWI - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>French_West_Indies</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>French_West_Indies</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Grenada_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Grenada - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>Grenada</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Grenada</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Group_Read_Write_All_BL_s</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Group Read/Write All BL&apos;s</label>
+        <sharedTo>
+            <group>C_CA_Group_Team</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Digicel_Group_Business_Solutions_C_CA_Region</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Guyana_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Guyana - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>Guyana</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Guyana</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Haiti_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Haiti - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>Haiti</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Haiti</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Jamaica_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Jamaica - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>Jamaica</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Jamaica</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Panama_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Panama - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>Panama</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Panama</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>St_Kitts_Nevis_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>St. Kitts &amp; Nevis - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>St_Kitts_Nevis</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>St_Kitts_Nevis</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>St_Lucia_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>St. Lucia - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>St_Lucia</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>St_Lucia</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>St_Vincent_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>St. Vincent - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>St_Vincent</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>St_Vincent</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Suriname_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Suriname - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>Suriname</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Suriname</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>TCI_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>TCI - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>TCI</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>TCI</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Trinidad_Tobago_R_W_All_Branch_Locations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Trinidad &amp; Tobago - R/W All Branch Locations</label>
+        <sharedTo>
+            <roleAndSubordinates>Trinidad_Tobago</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Trinidad_Tobago</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

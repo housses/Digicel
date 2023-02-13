@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Digicel_Business_New_Hire_Welcome_Email</fullName>
+        <description>Digicel Business New Hire Welcome Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Admin_Emails/New_Hire_Email_Notification_Digicel_Business_v2</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Access_Shut_Off_Date_NULL</fullName>
+        <field>Access_Shut_Off_Date__c</field>
+        <name>Access Shut Off Date = NULL</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Deactivate_User_Access_Shut_Off_Date</fullName>
+        <field>IsActive</field>
+        <literalValue>0</literalValue>
+        <name>Deactivate User (Access Shut Off Date)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Populate_User_With_Access_Shut_Off_Date</fullName>
+        <field>Access_Shut_Off_Date__c</field>
+        <formula>(Today()+10)</formula>
+        <name>Populate User With Access Shut Off Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SFDC_Paid_License_Checked</fullName>
+        <field>SFDCLicencePaid__c</field>
+        <literalValue>1</literalValue>
+        <name>SFDC Paid License - Checked</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SFDC_Paid_License_Unchecked</fullName>
+        <field>SFDCLicencePaid__c</field>
+        <literalValue>0</literalValue>
+        <name>SFDC Paid License - Unchecked</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Active_Deactive_Date</fullName>
+        <field>DateActivated__c</field>
+        <formula>TODAY()</formula>
+        <name>Set Active/Deactive Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

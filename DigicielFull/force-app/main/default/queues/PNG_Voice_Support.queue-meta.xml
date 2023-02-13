@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>PNG - Voice Support</name>
+    <queueMembers>
+        <users>
+            <user>apmeledy.waira@digicelgroup.com</user>
+            <user>bernard.saliau@digicelgroup.com</user>
+            <user>josefa.temo@digicelgroup.com</user>
+            <user>lisala.saqusaqu@digicelgroup.com</user>
+            <user>philip.young@digicelgroup.com</user>
+            <user>rachael.ioka@digicelgroup.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Case_Owner_History__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>
