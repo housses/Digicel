@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Province__c</fullName>
+    <externalId>false</externalId>
+    <label>State or Province</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Autonomous Region of Bougainville</fullName>
+                <default>false</default>
+                <label>Autonomous Region of Bougainville</label>
+            </value>
+            <value>
+                <fullName>Central Province</fullName>
+                <default>false</default>
+                <label>Central Province</label>
+            </value>
+            <value>
+                <fullName>Chimbu Province</fullName>
+                <default>false</default>
+                <label>Chimbu Province</label>
+            </value>
+            <value>
+                <fullName>Eastern Highlands Province</fullName>
+                <default>false</default>
+                <label>Eastern Highlands Province</label>
+            </value>
+            <value>
+                <fullName>East New Britain Province</fullName>
+                <default>false</default>
+                <label>East New Britain Province</label>
+            </value>
+            <value>
+                <fullName>East Sepik Province</fullName>
+                <default>false</default>
+                <label>East Sepik Province</label>
+            </value>
+            <value>
+                <fullName>Enga Province</fullName>
+                <default>false</default>
+                <label>Enga Province</label>
+            </value>
+            <value>
+                <fullName>Gulf Province</fullName>
+                <default>false</default>
+                <label>Gulf Province</label>
+            </value>
+            <value>
+                <fullName>Hela Province</fullName>
+                <default>false</default>
+                <label>Hela Province</label>
+            </value>
+            <value>
+                <fullName>Jiwaka Province</fullName>
+                <default>false</default>
+                <label>Jiwaka Province</label>
+            </value>
+            <value>
+                <fullName>Madang Province</fullName>
+                <default>false</default>
+                <label>Madang Province</label>
+            </value>
+            <value>
+                <fullName>Manus Province</fullName>
+                <default>false</default>
+                <label>Manus Province</label>
+            </value>
+            <value>
+                <fullName>Milne Bay Province</fullName>
+                <default>false</default>
+                <label>Milne Bay Province</label>
+            </value>
+            <value>
+                <fullName>Morobe Province</fullName>
+                <default>false</default>
+                <label>Morobe Province</label>
+            </value>
+            <value>
+                <fullName>National Capital District</fullName>
+                <default>false</default>
+                <label>National Capital District</label>
+            </value>
+            <value>
+                <fullName>New Ireland Province</fullName>
+                <default>false</default>
+                <label>New Ireland Province</label>
+            </value>
+            <value>
+                <fullName>--None--</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>--None--</label>
+            </value>
+            <value>
+                <fullName>Oro Province</fullName>
+                <default>false</default>
+                <label>Oro Province</label>
+            </value>
+            <value>
+                <fullName>Sandaun Province</fullName>
+                <default>false</default>
+                <label>Sandaun Province</label>
+            </value>
+            <value>
+                <fullName>Southern Highlands Province</fullName>
+                <default>false</default>
+                <label>Southern Highlands Province</label>
+            </value>
+            <value>
+                <fullName>Western Highlands Province</fullName>
+                <default>false</default>
+                <label>Western Highlands Province</label>
+            </value>
+            <value>
+                <fullName>Western Province</fullName>
+                <default>false</default>
+                <label>Western Province</label>
+            </value>
+            <value>
+                <fullName>West New Britain Province</fullName>
+                <default>false</default>
+                <label>West New Britain Province</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

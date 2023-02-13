@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Market__c</columns>
+    <columns>Budget_Month_Date__c</columns>
+    <columns>GSMMRCMonthlyBudget__c</columns>
+    <columns>OTCMonthlyBudget__c</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Market_Monthly_Budget__c.Budget</value>
+    </filters>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SFDC_Admin_Tickets</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Internal_Support_Group__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>Internal_Support_Category__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Due_Date__c</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.SFDC_Admin_Ticket</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,Working,Escalated,Need More Information,Waiting on response</value>
+    </filters>
+    <label>SFDC Admin Tickets</label>
+    <sharedTo>
+        <group>SFDC_Admin_Team</group>
+    </sharedTo>
+</ListView>

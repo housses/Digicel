@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_SID_Pre_Sales_Support</fullName>
+    <active>true</active>
+    <label>Group SID - Pre Sales Support</label>
+    <picklistValues>
+        <picklist>Additional_Solutions__c</picklist>
+        <values>
+            <fullName>3rd Party Installation %28Once Of%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3rd Party Maintenance %28recurring%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advanced Networking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Audio Conferencing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avaya Aura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avaya IP Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Broadsoft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business WiMax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCTV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cisco Network Switches</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cisco PBX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cisco SmartNet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud - Backup - high end</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud - IaaS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud - LoB hosting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud - NFV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud - PaaS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud - Private Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud - Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud - Storage - High end</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud - Storage- low end</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud Back Up Low End</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud DRaaS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud DaaS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud Disaster Recovery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud Hosted Exchange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud MDM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud Solution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud Telephony</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Co-Location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIA Wireless</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Center Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data VPN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dedicated Internet Access Fibre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digicel Eye</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digicel Installation %28Once Of%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digicel Maintenance %28recurring%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F6 Vehicle Tracking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre Basic BB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre Network %26 Wireless Backup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed Voice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed Voice %26 Data Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSM Gateway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hosted PBX %28Avaya%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hosted Voice %26 Data Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IP Security%2FSurveillance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IPLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT Infrastructure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indirect Voice %28CPS%2C GSM Gateway%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Private Line</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legacy Vehicle Tracking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPLS WAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managed WAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metro-E Fibre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metro-E Wireless</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NGN Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PBX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential WiMax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIP Trucking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smart Metering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structured Cabling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Track %26 Trace Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unified Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Video Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wireless Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>mHealth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>mPOS and eCOM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Circuit_Type__c</picklist>
+        <values>
+            <fullName>Cabling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P2P</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WIMAX</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Dwelling_Type__c</picklist>
+        <values>
+            <fullName>Owned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rented</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>EquipmentStatus__c</picklist>
+        <values>
+            <fullName>Commande en cours de livraison</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commande en cours fournisseur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demande achat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Livraison client programmée</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>EquipmentSubStatus__c</picklist>
+        <values>
+            <fullName>Acompte encours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Acompte à faire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chez IDOM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En attente fournisseur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En cours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signée</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transitaire Paris</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Equipment__c</picklist>
+        <values>
+            <fullName>Collected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OS Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Order</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MS_Setup_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PV_Status__c</picklist>
+        <values>
+            <fullName>Generated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To generate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ProductionSubType__c</picklist>
+        <values>
+            <fullName>ADSL%2FSDSL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre FTTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Idlink</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Routeur 4G</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sans-fil</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ProductionType__c</picklist>
+        <values>
+            <fullName>Hébergement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matériel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prestations %28ingénierie etc%E2%80%A6%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Services Voix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sécurité</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VPN</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Provider__c</picklist>
+        <values>
+            <fullName>Collectivite St Barth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dauphin Telecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digicel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DomSpot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Idom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MNU %2F GNU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orange</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Security_Question__c</picklist>
+        <values>
+            <fullName>Mother%27s Maiden Name%3F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Name of First Pet%3F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>What city were you born%3F</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Request_Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Declined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Type__c</picklist>
+        <values>
+            <fullName>Internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VPN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voice</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold More Info Rqd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requested</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Returned to Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Returned to Service Del</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent to Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>With Core Technical</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SubStatus__c</picklist>
+        <values>
+            <fullName>Commande rejetée</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Config OK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On hold by contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On hold by customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UAT OK to be sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UAT on hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>cust to cancel request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>en attente commande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>not ready to install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>request to core</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>request to customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>request to presales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>request to sales</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Trial_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Unsuccessful__c</picklist>
+        <values>
+            <fullName>No Line of Site</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

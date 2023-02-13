@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Length_of_Delivery__c</fullName>
+    <description>tracks total number of days between requested and completed</description>
+    <externalId>false</externalId>
+    <formula>(Completed_Date__c  - Requested_Date__c) -
+( FLOOR ( ( ( (Completed_Date__c) - Requested_Date__c) / 7 ) ) * 2 ) +
+CASE(MOD ( Requested_Date__c - DATE( 1900,1,6 ),7),
+0,CASE( MOD ((Completed_Date__c) - DATE( 1900,1,6 ),7),0,1,2 ),
+1,CASE( MOD ((Completed_Date__c) - DATE( 1900,1,6 ),7),0,2,1 ),
+IF(MOD(Requested_Date__c - DATE( 1900,1,6 ),7) - MOD((Completed_Date__c) - DATE( 1900,1,6 ),7) &lt;= 0 ,0,
+IF(MOD((Completed_Date__c) - DATE( 1900,1,6 ),7) = 0,1,-2 ) ))</formula>
+    <label>Length of Delivery</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

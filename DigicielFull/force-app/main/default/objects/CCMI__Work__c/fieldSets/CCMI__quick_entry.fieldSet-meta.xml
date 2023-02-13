@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCMI__quick_entry</fullName>
+    <description>The Date and Hours fields should not be added, they are included on all pages.
+1. By the timecard and sidepanel for creating a missing time entry</description>
+    <displayedFields>
+        <field>CCMI__Comment__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>Quick Entry</label>
+</FieldSet>

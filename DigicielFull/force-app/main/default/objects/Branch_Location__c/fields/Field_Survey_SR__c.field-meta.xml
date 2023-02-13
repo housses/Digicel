@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_Survey_SR__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Field Survey SR</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Service_Request__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Barbados Field Survey</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Service_Request__c</referenceTo>
+    <relationshipLabel>Branch Locations (Service Request)</relationshipLabel>
+    <relationshipName>Branch_Locations1</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

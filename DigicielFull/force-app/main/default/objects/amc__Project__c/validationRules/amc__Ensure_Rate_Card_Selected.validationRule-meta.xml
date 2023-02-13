@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Ensure_Rate_Card_Selected</fullName>
+    <active>true</active>
+    <description>Ensure a Rate Card is specified if Billing Rate or Cost Rate are set to Rate Card</description>
+    <errorConditionFormula>AND(OR(ISPICKVAL(amc__Project_Day_Rate__c, &quot;Rate Card&quot;), ISPICKVAL(amc__Cost_Rate__c, &quot;Rate Card&quot;)), ISBLANK(amc__Rate_Card__c))</errorConditionFormula>
+    <errorMessage>To use Rate Card in Billing Rate or Cost Rate, you must specify a value in the Rate Card field</errorMessage>
+</ValidationRule>

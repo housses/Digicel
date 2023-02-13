@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Opportunity_PNG</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Net_Monthly_Revenue__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Setup_Fees__c</columns>
+    <columns>Contract_Value_SP__c</columns>
+    <columns>Contract_Term_SP__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>SalesTeam</filterScope>
+    <filters>
+        <field>Digicel_Country__c</field>
+        <operation>equals</operation>
+        <value>PNG</value>
+    </filters>
+    <label>Team Opportunity (PNG)</label>
+    <language>en_US</language>
+    <sharedTo>
+        <roleAndSubordinates>PNG</roleAndSubordinates>
+    </sharedTo>
+</ListView>

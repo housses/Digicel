@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Limit__c</fullName>
+    <businessOwnerUser>ttsdev_admin@digicelgroup.com.commcloud</businessOwnerUser>
+    <businessStatus>Active</businessStatus>
+    <description>THIS FIELD IS UDED BY THE CM TOOL</description>
+    <externalId>false</externalId>
+    <label>Credit Limit</label>
+    <securityClassification>Internal</securityClassification>
+    <summarizedField>OpportunityLineItem.Credit_Limit__c</summarizedField>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

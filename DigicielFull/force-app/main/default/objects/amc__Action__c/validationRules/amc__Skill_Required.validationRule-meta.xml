@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Skill_Required</fullName>
+    <active>true</active>
+    <description>ensures the ‘Skill’ field is populated on the Action if the Project ‘Billing Type’ or ‘Cost Type’ are set to ‘Skill-based’</description>
+    <errorConditionFormula>AND(ISBLANK( amc__Skill__c ),
+OR(TEXT(  amc__Milestone__r.amc__Project__r.amc__Project_Day_Rate__c  ) = &apos;Skill-based&apos;,
+TEXT(  amc__Milestone__r.amc__Project__r.amc__Cost_Rate__c   ) = &apos;Skill-based&apos;
+))</errorConditionFormula>
+    <errorDisplayField>amc__Skill__c</errorDisplayField>
+    <errorMessage>Skill must be populated for Projects that use Skill-based costings.</errorMessage>
+</ValidationRule>

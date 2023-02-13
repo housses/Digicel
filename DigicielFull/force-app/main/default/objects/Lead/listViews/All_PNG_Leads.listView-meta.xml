@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_PNG_Leads</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Digicel_Country__c</field>
+        <operation>contains</operation>
+        <value>PNG</value>
+    </filters>
+    <filters>
+        <field>What_is_the_monthly_rate__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>*All PNG Leads</label>
+    <language>en_US</language>
+    <sharedTo>
+        <roleAndSubordinates>PNG_Head_of_Business</roleAndSubordinates>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Digicel_PNG_ICT_GSM_Product</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PNG_ProductFamily__c</columns>
+    <columns>PNG_ProductLevel1__c</columns>
+    <columns>PNG_ProductLevel2__c</columns>
+    <columns>PNG_ProductLevel3__c</columns>
+    <columns>PNG_ProductType__c</columns>
+    <columns>Bundle_Name__c</columns>
+    <columns>PNG_SKU__c</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>Product_Type__c</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Category_Type__c</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>PRODUCT2.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.RECORD_TYPE</field>
+        <operation>equals</operation>
+        <value>Product2.PNG_ICTGSMProduct</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.NAME</field>
+        <operation>equals</operation>
+        <value>smpp</value>
+    </filters>
+    <label>Digicel PNG ICT &amp; GSM Product</label>
+    <sharedTo>
+        <roleAndSubordinates>PNG</roleAndSubordinates>
+    </sharedTo>
+</ListView>

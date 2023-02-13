@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset_Type__c</fullName>
+    <description>Defines the type of asset requested</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the type of asset requested</inlineHelpText>
+    <label>Asset Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Access Point - Wireless</fullName>
+                <default>false</default>
+                <label>Access Point - Wireless</label>
+            </value>
+            <value>
+                <fullName>Antenna</fullName>
+                <default>false</default>
+                <label>Antenna</label>
+            </value>
+            <value>
+                <fullName>Backup Battery</fullName>
+                <default>false</default>
+                <label>Backup Battery</label>
+            </value>
+            <value>
+                <fullName>Base Station</fullName>
+                <default>false</default>
+                <label>Base Station</label>
+            </value>
+            <value>
+                <fullName>Bracket</fullName>
+                <default>false</default>
+                <label>Bracket</label>
+            </value>
+            <value>
+                <fullName>Cable</fullName>
+                <default>false</default>
+                <label>Cable</label>
+            </value>
+            <value>
+                <fullName>Computer System</fullName>
+                <default>false</default>
+                <label>Computer System</label>
+            </value>
+            <value>
+                <fullName>Connector</fullName>
+                <default>false</default>
+                <label>Connector</label>
+            </value>
+            <value>
+                <fullName>Ethernet Converter</fullName>
+                <default>false</default>
+                <label>Ethernet Converter</label>
+            </value>
+            <value>
+                <fullName>Expansion Module</fullName>
+                <default>false</default>
+                <label>Expansion Module</label>
+            </value>
+            <value>
+                <fullName>Firewall - Wireless</fullName>
+                <default>false</default>
+                <label>Firewall - Wireless</label>
+            </value>
+            <value>
+                <fullName>Gateway</fullName>
+                <default>false</default>
+                <label>Gateway</label>
+            </value>
+            <value>
+                <fullName>Gateway - Paging</fullName>
+                <default>false</default>
+                <label>Gateway - Paging</label>
+            </value>
+            <value>
+                <fullName>GPS Harness</fullName>
+                <default>false</default>
+                <label>GPS Harness</label>
+            </value>
+            <value>
+                <fullName>Hard Drive</fullName>
+                <default>false</default>
+                <label>Hard Drive</label>
+            </value>
+            <value>
+                <fullName>Hardware</fullName>
+                <default>false</default>
+                <label>Hardware</label>
+            </value>
+            <value>
+                <fullName>Headset</fullName>
+                <default>false</default>
+                <label>Headset</label>
+            </value>
+            <value>
+                <fullName>Hook - Phone</fullName>
+                <default>false</default>
+                <label>Hook - Phone</label>
+            </value>
+            <value>
+                <fullName>Keyboard</fullName>
+                <default>false</default>
+                <label>Keyboard</label>
+            </value>
+            <value>
+                <fullName>Keypad</fullName>
+                <default>false</default>
+                <label>Keypad</label>
+            </value>
+            <value>
+                <fullName>Lightning Arrestor</fullName>
+                <default>false</default>
+                <label>Lightning Arrestor</label>
+            </value>
+            <value>
+                <fullName>Media Converter</fullName>
+                <default>false</default>
+                <label>Media Converter</label>
+            </value>
+            <value>
+                <fullName>Media Module</fullName>
+                <default>false</default>
+                <label>Media Module</label>
+            </value>
+            <value>
+                <fullName>Memory Card</fullName>
+                <default>false</default>
+                <label>Memory Card</label>
+            </value>
+            <value>
+                <fullName>Microphone - Wired</fullName>
+                <default>false</default>
+                <label>Microphone - Wired</label>
+            </value>
+            <value>
+                <fullName>Network Card</fullName>
+                <default>false</default>
+                <label>Network Card</label>
+            </value>
+            <value>
+                <fullName>Network Interface Module</fullName>
+                <default>false</default>
+                <label>Network Interface Module</label>
+            </value>
+            <value>
+                <fullName>Network Processor</fullName>
+                <default>false</default>
+                <label>Network Processor</label>
+            </value>
+            <value>
+                <fullName>Network Voice Router Module</fullName>
+                <default>false</default>
+                <label>Network Voice Router Module</label>
+            </value>
+            <value>
+                <fullName>ONT - Optical Network Terminal</fullName>
+                <default>false</default>
+                <label>ONT - Optical Network Terminal</label>
+            </value>
+            <value>
+                <fullName>ONU - Optical Network Unit</fullName>
+                <default>false</default>
+                <label>ONU - Optical Network Unit</label>
+            </value>
+            <value>
+                <fullName>Optical Network Terminal</fullName>
+                <default>false</default>
+                <label>Optical Network Terminal</label>
+            </value>
+            <value>
+                <fullName>Outdoor Radio Unit</fullName>
+                <default>false</default>
+                <label>Outdoor Radio Unit</label>
+            </value>
+            <value>
+                <fullName>Paper License</fullName>
+                <default>false</default>
+                <label>Paper License</label>
+            </value>
+            <value>
+                <fullName>PBX Switchboard</fullName>
+                <default>false</default>
+                <label>PBX Switchboard</label>
+            </value>
+            <value>
+                <fullName>Phone - GSM</fullName>
+                <default>false</default>
+                <label>Phone - GSM</label>
+            </value>
+            <value>
+                <fullName>Phone - IP</fullName>
+                <default>false</default>
+                <label>Phone - IP</label>
+            </value>
+            <value>
+                <fullName>Phone - IP Conference</fullName>
+                <default>false</default>
+                <label>Phone - IP Conference</label>
+            </value>
+            <value>
+                <fullName>Phone - Standard</fullName>
+                <default>false</default>
+                <label>Phone - Standard</label>
+            </value>
+            <value>
+                <fullName>Phone - Wireless</fullName>
+                <default>false</default>
+                <label>Phone - Wireless</label>
+            </value>
+            <value>
+                <fullName>Power Cord</fullName>
+                <default>false</default>
+                <label>Power Cord</label>
+            </value>
+            <value>
+                <fullName>Power Module</fullName>
+                <default>false</default>
+                <label>Power Module</label>
+            </value>
+            <value>
+                <fullName>Power Over Ethernet Adapter</fullName>
+                <default>false</default>
+                <label>Power Over Ethernet Adapter</label>
+            </value>
+            <value>
+                <fullName>Power Over Ethernet Server</fullName>
+                <default>false</default>
+                <label>Power Over Ethernet Server</label>
+            </value>
+            <value>
+                <fullName>Rack Mount</fullName>
+                <default>false</default>
+                <label>Rack Mount</label>
+            </value>
+            <value>
+                <fullName>Router</fullName>
+                <default>false</default>
+                <label>Router</label>
+            </value>
+            <value>
+                <fullName>Router - Wireless</fullName>
+                <default>false</default>
+                <label>Router - Wireless</label>
+            </value>
+            <value>
+                <fullName>Sample Type</fullName>
+                <default>false</default>
+                <label>Sample Type</label>
+            </value>
+            <value>
+                <fullName>Security Appliance</fullName>
+                <default>false</default>
+                <label>Security Appliance</label>
+            </value>
+            <value>
+                <fullName>Server</fullName>
+                <default>false</default>
+                <label>Server</label>
+            </value>
+            <value>
+                <fullName>Server Module</fullName>
+                <default>false</default>
+                <label>Server Module</label>
+            </value>
+            <value>
+                <fullName>Speaker - Bluetooth</fullName>
+                <default>false</default>
+                <label>Speaker - Bluetooth</label>
+            </value>
+            <value>
+                <fullName>Speakerphone - Wireless</fullName>
+                <default>false</default>
+                <label>Speakerphone - Wireless</label>
+            </value>
+            <value>
+                <fullName>Stack Module</fullName>
+                <default>false</default>
+                <label>Stack Module</label>
+            </value>
+            <value>
+                <fullName>Switch - 8 Port</fullName>
+                <default>false</default>
+                <label>Switch - 8 Port</label>
+            </value>
+            <value>
+                <fullName>Switch - 12 Port</fullName>
+                <default>false</default>
+                <label>Switch - 12 Port</label>
+            </value>
+            <value>
+                <fullName>Switch - 24 Port</fullName>
+                <default>false</default>
+                <label>Switch - 24 Port</label>
+            </value>
+            <value>
+                <fullName>Switch - 48 Port</fullName>
+                <default>false</default>
+                <label>Switch - 48 Port</label>
+            </value>
+            <value>
+                <fullName>Switch - 52 Port</fullName>
+                <default>false</default>
+                <label>Switch - 52 Port</label>
+            </value>
+            <value>
+                <fullName>Telephone Adapter</fullName>
+                <default>false</default>
+                <label>Telephone Adapter</label>
+            </value>
+            <value>
+                <fullName>Transceiver</fullName>
+                <default>false</default>
+                <label>Transceiver</label>
+            </value>
+            <value>
+                <fullName>Transceiver Module</fullName>
+                <default>false</default>
+                <label>Transceiver Module</label>
+            </value>
+            <value>
+                <fullName>Trunk</fullName>
+                <default>false</default>
+                <label>Trunk</label>
+            </value>
+            <value>
+                <fullName>UPS</fullName>
+                <default>false</default>
+                <label>UPS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

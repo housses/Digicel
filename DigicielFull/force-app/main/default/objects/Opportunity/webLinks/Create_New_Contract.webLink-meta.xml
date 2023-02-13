@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_New_Contract</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Create New Contract</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/800/e?
+retURL=%2F{!NULLVALUE( Opportunity.Id, Contract.Id )}&amp;
+CF00Nd0000004zOvr={!Opportunity.Name}&amp;
+CF00Nd0000004zOvr_lkid={! Opportunity.Id }&amp;
+ctrc7={!Opportunity.Account}&amp;
+ctrc40={!Opportunity.Contract_Term__c} &amp;
+ctrc15=&quot;Draft (Work In Progress)&quot;&amp;
+00Nd0000008yAnS={!Opportunity.Contract_Value__c}&amp;
+RecordType=012d0000001gy2h</url>
+</WebLink>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trinidad_Service_Delivery_Team</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Trinidad Service Request Team</label>
+    <language>en_US</language>
+    <queue>Trinidad_Service_Request_Team</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+        <group>Trinidad_Approve_All_Opps_Sharing</group>
+        <group>Trinidad_Pre_Sales</group>
+        <group>Trinidad_Service_Delivery</group>
+        <group>Trinidad_Service_Request</group>
+        <role>Trinidad_Corporate_Care_Manager</role>
+        <role>Trinidad_Finance</role>
+        <role>Trinidad_Head_of_SMB_SOHO</role>
+        <role>Trinidad_ICT_Service_Delivery_Executive</role>
+        <role>Trinidad_ICT_Service_Teamlead</role>
+        <role>Trinidad_Pre_Sales_Manager</role>
+        <role>Trinidad_Pre_Sales_Team</role>
+        <role>Trinidad_SMB_BDE_Manager_2</role>
+        <role>Trinidad_SMB_BDE_Team_2</role>
+        <role>Trinidad_SMB_BDE_Team_3</role>
+        <role>Trinidad_SMB_Fibre_Manager_3</role>
+        <role>Trinidad_SMB_Manager</role>
+        <role>Trinidad_SMB_Manager_4</role>
+        <role>Trinidad_SMB_Team</role>
+        <role>Trinidad_Sales_Operations</role>
+        <role>Trinidad_Tobago</role>
+    </sharedTo>
+</ListView>

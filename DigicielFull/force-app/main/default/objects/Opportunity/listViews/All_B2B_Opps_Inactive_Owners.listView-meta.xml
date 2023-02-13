@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_B2B_Opps_Inactive_Owners</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Estimated_Billed_Date__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>MRC__c</columns>
+    <columns>OTC__c</columns>
+    <columns>Net_AOP_Total__c</columns>
+    <columns>Contract_Value__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Digicel_Business_Opportunity</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Closed Won,Billed,Closed Lost,Disconnected</value>
+    </filters>
+    <filters>
+        <field>Active_User__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>All B2B  Opps - Inactive Owners</label>
+    <language>en_US</language>
+    <sharedTo>
+        <roleAndSubordinates>Digicel_Group_Business_Solutions_C_CA_Region</roleAndSubordinates>
+    </sharedTo>
+</ListView>

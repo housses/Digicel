@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employee_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Employee Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Performer</fullName>
+                <default>false</default>
+                <label>Performer</label>
+            </value>
+            <value>
+                <fullName>New Employee</fullName>
+                <default>false</default>
+                <label>New Employee</label>
+            </value>
+            <value>
+                <fullName>Being Monitored</fullName>
+                <default>false</default>
+                <label>Being Monitored</label>
+            </value>
+            <value>
+                <fullName>To be placed on PIP</fullName>
+                <default>false</default>
+                <label>To be placed on PIP</label>
+            </value>
+            <value>
+                <fullName>On PIP</fullName>
+                <default>false</default>
+                <label>On PIP</label>
+            </value>
+            <value>
+                <fullName>On Leave</fullName>
+                <default>false</default>
+                <label>On Leave</label>
+            </value>
+            <value>
+                <fullName>Resigned</fullName>
+                <default>false</default>
+                <label>Resigned</label>
+            </value>
+            <value>
+                <fullName>To be Exited</fullName>
+                <default>false</default>
+                <label>To be Exited</label>
+            </value>
+            <value>
+                <fullName>Exited</fullName>
+                <default>false</default>
+                <label>Exited</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

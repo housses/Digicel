@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Ensure_Working_Days_Greater_Than_Zero</fullName>
+    <active>true</active>
+    <description>Ensures the Working Days field is greater than 0</description>
+    <errorConditionFormula>or(ISNULL(amc__Working_Days__c), amc__Working_Days__c  &lt;= 0)</errorConditionFormula>
+    <errorMessage>The Working Days must be greater than 0</errorMessage>
+</ValidationRule>

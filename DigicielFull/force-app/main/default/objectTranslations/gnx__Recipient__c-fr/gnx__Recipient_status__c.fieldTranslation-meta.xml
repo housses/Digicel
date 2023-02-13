@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>gnx__Recipient_status__c</name>
+    <picklistValues>
+        <masterLabel>notified</masterLabel>
+        <translation>Notifié</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>signed</masterLabel>
+        <translation>Signé</translation>
+    </picklistValues>
+</CustomFieldTranslation>

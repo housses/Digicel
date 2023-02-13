@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Digicel_PNG_GSM</fullName>
+    <active>true</active>
+    <label>Digicel PNG GSM</label>
+    <picklistValues>
+        <picklist>City__c</picklist>
+        <values>
+            <fullName>To be provided</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ContractPriceIncreaseClause__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contract_Term_Years__c</picklist>
+        <values>
+            <fullName>1 Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9 Years</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contract_Type__c</picklist>
+        <values>
+            <fullName>GSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Country__c</picklist>
+        <values>
+            <fullName>Papua New Guinea</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ExpirationNotice__c</picklist>
+        <values>
+            <fullName>180 Days Before Expiration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90 Days Before Expiration</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PNG_Type__c</picklist>
+        <values>
+            <fullName>Business Managed Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud Telephony</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digicel Fixed Voice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hosted PBX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VSAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voice %26 Data</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Parish_Region_Department__c</picklist>
+        <values>
+            <fullName>Central Province</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chimbu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daru Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East Sepik</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eastern Highlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gulf Province</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Highlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Highlands - Mt Hagen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jiwaka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Milne Bay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morobe - LAE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morobe - Madang</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morobe - Wewak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morobe Province</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern Province</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuigini Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuigini Islands -  Bougainville</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuigini Islands -  East New Britain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuigini Islands -  Kokopo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuigini Islands -  Manus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuigini Islands -  New Ireland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuigini Islands -  West New Britain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PoM - NCD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southern Highlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Sepik</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Western Highlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Western Province</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Order_Type__c</picklist>
+        <values>
+            <fullName>Private Network Service</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Accepted %28Customer Agreed%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Active %28Customer Signed%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft %28Work In Progress%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Approval Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revision %28Changes Being Made%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted %28Sent To Customer%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>StatusPV__c</picklist>
+        <values>
+            <fullName>Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reviewed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

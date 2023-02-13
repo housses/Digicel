@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suriname_Service_Request_Queue_Work_Order_Updates</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Suriname Service Request Queue</label>
+    <queue>Suriname_Service_Request_Queue</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

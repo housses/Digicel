@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_Commitment_Approved__c</fullName>
+    <businessOwnerGroup>Trend_Media_SFDC_Owners</businessOwnerGroup>
+    <businessStatus>Active</businessStatus>
+    <defaultValue>false</defaultValue>
+    <description>Used by Trend for Approvals</description>
+    <externalId>false</externalId>
+    <label>Stage - Commitment Approved</label>
+    <securityClassification>MissionCritical</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

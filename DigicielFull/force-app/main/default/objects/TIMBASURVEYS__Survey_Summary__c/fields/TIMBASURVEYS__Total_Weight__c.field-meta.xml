@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TIMBASURVEYS__Total_Weight__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Total Weight</label>
+    <summarizedField>TIMBASURVEYS__Question_Summary__c.TIMBASURVEYS__weight__c</summarizedField>
+    <summaryForeignKey>TIMBASURVEYS__Question_Summary__c.TIMBASURVEYS__Survey_Summary__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

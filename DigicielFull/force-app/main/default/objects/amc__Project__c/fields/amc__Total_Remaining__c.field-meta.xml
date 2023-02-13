@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Total_Remaining__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(amc__Non_Billable__c = TRUE, 0, IF(ISPICKVAL(amc__Billing_Type__c, &quot;Fixed Price&quot;), amc__Cost_Budget__c - (amc__Amount_Invoiced__c - amc__Total_Credited__c), IF(ISPICKVAL( amc__Billing_Type__c, &quot;Fixed Price + Expenses&quot;), amc__Cost_Budget__c - (amc__Amount_Invoiced__c - (amc__Expenses_Invoiced__c + amc__Total_Credited__c)) , IF(ISPICKVAL(amc__Billing_Type__c, &quot;Controlled on Milestones&quot;), amc__Cost_Budget__c - (amc__Amount_Invoiced__c - amc__Total_Credited__c), (amc__Hours_Scheduled_Cost__c + IF(amc__Anticipated_Project_Expenses__c &gt; amc__Actual_Project_Expenses__c, amc__Anticipated_Project_Expenses__c, amc__Actual_Project_Expenses__c - amc__Expenses_Invoiced__c)) - (amc__Amount_Invoiced__c - amc__Total_Credited__c)))))
+
+/*If Non Billable is TRUE, display zero. Otherwise, if Fixed Price, Project Budget - (Amount Invoiced - Amount Credited). If Fixed Price + Expenses, Project Budget - (Amount Invoiced - (Expenses Invoiced + Amount Credited). If Controlled on Milestones, Project Budget - (Amount Invoiced - Amount Credited). If Time &amp; Materials, (Scheduled Hours Value (Billable) + (Greater of Anticipated Project Expenses or Actual Project Expenses - Expenses Invoiced) - (Amount Invoiced - Amount Credited)*/</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Identifies the value remaining to be invoiced for this project. If Billing Type = Fixed Price, Project Budget - Total Invoiced otherwise Hours Scheduled Value (Billable) - Total Invoiced</inlineHelpText>
+    <label>Total Remaining</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

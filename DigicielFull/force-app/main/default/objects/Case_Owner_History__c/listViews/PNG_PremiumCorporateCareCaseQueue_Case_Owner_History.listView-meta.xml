@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_PremiumCorporateCareCaseQueue_Case_Owner_History</fullName>
+    <filterScope>Queue</filterScope>
+    <label>PNG - Premium Corporate Care</label>
+    <queue>PNG_PremiumCorporateCareCaseQueue</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_Town__c</fullName>
+    <externalId>false</externalId>
+    <label>PNG Town</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>PNG_Region__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Alotau</fullName>
+                <default>false</default>
+                <label>Alotau</label>
+            </value>
+            <value>
+                <fullName>Arawa</fullName>
+                <default>false</default>
+                <label>Arawa</label>
+            </value>
+            <value>
+                <fullName>Banz</fullName>
+                <default>false</default>
+                <label>Banz</label>
+            </value>
+            <value>
+                <fullName>Daru</fullName>
+                <default>false</default>
+                <label>Daru</label>
+            </value>
+            <value>
+                <fullName>Goroka</fullName>
+                <default>false</default>
+                <label>Goroka</label>
+            </value>
+            <value>
+                <fullName>Kavieng</fullName>
+                <default>false</default>
+                <label>Kavieng</label>
+            </value>
+            <value>
+                <fullName>Kerema</fullName>
+                <default>false</default>
+                <label>Kerema</label>
+            </value>
+            <value>
+                <fullName>Kimbe</fullName>
+                <default>false</default>
+                <label>Kimbe</label>
+            </value>
+            <value>
+                <fullName>Kokopo</fullName>
+                <default>false</default>
+                <label>Kokopo</label>
+            </value>
+            <value>
+                <fullName>Kundiawa</fullName>
+                <default>false</default>
+                <label>Kundiawa</label>
+            </value>
+            <value>
+                <fullName>Lae</fullName>
+                <default>false</default>
+                <label>Lae</label>
+            </value>
+            <value>
+                <fullName>Lorengau</fullName>
+                <default>false</default>
+                <label>Lorengau</label>
+            </value>
+            <value>
+                <fullName>Madang</fullName>
+                <default>false</default>
+                <label>Madang</label>
+            </value>
+            <value>
+                <fullName>Mendi</fullName>
+                <default>false</default>
+                <label>Mendi</label>
+            </value>
+            <value>
+                <fullName>Mount Hagen</fullName>
+                <default>false</default>
+                <label>Mount Hagen</label>
+            </value>
+            <value>
+                <fullName>Popondetta</fullName>
+                <default>false</default>
+                <label>Popondetta</label>
+            </value>
+            <value>
+                <fullName>Port Moresby</fullName>
+                <default>false</default>
+                <label>Port Moresby</label>
+            </value>
+            <value>
+                <fullName>Tari</fullName>
+                <default>false</default>
+                <label>Tari</label>
+            </value>
+            <value>
+                <fullName>Vanimo</fullName>
+                <default>false</default>
+                <label>Vanimo</label>
+            </value>
+            <value>
+                <fullName>Wabag</fullName>
+                <default>false</default>
+                <label>Wabag</label>
+            </value>
+            <value>
+                <fullName>Wewak</fullName>
+                <default>false</default>
+                <label>Wewak</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Highlands Region</controllingFieldValue>
+            <valueName>Banz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Highlands Region</controllingFieldValue>
+            <valueName>Goroka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Highlands Region</controllingFieldValue>
+            <valueName>Kundiawa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Highlands Region</controllingFieldValue>
+            <valueName>Mendi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Highlands Region</controllingFieldValue>
+            <valueName>Mount Hagen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Highlands Region</controllingFieldValue>
+            <valueName>Tari</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Highlands Region</controllingFieldValue>
+            <valueName>Wabag</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Islands Region</controllingFieldValue>
+            <valueName>Arawa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Islands Region</controllingFieldValue>
+            <valueName>Kavieng</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Islands Region</controllingFieldValue>
+            <valueName>Kimbe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Islands Region</controllingFieldValue>
+            <valueName>Kokopo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Islands Region</controllingFieldValue>
+            <valueName>Lorengau</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Momase Region</controllingFieldValue>
+            <valueName>Lae</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Momase Region</controllingFieldValue>
+            <valueName>Madang</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Momase Region</controllingFieldValue>
+            <valueName>Vanimo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Momase Region</controllingFieldValue>
+            <valueName>Wewak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southern Region</controllingFieldValue>
+            <valueName>Alotau</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southern Region</controllingFieldValue>
+            <valueName>Daru</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southern Region</controllingFieldValue>
+            <valueName>Kerema</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southern Region</controllingFieldValue>
+            <valueName>Popondetta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southern Region</controllingFieldValue>
+            <valueName>Port Moresby</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

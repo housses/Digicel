@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>lionel</fullName>
+    <columns>NAME</columns>
+    <columns>Created_Date__c</columns>
+    <columns>Status__c</columns>
+    <columns>Service_Request_Details__c</columns>
+    <columns>Additional_Comments__c</columns>
+    <columns>ID_Liaison__c</columns>
+    <columns>PreStation__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ICT_Support_Engineer__c</field>
+        <operation>contains</operation>
+        <value>alpar</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Sent to Contractor</value>
+    </filters>
+    <label>SR équipe Fibre à attribuer</label>
+</ListView>

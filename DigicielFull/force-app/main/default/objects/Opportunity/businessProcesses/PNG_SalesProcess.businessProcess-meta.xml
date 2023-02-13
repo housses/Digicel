@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_SalesProcess</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Billed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed-Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed-Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Commercial Review</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Proposal Acceptance</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Proposal Review</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Prospecting %26 Qualification</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Solution Design</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Technical Feasibility</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

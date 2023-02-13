@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Projected_Value_Billable__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(amc__Milestone__r.amc__Project__r.amc__Billing_Type__c, &quot;Fixed Price&quot;), amc__Hours_Scheduled_Cost__c, IF(OR(ISBLANK(amc__Completion_Percent__c),amc__Completion_Percent__c =0), amc__Hours_Remaining_Cost__c, amc__Hours_Completed_Cost__c / amc__Completion_Percent__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Identifies the projected billable value for this action. If Billing Type = Fixed Price, Hours Scheduled Value (Billable), otherwise if Completion % is blank or zero, Hours Remaining Value (Billable), Hours Completed Value (Billable) / Completion %</inlineHelpText>
+    <label>Projected Value (Billable)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

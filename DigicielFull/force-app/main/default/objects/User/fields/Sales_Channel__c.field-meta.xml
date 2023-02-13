@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Channel__c</fullName>
+    <externalId>false</externalId>
+    <label>Sales Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>ENTP</fullName>
+                <default>false</default>
+                <label>ENTP</label>
+            </value>
+            <value>
+                <fullName>Strategic Sales</fullName>
+                <default>false</default>
+                <label>Strategic Sales</label>
+            </value>
+            <value>
+                <fullName>Tele-Sales</fullName>
+                <default>false</default>
+                <label>Tele-Sales</label>
+            </value>
+            <value>
+                <fullName>Key Deals</fullName>
+                <default>false</default>
+                <label>Key Deals</label>
+            </value>
+            <value>
+                <fullName>Corporate</fullName>
+                <default>false</default>
+                <label>Corporate</label>
+            </value>
+            <value>
+                <fullName>Gov</fullName>
+                <default>false</default>
+                <label>Gov</label>
+            </value>
+            <value>
+                <fullName>SMB</fullName>
+                <default>false</default>
+                <label>SMB</label>
+            </value>
+            <value>
+                <fullName>ICT</fullName>
+                <default>false</default>
+                <label>ICT</label>
+            </value>
+            <value>
+                <fullName>Service Management</fullName>
+                <default>false</default>
+                <label>Service Management</label>
+            </value>
+            <value>
+                <fullName>Advertising</fullName>
+                <default>false</default>
+                <label>Advertising</label>
+            </value>
+            <value>
+                <fullName>Regional Accounts</fullName>
+                <default>false</default>
+                <label>Regional Accounts</label>
+            </value>
+            <value>
+                <fullName>Wholesale</fullName>
+                <default>false</default>
+                <label>Wholesale</label>
+            </value>
+            <value>
+                <fullName>Reseller</fullName>
+                <default>false</default>
+                <label>Reseller</label>
+            </value>
+            <value>
+                <fullName>Multiple</fullName>
+                <default>false</default>
+                <label>Multiple</label>
+            </value>
+            <value>
+                <fullName>Business Sales</fullName>
+                <default>false</default>
+                <label>Business Sales</label>
+            </value>
+            <value>
+                <fullName>Enterprise Sales</fullName>
+                <default>false</default>
+                <label>Enterprise Sales</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trinidad_Pre_Sales_Team_Pre_Sales_Request</fullName>
+    <columns>NAME</columns>
+    <columns>PSR_Type__c</columns>
+    <columns>Priority__c</columns>
+    <columns>Requested_Date__c</columns>
+    <columns>Required_Date__c</columns>
+    <columns>SolutionType__c</columns>
+    <columns>Status__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Complete,Rejected,Cancelled,Not Qualified</value>
+    </filters>
+    <label>Trinidad Pre Sales Team</label>
+    <queue>Trinidad_Pre_Sales_Team</queue>
+    <sharedTo>
+        <group>All_Trinidad_and_Tobago_Users</group>
+    </sharedTo>
+</ListView>

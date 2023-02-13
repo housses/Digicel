@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Enforce_Cost_Values</fullName>
+    <active>true</active>
+    <description>Ensures the Cost Amout and Cost Tax Amount fields contain values if Mark Up Required = TRUE</description>
+    <errorConditionFormula>AND(
+  amc__Mark_Up_Required__c, 
+ OR(
+  ISBLANK(amc__Cost_Amount__c),
+  ISBLANK(amc__Cost_Tax_Amount__c)
+ )
+)</errorConditionFormula>
+    <errorMessage>If Mark Up Required = TRUE, Cost Amount and Cost Tax Amount must contain values</errorMessage>
+</ValidationRule>

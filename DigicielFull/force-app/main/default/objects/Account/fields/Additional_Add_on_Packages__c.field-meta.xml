@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Add_on_Packages__c</fullName>
+    <externalId>false</externalId>
+    <label>Additional Add on Packages</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Movie Package</fullName>
+                <default>false</default>
+                <label>Movie Package</label>
+            </value>
+            <value>
+                <fullName>Sports Pack</fullName>
+                <default>false</default>
+                <label>Sports Pack</label>
+            </value>
+            <value>
+                <fullName>Sports Max Pack</fullName>
+                <default>false</default>
+                <label>Sports Max Pack</label>
+            </value>
+            <value>
+                <fullName>Adult Service</fullName>
+                <default>false</default>
+                <label>Adult Service</label>
+            </value>
+            <value>
+                <fullName>HD Package</fullName>
+                <default>false</default>
+                <label>HD Package</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

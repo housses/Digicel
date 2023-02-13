@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Installation_Contractor__c</fullName>
+    <externalId>false</externalId>
+    <label>Installation Contractor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Airtel</fullName>
+                <default>false</default>
+                <label>Airtel</label>
+            </value>
+            <value>
+                <fullName>Alliance</fullName>
+                <default>false</default>
+                <label>Alliance</label>
+            </value>
+            <value>
+                <fullName>Aspirona</fullName>
+                <default>false</default>
+                <label>Aspirona</label>
+            </value>
+            <value>
+                <fullName>Saint and Storm</fullName>
+                <default>false</default>
+                <label>Saint and Storm</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

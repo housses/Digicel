@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Markets_Stale_Dated_Bill_Dates</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Estimated_Billed_Date__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>MRC__c</columns>
+    <columns>OTC__c</columns>
+    <columns>Net_AOP_Total__c</columns>
+    <columns>Contract_Value__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Digicel_Business_Opportunity</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Billed,Closed Lost,Disconnected</value>
+    </filters>
+    <filters>
+        <field>Estimated_Billed_Date__c</field>
+        <operation>lessThan</operation>
+        <value>TODAY</value>
+    </filters>
+    <filters>
+        <field>of_Pending_Line_Items__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Digicel_Country__c</field>
+        <operation>equals</operation>
+        <value>Saint Lucia</value>
+    </filters>
+    <label>My Markets Stale Dated Bill Dates</label>
+    <language>en_US</language>
+</ListView>

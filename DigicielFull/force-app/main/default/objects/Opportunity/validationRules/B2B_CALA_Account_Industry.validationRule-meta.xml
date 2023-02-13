@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_CALA_Account_Industry</fullName>
+    <active>true</active>
+    <description>Industry field must be populated on account to create or edit an opportunity</description>
+    <errorConditionFormula>ISPICKVAL(Account.Industry, &quot;&quot;) &amp;&amp;
+NOT(CONTAINS(RecordType.DeveloperName, &quot;Trend&quot;))&amp;&amp;
+NOT(CONTAINS(RecordType.DeveloperName, &quot;PNG&quot;)) &amp;&amp;
+$Profile.Name &lt;&gt;&quot;System Administrator&quot;</errorConditionFormula>
+    <errorMessage>Please populate the Industry field on the associated account before attempting to create or edit this opportunity. TIP: OPEN ACCOUNT IN NEW TAB, THEN COME BACK AND TRY SAVING YOUR OPPORTUNITY AGAIN</errorMessage>
+</ValidationRule>

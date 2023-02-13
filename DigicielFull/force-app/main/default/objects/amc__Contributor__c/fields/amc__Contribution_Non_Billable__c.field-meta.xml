@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Contribution_Non_Billable__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Identifies the number of non biilable hours this Contributor will be responsible for</description>
+    <externalId>false</externalId>
+    <label>Contribution Non Billable</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

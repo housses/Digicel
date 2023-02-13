@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Montserrat_Consumer_Products</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Product_Family2__c</columns>
+    <columns>Charge_Type__c</columns>
+    <columns>Product_Interest__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Type__c</field>
+        <operation>equals</operation>
+        <value>Consumer</value>
+    </filters>
+    <filters>
+        <field>Country__c</field>
+        <operation>includes</operation>
+        <value>Montserrat</value>
+    </filters>
+    <label>Montserrat Consumer Products</label>
+</ListView>

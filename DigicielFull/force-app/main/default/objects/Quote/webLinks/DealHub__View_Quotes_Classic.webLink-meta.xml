@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DealHub__View_Quotes_Classic</fullName>
+    <availability>online</availability>
+    <description>View_Quotes_Classic</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>View Quotes</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>window.location.href = &apos;{!$Site.Prefix}/apex/{!$Setup.DealHub__DealHubSetting__c.DealHub__Namespace_Prefix__c}__DealHub_Classic?param=Quotes&amp;quoteId={!Quote.Id}&apos;</url>
+</WebLink>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContactType__c</fullName>
+    <externalId>false</externalId>
+    <label>Contact Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Telephone Call</fullName>
+                <default>false</default>
+                <label>Telephone Call</label>
+            </value>
+            <value>
+                <fullName>Video Conference</fullName>
+                <default>false</default>
+                <label>Video Conference</label>
+            </value>
+            <value>
+                <fullName>In-Person Meeting</fullName>
+                <default>false</default>
+                <label>In-Person Meeting</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Issues_Driving_the_Purchase__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Compelling event driving the business need</inlineHelpText>
+    <label>Business Issues Driving the Purchase</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

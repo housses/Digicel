@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Final_Margin__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Discount__c &gt;0, IF(Discount_Extended_Selling_Price__c&gt;0,Discount_Margin__c /  Discount_Extended_Selling_Price__c,0 ), Margin_markup_percent__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>NOT IN USE-Margin (Digicel) %</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Percent</type>
+</CustomField>

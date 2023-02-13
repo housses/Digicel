@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>REPORT_All_User_Owned_Branch_Locations</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>REPORT: All User Owned Branch Locations</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/00O0W000005zlhx?pv0={!User.Id}</url>
+</WebLink>

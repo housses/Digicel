@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Days_per_Week__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(amc__Monday__c &gt; 0, 1, 0) + IF(amc__Tuesday__c &gt; 0, 1, 0) + IF(amc__Wednesday__c &gt; 0, 1, 0) + IF(amc__Thursday__c &gt; 0, 1, 0) + IF(amc__Friday__c &gt; 0, 1, 0) + IF(amc__Saturday__c &gt; 0, 1, 0) + IF(amc__Sunday__c &gt; 0, 1, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Formula: Identifies how many days contain a value greater than 0 to calculate the number of days per week the Role works</inlineHelpText>
+    <label>Days per Week</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

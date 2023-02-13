@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InternalRateReturn__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Or IRR is a financial metric used in capital budgeting to estimate the profitability /attractiveness of a project or investment. IRR is a discount rate that makes the net present value (NPV) of all cash flows from a particular project equal to zero.</inlineHelpText>
+    <label>Internal Rate Return (%)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

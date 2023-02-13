@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Total_Remaining_Cost__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>amc__Hours_Remaining_Cost__c  +  amc__Remaining_Expenses_Cost__c  +  amc__Material_Costs_Remaining_Cost__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Formula: Sum of Hours Remaining (Cost) + Remaining Expenses (Cost) + Material Costs Remaining (Cost)</inlineHelpText>
+    <label>Total Remaining Cost</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

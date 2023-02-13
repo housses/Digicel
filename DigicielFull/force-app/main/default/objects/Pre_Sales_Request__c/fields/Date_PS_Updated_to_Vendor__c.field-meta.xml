@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_PS_Updated_to_Vendor__c</fullName>
+    <description>tracks the date the status is update to &quot;Sent to Vendor&quot;</description>
+    <externalId>false</externalId>
+    <label>Date PS Updated to Vendor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Milestone_Completion_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>If(ISPICKVAL(amc__Status__c, &quot;Complete&quot;) , 1 ,If(OR(amc__Total_Hours_Scheduled__c = 0, amc__Total_Hours_Completed__c = 0), If(amc__Total_Actions__c &gt; 0, amc__Complete_Actions__c / amc__Total_Actions__c, 0), amc__Total_Hours_Completed__c / ( amc__Total_Hours_Completed__c + amc__Total_Projected_Hours_Remaining__c )))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If Status = Complete, will display 100%. If Hours Completed = 0 will display 0, otherwise Hours Completed / (Hours Completed + Hours Remaining)</inlineHelpText>
+    <label>Milestone Completion Status</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

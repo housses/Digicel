@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Marketing_Provider__c</fullName>
+    <externalId>false</externalId>
+    <label>Current Marketing Provider</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Claro</fullName>
+                <default>false</default>
+                <label>Claro</label>
+            </value>
+            <value>
+                <fullName>Telefonica</fullName>
+                <default>false</default>
+                <label>Telefonica</label>
+            </value>
+            <value>
+                <fullName>Millicom</fullName>
+                <default>false</default>
+                <label>Millicom</label>
+            </value>
+            <value>
+                <fullName>GTT</fullName>
+                <default>false</default>
+                <label>GTT</label>
+            </value>
+            <value>
+                <fullName>SMS Communications</fullName>
+                <default>false</default>
+                <label>SMS Communications</label>
+            </value>
+            <value>
+                <fullName>Jamaica Observer</fullName>
+                <default>false</default>
+                <label>Jamaica Observer</label>
+            </value>
+            <value>
+                <fullName>Extra</fullName>
+                <default>false</default>
+                <label>Extra</label>
+            </value>
+            <value>
+                <fullName>Vigilante</fullName>
+                <default>false</default>
+                <label>Vigilante</label>
+            </value>
+            <value>
+                <fullName>Amigoe</fullName>
+                <default>false</default>
+                <label>Amigoe</label>
+            </value>
+            <value>
+                <fullName>Loop</fullName>
+                <default>false</default>
+                <label>Loop</label>
+            </value>
+            <value>
+                <fullName>CaytonE</fullName>
+                <default>false</default>
+                <label>CaytonE</label>
+            </value>
+            <value>
+                <fullName>Lime</fullName>
+                <default>false</default>
+                <label>Lime</label>
+            </value>
+            <value>
+                <fullName>Flow</fullName>
+                <default>false</default>
+                <label>Flow</label>
+            </value>
+            <value>
+                <fullName>UTS</fullName>
+                <default>false</default>
+                <label>UTS</label>
+            </value>
+            <value>
+                <fullName>Setar</fullName>
+                <default>false</default>
+                <label>Setar</label>
+            </value>
+            <value>
+                <fullName>Orange Caraibes</fullName>
+                <default>false</default>
+                <label>Orange Caraibes</label>
+            </value>
+            <value>
+                <fullName>Only Numericable</fullName>
+                <default>false</default>
+                <label>Only Numericable</label>
+            </value>
+            <value>
+                <fullName>Dauphin Telecom</fullName>
+                <default>false</default>
+                <label>Dauphin Telecom</label>
+            </value>
+            <value>
+                <fullName>Mediaserv Canal</fullName>
+                <default>false</default>
+                <label>Mediaserv Canal</label>
+            </value>
+            <value>
+                <fullName>TCI Weekly News</fullName>
+                <default>false</default>
+                <label>TCI Weekly News</label>
+            </value>
+            <value>
+                <fullName>TCI Sun</fullName>
+                <default>false</default>
+                <label>TCI Sun</label>
+            </value>
+            <value>
+                <fullName>Constant Contact</fullName>
+                <default>false</default>
+                <label>Constant Contact</label>
+            </value>
+            <value>
+                <fullName>Wi-Connect</fullName>
+                <default>false</default>
+                <label>Wi-Connect</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MC4SF__Retrieve_from_MailChimp_detail</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Retrieve from MailChimp</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/26.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/26.0/apex.js&quot;)}
+
+var id = &apos;{!MC4SF__MC_List__c.MC4SF__MailChimp_ID__c}&apos;;
+
+try {
+	var response = sforce.apex.execute(&quot;MC4SF.Util&quot;, &quot;loadLists&quot;, {id: &apos;{!MC4SF__MC_List__c.MC4SF__MailChimp_ID__c}&apos;});
+	if (response != &apos;Success&apos;) {
+		alert(response);
+	} else {
+		top.location.href = top.location.href;
+	}
+} catch (error) {
+	if (error.faultcode == &apos;sf:INSUFFICIENT_ACCESS&apos;) {
+		alert(&apos;You do not have permission to perform this function.&apos;);
+	} else {
+		alert(error);
+	}
+}</url>
+</WebLink>

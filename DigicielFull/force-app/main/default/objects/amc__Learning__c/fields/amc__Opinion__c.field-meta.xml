@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Opinion__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Identifies the Opinion of this Learning</inlineHelpText>
+    <label>Opinion</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Worked Well</fullName>
+                <default>false</default>
+                <label>Worked Well</label>
+            </value>
+            <value>
+                <fullName>Needs Improvement</fullName>
+                <default>false</default>
+                <label>Needs Improvement</label>
+            </value>
+            <value>
+                <fullName>Try Next</fullName>
+                <default>false</default>
+                <label>Try Next</label>
+            </value>
+            <value>
+                <fullName>Puzzles Us</fullName>
+                <default>false</default>
+                <label>Puzzles Us</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_Opportunity_OnHold_Reason_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL(StageName ,&apos;On Hold&apos;), ISPICKVAL(PNG_OnHoldReason__c ,&apos;&apos;),
+RecordType.Id  = LEFT($Label.PNG_OpprtunityRecordTypeId,15))</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>You must select a value in On Hold Reason</errorMessage>
+</ValidationRule>

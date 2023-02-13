@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DigicelFaultReporting__c</fullName>
+    <externalId>false</externalId>
+    <formula>Case (Digicel_Country__c,
+&quot;Anguilla&quot;, &quot;&quot;,
+&quot;Antigua and Barbuda&quot;, &quot;&quot;,
+&quot;Aruba&quot;, &quot;&quot;,
+&quot;Barbados&quot;, &quot;The Client Services Department can be contacted at +1(246)530-2273.&quot;,
+&quot;Bermuda&quot;, &quot;The Client Services Department can be contacted at 611 from a Digicel phone or 500-5600.&quot;,
+&quot;Bonaire&quot;, &quot;&quot;,
+&quot;Cayman Islands&quot;, &quot;&quot;,
+&quot;Curaçao&quot;, &quot;&quot;,
+&quot;Dominica&quot;, &quot;&quot;,
+&quot;El Salvador&quot;, &quot;&quot;,
+&quot;French Guiana&quot;, &quot;&quot;,
+&quot;Grenada&quot;, &quot;The Client Services Department can be contacted at 600 from a Digicel phone&quot;,
+&quot;Guadeloupe&quot;, &quot;&quot;,
+&quot;Guyana&quot;, &quot;&quot;,
+&quot;Haiti&quot;, &quot;&quot;,
+&quot;Jamaica&quot;, &quot;&quot;,
+&quot;Martinique&quot;, &quot;&quot;,
+&quot;Panama&quot;, &quot;&quot;,
+&quot;Saint Kitts and Nevis&quot;, &quot;&quot;,
+&quot;Saint Lucia&quot;, &quot;The Client Services Department can be contacted at 600 or 106 from a Digicel phone or 17587314330.&quot;,
+&quot;Saint Vincent and the Grenadines&quot;, &quot;The Client Services Department can be contacted at 100 from a Digicel phone or ‎+1 (784) 528-7626.&quot;,
+&quot;Suriname&quot;, &quot;&quot;,
+&quot;Tres Networks&quot;, &quot;&quot;,
+&quot;Trinidad and Tobago&quot;, &quot;The Client Services Department can be contacted at 600 from a Digicel phone or 299-6600 (chargeable call).&quot;,
+&quot;Turks and Caicos Islands&quot;, &quot;&quot;,
+&quot;BVI&quot;, &quot;&quot;,
+&quot;FWI&quot;, &quot;&quot;,
+&quot;Fiji&quot;, &quot;&quot;,
+&quot;PNG&quot;, &quot;&quot;,
+&quot;Samoa&quot;, &quot;&quot;,
+&quot;Vanuatu&quot;, &quot;&quot;,
+&quot;Tonga&quot;, &quot;&quot;,
+&quot;Nauru&quot;, &quot;&quot;,
+&quot;Reunion&quot;, &quot;&quot;,
+&quot;Mayotte&quot;, &quot;&quot;,
+&quot;Group Business Team&quot;,&quot;Ansa Centre, 11c Maraval Road, Port of Spain, Trinidad and Tobago&quot;,
+&quot;Carrier Sales&quot;, &quot;&quot;,
+&quot;Wholesale&quot;, &quot;&quot;,
+&quot;Digicel International Business&quot;, &quot;&quot;,
+&quot;Diaspora&quot;, &quot;&quot;,
+&quot;Vendor&quot;, &quot;&quot;
+,&quot;&quot;)</formula>
+    <label>Digicel Fault Reporting</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

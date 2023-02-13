@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Coverage_Area_Values__c</fullName>
+    <externalId>false</externalId>
+    <label>Coverage Area Values</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>FO - Soho Panama</fullName>
+                <default>false</default>
+                <label>FO - Soho Panama</label>
+            </value>
+            <value>
+                <fullName>FO - Samuel Lewis</fullName>
+                <default>false</default>
+                <label>FO - Samuel Lewis</label>
+            </value>
+            <value>
+                <fullName>FO - Bella Vista</fullName>
+                <default>false</default>
+                <label>FO - Bella Vista</label>
+            </value>
+            <value>
+                <fullName>FO - Edificios Ufinet</fullName>
+                <default>false</default>
+                <label>FO - Edificios Ufinet</label>
+            </value>
+            <value>
+                <fullName>FO - Panama</fullName>
+                <default>false</default>
+                <label>FO - Panama</label>
+            </value>
+            <value>
+                <fullName>FO - Resto del Pais</fullName>
+                <default>false</default>
+                <label>FO - Resto del Pais</label>
+            </value>
+            <value>
+                <fullName>MW - Nacional</fullName>
+                <default>false</default>
+                <label>MW - Nacional</label>
+            </value>
+            <value>
+                <fullName>VSAT - Nacional</fullName>
+                <default>false</default>
+                <label>VSAT - Nacional</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

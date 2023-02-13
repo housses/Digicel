@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Start_Time_Validation</fullName>
+    <active>true</active>
+    <description>If Event is checked, the Start Hour and Minute must be populated.</description>
+    <errorConditionFormula>AND(amc__Event__c, OR(ISPICKVAL(amc__Start_Hour__c, &quot;&quot;), ISPICKVAL(amc__Start_Minute__c, &quot;&quot;)))</errorConditionFormula>
+    <errorMessage>Start Hour and Start Minute are required to create an Event for this Action</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Panama_Service_Request_Service_Delivery_Updates</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Panama Service Request</label>
+    <queue>Panama_Service_Request</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

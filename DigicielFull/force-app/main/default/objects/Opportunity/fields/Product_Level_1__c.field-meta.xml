@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Level_1__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Level 1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>PNG_OpportunityType__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Be-spoke Solution</fullName>
+                <default>false</default>
+                <label>Be-spoke Solution</label>
+            </value>
+            <value>
+                <fullName>Cloud &amp; Data Centre</fullName>
+                <default>false</default>
+                <label>Cloud &amp; Data Centre</label>
+            </value>
+            <value>
+                <fullName>Connectivity Solutions</fullName>
+                <default>false</default>
+                <label>Connectivity Solutions</label>
+            </value>
+            <value>
+                <fullName>Fixed Voice</fullName>
+                <default>false</default>
+                <label>Fixed Voice</label>
+            </value>
+            <value>
+                <fullName>Hardware</fullName>
+                <default>false</default>
+                <label>Hardware</label>
+            </value>
+            <value>
+                <fullName>IT Infrastructure</fullName>
+                <default>false</default>
+                <label>IT Infrastructure</label>
+            </value>
+            <value>
+                <fullName>LTE</fullName>
+                <default>false</default>
+                <label>LTE</label>
+            </value>
+            <value>
+                <fullName>Mobile/Postpaid</fullName>
+                <default>false</default>
+                <label>Mobile/Postpaid</label>
+            </value>
+            <value>
+                <fullName>Professional Services</fullName>
+                <default>false</default>
+                <label>Professional Services</label>
+            </value>
+            <value>
+                <fullName>Security Solutions</fullName>
+                <default>false</default>
+                <label>Security Solutions</label>
+            </value>
+            <value>
+                <fullName>Software/Licenses</fullName>
+                <default>false</default>
+                <label>Software/Licenses</label>
+            </value>
+            <value>
+                <fullName>Unified Comm. (UC)</fullName>
+                <default>false</default>
+                <label>Unified Comm. (UC)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>ICT</controllingFieldValue>
+            <controllingFieldValue>ICT &amp; GSM</controllingFieldValue>
+            <valueName>Be-spoke Solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ICT</controllingFieldValue>
+            <controllingFieldValue>ICT &amp; GSM</controllingFieldValue>
+            <valueName>Cloud &amp; Data Centre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ICT</controllingFieldValue>
+            <controllingFieldValue>ICT &amp; GSM</controllingFieldValue>
+            <valueName>Connectivity Solutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ICT</controllingFieldValue>
+            <controllingFieldValue>ICT &amp; GSM</controllingFieldValue>
+            <valueName>Fixed Voice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ICT</controllingFieldValue>
+            <controllingFieldValue>ICT &amp; GSM</controllingFieldValue>
+            <valueName>Hardware</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ICT</controllingFieldValue>
+            <controllingFieldValue>ICT &amp; GSM</controllingFieldValue>
+            <valueName>IT Infrastructure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ICT</controllingFieldValue>
+            <controllingFieldValue>ICT &amp; GSM</controllingFieldValue>
+            <valueName>LTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ICT</controllingFieldValue>
+            <controllingFieldValue>ICT &amp; GSM</controllingFieldValue>
+            <valueName>Professional Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ICT</controllingFieldValue>
+            <controllingFieldValue>ICT &amp; GSM</controllingFieldValue>
+            <valueName>Security Solutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ICT</controllingFieldValue>
+            <controllingFieldValue>ICT &amp; GSM</controllingFieldValue>
+            <valueName>Software/Licenses</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ICT</controllingFieldValue>
+            <controllingFieldValue>ICT &amp; GSM</controllingFieldValue>
+            <valueName>Unified Comm. (UC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GSM</controllingFieldValue>
+            <controllingFieldValue>ICT &amp; GSM</controllingFieldValue>
+            <valueName>Mobile/Postpaid</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

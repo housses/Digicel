@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oportunity_Record_Type_Value_from_Lead__c</fullName>
+    <externalId>false</externalId>
+    <label>ZDEPRECATED Opportunity Record</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fiji GSM</fullName>
+                <default>false</default>
+                <label>Fiji GSM</label>
+            </value>
+            <value>
+                <fullName>Fiji ICT</fullName>
+                <default>false</default>
+                <label>Fiji ICT</label>
+            </value>
+            <value>
+                <fullName>Fiji Mobile</fullName>
+                <default>false</default>
+                <label>Fiji Mobile</label>
+            </value>
+            <value>
+                <fullName>PNG GSM</fullName>
+                <default>false</default>
+                <label>PNG GSM</label>
+            </value>
+            <value>
+                <fullName>PNG ICT</fullName>
+                <default>false</default>
+                <label>PNG ICT</label>
+            </value>
+            <value>
+                <fullName>PNG Mobile</fullName>
+                <default>false</default>
+                <label>PNG Mobile</label>
+            </value>
+            <value>
+                <fullName>Samoa GSM</fullName>
+                <default>false</default>
+                <label>Samoa GSM</label>
+            </value>
+            <value>
+                <fullName>Samoa ICT</fullName>
+                <default>false</default>
+                <label>Samoa ICT</label>
+            </value>
+            <value>
+                <fullName>Samoa Mobile</fullName>
+                <default>false</default>
+                <label>Samoa Mobile</label>
+            </value>
+            <value>
+                <fullName>Tonga GSM</fullName>
+                <default>false</default>
+                <label>Tonga GSM</label>
+            </value>
+            <value>
+                <fullName>Tonga ICT</fullName>
+                <default>false</default>
+                <label>Tonga ICT</label>
+            </value>
+            <value>
+                <fullName>Tonga Mobile</fullName>
+                <default>false</default>
+                <label>Tonga Mobile</label>
+            </value>
+            <value>
+                <fullName>Vanuatu GSM</fullName>
+                <default>false</default>
+                <label>Vanuatu GSM</label>
+            </value>
+            <value>
+                <fullName>Vanuatu ICT</fullName>
+                <default>false</default>
+                <label>Vanuatu ICT</label>
+            </value>
+            <value>
+                <fullName>Vanuatu Mobile</fullName>
+                <default>false</default>
+                <label>Vanuatu Mobile</label>
+            </value>
+            <value>
+                <fullName>Anguilla Trend</fullName>
+                <default>false</default>
+                <label>Anguilla Trend</label>
+            </value>
+            <value>
+                <fullName>Antigua Trend</fullName>
+                <default>false</default>
+                <label>Antigua Trend</label>
+            </value>
+            <value>
+                <fullName>Aruba Trend</fullName>
+                <default>false</default>
+                <label>Aruba Trend</label>
+            </value>
+            <value>
+                <fullName>BVI Trend</fullName>
+                <default>false</default>
+                <label>BVI Trend</label>
+            </value>
+            <value>
+                <fullName>Barbados Trend</fullName>
+                <default>false</default>
+                <label>Barbados Trend</label>
+            </value>
+            <value>
+                <fullName>Bermuda Trend</fullName>
+                <default>false</default>
+                <label>Bermuda Trend</label>
+            </value>
+            <value>
+                <fullName>Bonaire Trend</fullName>
+                <default>false</default>
+                <label>Bonaire Trend</label>
+            </value>
+            <value>
+                <fullName>Cayman Trend</fullName>
+                <default>false</default>
+                <label>Cayman Trend</label>
+            </value>
+            <value>
+                <fullName>Curacao Trend</fullName>
+                <default>false</default>
+                <label>Curacao Trend</label>
+            </value>
+            <value>
+                <fullName>Dominica Trend</fullName>
+                <default>false</default>
+                <label>Dominica Trend</label>
+            </value>
+            <value>
+                <fullName>El Salvador Trend</fullName>
+                <default>false</default>
+                <label>El Salvador Trend</label>
+            </value>
+            <value>
+                <fullName>FWI Trend</fullName>
+                <default>false</default>
+                <label>FWI Trend</label>
+            </value>
+            <value>
+                <fullName>Grenada Trend</fullName>
+                <default>false</default>
+                <label>Grenada Trend</label>
+            </value>
+            <value>
+                <fullName>Guyana Trend</fullName>
+                <default>false</default>
+                <label>Guyana Trend</label>
+            </value>
+            <value>
+                <fullName>Haiti Trend</fullName>
+                <default>false</default>
+                <label>Haiti Trend</label>
+            </value>
+            <value>
+                <fullName>Jamaica Trend</fullName>
+                <default>false</default>
+                <label>Jamaica Trend</label>
+            </value>
+            <value>
+                <fullName>Montserrat Trend</fullName>
+                <default>false</default>
+                <label>Montserrat Trend</label>
+            </value>
+            <value>
+                <fullName>Panama Trend</fullName>
+                <default>false</default>
+                <label>Panama Trend</label>
+            </value>
+            <value>
+                <fullName>St. Kitts Trend</fullName>
+                <default>false</default>
+                <label>St. Kitts Trend</label>
+            </value>
+            <value>
+                <fullName>St. Lucia Trend</fullName>
+                <default>false</default>
+                <label>St. Lucia Trend</label>
+            </value>
+            <value>
+                <fullName>St. Vincent Trend</fullName>
+                <default>false</default>
+                <label>St. Vincent Trend</label>
+            </value>
+            <value>
+                <fullName>Suriname Trend</fullName>
+                <default>false</default>
+                <label>Suriname Trend</label>
+            </value>
+            <value>
+                <fullName>Trinidad Trend</fullName>
+                <default>false</default>
+                <label>Trinidad Trend</label>
+            </value>
+            <value>
+                <fullName>Turks &amp; Caicos Trend</fullName>
+                <default>false</default>
+                <label>Turks &amp; Caicos Trend</label>
+            </value>
+            <value>
+                <fullName>PNG Trend</fullName>
+                <default>false</default>
+                <label>PNG Trend</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

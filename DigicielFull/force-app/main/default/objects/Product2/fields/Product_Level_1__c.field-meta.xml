@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Level_1__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Level 1</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Be-spoke Solutions</fullName>
+                <default>false</default>
+                <label>Be-spoke Solutions</label>
+            </value>
+            <value>
+                <fullName>Cloud &amp; Data Centre</fullName>
+                <default>false</default>
+                <label>Cloud &amp; Data Centre</label>
+            </value>
+            <value>
+                <fullName>Connectivity Solutions</fullName>
+                <default>false</default>
+                <label>Connectivity Solutions</label>
+            </value>
+            <value>
+                <fullName>Digital Services</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Digital Services</label>
+            </value>
+            <value>
+                <fullName>Fixed Voice</fullName>
+                <default>false</default>
+                <label>Fixed Voice</label>
+            </value>
+            <value>
+                <fullName>Hosted Voice</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hosted Voice</label>
+            </value>
+            <value>
+                <fullName>Internet</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Internet</label>
+            </value>
+            <value>
+                <fullName>IoT</fullName>
+                <default>false</default>
+                <label>IoT</label>
+            </value>
+            <value>
+                <fullName>IPLC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IPLC</label>
+            </value>
+            <value>
+                <fullName>IT Infrastructure</fullName>
+                <default>false</default>
+                <label>IT Infrastructure</label>
+            </value>
+            <value>
+                <fullName>Managed Wifi</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Managed Wifi</label>
+            </value>
+            <value>
+                <fullName>Mobile/Postpaid</fullName>
+                <default>false</default>
+                <label>Mobile/Postpaid</label>
+            </value>
+            <value>
+                <fullName>PBN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PBN</label>
+            </value>
+            <value>
+                <fullName>PBX</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PBX</label>
+            </value>
+            <value>
+                <fullName>Professional Services</fullName>
+                <default>false</default>
+                <label>Professional Services</label>
+            </value>
+            <value>
+                <fullName>Sat Sleeve</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sat Sleeve</label>
+            </value>
+            <value>
+                <fullName>Security Solutions</fullName>
+                <default>false</default>
+                <label>Security Solutions</label>
+            </value>
+            <value>
+                <fullName>Unified Comm. (UC)</fullName>
+                <default>false</default>
+                <label>Unified Comm. (UC)</label>
+            </value>
+            <value>
+                <fullName>Vehicle Tracking</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vehicle Tracking</label>
+            </value>
+            <value>
+                <fullName>Web Security</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Web Security</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

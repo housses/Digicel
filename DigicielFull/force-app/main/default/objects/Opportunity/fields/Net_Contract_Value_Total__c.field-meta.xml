@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Net_Contract_Value_Total__c</fullName>
+    <description>TK: FLS removed on 21/08/2017
+
+TK: FLS restored on 01/09/2017 by Justin Weekes - only Barbados users have been given visibility</description>
+    <externalId>false</externalId>
+    <label>Net Contract Value Total</label>
+    <summarizedField>OpportunityLineItem.Net_Contract_Value_Total__c</summarizedField>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

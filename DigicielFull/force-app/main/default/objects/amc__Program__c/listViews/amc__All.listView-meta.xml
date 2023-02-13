@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__All</fullName>
+    <columns>NAME</columns>
+    <columns>amc__Account__c</columns>
+    <columns>amc__Program_Owner__c</columns>
+    <columns>amc__Program_Reference__c</columns>
+    <columns>amc__Status__c</columns>
+    <columns>amc__Priority__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

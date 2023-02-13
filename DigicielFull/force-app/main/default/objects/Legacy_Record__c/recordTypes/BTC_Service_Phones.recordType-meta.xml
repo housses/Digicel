@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BTC_Service_Phones</fullName>
+    <active>true</active>
+    <label>BTC Service Phones</label>
+    <picklistValues>
+        <picklist>Configuration__c</picklist>
+        <values>
+            <fullName>Business Centrex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Phone With DSL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Smart Ring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Close</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DID Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DID%2FDOD Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ISDN Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential Phone Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential Phone With DSL Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential Smart Ring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telco Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voice Channel</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

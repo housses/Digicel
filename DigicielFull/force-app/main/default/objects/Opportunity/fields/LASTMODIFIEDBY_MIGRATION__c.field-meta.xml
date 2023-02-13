@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LASTMODIFIEDBY_MIGRATION__c</fullName>
+    <businessOwnerGroup>SFDC_Admin_Team</businessOwnerGroup>
+    <businessStatus>DeprecateCandidate</businessStatus>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>zDeprecated - LASTMODIFIEDBY_MIGRATION</label>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Opportunities (LASTMODIFIEDBY_MIGRATION)</relationshipLabel>
+    <relationshipName>Opportunities1</relationshipName>
+    <required>false</required>
+    <securityClassification>Confidential</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

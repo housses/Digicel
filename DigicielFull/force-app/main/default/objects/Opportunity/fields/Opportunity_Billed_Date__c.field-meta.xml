@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Billed_Date__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>This field captures the date that the Opportunity moves from Closed Won to Billed</description>
+    <externalId>false</externalId>
+    <formula>IF( All_Line_Items_Billed__c= TRUE, Estimated_Billed_Date__c, NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Opportunity Billed Date</label>
+    <required>false</required>
+    <securityClassification>Public</securityClassification>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

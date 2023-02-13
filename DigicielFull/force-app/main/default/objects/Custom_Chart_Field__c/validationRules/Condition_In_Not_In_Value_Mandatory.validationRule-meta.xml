@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Condition_In_Not_In_Value_Mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( AND(ISPICKVAL( Field_Use__c , &quot;Condition&quot;), OR(ISPICKVAL(Type__c,&quot;In&quot;),ISPICKVAL(Type__c,&quot;Not In&quot;))) ,  ISBLANK( In_Not_In_Values__c ) , FALSE)</errorConditionFormula>
+    <errorDisplayField>In_Not_In_Values__c</errorDisplayField>
+    <errorMessage>The In / Not values are required when field type is &quot;Condition&quot; and Type is &quot;Not In&quot; and &quot;In&quot;.</errorMessage>
+</ValidationRule>

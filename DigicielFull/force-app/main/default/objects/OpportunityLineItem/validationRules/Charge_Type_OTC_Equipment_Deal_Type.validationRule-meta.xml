@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Charge_Type_OTC_Equipment_Deal_Type</fullName>
+    <active>false</active>
+    <description>when any product has a Charge Type of OTC, the Equipment Deal Type field at the opportunity level becomes mandatory</description>
+    <errorConditionFormula>AND(
+
+        ISPICKVAL(Charge_Type__c,&quot;OTC&quot;),
+        ISBLANK(TEXT(Opportunity.Equipment_Deal_Type__c)),
+ Opportunity.Price_book_Name__c   &lt;&gt; &quot;V1 Production_2020_01_14_02_47_04&quot;
+        )</errorConditionFormula>
+    <errorMessage>Equipment Deal Type field cannot be blank if charge type is OTC</errorMessage>
+</ValidationRule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Backlog_Total_Account__c</fullName>
+    <externalId>false</externalId>
+    <label>Backlog Total (Account)</label>
+    <summarizedField>Backlog__c.Backlog_Currency__c</summarizedField>
+    <summaryFilterItems>
+        <field>Backlog__c.Current_Month__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Backlog__c.Account_Name__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Recognised_Revenue__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(amc__Milestone__r.amc__Project__r.amc__Billing_Type__c, &quot;Fixed Price&quot;), amc__Completion_Percent__c * amc__Hours_Scheduled_Cost__c, amc__Hours_Completed_Cost__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Identifies the recognised revenue based on Completion % or Hours Completed (Billable). If Billing Type = Fixed Price, Completion % * Hours Scheduled Value (Billable), otherwise Hours Completed Value (Billable)</inlineHelpText>
+    <label>Recognised Revenue</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_Loss_ReasonValidation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL(StageName ,&apos;Closed-Lost&apos;), ISPICKVAL(	Loss_Reason__c,&apos;&apos;),
+RecordType.Id = LEFT($Label.PNG_OpprtunityRecordTypeId,15))</errorConditionFormula>
+    <errorDisplayField>Loss_Reason__c</errorDisplayField>
+    <errorMessage>Closed Lost Reason must be provided if Opportunity is Closed -Lost</errorMessage>
+</ValidationRule>

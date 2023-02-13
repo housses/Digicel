@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__All</fullName>
+    <columns>NAME</columns>
+    <columns>amc__User__c</columns>
+    <columns>amc__Contact__c</columns>
+    <columns>amc__Active__c</columns>
+    <columns>amc__Hourly_Rate__c</columns>
+    <columns>amc__Cost_Hourly_Rate__c</columns>
+    <columns>amc__Hours_Per_Week__c</columns>
+    <columns>amc__Expense_Approver__c</columns>
+    <columns>amc__Mileage_Rate__c</columns>
+    <columns>amc__Receive_Digest__c</columns>
+    <columns>amc__Receive_Action_Notifications__c</columns>
+    <columns>amc__Manage_Timesheets__c</columns>
+    <columns>amc__Master_Team__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

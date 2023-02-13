@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isplay_Order_By_Mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( TEXT( Field_Use__c ) = &quot;Summary&quot;, Display_On_Chart__c , ISNULL( Display_Order_By__c ))</errorConditionFormula>
+    <errorDisplayField>Display_Order_By__c</errorDisplayField>
+    <errorMessage>If the field use is &quot;Summary&quot; and the field is displayed on chart, the display order by is required.</errorMessage>
+</ValidationRule>

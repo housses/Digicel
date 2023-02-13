@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fibre_Zone__c</fullName>
+    <externalId>false</externalId>
+    <label>Fibre Zone</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fibre Zone 1 - Port of Spain</fullName>
+                <default>false</default>
+                <label>Fibre Zone 1 - Port of Spain</label>
+            </value>
+            <value>
+                <fullName>Fibre Zone 2 - Laventille/Barataria</fullName>
+                <default>false</default>
+                <label>Fibre Zone 2 - Laventille/Barataria</label>
+            </value>
+            <value>
+                <fullName>Fibre Zone 3 - Chaguanas Town Centre</fullName>
+                <default>false</default>
+                <label>Fibre Zone 3 - Chaguanas Town Centre</label>
+            </value>
+            <value>
+                <fullName>Fibre Zone 4 - Curepe/Tunapuna</fullName>
+                <default>false</default>
+                <label>Fibre Zone 4 - Curepe/Tunapuna</label>
+            </value>
+            <value>
+                <fullName>Fibre Zone 5 - Frederick Settlement</fullName>
+                <default>false</default>
+                <label>Fibre Zone 5 - Frederick Settlement</label>
+            </value>
+            <value>
+                <fullName>Fibre Zone 6 - Cunupia</fullName>
+                <default>false</default>
+                <label>Fibre Zone 6 - Cunupia</label>
+            </value>
+            <value>
+                <fullName>Fibre Zone 7 - Piarco South</fullName>
+                <default>false</default>
+                <label>Fibre Zone 7 - Piarco South</label>
+            </value>
+            <value>
+                <fullName>Fibre Zone 8 - Piarco Airport</fullName>
+                <default>false</default>
+                <label>Fibre Zone 8 - Piarco Airport</label>
+            </value>
+            <value>
+                <fullName>Fibre Zone 9 - Golden Grove Road</fullName>
+                <default>false</default>
+                <label>Fibre Zone 9 - Golden Grove Road</label>
+            </value>
+            <value>
+                <fullName>Fibre Zone 10 - Diego Martin</fullName>
+                <default>false</default>
+                <label>Fibre Zone 10 - Diego Martin</label>
+            </value>
+            <value>
+                <fullName>Fibre Zone 11 - Diamond Vale</fullName>
+                <default>false</default>
+                <label>Fibre Zone 11 - Diamond Vale</label>
+            </value>
+            <value>
+                <fullName>Fibre Zone 12 - West Moorings</fullName>
+                <default>false</default>
+                <label>Fibre Zone 12 - West Moorings</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 13 -ANSA POLYMAR</fullName>
+                <default>false</default>
+                <label>FTTH Zone 13 -ANSA POLYMAR</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 14 -ANSA POS</fullName>
+                <default>false</default>
+                <label>FTTH Zone 14 -ANSA POS</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 15 -ARIMA SOUTH</fullName>
+                <default>false</default>
+                <label>FTTH Zone 15 -ARIMA SOUTH</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 16 -AROUCA</fullName>
+                <default>false</default>
+                <label>FTTH Zone 16 -AROUCA</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 17 -CHAGUANAS CHIN CHIN</fullName>
+                <default>false</default>
+                <label>FTTH Zone 17 -CHAGUANAS CHIN CHIN</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 18 -CHAGUANAS MONTROSE</fullName>
+                <default>false</default>
+                <label>FTTH Zone 18 -CHAGUANAS MONTROSE</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 19 -CHAGUANAS SWITCH</fullName>
+                <default>false</default>
+                <label>FTTH Zone 19 -CHAGUANAS SWITCH</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 20 -CROWN POINT TOBAGO</fullName>
+                <default>false</default>
+                <label>FTTH Zone 20 -CROWN POINT TOBAGO</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 21 -D&apos;ABADIE</fullName>
+                <default>false</default>
+                <label>FTTH Zone 21 -D&apos;ABADIE</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 22 -DIBE</fullName>
+                <default>false</default>
+                <label>FTTH Zone 22 -DIBE</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 23-EL SOCORO</fullName>
+                <default>false</default>
+                <label>FTTH Zone 23-EL SOCORO</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 24 -GENCOE WASA</fullName>
+                <default>false</default>
+                <label>FTTH Zone 24 -GENCOE WASA</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 25 -GRENADIAN HILL</fullName>
+                <default>false</default>
+                <label>FTTH Zone 25 -GRENADIAN HILL</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 26 -LAVENTILLE</fullName>
+                <default>false</default>
+                <label>FTTH Zone 26 -LAVENTILLE</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 27 -LESS EFFORT</fullName>
+                <default>false</default>
+                <label>FTTH Zone 27 -LESS EFFORT</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 28 -MACOYA</fullName>
+                <default>false</default>
+                <label>FTTH Zone 28 -MACOYA</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 29 -MORVANT WASA</fullName>
+                <default>false</default>
+                <label>FTTH Zone 29 -MORVANT WASA</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 30 -OROPOUCHE DOW VILLAGE</fullName>
+                <default>false</default>
+                <label>FTTH Zone 30 -OROPOUCHE DOW VILLAGE</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 31 -PASEA</fullName>
+                <default>false</default>
+                <label>FTTH Zone 31 -PASEA</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 32 -SANGRE GRANDE</fullName>
+                <default>false</default>
+                <label>FTTH Zone 32 -SANGRE GRANDE</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 33 -SCARBOROUGH</fullName>
+                <default>false</default>
+                <label>FTTH Zone 33 -SCARBOROUGH</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 34 -SF DUNCAN VILLAGES</fullName>
+                <default>false</default>
+                <label>FTTH Zone 34 -SF DUNCAN VILLAGES</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 35 -SF MARABELLA</fullName>
+                <default>false</default>
+                <label>FTTH Zone 35 -SF MARABELLA</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 36 -SIPARIA LOT</fullName>
+                <default>false</default>
+                <label>FTTH Zone 36 -SIPARIA LOT</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 37 -ST JOSEPH</fullName>
+                <default>false</default>
+                <label>FTTH Zone 37 -ST JOSEPH</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 39 -UPPER SAN JUAN</fullName>
+                <default>false</default>
+                <label>FTTH Zone 39 -UPPER SAN JUAN</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 40 - Point Lisas</fullName>
+                <default>false</default>
+                <label>FTTH Zone 40 - Point Lisas</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 41 - Princes Town</fullName>
+                <default>false</default>
+                <label>FTTH Zone 41 - Princes Town</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>FTTH Zone 42 - Freeport</fullName>
+                <default>false</default>
+                <label>FTTH Zone 42 - Freeport</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

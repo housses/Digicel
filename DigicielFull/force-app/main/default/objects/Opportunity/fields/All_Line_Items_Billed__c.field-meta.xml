@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Line_Items_Billed__c</fullName>
+    <businessStatus>Hidden</businessStatus>
+    <defaultValue>false</defaultValue>
+    <description>This checkbox confirms that all Line Items on an Opportunity have been Installed/Billed</description>
+    <externalId>false</externalId>
+    <label>All Line Items Billed</label>
+    <securityClassification>Public</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

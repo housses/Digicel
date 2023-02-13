@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_BAN_Compact_View</fullName>
+    <fields>Name</fields>
+    <fields>AccountNumber__c</fields>
+    <fields>Account__c</fields>
+    <fields>BillingSystem__c</fields>
+    <fields>Status__c</fields>
+    <label>PNG BAN Compact View</label>
+</CompactLayout>

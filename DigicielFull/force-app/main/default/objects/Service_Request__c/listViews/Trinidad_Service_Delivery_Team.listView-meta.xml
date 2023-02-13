@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trinidad_Service_Delivery_Team</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Requested_Date__c</columns>
+    <columns>Completed_Date__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>ICT_Support_Engineer__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>Trinidad and Tobago</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Complete,Cancelled</value>
+    </filters>
+    <label>Trinidad Service Request Team</label>
+    <language>en_US</language>
+    <sharedTo>
+        <roleAndSubordinates>Trinidad_Tobago</roleAndSubordinates>
+    </sharedTo>
+</ListView>

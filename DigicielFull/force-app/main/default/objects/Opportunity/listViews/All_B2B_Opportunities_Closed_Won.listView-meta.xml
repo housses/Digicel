@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_B2B_Opportunities_Closed_Won</fullName>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Estimated_Billed_Date__c</columns>
+    <columns>MRC__c</columns>
+    <columns>OTC__c</columns>
+    <columns>Net_AOP_Installation_OTC__c</columns>
+    <columns>Contract_Value__c</columns>
+    <columns>Push_Counter__c</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Digicel_Business_Opportunity</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Closed Won</value>
+    </filters>
+    <label>All B2B Opportunities - Closed Won</label>
+    <language>en_US</language>
+    <sharedTo>
+        <roleAndSubordinates>Digicel_Group_Business_Solutions_C_CA_Region</roleAndSubordinates>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_of_Days_At_Field_Survey_Rqd__c</fullName>
+    <description>Counts the number of days at Field Survey required based on working days</description>
+    <externalId>false</externalId>
+    <formula>(Date_Removed_from_Field_Survey_Rqd__c - Date_Updated_to_Field_Survey_Rqd__c ) - 
+( FLOOR ( ( ( (Date_Removed_from_Field_Survey_Rqd__c) - Date_Updated_to_Field_Survey_Rqd__c) / 7 ) ) * 2 ) + 
+CASE(MOD ( Date_Updated_to_Field_Survey_Rqd__c - DATE( 1900,1,6 ),7), 
+0,CASE( MOD ((Date_Removed_from_Field_Survey_Rqd__c) - DATE( 1900,1,6 ),7),0,1,2 ), 
+1,CASE( MOD ((Date_Removed_from_Field_Survey_Rqd__c) - DATE( 1900,1,6 ),7),0,2,1 ), 
+IF(MOD( Date_Updated_to_Field_Survey_Rqd__c - DATE( 1900,1,6 ),7) - MOD((Date_Removed_from_Field_Survey_Rqd__c) - DATE( 1900,1,6 ),7) &lt;= 0 ,0, 
+IF(MOD((Date_Removed_from_Field_Survey_Rqd__c) - DATE( 1900,1,6 ),7) = 0,1,-2 ) ))</formula>
+    <inlineHelpText>Counts the number of days at Field Survey required based on working days</inlineHelpText>
+    <label>No of Days At Field Survey Rqd</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

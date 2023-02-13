@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TotalMateriel__c</fullName>
+    <externalId>false</externalId>
+    <label>Total Matériel</label>
+    <summarizedField>QuoteLineItem.DiscountedTotalSalesPrice__c</summarizedField>
+    <summaryFilterItems>
+        <field>QuoteLineItem.Charge_Type__c</field>
+        <operation>equals</operation>
+        <value>OTC</value>
+    </summaryFilterItems>
+    <summaryForeignKey>QuoteLineItem.QuoteId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

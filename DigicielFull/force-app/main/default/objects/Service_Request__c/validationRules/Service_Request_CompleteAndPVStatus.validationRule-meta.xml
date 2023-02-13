@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Request_CompleteAndPVStatus</fullName>
+    <active>true</active>
+    <description>Complete</description>
+    <errorConditionFormula>AND(
+ISPICKVAL($User.Digicel_Country__c , &apos;FWI&apos;),
+ISPICKVAL(Status__c, &quot;Complete&quot;) ,
+ISBLANK(Signed__c),
+((TODAY()-Delay__c) &lt; Sent__c)
+)</errorConditionFormula>
+    <errorDisplayField>Signed__c</errorDisplayField>
+    <errorMessage>Ooops Has the PV been signed? If yes, please enter a Signed date</errorMessage>
+</ValidationRule>

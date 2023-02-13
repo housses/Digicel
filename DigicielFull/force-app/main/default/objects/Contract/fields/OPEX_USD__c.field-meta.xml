@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPEX_USD__c</fullName>
+    <externalId>false</externalId>
+    <formula>(( PNG_OfferedMbps__c  *  PNG_Utilization_Rate__c )* PNG_Price_per_MB__c) * 
+( USD_to_PGK_Exchange_Rate__c *  ContractTerm ) + 
+(PNG_TCV__c *  PNG_Sales_Commission__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>OPEX (USD)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

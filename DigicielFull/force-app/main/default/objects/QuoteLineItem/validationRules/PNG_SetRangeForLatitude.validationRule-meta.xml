@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_SetRangeForLatitude</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ABS(PNG_Latitude__c) &gt; 90, OR(Quote.RecordTypeId =LEFT( $Label.PNG_QuoteRecordTypeId, 15),Quote.RecordTypeId =LEFT( $Label.PNG_ApprovedQuoteRecordType, 15), Quote.RecordTypeId =LEFT($Label.PNG_PNGQuoteRecTypeId , 15)) )</errorConditionFormula>
+    <errorDisplayField>PNG_Latitude__c</errorDisplayField>
+    <errorMessage>Value outside of valid range(-90 to 90) on numeric field Latitude</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_MO_ARPU__c</fullName>
+    <externalId>false</externalId>
+    <formula>Blackberry_Data_MO_ARPU__c + Postpaid_MO_ARPU__c + Prepaid_MO_ARPU__c +  X4G_MO_ARPU__c +  Non_Blackberry_Data_MO_ARPU__c +  Blended_MO_ARPU__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>zDeprecatedTotal MO ARPU</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

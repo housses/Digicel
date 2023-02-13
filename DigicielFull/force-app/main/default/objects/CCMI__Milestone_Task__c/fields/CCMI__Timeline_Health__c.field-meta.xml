@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCMI__Timeline_Health__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>CASE(CCMI__Status_Enum__c,
+  2, &apos;Green&apos;,
+  -1, &apos;N/A&apos;,
+  IF(CCMI__End__c &lt; TODAY(),
+    &apos;Red&apos;,
+    IF(CCMI__Status_Enum__c == 0 &amp;&amp; CCMI__Start__c &lt; TODAY(), &apos;Yellow&apos;, &apos;Green&apos;)
+  )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The health of the Task as determined by the Status, Start Date, and End Date of the Task. See the &apos;Timeline Health Reason&apos; for more information.</inlineHelpText>
+    <label>Timeline Health</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

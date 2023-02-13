@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_RootCause__c</fullName>
+    <externalId>false</externalId>
+    <label>Root Cause</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fibre Damage</fullName>
+                <default>false</default>
+                <label>Fibre Damage</label>
+            </value>
+            <value>
+                <fullName>LAN issue</fullName>
+                <default>false</default>
+                <label>LAN issue</label>
+            </value>
+            <value>
+                <fullName>Line of Sight</fullName>
+                <default>false</default>
+                <label>Line of Sight</label>
+            </value>
+            <value>
+                <fullName>03B Outage</fullName>
+                <default>false</default>
+                <label>03B Outage</label>
+            </value>
+            <value>
+                <fullName>PMP Node Offline</fullName>
+                <default>false</default>
+                <label>PMP Node Offline</label>
+            </value>
+            <value>
+                <fullName>SM Idle</fullName>
+                <default>false</default>
+                <label>SM Idle</label>
+            </value>
+            <value>
+                <fullName>Power Issue – site</fullName>
+                <default>false</default>
+                <label>Power Issue – site</label>
+            </value>
+            <value>
+                <fullName>Power Issue – customer</fullName>
+                <default>false</default>
+                <label>Power Issue – customer</label>
+            </value>
+            <value>
+                <fullName>IP core issue</fullName>
+                <default>false</default>
+                <label>IP core issue</label>
+            </value>
+            <value>
+                <fullName>International link issue</fullName>
+                <default>false</default>
+                <label>International link issue</label>
+            </value>
+            <value>
+                <fullName>Transmission issue</fullName>
+                <default>false</default>
+                <label>Transmission issue</label>
+            </value>
+            <value>
+                <fullName>RF Interference</fullName>
+                <default>false</default>
+                <label>RF Interference</label>
+            </value>
+            <value>
+                <fullName>Capacity exceeded</fullName>
+                <default>false</default>
+                <label>Capacity exceeded</label>
+            </value>
+            <value>
+                <fullName>Faulty equipment – customer</fullName>
+                <default>false</default>
+                <label>Faulty equipment – customer</label>
+            </value>
+            <value>
+                <fullName>Faulty play box-no power</fullName>
+                <default>false</default>
+                <label>Faulty play box-no power</label>
+            </value>
+            <value>
+                <fullName>Faulty connectors/splitters-loose/broken</fullName>
+                <default>false</default>
+                <label>Faulty connectors/splitters-loose/broken</label>
+            </value>
+            <value>
+                <fullName>Faulty cable-cut/worn out</fullName>
+                <default>false</default>
+                <label>Faulty cable-cut/worn out</label>
+            </value>
+            <value>
+                <fullName>Broken/Damaged Antenna or Dish</fullName>
+                <default>false</default>
+                <label>Broken/Damaged Antenna or Dish</label>
+            </value>
+            <value>
+                <fullName>Faulty parts &gt; example: LNB/Amplifier/etc…</fullName>
+                <default>false</default>
+                <label>Faulty parts &gt; example: LNB/Amplifier/etc…</label>
+            </value>
+            <value>
+                <fullName>Relocation/Move</fullName>
+                <default>false</default>
+                <label>Relocation/Move</label>
+            </value>
+            <value>
+                <fullName>Relocate of antenna/dish</fullName>
+                <default>false</default>
+                <label>Relocate of antenna/dish</label>
+            </value>
+            <value>
+                <fullName>Removal of equipment(antenna/dish/cable)</fullName>
+                <default>false</default>
+                <label>Removal of equipment(antenna/dish/cable)</label>
+            </value>
+            <value>
+                <fullName>New Hook up(s)</fullName>
+                <default>false</default>
+                <label>New Hook up(s)</label>
+            </value>
+            <value>
+                <fullName>Additional Installation(s)</fullName>
+                <default>false</default>
+                <label>Additional Installation(s)</label>
+            </value>
+            <value>
+                <fullName>Swap from DTT to DTH</fullName>
+                <default>false</default>
+                <label>Swap from DTT to DTH</label>
+            </value>
+            <value>
+                <fullName>Extension of cable(s)</fullName>
+                <default>false</default>
+                <label>Extension of cable(s)</label>
+            </value>
+            <value>
+                <fullName>Termination &amp; Commissioning</fullName>
+                <default>false</default>
+                <label>Termination &amp; Commissioning</label>
+            </value>
+            <value>
+                <fullName>No signal</fullName>
+                <default>false</default>
+                <label>No signal</label>
+            </value>
+            <value>
+                <fullName>Scramble message</fullName>
+                <default>false</default>
+                <label>Scramble message</label>
+            </value>
+            <value>
+                <fullName>Pixelate pictures</fullName>
+                <default>false</default>
+                <label>Pixelate pictures</label>
+            </value>
+            <value>
+                <fullName>No display/Blank screen</fullName>
+                <default>false</default>
+                <label>No display/Blank screen</label>
+            </value>
+            <value>
+                <fullName>Channel 1 only showing</fullName>
+                <default>false</default>
+                <label>Channel 1 only showing</label>
+            </value>
+            <value>
+                <fullName>Site Survey</fullName>
+                <default>false</default>
+                <label>Site Survey</label>
+            </value>
+            <value>
+                <fullName>* Others</fullName>
+                <default>false</default>
+                <label>* Others</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

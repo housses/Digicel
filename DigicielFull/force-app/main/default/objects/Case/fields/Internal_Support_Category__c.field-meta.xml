@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal_Support_Category__c</fullName>
+    <description>**Do not modify without speaking with Tony Kenny** 
+
+This field is used to track SFDC cases being assigned to the Champion network</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Internal Support Category is used to determine the functional area of Salesforce that you want to associate your request</inlineHelpText>
+    <label>Sub-Category</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Internal_Support_Group__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Create New User</fullName>
+                <default>false</default>
+                <label>Create New User</label>
+            </value>
+            <value>
+                <fullName>Email Notifications</fullName>
+                <default>false</default>
+                <label>Email Notifications</label>
+            </value>
+            <value>
+                <fullName>Password Reset</fullName>
+                <default>false</default>
+                <label>Password Reset</label>
+            </value>
+            <value>
+                <fullName>Deactivate User</fullName>
+                <default>false</default>
+                <label>Deactivate User</label>
+            </value>
+            <value>
+                <fullName>Workflow Rule</fullName>
+                <default>false</default>
+                <label>Workflow Rule</label>
+            </value>
+            <value>
+                <fullName>System Close-Off</fullName>
+                <default>false</default>
+                <label>System Close-Off</label>
+            </value>
+            <value>
+                <fullName>Access request</fullName>
+                <default>false</default>
+                <label>Access request</label>
+            </value>
+            <value>
+                <fullName>Add New Product(s)</fullName>
+                <default>false</default>
+                <label>Add New Product(s)</label>
+            </value>
+            <value>
+                <fullName>Add User</fullName>
+                <default>false</default>
+                <label>Add User</label>
+            </value>
+            <value>
+                <fullName>Adjust User Profile</fullName>
+                <default>false</default>
+                <label>Adjust User Profile</label>
+            </value>
+            <value>
+                <fullName>Dashboard Creation</fullName>
+                <default>false</default>
+                <label>Dashboard Creation</label>
+            </value>
+            <value>
+                <fullName>Data export request</fullName>
+                <default>false</default>
+                <label>Data export request</label>
+            </value>
+            <value>
+                <fullName>Edit Existing Price(s)</fullName>
+                <default>false</default>
+                <label>Edit Existing Price(s)</label>
+            </value>
+            <value>
+                <fullName>Edit Existing Product(s)</fullName>
+                <default>false</default>
+                <label>Edit Existing Product(s)</label>
+            </value>
+            <value>
+                <fullName>Error Message</fullName>
+                <default>false</default>
+                <label>Error Message</label>
+            </value>
+            <value>
+                <fullName>Field Creation</fullName>
+                <default>false</default>
+                <label>Field Creation</label>
+            </value>
+            <value>
+                <fullName>Individual record</fullName>
+                <default>false</default>
+                <label>Individual record</label>
+            </value>
+            <value>
+                <fullName>Mass edit/create/delete</fullName>
+                <default>false</default>
+                <label>Mass edit/create/delete</label>
+            </value>
+            <value>
+                <fullName>New Picklist Value</fullName>
+                <default>false</default>
+                <label>New Picklist Value</label>
+            </value>
+            <value>
+                <fullName>Permission Issue</fullName>
+                <default>false</default>
+                <label>Permission Issue</label>
+            </value>
+            <value>
+                <fullName>Remove User</fullName>
+                <default>false</default>
+                <label>Remove User</label>
+            </value>
+            <value>
+                <fullName>Report Creation</fullName>
+                <default>false</default>
+                <label>Report Creation</label>
+            </value>
+            <value>
+                <fullName>System Access Issue</fullName>
+                <default>false</default>
+                <label>System Access Issue</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Bugs</controllingFieldValue>
+            <valueName>Error Message</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bugs</controllingFieldValue>
+            <valueName>Permission Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bugs</controllingFieldValue>
+            <valueName>System Access Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automation</controllingFieldValue>
+            <valueName>Email Notifications</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automation</controllingFieldValue>
+            <valueName>Workflow Rule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automation</controllingFieldValue>
+            <valueName>Field Creation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automation</controllingFieldValue>
+            <valueName>New Picklist Value</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Add New Product(s)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Edit Existing Price(s)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Edit Existing Product(s)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Users</controllingFieldValue>
+            <valueName>Create New User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Users</controllingFieldValue>
+            <valueName>Password Reset</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Users</controllingFieldValue>
+            <valueName>Deactivate User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Users</controllingFieldValue>
+            <valueName>Adjust User Profile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Record_Data</controllingFieldValue>
+            <valueName>System Close-Off</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Record_Data</controllingFieldValue>
+            <valueName>Access request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Record_Data</controllingFieldValue>
+            <valueName>Data export request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Record_Data</controllingFieldValue>
+            <valueName>Individual record</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Record_Data</controllingFieldValue>
+            <valueName>Mass edit/create/delete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Market Approval Process</controllingFieldValue>
+            <valueName>Add User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Market Approval Process</controllingFieldValue>
+            <valueName>Remove User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reports / Dashboards</controllingFieldValue>
+            <valueName>Dashboard Creation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reports / Dashboards</controllingFieldValue>
+            <valueName>Report Creation</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

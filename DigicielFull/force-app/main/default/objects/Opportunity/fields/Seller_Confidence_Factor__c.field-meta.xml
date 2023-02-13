@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Seller_Confidence_Factor__c</fullName>
+    <description>The level of confidence the seller has in securing this deal within the time frames on the opportunity</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter here the level of confidence you have in securing this deal within the time frames on the opportunity</inlineHelpText>
+    <label>zDEPRECATED Seller Confidence Factor</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

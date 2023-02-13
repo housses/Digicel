@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_AD_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Category/AD Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Multiple</fullName>
+                <default>false</default>
+                <label>Multiple</label>
+            </value>
+            <value>
+                <fullName>High Impact</fullName>
+                <default>false</default>
+                <label>High Impact</label>
+            </value>
+            <value>
+                <fullName>Billboard</fullName>
+                <default>false</default>
+                <label>Billboard</label>
+            </value>
+            <value>
+                <fullName>Leaderboard</fullName>
+                <default>false</default>
+                <label>Leaderboard</label>
+            </value>
+            <value>
+                <fullName>Mobile Banner</fullName>
+                <default>false</default>
+                <label>Mobile Banner</label>
+            </value>
+            <value>
+                <fullName>MPU</fullName>
+                <default>false</default>
+                <label>MPU</label>
+            </value>
+            <value>
+                <fullName>Halfpage</fullName>
+                <default>false</default>
+                <label>Halfpage</label>
+            </value>
+            <value>
+                <fullName>App Interstitial</fullName>
+                <default>false</default>
+                <label>App Interstitial</label>
+            </value>
+            <value>
+                <fullName>App Banner</fullName>
+                <default>false</default>
+                <label>App Banner</label>
+            </value>
+            <value>
+                <fullName>Pre-Roll Video</fullName>
+                <default>false</default>
+                <label>Pre-Roll Video</label>
+            </value>
+            <value>
+                <fullName>Homepage Takeover</fullName>
+                <default>false</default>
+                <label>Homepage Takeover</label>
+            </value>
+            <value>
+                <fullName>Section Takeover</fullName>
+                <default>false</default>
+                <label>Section Takeover</label>
+            </value>
+            <value>
+                <fullName>Native Ad</fullName>
+                <default>false</default>
+                <label>Native Ad</label>
+            </value>
+            <value>
+                <fullName>Bonus</fullName>
+                <default>false</default>
+                <label>Bonus</label>
+            </value>
+            <value>
+                <fullName>Sponsorship</fullName>
+                <default>false</default>
+                <label>Sponsorship</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

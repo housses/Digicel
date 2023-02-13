@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POP__c</fullName>
+    <description>Field creation was requested in Case# 00259444</description>
+    <externalId>false</externalId>
+    <label>POP</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Manor Lodge</fullName>
+                <default>false</default>
+                <label>Manor Lodge</label>
+            </value>
+            <value>
+                <fullName>Wildey</fullName>
+                <default>false</default>
+                <label>Wildey</label>
+            </value>
+            <value>
+                <fullName>Carlton Cricket Club</fullName>
+                <default>false</default>
+                <label>Carlton Cricket Club</label>
+            </value>
+            <value>
+                <fullName>Durants Village</fullName>
+                <default>false</default>
+                <label>Durants Village</label>
+            </value>
+            <value>
+                <fullName>Oistins</fullName>
+                <default>false</default>
+                <label>Oistins</label>
+            </value>
+            <value>
+                <fullName>Needhams Point</fullName>
+                <default>false</default>
+                <label>Needhams Point</label>
+            </value>
+            <value>
+                <fullName>Six Roads</fullName>
+                <default>false</default>
+                <label>Six Roads</label>
+            </value>
+            <value>
+                <fullName>Speightstown</fullName>
+                <default>false</default>
+                <label>Speightstown</label>
+            </value>
+            <value>
+                <fullName>Prism</fullName>
+                <default>false</default>
+                <label>Prism</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
