@@ -1,5 +1,5 @@
 /**
- * @description       : Retrieve information for Opportuntiy from Infolegale Webservice.
+ * @description       : CLASS PLUS UTILISEE Retrieve information for Opportuntiy from Infolegale Webservice.
  * @author            : CLEPILLOUER
  * @last modified on  : 09/02/2023
  * @last modified by  : CLEPILLOUER
@@ -18,11 +18,11 @@ global class InfolegaleOpp_BAT implements Database.Batchable<sObject>, Database.
      * @return query locator for retrieved opportunties
      */
     global Database.QueryLocator start(Database.BatchableContext bc) {    
-        return Database.getQueryLocator([SELECT Id, INFOLEGALERating__c, Score_INFOLEGALE__c, AccountId, StageName, Account.Owner.Digicel_Country__c FROM Opportunity WHERE Id IN :setIdOpp AND Account.Owner.Digicel_Country__c = 'FWI' ]);            
+        return Database.getQueryLocator([SELECT Id, Score_INFOLEGALE__c, AccountId, StageName, Account.Owner.Digicel_Country__c FROM Opportunity WHERE Id IN :setIdOpp AND Account.Owner.Digicel_Country__c = 'FWI' ]);            
     }
 
     /**
-     * method to update the INFOLEGALERating__c and Score_INFOLEGALE__c field on the Opportunity records.
+     * method to update the Score_INFOLEGALE__c field on the Opportunity records.
      * @param bc Database.BatchableContext - context of the batch job
      * @param listOpps List<Opportunity> - list of opportunties to be updated
      */
