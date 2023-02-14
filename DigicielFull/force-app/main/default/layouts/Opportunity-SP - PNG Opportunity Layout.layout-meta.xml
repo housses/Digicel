@@ -127,8 +127,8 @@
                 <field>Sales_Person__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Score_INFOLEGALE__c</field>
+                <behavior>Readonly</behavior>
+                <field>Score_Infolegale_Formula__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>

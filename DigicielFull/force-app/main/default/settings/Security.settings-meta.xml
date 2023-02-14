@@ -82,6 +82,11 @@
             <start>98.192.65.246</start>
         </ipRanges>
         <ipRanges>
+            <description>Server Talend</description>
+            <end>94.198.176.255</end>
+            <start>94.198.176.0</start>
+        </ipRanges>
+        <ipRanges>
             <description>Reej Headquarter</description>
             <end>90.79.142.70</end>
             <start>90.79.142.70</start>

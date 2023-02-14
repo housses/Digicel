@@ -48,8 +48,8 @@ public  class InfolegaleOppBAT_TST {
         Id batchJobId = Database.executebatch(httpBatch,100);  
         Test.stopTest();
 
-        Opportunity oppToTest = [SELECT Id, Score_INFOLEGALE__c, AccountId, StageName FROM Opportunity];
-        system.assertEquals(6, oppToTest.Score_INFOLEGALE__c, 'oportunity scoring infolegale score should be the same ');
+        Opportunity oppToTest = [SELECT Id, Account.INFOLEGALERating__c, AccountId, StageName FROM Opportunity];
+        system.assertEquals(6, oppToTest.Account.INFOLEGALERating__c, 'oportunity scoring infolegale score should be the same ');
 
         Account accToTest = [SELECT Id, INFOLEGALERating__c, Registration_Number__c FROM Account];
         system.assertEquals(6, accToTest.INFOLEGALERating__c, 'infolegale rating account should be the same');

@@ -29,12 +29,12 @@
         <milestoneName>Request Registration</milestoneName>
         <minutesToComplete>10</minutesToComplete>
         <successActions>
-            <name>PNG_UpdateSupportCaseStatusToInProgress</name>
+            <name>Case.PNG_UpdateSupportCaseStatusToInProgress</name>
             <type>FieldUpdate</type>
         </successActions>
         <timeTriggers>
             <actions>
-                <name>PNG_MilestoneHasBeenViolated</name>
+                <name>Case.PNG_MilestoneHasBeenViolated</name>
                 <type>Task</type>
             </actions>
             <timeLength>0</timeLength>
@@ -57,16 +57,16 @@
         <milestoneName>First Response</milestoneName>
         <minutesToComplete>30</minutesToComplete>
         <successActions>
-            <name>PNG_UpdateSupportCaseStatusToWorking</name>
+            <name>Case.PNG_UpdateSupportCaseStatusToWorking</name>
             <type>FieldUpdate</type>
         </successActions>
         <timeTriggers>
             <actions>
-                <name>PNG_MilestoneFirstResponseTimeBreached</name>
+                <name>Case.PNG_MilestoneFirstResponseTimeBreached</name>
                 <type>Alert</type>
             </actions>
             <actions>
-                <name>PNG_MilestoneHasBeenViolated</name>
+                <name>Case.PNG_MilestoneHasBeenViolated</name>
                 <type>Task</type>
             </actions>
             <timeLength>0</timeLength>
@@ -89,20 +89,20 @@
         <milestoneName>Case Resolution</milestoneName>
         <minutesToComplete>1440</minutesToComplete>
         <successActions>
-            <name>PNG_UpdateSupportCaseStatusToInSurvey</name>
+            <name>Case.PNG_UpdateSupportCaseStatusToInSurvey</name>
             <type>FieldUpdate</type>
         </successActions>
         <timeTriggers>
             <actions>
-                <name>PNG_1HourWarningBeforeMilestoneExpires</name>
+                <name>Case.PNG_1HourWarningBeforeMilestoneExpires</name>
                 <type>Alert</type>
             </actions>
             <actions>
-                <name>PNG_MilestoneNotificationToTeamLeader</name>
+                <name>Case.PNG_MilestoneNotificationToTeamLeader</name>
                 <type>Alert</type>
             </actions>
             <actions>
-                <name>PNG_MilestoneReminderToCaseOwner</name>
+                <name>Case.PNG_MilestoneReminderToCaseOwner</name>
                 <type>Alert</type>
             </actions>
             <timeLength>-360</timeLength>
@@ -110,15 +110,15 @@
         </timeTriggers>
         <timeTriggers>
             <actions>
-                <name>PNG_MilestoneUpdateEscCaseStatus</name>
+                <name>Case.PNG_MilestoneUpdateEscCaseStatus</name>
                 <type>FieldUpdate</type>
             </actions>
             <actions>
-                <name>PNG_UpdateViolationTaskCheckbox</name>
+                <name>Case.PNG_UpdateViolationTaskCheckbox</name>
                 <type>FieldUpdate</type>
             </actions>
             <actions>
-                <name>PNG_MilestoneHasBeenViolated</name>
+                <name>Case.PNG_MilestoneHasBeenViolated</name>
                 <type>Task</type>
             </actions>
             <timeLength>0</timeLength>
@@ -146,20 +146,20 @@
         <milestoneName>On Site Survey</milestoneName>
         <minutesToComplete>1440</minutesToComplete>
         <successActions>
-            <name>PNG_UpdateSupportCaseStatusToCustomer</name>
+            <name>Case.PNG_UpdateSupportCaseStatusToCustomer</name>
             <type>FieldUpdate</type>
         </successActions>
         <timeTriggers>
             <actions>
-                <name>PNG_MilestoneUpdateEscCaseStatus</name>
+                <name>Case.PNG_MilestoneUpdateEscCaseStatus</name>
                 <type>FieldUpdate</type>
             </actions>
             <actions>
-                <name>PNG_UpdateViolationTaskCheckbox</name>
+                <name>Case.PNG_UpdateViolationTaskCheckbox</name>
                 <type>FieldUpdate</type>
             </actions>
             <actions>
-                <name>PNG_MilestoneHasBeenViolated</name>
+                <name>Case.PNG_MilestoneHasBeenViolated</name>
                 <type>Task</type>
             </actions>
             <timeLength>0</timeLength>
@@ -167,15 +167,15 @@
         </timeTriggers>
         <timeTriggers>
             <actions>
-                <name>PNG_1HourWarningBeforeMilestoneExpires</name>
+                <name>Case.PNG_1HourWarningBeforeMilestoneExpires</name>
                 <type>Alert</type>
             </actions>
             <actions>
-                <name>PNG_MilestoneNotificationToTeamLeader</name>
+                <name>Case.PNG_MilestoneNotificationToTeamLeader</name>
                 <type>Alert</type>
             </actions>
             <actions>
-                <name>PNG_MilestoneReminderToCaseOwner</name>
+                <name>Case.PNG_MilestoneReminderToCaseOwner</name>
                 <type>Alert</type>
             </actions>
             <timeLength>-360</timeLength>
@@ -214,20 +214,20 @@
         <milestoneName>Customer Update on Resolution</milestoneName>
         <minutesToComplete>30</minutesToComplete>
         <successActions>
-            <name>PNG_UpdateSupportCaseStatusToClosed</name>
+            <name>Case.PNG_UpdateSupportCaseStatusToClosed</name>
             <type>FieldUpdate</type>
         </successActions>
         <timeTriggers>
             <actions>
-                <name>PNG_1HourWarningBeforeMilestoneExpires</name>
+                <name>Case.PNG_1HourWarningBeforeMilestoneExpires</name>
                 <type>Alert</type>
             </actions>
             <actions>
-                <name>PNG_MilestoneNotificationToTeamLeader</name>
+                <name>Case.PNG_MilestoneNotificationToTeamLeader</name>
                 <type>Alert</type>
             </actions>
             <actions>
-                <name>PNG_MilestoneReminderToCaseOwner</name>
+                <name>Case.PNG_MilestoneReminderToCaseOwner</name>
                 <type>Alert</type>
             </actions>
             <timeLength>-8</timeLength>
@@ -235,11 +235,11 @@
         </timeTriggers>
         <timeTriggers>
             <actions>
-                <name>PNG_MilestoneOverdueNotificationToTeamLeader</name>
+                <name>Case.PNG_MilestoneOverdueNotificationToTeamLeader</name>
                 <type>Alert</type>
             </actions>
             <actions>
-                <name>PNG_MilestoneHasBeenViolated</name>
+                <name>Case.PNG_MilestoneHasBeenViolated</name>
                 <type>Task</type>
             </actions>
             <timeLength>0</timeLength>

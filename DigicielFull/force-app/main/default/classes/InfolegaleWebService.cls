@@ -87,7 +87,7 @@ global class InfolegaleWebService {
     public static HttpResponse getDataInfolegale(String siren) { 
         String token = InfolegaleWebService.returnToken();
         String url = InfolegaleWebService.getNamedCustomLabelBasedOnOrg();
-
+        system.debug('token:' + token);
         HttpRequest req = new HttpRequest();
         Http http = new Http();
         String bearer = 'Bearer ' + token;
@@ -100,7 +100,7 @@ global class InfolegaleWebService {
         try {
             response = http.send(req);
             if (response.getStatusCode() != 200){
-                throw new MyException('Error Infolegale server : status code : ' + response.getStatusCode() );
+                throw new MyException('Error Infolegale server : status code : ' + response.getStatusCode() + response.getBody());
             } 
         } catch(Exception e){
             throw new MyException('Error from InfolegaleWebService.getDataInfolegale() Method => ' + e.getMessage());

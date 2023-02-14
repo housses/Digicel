@@ -412,4 +412,8 @@
         <name>gnx__Gonexa_RF</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Singleview</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
 </AppMenu>

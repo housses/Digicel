@@ -19,6 +19,8 @@ public with sharing class Account_SVE {
             }
         }  
         if(!system.isBatch() && setIdAccount.size() > 0  ){
+            system.debug('ici');
+
             Database.executeBatch(new Infolegale_BAT(setIdAccount), 1);
         }
 	} 
