@@ -1,9 +1,8 @@
 /**
- * @description       : 
- * @author            : JBBARTHELEMY
- * @group             : 
- * @last modified on  : 08/11/2022
- * @last modified by  : JBBARTHELEMY
+ * @description       : Retrieve information for Account from Infolegale Webservice.
+ * @author            : CLEPILLOUER
+ * @last modified on  : 09/02/2023
+ * @last modified by  : CLEPILLOUER
 **/
 global class Infolegale_BAT implements Database.Batchable<sObject>, Database.AllowsCallouts, Database.stateful {
 
@@ -13,13 +12,23 @@ global class Infolegale_BAT implements Database.Batchable<sObject>, Database.All
         setIdAccount = strParam;
     }
 
-    global Database.QueryLocator start(Database.BatchableContext bc) {  
-        // return Database.getQueryLocator([SELECT Id, INFOLEGALERating__c, Registration_Number__c FROM Account WHERE Id IN :setIdAccount]);            
+    /**
+     * Method to retrieve accounts from database if present on the setIdAccount
+     * @param bc  BatchableContext object for executing batch job
+     * @return query locator for retrieved accounts
+     */
+    global Database.QueryLocator start(Database.BatchableContext bc) {        
         return Database.getQueryLocator([SELECT Id, INFOLEGALERating__c, Registration_Number__c FROM Account WHERE Id IN :setIdAccount AND Owner.Digicel_Country__c = 'FWI']);            
     }
 
-    global void execute(Database.BatchableContext bc, List<Account> accountsToUpdate){
-        for(Account account : accountsToUpdate){
+    /**
+     * method to update the INFOLEGALERating__c field on the Account records.
+     * @param bc Database.BatchableContext - context of the batch job
+     * @param accountsToCheck List<Account> - list of accounts to be updated
+     */
+    global void execute(Database.BatchableContext bc, List<Account> accountsToCheck){
+        List<Account> accToUpdate = new List<Account>();
+        for(Account account : accountsToCheck){
             String siren = account.Registration_Number__c;
             HttpResponse resScore = new HttpResponse();
             resScore = InfolegaleWebService.getDataInfolegale(siren);
@@ -28,16 +37,29 @@ global class Infolegale_BAT implements Database.Batchable<sObject>, Database.All
             if(code == 200){
                 InfolegaleWrapper repBody = InfolegaleWrapper.parse(resScore.getBody());               
                 score = repBody.score;
+                if(score != account.INFOLEGALERating__c ){
+                    account.INFOLEGALERating__c = score;
+                    accToUpdate.add(account);
+                }
             } else {
-                score = null;
+                throw new MyException('Infolegale_BAT : Error Infologale : Status Code : ' + code);
             }
-            account.INFOLEGALERating__c = score;
         }
-        AccountTriggerHandler.triggerDisabled = true;
-        database.update(accountsToUpdate);     
-        AccountTriggerHandler.triggerDisabled = false;
+
+        if(accToUpdate.size() > 0){
+            AccountTriggerHandler.triggerDisabled = true;
+            database.update(accToUpdate);     
+            AccountTriggerHandler.triggerDisabled = false;
+        }
     }
 
-    global void finish(Database.BatchableContext bc){}    
+    /**
+     * End of the Batch class
+     * @param bc Database.BatchableContext
+     * @return none
+     */
+    global void finish(Database.BatchableContext bc){
+        system.debug('Infolegale_BAT ------- FINISH -------------');      
+    }    
 
 }

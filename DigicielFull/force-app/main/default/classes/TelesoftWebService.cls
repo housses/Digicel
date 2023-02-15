@@ -1,40 +1,71 @@
 global class TelesoftWebService {
-    
-    global static HttpResponse getAllAccounts() {  
+
+    /*
+    * Method to retrieve the name of the named credential based on organization's sandbox status.
+    * @return String wth the value of the named credential
+    */
+    global static String getNamedCredentialBasedOnOrg(){
         Boolean isSandBox = [SELECT IsSandbox FROM Organization LIMIT 1].IsSandbox;
-        String URL;
+        String response;
         if(isSandBox) {
-            URL = 'https://digicel.preprod-facturationtelecom.fr';
+            // response = 'Telesoft_Dev';
+            response = 'Telesoft_Prod';
         } else {
-            URL = system.Label.Api_Telesoft_Url_Prod;
+            response = 'Telesoft_Prod';
         }
-       
-        HttpRequest req = new HttpRequest();
-        req.setEndpoint(URL + '/ssl/webservices/v2/cus.json');       
-        req.setMethod('GET');
-        req.setTimeout(120000);
-        String username = system.Label.Api_Telesoft_Username;
-        String password = system.Label.Api_TeleSoft_Password;
-        Blob headerValue = Blob.valueOf(username + ':' + password);
-        String authorizationHeader = 'BASIC ' + EncodingUtil.base64Encode(headerValue);
-        req.setHeader('Authorization', authorizationHeader);
-        Http http = new Http();
-        return http.send(req);
+        return response;
     }
 
-    public static HttpResponse apiReturnFacturesByDate(String dateDebut, String dateFin) { 
-        Boolean isSandBox = [SELECT IsSandbox FROM Organization LIMIT 1].IsSandbox;
-        String URL = system.Label.Api_Telesoft_Url_Prod;
+    /*
+    * Method to retrieve all accounts of Telesoft database.
+    * @return HttpResponse with all Telesoft accounts information.
+    */
+    global static HttpResponse getAllAccounts() {  
+        String namedCredential = TelesoftWebService.getNamedCredentialBasedOnOrg();
+
         HttpRequest req = new HttpRequest();
-        Http http = new Http();
-        req.setEndpoint(URL + '/ssl/webservices/v1/rep/212.json?dat_deb=' + dateDebut + '&dat_fin=' + dateFin );       
+        req.setEndpoint('callout:' + namedCredential + '/ssl/webservices/v2/cus.json');
         req.setMethod('GET');
         req.setTimeout(120000);
-        String username = system.Label.Api_Telesoft_Username;
-        String password = system.Label.Api_TeleSoft_Password;
-        Blob headerValue = Blob.valueOf(username + ':' + password);
-        String authorizationHeader = 'BASIC ' + EncodingUtil.base64Encode(headerValue);
-        req.setHeader('Authorization', authorizationHeader);   
-        return http.send(req);
+        Http http = new Http();     //ajouter des test en fonction du retour de statut de TelesoftWebService.getAllAccounts().getStatusCode()
+        HttpResponse response = new HttpResponse();
+
+        try {
+            response = http.send(req);
+            if (response.getStatusCode() != 200){
+                throw new MyException('Error Telesoft server : status code : ' + response.getStatusCode() );
+            } 
+        } catch(Exception e){
+            throw new MyException('Error from TelesoftWebService.getAllAccounts() Method => ' + e.getMessage() );
+        }  
+        return response;
+    }
+
+    /**
+     * This method returns the invoices data from Telesoft web service by given date range.
+     * 
+     * @param dateDebut String the start date of the range
+     * @param dateFin String  the end date of the range
+     * @return HttpResponse the response from Telesoft web service
+     */
+    public static HttpResponse apiReturnFacturesByDate(String dateDebut, String dateFin) { 
+        String namedCredential = TelesoftWebService.getNamedCredentialBasedOnOrg();
+
+        HttpRequest req = new HttpRequest();
+        req.setEndpoint('callout:' + namedCredential + '/ssl/webservices/v1/rep/212.json?dat_deb=' + dateDebut + '&dat_fin=' + dateFin );
+        req.setMethod('GET');
+        req.setTimeout(120000);
+        Http http = new Http(); 
+        HttpResponse response = new HttpResponse();
+
+        try {
+            response = http.send(req);
+            if (response.getStatusCode() != 200){
+                throw new MyException('Error Telesoft server : status code : ' + response.getStatusCode() );
+            } 
+        } catch(Exception e){
+            throw new MyException('Error from TelesoftWebService.apiReturnFacturesByDate() Method => ' + e.getMessage());
+        }  
+        return response;
     }
 }
