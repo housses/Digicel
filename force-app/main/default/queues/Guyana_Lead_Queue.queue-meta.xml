@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Guyana Lead Queue</name>
+    <queueMembers>
+        <users>
+            <user>alicia.williams@digicelgroup.com</user>
+            <user>dennis.christiani@digicelgroup.com</user>
+            <user>nalini.vieira@digicelgroup.com</user>
+            <user>natasha.moseley@digicelgroup.com</user>
+            <user>nyall.jodhan@digicelgroup.com</user>
+            <user>ulander.leitch@digicelgroup.com</user>
+            <user>vishwanath.ishwardin@digicelgroup.com</user>
+            <user>yanet.singh@digicelgroup.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

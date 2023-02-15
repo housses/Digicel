@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Barbados_Pre_Sales_Team_Pre_Sales_Request</fullName>
+    <columns>NAME</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>Priority__c</columns>
+    <columns>PSR_Type__c</columns>
+    <columns>Requested_Date__c</columns>
+    <columns>Required_Date__c</columns>
+    <columns>SolutionType__c</columns>
+    <columns>Status__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <label>Barbados Pre Sales Team</label>
+    <queue>Barbados_Pre_Sales_Team</queue>
+    <sharedTo>
+        <group>All_Barbados_Users</group>
+    </sharedTo>
+</ListView>

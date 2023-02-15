@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Digicel_Business_Quote</fullName>
+    <active>true</active>
+    <label>Digicel Business Quote</label>
+    <picklistValues>
+        <picklist>Approval_Required__c</picklist>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Sales %28Networks%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Sales %28Systems%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Feasibility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VSAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voice</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Approval_Status__c</picklist>
+        <values>
+            <fullName>Approval Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approval Request Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Recalled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PNG_DiscountApprovalStatus__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PNG_PreSalesStatus__c</picklist>
+        <values>
+            <fullName>Not Validated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validated</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Type__c</picklist>
+        <values>
+            <fullName>Additional Circuits Trial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cessation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relocation %28To and From%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Upgrade</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>In Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needs Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presented</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

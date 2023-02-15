@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Display_Color__c</fullName>
+    <externalId>false</externalId>
+    <label>Display Color</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Field_Use__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aqua</fullName>
+                <default>true</default>
+                <label>Aqua</label>
+            </value>
+            <value>
+                <fullName>Blue</fullName>
+                <default>false</default>
+                <label>Blue</label>
+            </value>
+            <value>
+                <fullName>Brown</fullName>
+                <default>false</default>
+                <label>Brown</label>
+            </value>
+            <value>
+                <fullName>Cyan</fullName>
+                <default>false</default>
+                <label>Cyan</label>
+            </value>
+            <value>
+                <fullName>Dark Blue</fullName>
+                <default>false</default>
+                <label>Dark Blue</label>
+            </value>
+            <value>
+                <fullName>Dark Green</fullName>
+                <default>false</default>
+                <label>Dark Green</label>
+            </value>
+            <value>
+                <fullName>Dark Red</fullName>
+                <default>false</default>
+                <label>Dark Red</label>
+            </value>
+            <value>
+                <fullName>Gray</fullName>
+                <default>false</default>
+                <label>Gray</label>
+            </value>
+            <value>
+                <fullName>Green</fullName>
+                <default>false</default>
+                <label>Green</label>
+            </value>
+            <value>
+                <fullName>Lime</fullName>
+                <default>false</default>
+                <label>Lime</label>
+            </value>
+            <value>
+                <fullName>Orange</fullName>
+                <default>false</default>
+                <label>Orange</label>
+            </value>
+            <value>
+                <fullName>Pink</fullName>
+                <default>false</default>
+                <label>Pink</label>
+            </value>
+            <value>
+                <fullName>Purple</fullName>
+                <default>false</default>
+                <label>Purple</label>
+            </value>
+            <value>
+                <fullName>Red</fullName>
+                <default>false</default>
+                <label>Red</label>
+            </value>
+            <value>
+                <fullName>Yellow</fullName>
+                <default>false</default>
+                <label>Yellow</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Group By</controllingFieldValue>
+            <controllingFieldValue>Summary</controllingFieldValue>
+            <controllingFieldValue>Formula</controllingFieldValue>
+            <valueName>Aqua</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Group By</controllingFieldValue>
+            <controllingFieldValue>Summary</controllingFieldValue>
+            <controllingFieldValue>Formula</controllingFieldValue>
+            <valueName>Blue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Group By</controllingFieldValue>
+            <controllingFieldValue>Summary</controllingFieldValue>
+            <controllingFieldValue>Formula</controllingFieldValue>
+            <valueName>Brown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Group By</controllingFieldValue>
+            <controllingFieldValue>Summary</controllingFieldValue>
+            <controllingFieldValue>Formula</controllingFieldValue>
+            <valueName>Cyan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Group By</controllingFieldValue>
+            <controllingFieldValue>Summary</controllingFieldValue>
+            <controllingFieldValue>Formula</controllingFieldValue>
+            <valueName>Dark Blue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Group By</controllingFieldValue>
+            <controllingFieldValue>Summary</controllingFieldValue>
+            <controllingFieldValue>Formula</controllingFieldValue>
+            <valueName>Dark Green</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Group By</controllingFieldValue>
+            <controllingFieldValue>Summary</controllingFieldValue>
+            <controllingFieldValue>Formula</controllingFieldValue>
+            <valueName>Dark Red</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Group By</controllingFieldValue>
+            <controllingFieldValue>Summary</controllingFieldValue>
+            <controllingFieldValue>Formula</controllingFieldValue>
+            <valueName>Gray</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Group By</controllingFieldValue>
+            <controllingFieldValue>Summary</controllingFieldValue>
+            <controllingFieldValue>Formula</controllingFieldValue>
+            <valueName>Green</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Group By</controllingFieldValue>
+            <controllingFieldValue>Summary</controllingFieldValue>
+            <controllingFieldValue>Formula</controllingFieldValue>
+            <valueName>Lime</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Group By</controllingFieldValue>
+            <controllingFieldValue>Summary</controllingFieldValue>
+            <controllingFieldValue>Formula</controllingFieldValue>
+            <valueName>Orange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Group By</controllingFieldValue>
+            <controllingFieldValue>Summary</controllingFieldValue>
+            <controllingFieldValue>Formula</controllingFieldValue>
+            <valueName>Pink</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Group By</controllingFieldValue>
+            <controllingFieldValue>Summary</controllingFieldValue>
+            <controllingFieldValue>Formula</controllingFieldValue>
+            <valueName>Purple</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Group By</controllingFieldValue>
+            <controllingFieldValue>Summary</controllingFieldValue>
+            <controllingFieldValue>Formula</controllingFieldValue>
+            <valueName>Red</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Group By</controllingFieldValue>
+            <controllingFieldValue>Summary</controllingFieldValue>
+            <controllingFieldValue>Formula</controllingFieldValue>
+            <valueName>Yellow</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,75 @@
+<apex:page docType="html-5.0" standardController="Lead" showHeader="false" showChat="false" sidebar="false" cache="false" expires="0">
+    <style>
+        .bPageBlock {
+            border-top: red;
+        }
+        
+        .pbSubheader.first {
+            background-color: red;
+        }
+        
+        .pbSubheader {
+            background-color: red;
+        }
+        
+        .leadTab .tertiaryPalette, .individualPalette .leadBlock .tertiaryPalette, .layoutEdit .individualPalette .leadBlock .tertiaryPalette {
+            background-color: red;
+            border-color: red;
+        }
+        
+        p {
+            text-align: center;
+        }
+    </style>
+    
+    <apex:form >
+        <apex:pageBlock >
+            <div>
+                <apex:image url="{!$Resource.Digicel_Logo_HiRes}" width="150" height="100%"/>
+            </div>
+            <p style="font-size: 16px"> 
+                <h1 style="font-size: 24px">
+                    Please select the market you want to create a lead for:
+                </h1>
+                <br/>
+                <table>
+                    <tr>
+                        <th>
+                            Market
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://digicelgroup.force.com/web2lead/web2lead_Anguilla" target="_self">Anguilla</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://digicelgroup.force.com/web2lead/web2lead_Dominica" target="_self">Dominica</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://digicelgroup.force.com/web2lead/web2lead_Montserrat" target="_self">Montserrat</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://digicelgroup.force.com/web2lead/web2lead_Nevis" target="_self">Nevis</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://digicelgroup.force.com/web2lead/web2lead_Trinidad" target="_self">Trinidad and Tobago</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="http://digicelgroup.force.com/web2lead/web2lead_TCI" target="_self">Turks and Caicos</a> 
+                        </td>
+                    </tr>
+                </table>
+            </p>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

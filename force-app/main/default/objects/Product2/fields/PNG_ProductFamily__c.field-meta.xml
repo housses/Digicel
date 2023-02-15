@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_ProductFamily__c</fullName>
+    <externalId>false</externalId>
+    <label>PNG Product Family</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Connectivity Services - DIA</fullName>
+                <default>false</default>
+                <label>Connectivity Services - DIA</label>
+            </value>
+            <value>
+                <fullName>Connectivity Services - FTTB</fullName>
+                <default>false</default>
+                <label>Connectivity Services - FTTB</label>
+            </value>
+            <value>
+                <fullName>Connectivity Services - IP Address</fullName>
+                <default>false</default>
+                <label>Connectivity Services - IP Address</label>
+            </value>
+            <value>
+                <fullName>Connectivity Services - IPLC</fullName>
+                <default>false</default>
+                <label>Connectivity Services - IPLC</label>
+            </value>
+            <value>
+                <fullName>Connectivity Services - LTE</fullName>
+                <default>false</default>
+                <label>Connectivity Services - LTE</label>
+            </value>
+            <value>
+                <fullName>Connectivity Services - M2M</fullName>
+                <default>false</default>
+                <label>Connectivity Services - M2M</label>
+            </value>
+            <value>
+                <fullName>Connectivity Services - PBN</fullName>
+                <default>false</default>
+                <label>Connectivity Services - PBN</label>
+            </value>
+            <value>
+                <fullName>Connectivity Services - Private APN as a Service</fullName>
+                <default>false</default>
+                <label>Connectivity Services - Private APN as a Service</label>
+            </value>
+            <value>
+                <fullName>Connectivity Services - SDWAN/Managed WAN</fullName>
+                <default>false</default>
+                <label>Connectivity Services - SDWAN/Managed WAN</label>
+            </value>
+            <value>
+                <fullName>Connectivity Services - Voice Services</fullName>
+                <default>false</default>
+                <label>Connectivity Services - Voice Services</label>
+            </value>
+            <value>
+                <fullName>Connectivity Services - VSAT</fullName>
+                <default>false</default>
+                <label>Connectivity Services - VSAT</label>
+            </value>
+            <value>
+                <fullName>Enterprise Services - Cybersecurity</fullName>
+                <default>false</default>
+                <label>Enterprise Services - Cybersecurity</label>
+            </value>
+            <value>
+                <fullName>Enterprise Services - IoT Products</fullName>
+                <default>false</default>
+                <label>Enterprise Services - IoT Products</label>
+            </value>
+            <value>
+                <fullName>Enterprise Services - Managed Services</fullName>
+                <default>false</default>
+                <label>Enterprise Services - Managed Services</label>
+            </value>
+            <value>
+                <fullName>Enterprise Services  - SMSC</fullName>
+                <default>false</default>
+                <label>Enterprise Services  - SMSC</label>
+            </value>
+            <value>
+                <fullName>Enterprise Services - USSD as a Service</fullName>
+                <default>false</default>
+                <label>Enterprise Services - USSD as a Service</label>
+            </value>
+            <value>
+                <fullName>Enterprise Services - Voice Services</fullName>
+                <default>false</default>
+                <label>Enterprise Services - Voice Services</label>
+            </value>
+            <value>
+                <fullName>Hardware/Equipment</fullName>
+                <default>false</default>
+                <label>Hardware/Equipment</label>
+            </value>
+            <value>
+                <fullName>Mobile Voice &amp; Data Services</fullName>
+                <default>false</default>
+                <label>Mobile Voice &amp; Data Services</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

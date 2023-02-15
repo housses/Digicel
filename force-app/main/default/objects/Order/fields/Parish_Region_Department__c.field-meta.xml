@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parish_Region_Department__c</fullName>
+    <externalId>false</externalId>
+    <label>Parish/Region/Department</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Digicel_Country__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ahuachapán</fullName>
+                <default>false</default>
+                <label>Ahuachapán</label>
+            </value>
+            <value>
+                <fullName>Amberguis Cay</fullName>
+                <default>false</default>
+                <label>Amberguis Cay</label>
+            </value>
+            <value>
+                <fullName>Anegada</fullName>
+                <default>false</default>
+                <label>Anegada</label>
+            </value>
+            <value>
+                <fullName>Anse la Raye</fullName>
+                <default>false</default>
+                <label>Anse la Raye</label>
+            </value>
+            <value>
+                <fullName>Apatou</fullName>
+                <default>false</default>
+                <label>Apatou</label>
+            </value>
+            <value>
+                <fullName>Arima</fullName>
+                <default>false</default>
+                <label>Arima</label>
+            </value>
+            <value>
+                <fullName>Artibonite</fullName>
+                <default>false</default>
+                <label>Artibonite</label>
+            </value>
+            <value>
+                <fullName>Awala-Yalimapo</fullName>
+                <default>false</default>
+                <label>Awala-Yalimapo</label>
+            </value>
+            <value>
+                <fullName>Baie-Mahault</fullName>
+                <default>false</default>
+                <label>Baie-Mahault</label>
+            </value>
+            <value>
+                <fullName>Banda Abao</fullName>
+                <default>false</default>
+                <label>Banda Abao</label>
+            </value>
+            <value>
+                <fullName>Banda Ariba</fullName>
+                <default>false</default>
+                <label>Banda Ariba</label>
+            </value>
+            <value>
+                <fullName>Barbuda</fullName>
+                <default>false</default>
+                <label>Barbuda</label>
+            </value>
+            <value>
+                <fullName>Barima - Waini</fullName>
+                <default>false</default>
+                <label>Barima - Waini</label>
+            </value>
+            <value>
+                <fullName>Basseterre</fullName>
+                <default>false</default>
+                <label>Basseterre</label>
+            </value>
+            <value>
+                <fullName>Basse-Terre</fullName>
+                <default>false</default>
+                <label>Basse-Terre</label>
+            </value>
+            <value>
+                <fullName>Brokopondo</fullName>
+                <default>false</default>
+                <label>Brokopondo</label>
+            </value>
+            <value>
+                <fullName>Brown Hill</fullName>
+                <default>false</default>
+                <label>Brown Hill</label>
+            </value>
+            <value>
+                <fullName>Cabañas</fullName>
+                <default>false</default>
+                <label>Cabañas</label>
+            </value>
+            <value>
+                <fullName>Camopi</fullName>
+                <default>false</default>
+                <label>Camopi</label>
+            </value>
+            <value>
+                <fullName>Canaries</fullName>
+                <default>false</default>
+                <label>Canaries</label>
+            </value>
+            <value>
+                <fullName>Capesterre</fullName>
+                <default>false</default>
+                <label>Capesterre</label>
+            </value>
+            <value>
+                <fullName>Castries</fullName>
+                <default>false</default>
+                <label>Castries</label>
+            </value>
+            <value>
+                <fullName>Cayenne</fullName>
+                <default>false</default>
+                <label>Cayenne</label>
+            </value>
+            <value>
+                <fullName>Central</fullName>
+                <default>false</default>
+                <label>Central</label>
+            </value>
+            <value>
+                <fullName>Centre</fullName>
+                <default>false</default>
+                <label>Centre</label>
+            </value>
+            <value>
+                <fullName>Chaguanas</fullName>
+                <default>false</default>
+                <label>Chaguanas</label>
+            </value>
+            <value>
+                <fullName>Chalatenango</fullName>
+                <default>false</default>
+                <label>Chalatenango</label>
+            </value>
+            <value>
+                <fullName>Charlestown</fullName>
+                <default>false</default>
+                <label>Charlestown</label>
+            </value>
+            <value>
+                <fullName>Charlotte</fullName>
+                <default>false</default>
+                <label>Charlotte</label>
+            </value>
+            <value>
+                <fullName>Chiriquí</fullName>
+                <default>false</default>
+                <label>Chiriquí</label>
+            </value>
+            <value>
+                <fullName>Choiseul</fullName>
+                <default>false</default>
+                <label>Choiseul</label>
+            </value>
+            <value>
+                <fullName>Christ Church</fullName>
+                <default>false</default>
+                <label>Christ Church</label>
+            </value>
+            <value>
+                <fullName>Clarendon</fullName>
+                <default>false</default>
+                <label>Clarendon</label>
+            </value>
+            <value>
+                <fullName>Colón</fullName>
+                <default>false</default>
+                <label>Colón</label>
+            </value>
+            <value>
+                <fullName>Commewijne</fullName>
+                <default>false</default>
+                <label>Commewijne</label>
+            </value>
+            <value>
+                <fullName>Coral Gables</fullName>
+                <default>false</default>
+                <label>Coral Gables</label>
+            </value>
+            <value>
+                <fullName>Coronie</fullName>
+                <default>false</default>
+                <label>Coronie</label>
+            </value>
+            <value>
+                <fullName>Couva/Tabaquite/Talparo</fullName>
+                <default>false</default>
+                <label>Couva/Tabaquite/Talparo</label>
+            </value>
+            <value>
+                <fullName>Cuscatlan</fullName>
+                <default>false</default>
+                <label>Cuscatlan</label>
+            </value>
+            <value>
+                <fullName>Cuyuni - Mazaruni</fullName>
+                <default>false</default>
+                <label>Cuyuni - Mazaruni</label>
+            </value>
+            <value>
+                <fullName>Dellis Cay</fullName>
+                <default>false</default>
+                <label>Dellis Cay</label>
+            </value>
+            <value>
+                <fullName>Demerara Mahaica</fullName>
+                <default>false</default>
+                <label>Demerara Mahaica</label>
+            </value>
+            <value>
+                <fullName>Dennery</fullName>
+                <default>false</default>
+                <label>Dennery</label>
+            </value>
+            <value>
+                <fullName>Devonshire</fullName>
+                <default>false</default>
+                <label>Devonshire</label>
+            </value>
+            <value>
+                <fullName>Diego Martin</fullName>
+                <default>false</default>
+                <label>Diego Martin</label>
+            </value>
+            <value>
+                <fullName>East</fullName>
+                <default>false</default>
+                <label>East</label>
+            </value>
+            <value>
+                <fullName>East Berbice - Corentyne</fullName>
+                <default>false</default>
+                <label>East Berbice - Corentyne</label>
+            </value>
+            <value>
+                <fullName>East Caicos</fullName>
+                <default>false</default>
+                <label>East Caicos</label>
+            </value>
+            <value>
+                <fullName>East End</fullName>
+                <default>false</default>
+                <label>East End</label>
+            </value>
+            <value>
+                <fullName>Essequibo Islands - West Demerara</fullName>
+                <default>false</default>
+                <label>Essequibo Islands - West Demerara</label>
+            </value>
+            <value>
+                <fullName>Forest Reserve</fullName>
+                <default>false</default>
+                <label>Forest Reserve</label>
+            </value>
+            <value>
+                <fullName>Fort-De-France</fullName>
+                <default>false</default>
+                <label>Fort-De-France</label>
+            </value>
+            <value>
+                <fullName>Four Seasons</fullName>
+                <default>false</default>
+                <label>Four Seasons</label>
+            </value>
+            <value>
+                <fullName>Frigate Bay</fullName>
+                <default>false</default>
+                <label>Frigate Bay</label>
+            </value>
+            <value>
+                <fullName>George Town</fullName>
+                <default>false</default>
+                <label>George Town</label>
+            </value>
+            <value>
+                <fullName>Gourbeyre</fullName>
+                <default>false</default>
+                <label>Gourbeyre</label>
+            </value>
+            <value>
+                <fullName>Gozier</fullName>
+                <default>false</default>
+                <label>Gozier</label>
+            </value>
+            <value>
+                <fullName>Grand-Bourg</fullName>
+                <default>false</default>
+                <label>Grand-Bourg</label>
+            </value>
+            <value>
+                <fullName>Grande Anse</fullName>
+                <default>false</default>
+                <label>Grande Anse</label>
+            </value>
+            <value>
+                <fullName>Grand-Santi</fullName>
+                <default>false</default>
+                <label>Grand-Santi</label>
+            </value>
+            <value>
+                <fullName>Grand Tuck</fullName>
+                <default>false</default>
+                <label>Grand Tuck</label>
+            </value>
+            <value>
+                <fullName>Gros Islet</fullName>
+                <default>false</default>
+                <label>Gros Islet</label>
+            </value>
+            <value>
+                <fullName>Hamilton</fullName>
+                <default>false</default>
+                <label>Hamilton</label>
+            </value>
+            <value>
+                <fullName>Hanover</fullName>
+                <default>false</default>
+                <label>Hanover</label>
+            </value>
+            <value>
+                <fullName>Iracoubo</fullName>
+                <default>false</default>
+                <label>Iracoubo</label>
+            </value>
+            <value>
+                <fullName>Jackson Point</fullName>
+                <default>false</default>
+                <label>Jackson Point</label>
+            </value>
+            <value>
+                <fullName>Kingston</fullName>
+                <default>false</default>
+                <label>Kingston</label>
+            </value>
+            <value>
+                <fullName>Kourou</fullName>
+                <default>false</default>
+                <label>Kourou</label>
+            </value>
+            <value>
+                <fullName>Kralendijk</fullName>
+                <default>false</default>
+                <label>Kralendijk</label>
+            </value>
+            <value>
+                <fullName>Laborie</fullName>
+                <default>false</default>
+                <label>Laborie</label>
+            </value>
+            <value>
+                <fullName>La Libertad</fullName>
+                <default>false</default>
+                <label>La Libertad</label>
+            </value>
+            <value>
+                <fullName>La Paz</fullName>
+                <default>false</default>
+                <label>La Paz</label>
+            </value>
+            <value>
+                <fullName>La Trinite</fullName>
+                <default>false</default>
+                <label>La Trinite</label>
+            </value>
+            <value>
+                <fullName>La Unión</fullName>
+                <default>false</default>
+                <label>La Unión</label>
+            </value>
+            <value>
+                <fullName>Le Marin</fullName>
+                <default>false</default>
+                <label>Le Marin</label>
+            </value>
+            <value>
+                <fullName>Le Moule</fullName>
+                <default>false</default>
+                <label>Le Moule</label>
+            </value>
+            <value>
+                <fullName>Le Robert</fullName>
+                <default>false</default>
+                <label>Le Robert</label>
+            </value>
+            <value>
+                <fullName>Les Abymes</fullName>
+                <default>false</default>
+                <label>Les Abymes</label>
+            </value>
+            <value>
+                <fullName>Le Vauclin</fullName>
+                <default>false</default>
+                <label>Le Vauclin</label>
+            </value>
+            <value>
+                <fullName>Little Water Cay</fullName>
+                <default>false</default>
+                <label>Little Water Cay</label>
+            </value>
+            <value>
+                <fullName>Macouria</fullName>
+                <default>false</default>
+                <label>Macouria</label>
+            </value>
+            <value>
+                <fullName>Mahaica - Mahaicony</fullName>
+                <default>false</default>
+                <label>Mahaica - Mahaicony</label>
+            </value>
+            <value>
+                <fullName>Mana</fullName>
+                <default>false</default>
+                <label>Mana</label>
+            </value>
+            <value>
+                <fullName>Manchester</fullName>
+                <default>false</default>
+                <label>Manchester</label>
+            </value>
+            <value>
+                <fullName>Marigot</fullName>
+                <default>false</default>
+                <label>Marigot</label>
+            </value>
+            <value>
+                <fullName>Maripasoula</fullName>
+                <default>false</default>
+                <label>Maripasoula</label>
+            </value>
+            <value>
+                <fullName>Marowijne</fullName>
+                <default>false</default>
+                <label>Marowijne</label>
+            </value>
+            <value>
+                <fullName>Matoury</fullName>
+                <default>false</default>
+                <label>Matoury</label>
+            </value>
+            <value>
+                <fullName>Mayaro/Rio Claro</fullName>
+                <default>false</default>
+                <label>Mayaro/Rio Claro</label>
+            </value>
+            <value>
+                <fullName>Micoud</fullName>
+                <default>false</default>
+                <label>Micoud</label>
+            </value>
+            <value>
+                <fullName>Montsinéry-Tonnegrande</fullName>
+                <default>false</default>
+                <label>Montsinéry-Tonnegrande</label>
+            </value>
+            <value>
+                <fullName>Morazán</fullName>
+                <default>false</default>
+                <label>Morazán</label>
+            </value>
+            <value>
+                <fullName>Morne-a-l Eau</fullName>
+                <default>false</default>
+                <label>Morne-a-l Eau</label>
+            </value>
+            <value>
+                <fullName>Mount Pleasant</fullName>
+                <default>false</default>
+                <label>Mount Pleasant</label>
+            </value>
+            <value>
+                <fullName>Nickerie</fullName>
+                <default>false</default>
+                <label>Nickerie</label>
+            </value>
+            <value>
+                <fullName>Nippes</fullName>
+                <default>false</default>
+                <label>Nippes</label>
+            </value>
+            <value>
+                <fullName>Noord / Tanki Leendert</fullName>
+                <default>false</default>
+                <label>Noord / Tanki Leendert</label>
+            </value>
+            <value>
+                <fullName>Nord</fullName>
+                <default>false</default>
+                <label>Nord</label>
+            </value>
+            <value>
+                <fullName>Nord-Est</fullName>
+                <default>false</default>
+                <label>Nord-Est</label>
+            </value>
+            <value>
+                <fullName>Nord-Ouest</fullName>
+                <default>false</default>
+                <label>Nord-Ouest</label>
+            </value>
+            <value>
+                <fullName>North Caicos</fullName>
+                <default>false</default>
+                <label>North Caicos</label>
+            </value>
+            <value>
+                <fullName>Old Man Bay</fullName>
+                <default>false</default>
+                <label>Old Man Bay</label>
+            </value>
+            <value>
+                <fullName>Oranjestad Oost</fullName>
+                <default>false</default>
+                <label>Oranjestad Oost</label>
+            </value>
+            <value>
+                <fullName>Oranjestad West</fullName>
+                <default>false</default>
+                <label>Oranjestad West</label>
+            </value>
+            <value>
+                <fullName>Otrabanda</fullName>
+                <default>false</default>
+                <label>Otrabanda</label>
+            </value>
+            <value>
+                <fullName>Ouanary</fullName>
+                <default>false</default>
+                <label>Ouanary</label>
+            </value>
+            <value>
+                <fullName>Ouest</fullName>
+                <default>false</default>
+                <label>Ouest</label>
+            </value>
+            <value>
+                <fullName>Paget</fullName>
+                <default>false</default>
+                <label>Paget</label>
+            </value>
+            <value>
+                <fullName>Panamá</fullName>
+                <default>false</default>
+                <label>Panamá</label>
+            </value>
+            <value>
+                <fullName>Papaïchton</fullName>
+                <default>false</default>
+                <label>Papaïchton</label>
+            </value>
+            <value>
+                <fullName>Para</fullName>
+                <default>false</default>
+                <label>Para</label>
+            </value>
+            <value>
+                <fullName>Paradera</fullName>
+                <default>false</default>
+                <label>Paradera</label>
+            </value>
+            <value>
+                <fullName>Paramaribo</fullName>
+                <default>false</default>
+                <label>Paramaribo</label>
+            </value>
+            <value>
+                <fullName>Parrot Cay</fullName>
+                <default>false</default>
+                <label>Parrot Cay</label>
+            </value>
+            <value>
+                <fullName>Pedro</fullName>
+                <default>false</default>
+                <label>Pedro</label>
+            </value>
+            <value>
+                <fullName>Pembroke</fullName>
+                <default>false</default>
+                <label>Pembroke</label>
+            </value>
+            <value>
+                <fullName>Penal/Debe</fullName>
+                <default>false</default>
+                <label>Penal/Debe</label>
+            </value>
+            <value>
+                <fullName>Petit-Bourg</fullName>
+                <default>false</default>
+                <label>Petit-Bourg</label>
+            </value>
+            <value>
+                <fullName>Pine Cay</fullName>
+                <default>false</default>
+                <label>Pine Cay</label>
+            </value>
+            <value>
+                <fullName>Pointe-a-Pitre</fullName>
+                <default>false</default>
+                <label>Pointe-a-Pitre</label>
+            </value>
+            <value>
+                <fullName>Point Fortin</fullName>
+                <default>false</default>
+                <label>Point Fortin</label>
+            </value>
+            <value>
+                <fullName>Pomeroon - Supenaam</fullName>
+                <default>false</default>
+                <label>Pomeroon - Supenaam</label>
+            </value>
+            <value>
+                <fullName>Portland</fullName>
+                <default>false</default>
+                <label>Portland</label>
+            </value>
+            <value>
+                <fullName>Port-Louis</fullName>
+                <default>false</default>
+                <label>Port-Louis</label>
+            </value>
+            <value>
+                <fullName>Port of Spain</fullName>
+                <default>false</default>
+                <label>Port of Spain</label>
+            </value>
+            <value>
+                <fullName>Potaro - Siparuni</fullName>
+                <default>false</default>
+                <label>Potaro - Siparuni</label>
+            </value>
+            <value>
+                <fullName>Princes Town</fullName>
+                <default>false</default>
+                <label>Princes Town</label>
+            </value>
+            <value>
+                <fullName>Prospect Park</fullName>
+                <default>false</default>
+                <label>Prospect Park</label>
+            </value>
+            <value>
+                <fullName>Providenciales</fullName>
+                <default>false</default>
+                <label>Providenciales</label>
+            </value>
+            <value>
+                <fullName>Punda</fullName>
+                <default>false</default>
+                <label>Punda</label>
+            </value>
+            <value>
+                <fullName>Redonda</fullName>
+                <default>false</default>
+                <label>Redonda</label>
+            </value>
+            <value>
+                <fullName>Régina</fullName>
+                <default>false</default>
+                <label>Régina</label>
+            </value>
+            <value>
+                <fullName>Remire-Montjoly</fullName>
+                <default>false</default>
+                <label>Remire-Montjoly</label>
+            </value>
+            <value>
+                <fullName>Riviere Salee</fullName>
+                <default>false</default>
+                <label>Riviere Salee</label>
+            </value>
+            <value>
+                <fullName>Road Town</fullName>
+                <default>false</default>
+                <label>Road Town</label>
+            </value>
+            <value>
+                <fullName>Ross University</fullName>
+                <default>false</default>
+                <label>Ross University</label>
+            </value>
+            <value>
+                <fullName>Roura</fullName>
+                <default>false</default>
+                <label>Roura</label>
+            </value>
+            <value>
+                <fullName>Rum Point</fullName>
+                <default>false</default>
+                <label>Rum Point</label>
+            </value>
+            <value>
+                <fullName>Saint Andrew</fullName>
+                <default>false</default>
+                <label>Saint Andrew</label>
+            </value>
+            <value>
+                <fullName>Saint Andrew Parish</fullName>
+                <default>false</default>
+                <label>Saint Andrew Parish</label>
+            </value>
+            <value>
+                <fullName>Saint Ann</fullName>
+                <default>false</default>
+                <label>Saint Ann</label>
+            </value>
+            <value>
+                <fullName>Saint Catherine</fullName>
+                <default>false</default>
+                <label>Saint Catherine</label>
+            </value>
+            <value>
+                <fullName>Saint David Parish</fullName>
+                <default>false</default>
+                <label>Saint David Parish</label>
+            </value>
+            <value>
+                <fullName>Sainte-Anne</fullName>
+                <default>false</default>
+                <label>Sainte-Anne</label>
+            </value>
+            <value>
+                <fullName>Sainte-Claude</fullName>
+                <default>false</default>
+                <label>Sainte-Claude</label>
+            </value>
+            <value>
+                <fullName>Saint-Élie</fullName>
+                <default>false</default>
+                <label>Saint-Élie</label>
+            </value>
+            <value>
+                <fullName>Saint Elizabeth</fullName>
+                <default>false</default>
+                <label>Saint Elizabeth</label>
+            </value>
+            <value>
+                <fullName>Sainte-Rose</fullName>
+                <default>false</default>
+                <label>Sainte-Rose</label>
+            </value>
+            <value>
+                <fullName>Saint George Parish</fullName>
+                <default>false</default>
+                <label>Saint George Parish</label>
+            </value>
+            <value>
+                <fullName>Saint-Georges</fullName>
+                <default>false</default>
+                <label>Saint-Georges</label>
+            </value>
+            <value>
+                <fullName>Saint James</fullName>
+                <default>false</default>
+                <label>Saint James</label>
+            </value>
+            <value>
+                <fullName>Saint John Parish</fullName>
+                <default>false</default>
+                <label>Saint John Parish</label>
+            </value>
+            <value>
+                <fullName>Saint Joseph Parish</fullName>
+                <default>false</default>
+                <label>Saint Joseph Parish</label>
+            </value>
+            <value>
+                <fullName>Saint-Laurent-du-Maroni</fullName>
+                <default>false</default>
+                <label>Saint-Laurent-du-Maroni</label>
+            </value>
+            <value>
+                <fullName>Saint-Louis</fullName>
+                <default>false</default>
+                <label>Saint-Louis</label>
+            </value>
+            <value>
+                <fullName>Saint Luke Parish</fullName>
+                <default>false</default>
+                <label>Saint Luke Parish</label>
+            </value>
+            <value>
+                <fullName>Saint Mark Parish</fullName>
+                <default>false</default>
+                <label>Saint Mark Parish</label>
+            </value>
+            <value>
+                <fullName>Saint Mary</fullName>
+                <default>false</default>
+                <label>Saint Mary</label>
+            </value>
+            <value>
+                <fullName>Saint Patrick Parish</fullName>
+                <default>false</default>
+                <label>Saint Patrick Parish</label>
+            </value>
+            <value>
+                <fullName>Saint Paul Parish</fullName>
+                <default>false</default>
+                <label>Saint Paul Parish</label>
+            </value>
+            <value>
+                <fullName>Saint Peter Parish</fullName>
+                <default>false</default>
+                <label>Saint Peter Parish</label>
+            </value>
+            <value>
+                <fullName>Saint Thomas</fullName>
+                <default>false</default>
+                <label>Saint Thomas</label>
+            </value>
+            <value>
+                <fullName>Salt Cay</fullName>
+                <default>false</default>
+                <label>Salt Cay</label>
+            </value>
+            <value>
+                <fullName>Sandys</fullName>
+                <default>false</default>
+                <label>Sandys</label>
+            </value>
+            <value>
+                <fullName>San Fernando</fullName>
+                <default>false</default>
+                <label>San Fernando</label>
+            </value>
+            <value>
+                <fullName>Sangre Grande</fullName>
+                <default>false</default>
+                <label>Sangre Grande</label>
+            </value>
+            <value>
+                <fullName>San Juan/Laventille</fullName>
+                <default>false</default>
+                <label>San Juan/Laventille</label>
+            </value>
+            <value>
+                <fullName>San Miguel</fullName>
+                <default>false</default>
+                <label>San Miguel</label>
+            </value>
+            <value>
+                <fullName>San Nicolas Noord</fullName>
+                <default>false</default>
+                <label>San Nicolas Noord</label>
+            </value>
+            <value>
+                <fullName>San Nicolas Zuid</fullName>
+                <default>false</default>
+                <label>San Nicolas Zuid</label>
+            </value>
+            <value>
+                <fullName>San Salvador</fullName>
+                <default>false</default>
+                <label>San Salvador</label>
+            </value>
+            <value>
+                <fullName>Santa Ana</fullName>
+                <default>false</default>
+                <label>Santa Ana</label>
+            </value>
+            <value>
+                <fullName>Santa Cruz</fullName>
+                <default>false</default>
+                <label>Santa Cruz</label>
+            </value>
+            <value>
+                <fullName>San Vicente</fullName>
+                <default>false</default>
+                <label>San Vicente</label>
+            </value>
+            <value>
+                <fullName>Saramacca</fullName>
+                <default>false</default>
+                <label>Saramacca</label>
+            </value>
+            <value>
+                <fullName>Saül</fullName>
+                <default>false</default>
+                <label>Saül</label>
+            </value>
+            <value>
+                <fullName>Savaneta</fullName>
+                <default>false</default>
+                <label>Savaneta</label>
+            </value>
+            <value>
+                <fullName>Schoelcher</fullName>
+                <default>false</default>
+                <label>Schoelcher</label>
+            </value>
+            <value>
+                <fullName>Sinnamary</fullName>
+                <default>false</default>
+                <label>Sinnamary</label>
+            </value>
+            <value>
+                <fullName>Sipaliwini</fullName>
+                <default>false</default>
+                <label>Sipaliwini</label>
+            </value>
+            <value>
+                <fullName>Siparia</fullName>
+                <default>false</default>
+                <label>Siparia</label>
+            </value>
+            <value>
+                <fullName>Smith&apos;s</fullName>
+                <default>false</default>
+                <label>Smith&apos;s</label>
+            </value>
+            <value>
+                <fullName>Sonsonate</fullName>
+                <default>false</default>
+                <label>Sonsonate</label>
+            </value>
+            <value>
+                <fullName>Soufrière</fullName>
+                <default>false</default>
+                <label>Soufrière</label>
+            </value>
+            <value>
+                <fullName>Southampton</fullName>
+                <default>false</default>
+                <label>Southampton</label>
+            </value>
+            <value>
+                <fullName>South Caicos</fullName>
+                <default>false</default>
+                <label>South Caicos</label>
+            </value>
+            <value>
+                <fullName>South Town</fullName>
+                <default>false</default>
+                <label>South Town</label>
+            </value>
+            <value>
+                <fullName>Spanish Town</fullName>
+                <default>false</default>
+                <label>Spanish Town</label>
+            </value>
+            <value>
+                <fullName>Spot Bay</fullName>
+                <default>false</default>
+                <label>Spot Bay</label>
+            </value>
+            <value>
+                <fullName>Spotts Bodden Town</fullName>
+                <default>false</default>
+                <label>Spotts Bodden Town</label>
+            </value>
+            <value>
+                <fullName>St. Andrew</fullName>
+                <default>false</default>
+                <label>St. Andrew</label>
+            </value>
+            <value>
+                <fullName>St. Andrews</fullName>
+                <default>false</default>
+                <label>St. Andrews</label>
+            </value>
+            <value>
+                <fullName>St. David</fullName>
+                <default>false</default>
+                <label>St. David</label>
+            </value>
+            <value>
+                <fullName>St. George</fullName>
+                <default>false</default>
+                <label>St. George</label>
+            </value>
+            <value>
+                <fullName>St. Georges</fullName>
+                <default>false</default>
+                <label>St. Georges</label>
+            </value>
+            <value>
+                <fullName>St. James</fullName>
+                <default>false</default>
+                <label>St. James</label>
+            </value>
+            <value>
+                <fullName>St. John</fullName>
+                <default>false</default>
+                <label>St. John</label>
+            </value>
+            <value>
+                <fullName>St. Joseph</fullName>
+                <default>false</default>
+                <label>St. Joseph</label>
+            </value>
+            <value>
+                <fullName>St. Lucy</fullName>
+                <default>false</default>
+                <label>St. Lucy</label>
+            </value>
+            <value>
+                <fullName>St. Mark</fullName>
+                <default>false</default>
+                <label>St. Mark</label>
+            </value>
+            <value>
+                <fullName>St. Michael</fullName>
+                <default>false</default>
+                <label>St. Michael</label>
+            </value>
+            <value>
+                <fullName>St. Patrick</fullName>
+                <default>false</default>
+                <label>St. Patrick</label>
+            </value>
+            <value>
+                <fullName>St. Peter</fullName>
+                <default>false</default>
+                <label>St. Peter</label>
+            </value>
+            <value>
+                <fullName>St. Philip</fullName>
+                <default>false</default>
+                <label>St. Philip</label>
+            </value>
+            <value>
+                <fullName>St. Pierre</fullName>
+                <default>false</default>
+                <label>St. Pierre</label>
+            </value>
+            <value>
+                <fullName>St. Thomas</fullName>
+                <default>false</default>
+                <label>St. Thomas</label>
+            </value>
+            <value>
+                <fullName>St Ann</fullName>
+                <default>false</default>
+                <label>St Ann</label>
+            </value>
+            <value>
+                <fullName>St Pauls</fullName>
+                <default>false</default>
+                <label>St Pauls</label>
+            </value>
+            <value>
+                <fullName>Sud</fullName>
+                <default>false</default>
+                <label>Sud</label>
+            </value>
+            <value>
+                <fullName>Sud-Est</fullName>
+                <default>false</default>
+                <label>Sud-Est</label>
+            </value>
+            <value>
+                <fullName>Tobago</fullName>
+                <default>false</default>
+                <label>Tobago</label>
+            </value>
+            <value>
+                <fullName>Tortola</fullName>
+                <default>false</default>
+                <label>Tortola</label>
+            </value>
+            <value>
+                <fullName>Trelawny</fullName>
+                <default>false</default>
+                <label>Trelawny</label>
+            </value>
+            <value>
+                <fullName>Trois-Rivieres</fullName>
+                <default>false</default>
+                <label>Trois-Rivieres</label>
+            </value>
+            <value>
+                <fullName>Tunapuna/Piarco</fullName>
+                <default>false</default>
+                <label>Tunapuna/Piarco</label>
+            </value>
+            <value>
+                <fullName>Upper Demerara - Berbice</fullName>
+                <default>false</default>
+                <label>Upper Demerara - Berbice</label>
+            </value>
+            <value>
+                <fullName>Upper Takutu - Upper Essequibo</fullName>
+                <default>false</default>
+                <label>Upper Takutu - Upper Essequibo</label>
+            </value>
+            <value>
+                <fullName>Usulután</fullName>
+                <default>false</default>
+                <label>Usulután</label>
+            </value>
+            <value>
+                <fullName>Veraguas</fullName>
+                <default>false</default>
+                <label>Veraguas</label>
+            </value>
+            <value>
+                <fullName>Vieux Fort</fullName>
+                <default>false</default>
+                <label>Vieux Fort</label>
+            </value>
+            <value>
+                <fullName>Vieux-Habitants</fullName>
+                <default>false</default>
+                <label>Vieux-Habitants</label>
+            </value>
+            <value>
+                <fullName>Virgin Gorda</fullName>
+                <default>false</default>
+                <label>Virgin Gorda</label>
+            </value>
+            <value>
+                <fullName>Wanica</fullName>
+                <default>false</default>
+                <label>Wanica</label>
+            </value>
+            <value>
+                <fullName>Warwick</fullName>
+                <default>false</default>
+                <label>Warwick</label>
+            </value>
+            <value>
+                <fullName>West</fullName>
+                <default>false</default>
+                <label>West</label>
+            </value>
+            <value>
+                <fullName>West Bay</fullName>
+                <default>false</default>
+                <label>West Bay</label>
+            </value>
+            <value>
+                <fullName>West Caicos</fullName>
+                <default>false</default>
+                <label>West Caicos</label>
+            </value>
+            <value>
+                <fullName>West End</fullName>
+                <default>false</default>
+                <label>West End</label>
+            </value>
+            <value>
+                <fullName>Westmoreland</fullName>
+                <default>false</default>
+                <label>Westmoreland</label>
+            </value>
+            <value>
+                <fullName>Arouca</fullName>
+                <default>false</default>
+                <label>Arouca</label>
+            </value>
+            <value>
+                <fullName>Belmont</fullName>
+                <default>false</default>
+                <label>Belmont</label>
+            </value>
+            <value>
+                <fullName>Barrackpore</fullName>
+                <default>false</default>
+                <label>Barrackpore</label>
+            </value>
+            <value>
+                <fullName>Blue Range</fullName>
+                <default>false</default>
+                <label>Blue Range</label>
+            </value>
+            <value>
+                <fullName>Carenage</fullName>
+                <default>false</default>
+                <label>Carenage</label>
+            </value>
+            <value>
+                <fullName>Chaguaramas</fullName>
+                <default>false</default>
+                <label>Chaguaramas</label>
+            </value>
+            <value>
+                <fullName>Chin Chin/Cunupia</fullName>
+                <default>false</default>
+                <label>Chin Chin/Cunupia</label>
+            </value>
+            <value>
+                <fullName>Claxton Bay</fullName>
+                <default>false</default>
+                <label>Claxton Bay</label>
+            </value>
+            <value>
+                <fullName>Couva</fullName>
+                <default>false</default>
+                <label>Couva</label>
+            </value>
+            <value>
+                <fullName>Cumberbatch</fullName>
+                <default>false</default>
+                <label>Cumberbatch</label>
+            </value>
+            <value>
+                <fullName>Freeport</fullName>
+                <default>false</default>
+                <label>Freeport</label>
+            </value>
+            <value>
+                <fullName>Fyzabad</fullName>
+                <default>false</default>
+                <label>Fyzabad</label>
+            </value>
+            <value>
+                <fullName>Gasparillo</fullName>
+                <default>false</default>
+                <label>Gasparillo</label>
+            </value>
+            <value>
+                <fullName>La Brea</fullName>
+                <default>false</default>
+                <label>La Brea</label>
+            </value>
+            <value>
+                <fullName>La Romain</fullName>
+                <default>false</default>
+                <label>La Romain</label>
+            </value>
+            <value>
+                <fullName>Maracas/St. Joseph</fullName>
+                <default>false</default>
+                <label>Maracas/St. Joseph</label>
+            </value>
+            <value>
+                <fullName>Maraval</fullName>
+                <default>false</default>
+                <label>Maraval</label>
+            </value>
+            <value>
+                <fullName>Mausica</fullName>
+                <default>false</default>
+                <label>Mausica</label>
+            </value>
+            <value>
+                <fullName>Morvant</fullName>
+                <default>false</default>
+                <label>Morvant</label>
+            </value>
+            <value>
+                <fullName>Palo Seco</fullName>
+                <default>false</default>
+                <label>Palo Seco</label>
+            </value>
+            <value>
+                <fullName>Penal</fullName>
+                <default>false</default>
+                <label>Penal</label>
+            </value>
+            <value>
+                <fullName>Piarco</fullName>
+                <default>false</default>
+                <label>Piarco</label>
+            </value>
+            <value>
+                <fullName>Port of Spain - Nelson</fullName>
+                <default>false</default>
+                <label>Port of Spain - Nelson</label>
+            </value>
+            <value>
+                <fullName>Port of Spain - West</fullName>
+                <default>false</default>
+                <label>Port of Spain - West</label>
+            </value>
+            <value>
+                <fullName>Rio Claro</fullName>
+                <default>false</default>
+                <label>Rio Claro</label>
+            </value>
+            <value>
+                <fullName>St. Augustine</fullName>
+                <default>false</default>
+                <label>St. Augustine</label>
+            </value>
+            <value>
+                <fullName>San Fernando - Marabella</fullName>
+                <default>false</default>
+                <label>San Fernando - Marabella</label>
+            </value>
+            <value>
+                <fullName>San Fernando - Thompson</fullName>
+                <default>false</default>
+                <label>San Fernando - Thompson</label>
+            </value>
+            <value>
+                <fullName>San Juan</fullName>
+                <default>false</default>
+                <label>San Juan</label>
+            </value>
+            <value>
+                <fullName>Santa Rosa</fullName>
+                <default>false</default>
+                <label>Santa Rosa</label>
+            </value>
+            <value>
+                <fullName>Toco</fullName>
+                <default>false</default>
+                <label>Toco</label>
+            </value>
+            <value>
+                <fullName>Toruba/St. Clement</fullName>
+                <default>false</default>
+                <label>Toruba/St. Clement</label>
+            </value>
+            <value>
+                <fullName>Trincity</fullName>
+                <default>false</default>
+                <label>Trincity</label>
+            </value>
+            <value>
+                <fullName>Valencia</fullName>
+                <default>false</default>
+                <label>Valencia</label>
+            </value>
+            <value>
+                <fullName>Tobago - Mt. Pleasant</fullName>
+                <default>false</default>
+                <label>Tobago - Mt. Pleasant</label>
+            </value>
+            <value>
+                <fullName>Tobago - Crown Point</fullName>
+                <default>false</default>
+                <label>Tobago - Crown Point</label>
+            </value>
+            <value>
+                <fullName>Tobago - Plymouth</fullName>
+                <default>false</default>
+                <label>Tobago - Plymouth</label>
+            </value>
+            <value>
+                <fullName>Tobago - Mount St. George</fullName>
+                <default>false</default>
+                <label>Tobago - Mount St. George</label>
+            </value>
+            <value>
+                <fullName>Tobago - Speyside</fullName>
+                <default>false</default>
+                <label>Tobago - Speyside</label>
+            </value>
+            <value>
+                <fullName>Tobago - Roxborough</fullName>
+                <default>false</default>
+                <label>Tobago - Roxborough</label>
+            </value>
+            <value>
+                <fullName>Tobago - Moriah</fullName>
+                <default>false</default>
+                <label>Tobago - Moriah</label>
+            </value>
+            <value>
+                <fullName>Tobago - Scarborough</fullName>
+                <default>false</default>
+                <label>Tobago - Scarborough</label>
+            </value>
+            <value>
+                <fullName>Scarborough</fullName>
+                <default>false</default>
+                <label>Scarborough</label>
+            </value>
+            <value>
+                <fullName>Marabella</fullName>
+                <default>false</default>
+                <label>Marabella</label>
+            </value>
+            <value>
+                <fullName>Roxborough</fullName>
+                <default>false</default>
+                <label>Roxborough</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,3211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Digicel_PNG_ICT</fullName>
+    <active>true</active>
+    <businessProcess>PNG_SalesProcess</businessProcess>
+    <label>Digicel PNG ICT</label>
+    <picklistValues>
+        <picklist>Ad_Formats__c</picklist>
+        <values>
+            <fullName>App Bottom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>App Overlay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Billboard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Website Bottom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Page Takeover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Roll Video</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RH Column Lower</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RH Column Top</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Video</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>leaderboard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Additional_Add_on_Packages__c</picklist>
+        <values>
+            <fullName>Adult Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HD Package</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Movie Package</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports Max Pack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports Pack</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Additional_Solutions__c</picklist>
+        <values>
+            <fullName>3rd Party Installation %28Once Of%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3rd Party Maintenance %28recurring%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advanced Networking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Audio Conferencing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avaya Aura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avaya IP Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Broadsoft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business WiMax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCTV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cisco Network Switches</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cisco PBX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cisco SmartNet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud - Backup - high end</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud - IaaS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud - LoB hosting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud - NFV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud - PaaS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud - Private Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud - Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud - Storage - High end</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud - Storage- low end</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud Back Up Low End</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud DRaaS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud DaaS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud Disaster Recovery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud Hosted Exchange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud MDM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud Solution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud Telephony</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Co-Location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIA Wireless</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Center Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data VPN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dedicated Internet Access Fibre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digicel Eye</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digicel Installation %28Once Of%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digicel Maintenance %28recurring%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F6 Vehicle Tracking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre Basic BB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre Network %26 Wireless Backup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed Voice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed Voice %26 Data Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSM Gateway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hosted PBX %28Avaya%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hosted Voice %26 Data Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IP Security%2FSurveillance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IPLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT Infrastructure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indirect Voice %28CPS%2C GSM Gateway%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Private Line</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legacy Vehicle Tracking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPLS WAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managed WAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metro-E Fibre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metro-E Wireless</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NGN Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PBX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential WiMax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIP Trucking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smart Metering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structured Cabling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Track %26 Trace Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unified Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Video Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wireless Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>mHealth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>mPOS and eCOM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Application_Sale__c</picklist>
+        <values>
+            <fullName>Trinidad %26 Tobago</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Approval_Status__c</picklist>
+        <values>
+            <fullName>Approval Recalled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Proposal Acceptance Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposal Acceptance Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solution Design Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solution Design Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted For Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted For Proposal Acceptance Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Are_you_a_current_Customer__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Are_you_using_Microsoft_Office__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AvanceOrder__c</picklist>
+        <values>
+            <fullName>10 %25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 %25</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>50 %25</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>BTC_Revenue_Type__c</picklist>
+        <values>
+            <fullName>BTC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BTC Wholesale</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>BidReviewStatus__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Declined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Submitted</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Billing_Options__c</picklist>
+        <values>
+            <fullName>E-Billing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paper Billing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Broadband_Equipment__c</picklist>
+        <values>
+            <fullName>Modem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wifi Router %26 Modem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wifi-Modem</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Broadband_Home_Internet_Packages__c</picklist>
+        <values>
+            <fullName>1 MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16 MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 MB</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_Solution_Team__c</picklist>
+        <values>
+            <fullName>SMB 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMB 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMB 3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>City2__c</picklist>
+        <values>
+            <fullName>Abenaston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Acaribo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Albina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anapaike</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apetina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apoera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aurora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Batavia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Benzdorp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bitagron</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boskamp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Botopasi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brokopondo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brownsweg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corneliskondre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cottica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Djumu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Friendship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goddo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Groningen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jenny</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kajana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kwakoegron</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kwamalasamutu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lebidoti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lelydorp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moengo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nieuw Amsterdam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nieuw Jacobkondre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nieuw Nickerie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onverwacht</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paramaribo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paranam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pelelu Tepu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pokigron</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pontoetoe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To be provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Totness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wageningen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wanhatti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washoda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zanderij</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Competitor__c</picklist>
+        <values>
+            <fullName>AllCom - MCR - IT Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bmobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conxions -  PBX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Datec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Network - IT services %26 ISP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guard Dog -  Vehicle Tracking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hitron - VSAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Master Systems -  Vehicle Tracking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuigini Infocom - ISP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RadTEL -  PBX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security Systems -  Vehicle Tracking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Speedcast -  VSAT %26 Wireless</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telikom PNG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TrakPro -  Vehicle Tracking</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contract_Processing_Status__c</picklist>
+        <values>
+            <fullName>Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resubmitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resubmitted - Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resubmitted - Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resubmitted - Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contract_Term__c</picklist>
+        <values>
+            <fullName>1 Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contract_Type__c</picklist>
+        <values>
+            <fullName>Broadband</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bundled Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DAAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DPLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DRAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1 Voice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSM Gateway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hosted Exchange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IPLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M2M</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MDM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managed Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Back Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smartnet</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Country__c</picklist>
+        <values>
+            <fullName>Papua New Guinea</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Current_Email_Solution__c</picklist>
+        <values>
+            <fullName>Digicel POP3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exchange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gmail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotmail%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outlook%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yahoo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Current_Marketing_Media__c</picklist>
+        <values>
+            <fullName>Digital Banner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Print</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TV</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Current_Marketing_Provider__c</picklist>
+        <values>
+            <fullName>CaytonE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Devices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Constant Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dauphin Telecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GTT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jamaica Observer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mediaserv Canal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Millicom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Only Numerical SFR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orange Caraibes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Communication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Setar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TCI Sun</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TCI Weekly News</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telefonica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Gleaner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vigilante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wi-Connect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Current_Provider__c</picklist>
+        <values>
+            <fullName>AllCom - MCR - IT Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bmobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conxions -  PBX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Datec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digicel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Network - IT services %26 ISP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guard Dog -  Vehicle Tracking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hitron - VSAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Master Systems -  Vehicle Tracking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuigini Infocom - ISP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RadTEL -  PBX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security Systems -  Vehicle Tracking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Speedcast -  VSAT %26 Wireless</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telikom PNG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TrakPro -  Vehicle Tracking</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CustomerType__c</picklist>
+        <values>
+            <fullName>Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enterprise</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DealhubStatus__c</picklist>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Approval Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Published</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready To Be Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recalled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Won</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Dedicated_Internet_Contract_Period__c</picklist>
+        <values>
+            <fullName>1 Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other %28Custom Term%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Direct_Link_Service__c</picklist>
+        <values>
+            <fullName>Dedicated Internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRI Voice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Network</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Equipment_Deal_Type__c</picklist>
+        <values>
+            <fullName>Deal Structured OTC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunistic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supporting MRR %28Strategic%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Existing_Office_365_User__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FDT_Priority__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FDT_Section__c</picklist>
+        <values>
+            <fullName>A Leg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B Leg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C Leg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D Leg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FDT__c</picklist>
+        <values>
+            <fullName>D01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D02</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D03</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D04</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D05</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D06</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D07</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D13</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fibre_Zone__c</picklist>
+        <values>
+            <fullName>Fibre Zone 1 - Port of Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre Zone 10 - Diego Martin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre Zone 11 - Diamond Vale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre Zone 12 - West Moorings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre Zone 2 - Laventille%2FBarataria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre Zone 3 - Chaguanas Town Centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre Zone 4 - Curepe%2FTunapuna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre Zone 5 - Frederick Settlement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre Zone 6 - Cunupia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre Zone 7 - Piarco South</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre Zone 9 - Golden Grove Road</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gap_Initiative__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Global_Sales_Status__c</picklist>
+        <values>
+            <fullName>Awaiting Further Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Government_Segment__c</picklist>
+        <values>
+            <fullName>Commission</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fully Owned Enterprise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government Bodies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majority State Owned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ministry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional Corporation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Enterprise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tobago House of Assembly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Govt_Liasion_Officer__c</picklist>
+        <values>
+            <fullName>Alicia Hospedales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michelle Mishier</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Handler__c</picklist>
+        <values>
+            <fullName>Afea Alisha Khatoon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alwyn Kuapaitam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arthur Tane</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daniel Gamoga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ellas Terra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eunice Gware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eva Hayes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Krishna Sharma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michael Solomon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tania Mairi Mahuru</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thomas Taylor Benson</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ICT_BB_Project_BC__c</picklist>
+        <values>
+            <fullName>GOB Project BC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ICT_BB_Project__c</picklist>
+        <values>
+            <fullName>GOB Project</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ICT_Mobile__c</picklist>
+        <values>
+            <fullName>Both ICT and Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>If_No_List_Current_Providers__c</picklist>
+        <values>
+            <fullName>Direct TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dish Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hitron</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Islandcom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PTV</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>If_Yes_what_type_of_service__c</picklist>
+        <values>
+            <fullName>Broadband</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fix-Line</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry_Sector__c</picklist>
+        <values>
+            <fullName>ENTERPRISE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GOVT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOHO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Installation_Contractor__c</picklist>
+        <values>
+            <fullName>Airtel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alliance</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call In</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cold Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email Blast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LinkedIn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Relations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seminar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of mouth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>List_Current_Subscribed_Packages__c</picklist>
+        <values>
+            <fullName>1 MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16 MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basic TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extended TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum TV</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Loss_Reason__c</picklist>
+        <values>
+            <fullName>Budget withdrawn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No longer required Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Went to Competition</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Main_Digital_TV_Packages__c</picklist>
+        <values>
+            <fullName>BTV - Basic - TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expanded Digital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MassUpdateforEBD__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Migrated_Updated_from_Netxar__c</picklist>
+        <values>
+            <fullName>INSERTED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPDATED</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Month_Opp_Billed__c</picklist>
+        <values>
+            <fullName>April</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>August</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>December</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>February</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>January</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>July</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>June</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>March</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>May</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>November</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>October</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>September</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Oportunity_Record_Type_Value_from_Lead__c</picklist>
+        <values>
+            <fullName>Anguilla Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Antigua Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aruba Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BVI Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barbados Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bermuda Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bonaire Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cayman Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Curacao Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dominica Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Salvador Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FWI Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fiji GSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fiji ICT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fiji Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grenada Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guyana Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Haiti Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jamaica Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montserrat Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG GSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG ICT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panama Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Samoa GSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Samoa ICT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Samoa Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E Kitts Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E Lucia Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E Vincent Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suriname Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tonga GSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tonga ICT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tonga Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trinidad Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turks %26 Caicos Trend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vanuatu GSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vanuatu ICT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vanuatu Mobile</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Opportunity_Segment__c</picklist>
+        <values>
+            <fullName>Affinity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enterprise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MNC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOHO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strategic and Major</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Opportunity_Status__c</picklist>
+        <values>
+            <fullName>Approved by Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting COC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Review Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Customer Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Sales Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready for Installation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected by Contract Reviewer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected by Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected by Sales Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Operations Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted Finance Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted for Contract Review and Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted for Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted for Sales Operations Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PNG_ClosedLostReason__c</picklist>
+        <values>
+            <fullName>Bid Compliance Requirements Not Met%09Customer Canceled %2F Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Did Not Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Service %2F Support Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digicel unable to deliver Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost to Competitor %28not incumbent%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost to Incumbent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Bid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Relationship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solution Design Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Expertise</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PNG_DiscountApprovalStatus__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PNG_HardwareSoftwareApproval__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PNG_OnHoldReason__c</picklist>
+        <values>
+            <fullName>On Hold - Pending Hardware Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold - Pending Software Licence Acquisition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold - Schedule Implementation Date Change</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PNG_OpportunityType__c</picklist>
+        <values>
+            <fullName>GSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT %26 GSM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PNG_QuoteStatus__c</picklist>
+        <values>
+            <fullName>Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Solution Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Technical Feasibility Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needs Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presented</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solution Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solution Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Feasibility Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Feasibility Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Parish__c</picklist>
+        <values>
+            <fullName>PNG -Western-Tabubil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- Autonomous Region of Bougainville-Arawa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- East New Britain-Kokopo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- East New Britain-Rabaul</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- East Sepik-Wewak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- Eastern Highlands-Goroka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- Enga-Wabag</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- Gulf-Kerema</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- Hela-Tari</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- Jiwaka-Banz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- Madang-Madang</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- Manus-Lorengau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- Milne Bay-Alotau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- Morobe-Lae</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- National Capital District-Port Moresby</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- New Ireland-Kavieng</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- Oro %28Northern%29-Popondetta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- Porgera Mine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- Sandaun %28West Sepik%29-Vanimo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- Simbu %28Chimbu%29-Kundiawa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- Southern Highlands-Mendi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- West New Britain-Hoskins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- West New Britain-Kimbe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- Western %28Fly%29-Daru</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG- Western Highlands-Mount Hagen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG-Eastern Highlands</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PaymentOptions__c</picklist>
+        <values>
+            <fullName>Mandat administratif</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prélèvement automatique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virement</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PaymentTerms__c</picklist>
+        <values>
+            <fullName>15 jours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 jours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>45 jours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60 jours</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pre_Sales_Status__c</picklist>
+        <values>
+            <fullName>Not Validated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validated</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Interest__c</picklist>
+        <values>
+            <fullName>CPE %E2%80%93 Customer Premise Equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud Back-Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud Computing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud Telephony</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSM with 4G</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Connect %E2%80%93 Managed DIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Connect %E2%80%93 Managed Ethernet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Connect %E2%80%93 Managed MPLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installation Costs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maintenance Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managed Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PBX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WIMAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wimax Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wimax Voice</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Level_1__c</picklist>
+        <values>
+            <fullName>Be-spoke Solution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud %26 Data Centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connectivity Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed Voice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT Infrastructure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile%2FPostpaid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unified Comm%2E %28UC%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Level_2__c</picklist>
+        <values>
+            <fullName>BRaaS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bulk SMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCTV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CUG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cabling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cisco Meraki NGFW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cisco Umbrella</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connected Fleet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DRaaS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFTPOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fortinet NGFW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HSIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hosted PBX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IPLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IaaS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LTE %28as Internet Link%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Licenses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M2M</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MW Unlimited</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managed Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managed Services - EG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managed Wifi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network %28New Towers%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Networking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office 365</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PABX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PBN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal Trackers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary PBN over LTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary PBN over Microwave</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Redundant Branch over LTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roaming only bundles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SD WAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SME Bundle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sat Sleeve</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Server</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Static IP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UC On-Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UC-Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USSD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VSAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VT GPRS %28APN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vehicle Tracking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voice %26 Data %28Bundles%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voice Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voice%2FData%2FCUG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weather monitoring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web hosting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webex%2FTeams</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Publisher_Sections__c</picklist>
+        <values>
+            <fullName>Content Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital Radio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Display %26 Video</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Programmatic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS%2FUSSD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media%2FCampaign Mgmt</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Publisher__c</picklist>
+        <values>
+            <fullName>Digicel More</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Newcomm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unlocked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrap</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_for_not_Choosing_the_services__c</picklist>
+        <values>
+            <fullName>Not Interested%2FDigicel 4G Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Interested%2FLime 4G Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Interested%2FLime Broadband Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Interested%2FNo Internet or TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Interested%2FNo Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Interested%2FPTV Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Interested%2FSatellite Internet</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SaleType__c</picklist>
+        <values>
+            <fullName>Existing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Winback</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sale_Type__c</picklist>
+        <values>
+            <fullName>Disconnected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Downgrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business Existing Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relocation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upgrade</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sales_Person__c</picklist>
+        <values>
+            <fullName>Alexander Kelly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allanchris Kaon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Andy Saun</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barbie Kora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Benjamin Justin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Benson Sumani</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christophagna Jean</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frazier Paul</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Glenda Avetari</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guerline Vilmar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hyner Atia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iaa Iaupahae</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>James Nogoya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jason Iari</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jeffrey Kagil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jochebed Ondassa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kridijah Williams</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lindrian Rigby</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lisbeth King</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marie St Hilaire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Myrva Pierre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Noah Are-Uti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nyron Nudds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paul Moses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Peter Bebi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rachel Tiamu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seamona Pumuye</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shedline Joseph</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheriel Brutus</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Solution_Type__c</picklist>
+        <values>
+            <fullName>PBX</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SpecialTerms__c</picklist>
+        <values>
+            <fullName>Avance de 30%25 à la commande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montant d%E2%80%99encours maximum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Règlement des FAS à la commande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sans condition</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SubLossReason__c</picklist>
+        <values>
+            <fullName>Better Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better Technical Solution Competition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No longer require Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Please include further details in %22Other Reason%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service %26 Support</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Timeline_for_Decision__c</picklist>
+        <values>
+            <fullName>0 - 30 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 Months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 Months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Over 1 Year</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Trend_Country__c</picklist>
+        <values>
+            <fullName>Cayman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jamaica</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Existing Downgrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Flat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Upgrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>What_Services_are_you_interested_in__c</picklist>
+        <values>
+            <fullName>BroadBand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fiber</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed Line</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Interested</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>amc__Generation_Method__c</picklist>
+        <values>
+            <fullName>Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Products</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

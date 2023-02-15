@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSR_s_Created_By_Me_Open</fullName>
+    <columns>NAME</columns>
+    <columns>Priority__c</columns>
+    <columns>PSR_Type__c</columns>
+    <columns>Status__c</columns>
+    <columns>Days_to_Completion__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Requested_Date__c</columns>
+    <columns>Required_Date__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CreatedByCurrentUser__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Requested,In Progress,On Hold,Proposal Review</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Pre_Sales_Request__c.Pre_Sales_Request</value>
+    </filters>
+    <label>PSR&apos;s Created By Me - Open</label>
+    <language>en_US</language>
+</ListView>

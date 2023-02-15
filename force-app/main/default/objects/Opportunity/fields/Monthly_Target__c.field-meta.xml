@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monthly_Target__c</fullName>
+    <businessOwnerGroup>SFDC_Admin_Team</businessOwnerGroup>
+    <businessStatus>DeprecateCandidate</businessStatus>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>functionality is no longer required</description>
+    <externalId>false</externalId>
+    <label>zDeprecated - Monthly Target</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>Monthly_ICT_GSM_Targets__c.ICT_User_Target_Records__r.ICT_Sales_Represenative__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.OwnerId</valueField>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Monthly_ICT_GSM_Targets__c</referenceTo>
+    <relationshipLabel>Opportunities</relationshipLabel>
+    <relationshipName>Opportunities</relationshipName>
+    <required>false</required>
+    <securityClassification>Confidential</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

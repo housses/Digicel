@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Barbados_Equipment_Tracker</fullName>
+    <active>true</active>
+    <label>Barbados Equipment Tracker</label>
+    <picklistValues>
+        <picklist>Asset_Type__c</picklist>
+        <values>
+            <fullName>Access Point - Wireless</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Antenna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Backup Battery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Base Station</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bracket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Computer System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connector</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ethernet Converter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expansion Module</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Firewall - Wireless</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GPS Harness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gateway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gateway - Paging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hard Drive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Headset</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hook - Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Keyboard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Keypad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lightning Arrestor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media Converter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media Module</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Memory Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microphone - Wired</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network Interface Module</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network Processor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network Voice Router Module</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ONT - Optical Network Terminal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ONU - Optical Network Unit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Optical Network Terminal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outdoor Radio Unit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PBX Switchboard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paper License</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone - GSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone - IP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone - IP Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone - Standard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone - Wireless</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power Cord</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power Module</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power Over Ethernet Adapter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power Over Ethernet Server</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rack Mount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Router</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Router - Wireless</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sample Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security Appliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Server</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Server Module</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Speaker - Bluetooth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Speakerphone - Wireless</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stack Module</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switch - 12 Port</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switch - 24 Port</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switch - 48 Port</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switch - 52 Port</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switch - 8 Port</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telephone Adapter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transceiver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transceiver Module</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trunk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Carrier__c</picklist>
+        <values>
+            <fullName>DHL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FedEx</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laparkan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Shipment_Status__c</picklist>
+        <values>
+            <fullName>Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Build</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost in transit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipped</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Vendor__c</picklist>
+        <values>
+            <fullName>Actavo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adistec Corp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advanced Media Technologies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All Connect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anxiter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atlas Sound L%2EP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avnet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calabrio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calamp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cisco Systems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dacas Corp%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digicel Stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H%2EP%2ERigging Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ingram Micro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrated Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meraki</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mitel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NX Technologies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Netxusa Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power %26 Tel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promotech Business Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ruckus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scansource</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shore Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Singlewire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sycomp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tech Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology Bureau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teleswitch International</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telrad Networks Ltd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The TSL Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNDSL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wav</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Westcon Group Inc%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Vndr_Equip_Status__c</picklist>
+        <values>
+            <fullName>Digicel In Stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digicel PO Rqstd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Placed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Shipment Rcvd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor Quote Rqstd</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

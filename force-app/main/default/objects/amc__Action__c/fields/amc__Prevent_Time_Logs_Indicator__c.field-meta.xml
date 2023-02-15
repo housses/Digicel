@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Prevent_Time_Logs_Indicator__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>If(amc__Milestone__r.amc__Prevent_Time_Logs_Indicator__c = TRUE, TRUE, amc__Prevent_Time_Logs__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Formula: Identifies if Time Logs should be prevented from being created for this Action. Will be TRUE if either the Action or parent Milestone field is set to TRUE</inlineHelpText>
+    <label>Prevent Time Logs Indicator</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

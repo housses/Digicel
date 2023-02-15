@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Exceed_Milestone_Budget</fullName>
+    <active>false</active>
+    <description>Ensures the Action&apos;s &apos;Hours Scheduled Value (Billable) does not exceed the Milestone&apos;s Unallocated Milestone Budget - applies only for Fixed Price Projects.</description>
+    <errorConditionFormula>AND( ISPICKVAL( amc__Milestone__r.amc__Project__r.amc__Billing_Type__c , &quot;Fixed Price&quot;) , 
+
+IF(ISCHANGED(amc__Hours_Scheduled_Cost__c), (amc__Milestone__r.amc__Hours_Scheduled_Cost__c - PRIORVALUE(amc__Hours_Scheduled_Cost__c)) + amc__Hours_Scheduled_Cost__c, amc__Milestone__r.amc__Hours_Scheduled_Cost__c + amc__Hours_Scheduled_Cost__c) 
+
+&gt; amc__Milestone__r.amc__Milestone_Budget__c )</errorConditionFormula>
+    <errorMessage>This Action will exceed the &apos;Milestone Budget&apos;, please reduce the Hours Scheduled (Billable)</errorMessage>
+</ValidationRule>

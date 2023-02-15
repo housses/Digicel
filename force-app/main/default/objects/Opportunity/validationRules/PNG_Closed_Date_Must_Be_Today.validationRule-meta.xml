@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_Closed_Date_Must_Be_Today</fullName>
+    <active>true</active>
+    <description>Rule to prevent closed date not to be less than or greater then today when the opportunity is put to closed won for PNG Market</description>
+    <errorConditionFormula>AND( CloseDate &lt;  TODAY() || CloseDate &gt; TODAY(),
+
+     Digicel_Country__c =&quot;PNG&quot;,
+     ISCHANGED( StageName ) || ISCHANGED( CloseDate ),
+     ISPICKVAL(StageName, &quot;Closed Won&quot;)||ISPICKVAL(StageName, &quot;Closed-Won&quot;),
+
+     RecordType.Name =&quot;Digicel PNG GSM&quot; || RecordType.Name =&quot;Digicel PNG ICT&quot; || RecordType.Name = &quot;Digicel PNG ICT &amp; GSM&quot;, 
+     $Profile.Name &lt;&gt;&quot;System Administrator&quot;
+&amp;&amp;   $Profile.Name &lt;&gt;&quot;PNG - Sales Operations&quot;
+&amp;&amp;   $Profile.Name &lt;&gt;&quot;PNG - Billing/Legal&quot;
+&amp;&amp;   $Profile.Name &lt;&gt;&quot;PNG - Service Manager&quot;)</errorConditionFormula>
+    <errorDisplayField>CloseDate</errorDisplayField>
+    <errorMessage>Close Date Must not be Less Then or Greater then Today</errorMessage>
+</ValidationRule>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SpecialTerms__c</fullName>
+    <externalId>false</externalId>
+    <label>Special terms</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Règlement des FAS à la commande</fullName>
+                <default>false</default>
+                <label>Règlement des FAS à la commande</label>
+            </value>
+            <value>
+                <fullName>Avance de 30% à la commande</fullName>
+                <default>false</default>
+                <label>Avance de 30% à la commande</label>
+            </value>
+            <value>
+                <fullName>Montant d’encours maximum</fullName>
+                <default>false</default>
+                <label>Montant d’encours maximum</label>
+            </value>
+            <value>
+                <fullName>Sans condition</fullName>
+                <default>false</default>
+                <label>Sans condition</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

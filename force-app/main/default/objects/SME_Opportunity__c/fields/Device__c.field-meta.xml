@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Device__c</fullName>
+    <externalId>false</externalId>
+    <label>Device</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Huawei LTE Router</fullName>
+                <default>false</default>
+                <label>Huawei LTE Router</label>
+            </value>
+            <value>
+                <fullName>Huawei LTE MiFi</fullName>
+                <default>false</default>
+                <label>Huawei LTE MiFi</label>
+            </value>
+            <value>
+                <fullName>NEC Telephone Handset</fullName>
+                <default>false</default>
+                <label>NEC Telephone Handset</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_ClosedLostReason__c</fullName>
+    <externalId>false</externalId>
+    <label>Closed-Lost Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bid Compliance Requirements Not Met	Customer Canceled / Request</fullName>
+                <default>false</default>
+                <label>Bid Compliance Requirements Not Met	Customer Canceled / Request</label>
+            </value>
+            <value>
+                <fullName>Customer Did Not Progress</fullName>
+                <default>false</default>
+                <label>Customer Did Not Progress</label>
+            </value>
+            <value>
+                <fullName>Customer Service / Support Issues</fullName>
+                <default>false</default>
+                <label>Customer Service / Support Issues</label>
+            </value>
+            <value>
+                <fullName>Digicel unable to deliver Service</fullName>
+                <default>false</default>
+                <label>Digicel unable to deliver Service</label>
+            </value>
+            <value>
+                <fullName>Duplicate Opportunity</fullName>
+                <default>false</default>
+                <label>Duplicate Opportunity</label>
+            </value>
+            <value>
+                <fullName>Lost to Competitor (not incumbent)</fullName>
+                <default>false</default>
+                <label>Lost to Competitor (not incumbent)</label>
+            </value>
+            <value>
+                <fullName>Lost to Incumbent</fullName>
+                <default>false</default>
+                <label>Lost to Incumbent</label>
+            </value>
+            <value>
+                <fullName>No Bid</fullName>
+                <default>false</default>
+                <label>No Bid</label>
+            </value>
+            <value>
+                <fullName>Poor Relationship</fullName>
+                <default>false</default>
+                <label>Poor Relationship</label>
+            </value>
+            <value>
+                <fullName>Solution Design Rejected</fullName>
+                <default>false</default>
+                <label>Solution Design Rejected</label>
+            </value>
+            <value>
+                <fullName>Technical Expertise</fullName>
+                <default>false</default>
+                <label>Technical Expertise</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExistingMRCValue__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>To be populated only of Product is a Renewal or Doowngrade of a service.
+
+If new Business etc, you can leave this blank.</inlineHelpText>
+    <label>Existing MRC Value</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

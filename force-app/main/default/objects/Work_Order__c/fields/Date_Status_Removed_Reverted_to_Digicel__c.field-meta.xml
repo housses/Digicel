@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Status_Removed_Reverted_to_Digicel__c</fullName>
+    <description>Traps the date the status was removed from reverted to Digicel</description>
+    <externalId>false</externalId>
+    <label>Date Status Removed Reverted to Digicel</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

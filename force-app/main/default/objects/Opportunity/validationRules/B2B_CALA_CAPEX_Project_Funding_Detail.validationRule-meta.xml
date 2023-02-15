@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_CALA_CAPEX_Project_Funding_Detail</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(NOT(CONTAINS(RecordType.DeveloperName, &quot;Trend&quot;)) &amp;&amp; 
+NOT(CONTAINS(RecordType.DeveloperName, &quot;Fiji&quot;)) &amp;&amp; 
+NOT(CONTAINS(RecordType.DeveloperName, &quot;Samoa&quot;)) &amp;&amp; 
+NOT(CONTAINS(RecordType.DeveloperName, &quot;Vanuatu&quot;)) &amp;&amp; 
+NOT(CONTAINS(RecordType.DeveloperName, &quot;Nauru&quot;)) &amp;&amp; 
+NOT(CONTAINS(RecordType.DeveloperName, &quot;Tonga&quot;)) &amp;&amp; 
+NOT(CONTAINS(RecordType.DeveloperName, &quot;PNG&quot;)) &amp;&amp; 
+NOT(CONTAINS($UserRole.Name, &quot;International&quot;)),
+AND(ISPICKVAL(  Type , &apos;Key / Major Deal&apos;)
+|| ISPICKVAL( Type , &apos;Mega Deal&apos;) ) 
+&amp;&amp;  ISBLANK( ForecastedRevenueCFY__c ) &amp;&amp; 
+ISBLANK( TotalCAPEXofProject__c ) &amp;&amp; 
+ISBLANK( InternalRateReturn__c ) &amp;&amp; 
+ISBLANK( PeakFunding__c ) &amp;&amp; 
+ISBLANK( ForecastedEBITDACFY__c ) &amp;&amp; 
+ISBLANK( CAPEXCFY__c ) &amp;&amp; 
+ISBLANK( Budget_EBITDA_CFY__c ) &amp;&amp; 
+ISBLANK( Budgeted_Revenue_CFY__c ) &amp;&amp; 
+ISBLANK( PaybackPeriodmths__c) , False)</errorConditionFormula>
+    <errorMessage>You have select &quot;Key / Major Deal&quot; or &quot;Mega Deal&quot; in the &quot;Type&quot; drop down menu. In order to save your opportunity you must populate all fields in the &quot;CAPEX &amp; Project Funding Detail&quot; section of the opportunity.</errorMessage>
+</ValidationRule>

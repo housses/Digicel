@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Total_Hours_Scheduled__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>amc__Hours_Scheduled__c + amc__Hours_Scheduled_Non_Billable__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Formula Field: Sum of the total hours scheduled, billable and non billable</inlineHelpText>
+    <label>Total Hours Scheduled</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

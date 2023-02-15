@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>PNG_AccesstoQuoteApprovers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Access to Quote Approvers</label>
+        <sharedTo>
+            <group>PNG_QuoteApprovers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Digicel PNG ICT &amp; GSM</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Trend_Super_Users_Opp</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Trend Super Users Opp</label>
+        <sharedTo>
+            <group>Trend_Read_Write_Access_Sharing</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Trend Media</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>All_ABC_Opportunities</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>All ABC Opportunities</label>
+        <sharedTo>
+            <group>ABC_Heads_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Aruba_Curacao_Bonaire_Users_Sharing</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>All_Oppty_Read_Only_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>All Oppty Read Only Access</label>
+        <sharedTo>
+            <group>Sharing_R_O_All_C_CA</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Digicel_Group_Business_Solutions_C_CA_Region</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Anguilla_Antigua_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Anguilla Antigua Sharing</label>
+        <sharedTo>
+            <role>Anguilla</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Antigua</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Anguilla_Modify_All_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Anguilla Modify All Access</label>
+        <sharedTo>
+            <group>Anguilla_Opportunity_Modify_All_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Anguilla</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Anguilla_SKN_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Anguilla SKN Sharing</label>
+        <sharedTo>
+            <role>Anguilla</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>St_Kitts_Nevis</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Antigua_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Antigua Sharing</label>
+        <sharedTo>
+            <group>Antigua_Power_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Antigua</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Barbados_Approval_Sharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Barbados Approval Sharing Rule</label>
+        <sharedTo>
+            <role>Barbados_Corporate_Sales_Manager</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Barbados</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Barbados_Read_Write_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Barbados Read/Write Access</label>
+        <sharedTo>
+            <group>Barbados_Internal_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Barbados</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Bermuda_Cayman_TCI_Sharing</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Bermuda Cayman TCI Sharing</label>
+        <sharedTo>
+            <role>Bermuda</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>Bermuda_Cayman_TCI_Sharing</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Bermuda_Jamaica_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>For Stephen Murad to access opportunities from Jamaica</description>
+        <label>Bermuda Jamaica Sharing</label>
+        <sharedTo>
+            <group>Bermuda_Jamaica_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Jamaica</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Bermuda_Power_User_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This sharing rule provides read / write access to all opportunities owned by a memeber of teh Bermuda team</description>
+        <label>Bermuda Power User Access</label>
+        <sharedTo>
+            <group>Bermuda_All_Access_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Bermuda</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Carl_Obrien_Markets</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Carl Obrien Markets</label>
+        <sharedTo>
+            <group>Carl_O_Brien_s_Cluster_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Antigua_Anguilla_St_Kitts_Sharing_Goup</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Cayman_Opps</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Cayman Opps</label>
+        <sharedTo>
+            <roleAndSubordinates>Cayman_Islands</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Cayman_Islands</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Curacao_Tres_Networks_Oppty_Sharing</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Curacao / Tres Networks Oppty Sharing</label>
+        <sharedTo>
+            <group>Sharing_Curacao_Read_Only</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Sharing_Curacao_Read_Only</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Digicel_PNG_Sales_Operations_Team</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Digicel PNG Sales Operations Team</label>
+        <sharedTo>
+            <roleAndSubordinates>PNG_Sales_Operations</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>PNG_Sales_Manager</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Dominica_BVI_Opps</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Dominica BVI Opps</label>
+        <sharedTo>
+            <role>Dominica</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>Dominica_BVI_Sharing</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>El_Salvador_All_Opp_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>El Salvador All Opp Access</label>
+        <sharedTo>
+            <group>El_Salvador_RW_Access_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>El_Salvador</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>FWI_All_Read_Write_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>FWI All Read Write Access</label>
+        <sharedTo>
+            <group>FWI_Users_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>FWI_Users_Sharing</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Grenada_Read_Write_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Grenada Read / Write Access</label>
+        <sharedTo>
+            <role>Grenada_Sales_Operations</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Grenada</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Guyana_Suriname_HOB</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Guyana Suriname HOB</label>
+        <sharedTo>
+            <role>Guyana</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>Guyana_Suriname_Sharing</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Haiti_shares_Opportunities_with_all_Haiti_Presales_and_Technical_Service</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Haiti shares Opportunities with all Haiti Presales and Technical Service</label>
+        <sharedTo>
+            <group>Haiti_Read_Write_All_Access_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Haiti</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>IDOM_DBS_Read_Write_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>IDOM / DBS Read / Write Sharing</label>
+        <sharedTo>
+            <role>French_West_Indies</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>IDOM_Technologies</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Jamaica_Read_Write_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule was created to grant read write access to all back office personnel</description>
+        <label>Jamaica Read/Write Access</label>
+        <sharedTo>
+            <group>Jamaica_Read_Write_Access_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Jamaica</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Jamaica_SLU_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Granting JM permissions to SLU</description>
+        <label>Jamaica SLU Sharing</label>
+        <sharedTo>
+            <group>Jamaica_SLU_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>St_Lucia</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Jamaica_Visibility_to_Wholesale_opps</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Jamaica Visibility to Wholesale opps</label>
+        <sharedTo>
+            <group>Jamaica_Wholesale_Visibility_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Digicel_Wholesale</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PNG_Sharing_Opp_with_Billing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PNG Sharing Opp with Billing</label>
+        <sharedTo>
+            <roleAndSubordinates>PNG_Billing_Legal</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>PNG</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PNG_TEAM_OPPORTUNITY</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>PNG TEAM OPPORTUNITY</label>
+        <sharedTo>
+            <roleAndSubordinates>PNG</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>PNG</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Panama_Read_Write_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Panama Read / Write Access</label>
+        <sharedTo>
+            <group>Panama_All_Access_Sharing_RW</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Panama</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>SP_Management_Access_to_SP</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>SP Management Access to SP</label>
+        <sharedTo>
+            <group>South_Pacific_Read_Access_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Digicel_Group_Business_Solutions_South_Pacific_Region</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_all_Opps_in_Aruba</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>This rule grants all Aruba users access to see each others opportunities</description>
+        <label>Share all Opps in Aruba</label>
+        <sharedTo>
+            <roleAndSubordinates>Aruba</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Aruba</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Shervin_Bruno_Grenada</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Shervin Bruno Grenada</label>
+        <sharedTo>
+            <role>Dominica</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Grenada</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Shervin_Bruno_SLU</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Shervin Bruno SLU</label>
+        <sharedTo>
+            <role>Dominica</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>St_Lucia</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Shervin_Bruno_SVG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Shervin Bruno SVG</label>
+        <sharedTo>
+            <role>Dominica</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>St_Vincent</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>St_Kitts_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>St. Kitts Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>St_Kitts_Nevis</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>St_Kitts_Nevis</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>St_Lucia_Opps</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>St. Lucia Opps</label>
+        <sharedTo>
+            <group>St_Lucia_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>St_Lucia_Sharing</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>St_Vincent_Edit_All_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>St Vincent Edit All Access</label>
+        <sharedTo>
+            <group>SVG_Read_Write_All_Access_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>St_Vincent</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>TT_Vendor_Sharing</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>TT Vendor Sharing</label>
+        <sharedTo>
+            <group>Trinidad_All_Access_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>Vendor_ChannelPro_Limited_View_TT</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Temp_File_Sharing_Test</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Temp File Sharing Test</label>
+        <sharedTo>
+            <group>SFDC_Admin_Team</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Chairman_s_Committee</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Temp_Haiti_Sharing</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Temp Haiti Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Haiti</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Haiti</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Trinidad_Approve_All</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Trinidad Approve All</label>
+        <sharedTo>
+            <group>Trinidad_Approve_All_Opps_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Trinidad_Tobago</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Trinidad_View_All_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Trinidad View All Access</label>
+        <sharedTo>
+            <roleAndSubordinates>Trinidad_Tobago</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Trinidad_Tobago</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Vanuatu_sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Vanuatu sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Vanuatu</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Vanuatu</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Vendor_ChannelPro_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Vendor: ChannelPro Sharing</label>
+        <sharedTo>
+            <group>Jamaica_Read_Write_Access_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>Vendor_ChannelPro_Limited_View</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>aruba_sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>specifically for Lysmar Contreras to view aruba opps</description>
+        <label>aruba sharing</label>
+        <sharedTo>
+            <group>Aruba_Curacao_Bonaire_Users_Sharing</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>Aruba</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

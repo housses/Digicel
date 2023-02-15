@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Request_Change_to_Complete</fullName>
+    <active>false</active>
+    <description>You can&apos;t move to this stage unless the SR has been submitted for approval and validated by the Head of Service Delivery</description>
+    <errorConditionFormula>ISPICKVAL( Status__c , &quot;Complete&quot;)</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>You can&apos;t move to this stage unless the SR has been submitted for approval and validated by the Head of Service Delivery</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completion_Report_Attached__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field was created for the TT SOC Ticket record type: DO NOT TOUCH</description>
+    <externalId>false</externalId>
+    <label>Completion Report Attached</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

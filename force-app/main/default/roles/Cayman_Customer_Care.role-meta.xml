@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Cayman Customer Care</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Cayman Customer Care</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Cayman_Head_of_Corporate_Support</parentRole>
+</Role>

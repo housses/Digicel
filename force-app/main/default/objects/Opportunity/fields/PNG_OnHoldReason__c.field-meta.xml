@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_OnHoldReason__c</fullName>
+    <externalId>false</externalId>
+    <label>On Hold Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>On Hold - Pending Hardware Delivery</fullName>
+                <default>false</default>
+                <label>On Hold - Pending Hardware Delivery</label>
+            </value>
+            <value>
+                <fullName>On Hold - Pending Software Licence Acquisition</fullName>
+                <default>false</default>
+                <label>On Hold - Pending Software Licence Acquisition</label>
+            </value>
+            <value>
+                <fullName>On Hold - Schedule Implementation Date Change</fullName>
+                <default>false</default>
+                <label>On Hold - Schedule Implementation Date Change</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

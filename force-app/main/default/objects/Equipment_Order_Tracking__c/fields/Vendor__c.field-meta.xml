@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor__c</fullName>
+    <externalId>false</externalId>
+    <label>Vendor</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Actavo</fullName>
+                <default>false</default>
+                <label>Actavo</label>
+            </value>
+            <value>
+                <fullName>Adistec Corp</fullName>
+                <default>false</default>
+                <label>Adistec Corp</label>
+            </value>
+            <value>
+                <fullName>Advanced Media Technologies</fullName>
+                <default>false</default>
+                <label>Advanced Media Technologies</label>
+            </value>
+            <value>
+                <fullName>All Connect</fullName>
+                <default>false</default>
+                <label>All Connect</label>
+            </value>
+            <value>
+                <fullName>Anxiter</fullName>
+                <default>false</default>
+                <label>Anxiter</label>
+            </value>
+            <value>
+                <fullName>Atlas Sound L.P</fullName>
+                <default>false</default>
+                <label>Atlas Sound L.P</label>
+            </value>
+            <value>
+                <fullName>Avnet</fullName>
+                <default>false</default>
+                <label>Avnet</label>
+            </value>
+            <value>
+                <fullName>Calabrio</fullName>
+                <default>false</default>
+                <label>Calabrio</label>
+            </value>
+            <value>
+                <fullName>Calamp</fullName>
+                <default>false</default>
+                <label>Calamp</label>
+            </value>
+            <value>
+                <fullName>Cisco Systems</fullName>
+                <default>false</default>
+                <label>Cisco Systems</label>
+            </value>
+            <value>
+                <fullName>Dacas Corp.</fullName>
+                <default>false</default>
+                <label>Dacas Corp.</label>
+            </value>
+            <value>
+                <fullName>Digicel Stock</fullName>
+                <default>false</default>
+                <label>Digicel Stock</label>
+            </value>
+            <value>
+                <fullName>H.P.Rigging Inc</fullName>
+                <default>false</default>
+                <label>H.P.Rigging Inc</label>
+            </value>
+            <value>
+                <fullName>Ingram Micro</fullName>
+                <default>false</default>
+                <label>Ingram Micro</label>
+            </value>
+            <value>
+                <fullName>Integrated Solutions</fullName>
+                <default>false</default>
+                <label>Integrated Solutions</label>
+            </value>
+            <value>
+                <fullName>Meraki</fullName>
+                <default>false</default>
+                <label>Meraki</label>
+            </value>
+            <value>
+                <fullName>Mitel</fullName>
+                <default>false</default>
+                <label>Mitel</label>
+            </value>
+            <value>
+                <fullName>Netxusa Inc</fullName>
+                <default>false</default>
+                <label>Netxusa Inc</label>
+            </value>
+            <value>
+                <fullName>NX Technologies</fullName>
+                <default>false</default>
+                <label>NX Technologies</label>
+            </value>
+            <value>
+                <fullName>Power &amp; Tel</fullName>
+                <default>false</default>
+                <label>Power &amp; Tel</label>
+            </value>
+            <value>
+                <fullName>Promotech Business Solutions</fullName>
+                <default>false</default>
+                <label>Promotech Business Solutions</label>
+            </value>
+            <value>
+                <fullName>Ruckus</fullName>
+                <default>false</default>
+                <label>Ruckus</label>
+            </value>
+            <value>
+                <fullName>Scansource</fullName>
+                <default>false</default>
+                <label>Scansource</label>
+            </value>
+            <value>
+                <fullName>Shore Group</fullName>
+                <default>false</default>
+                <label>Shore Group</label>
+            </value>
+            <value>
+                <fullName>Singlewire</fullName>
+                <default>false</default>
+                <label>Singlewire</label>
+            </value>
+            <value>
+                <fullName>Sycomp</fullName>
+                <default>false</default>
+                <label>Sycomp</label>
+            </value>
+            <value>
+                <fullName>Tech Data</fullName>
+                <default>false</default>
+                <label>Tech Data</label>
+            </value>
+            <value>
+                <fullName>Technology Bureau</fullName>
+                <default>false</default>
+                <label>Technology Bureau</label>
+            </value>
+            <value>
+                <fullName>Teleswitch International</fullName>
+                <default>false</default>
+                <label>Teleswitch International</label>
+            </value>
+            <value>
+                <fullName>Telrad Networks Ltd</fullName>
+                <default>false</default>
+                <label>Telrad Networks Ltd</label>
+            </value>
+            <value>
+                <fullName>The TSL Group</fullName>
+                <default>false</default>
+                <label>The TSL Group</label>
+            </value>
+            <value>
+                <fullName>UNDSL</fullName>
+                <default>false</default>
+                <label>UNDSL</label>
+            </value>
+            <value>
+                <fullName>Wav</fullName>
+                <default>false</default>
+                <label>Wav</label>
+            </value>
+            <value>
+                <fullName>Westcon Group Inc.</fullName>
+                <default>false</default>
+                <label>Westcon Group Inc.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

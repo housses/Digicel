@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source__c</fullName>
+    <externalId>false</externalId>
+    <label>Source</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Kaldom</fullName>
+                <default>false</default>
+                <label>Kaldom</label>
+            </value>
+            <value>
+                <fullName>SeV</fullName>
+                <default>false</default>
+                <label>SeV</label>
+            </value>
+            <value>
+                <fullName>Telesoft</fullName>
+                <default>false</default>
+                <label>Telesoft</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

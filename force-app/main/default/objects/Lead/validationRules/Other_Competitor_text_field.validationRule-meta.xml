@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Competitor_text_field</fullName>
+    <active>false</active>
+    <description>If user selects other in Competitor picklist they must type who the competitor is</description>
+    <errorConditionFormula>AND( INCLUDES( Competitor__c , &quot;Other&quot;),  ISBLANK(Other_Competitor__c ))</errorConditionFormula>
+    <errorDisplayField>Other_Competitor__c</errorDisplayField>
+    <errorMessage>Please Type The Name Of The Competitor</errorMessage>
+</ValidationRule>

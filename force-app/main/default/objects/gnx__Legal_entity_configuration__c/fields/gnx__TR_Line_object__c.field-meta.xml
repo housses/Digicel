@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gnx__TR_Line_object__c</fullName>
+    <defaultValue>&quot;npe01__OppPayment__c&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Objet à partir duquel les informations des lignes de votre reçu seront initialisées, souvent utilisé pour les paiements, il peut cependant être le même que celui dans le champ Nom API Objet (Reçu Fiscal).</inlineHelpText>
+    <label>Nom API Objet (Ligne de RF)</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

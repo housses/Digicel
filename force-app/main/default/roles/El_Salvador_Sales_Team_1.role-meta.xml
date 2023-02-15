@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>El Salvador Freelance Sales</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>El Salvador Sales Team 1</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>El_Salvador_Sales_Manager_1</parentRole>
+</Role>

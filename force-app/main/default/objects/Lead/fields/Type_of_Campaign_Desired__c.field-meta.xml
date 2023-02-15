@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Campaign_Desired__c</fullName>
+    <description>Created for Bermuda Mobile Advertising for Business Solutions</description>
+    <externalId>false</externalId>
+    <label>Type of Campaign Desired</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mobile Sites</fullName>
+                <default>false</default>
+                <label>Mobile Sites</label>
+            </value>
+            <value>
+                <fullName>Ad Messenger</fullName>
+                <default>false</default>
+                <label>Ad Messenger</label>
+            </value>
+            <value>
+                <fullName>Wrap</fullName>
+                <default>false</default>
+                <label>Wrap</label>
+            </value>
+            <value>
+                <fullName>SMS Broadcast</fullName>
+                <default>false</default>
+                <label>SMS Broadcast</label>
+            </value>
+            <value>
+                <fullName>SMS Integration</fullName>
+                <default>false</default>
+                <label>SMS Integration</label>
+            </value>
+            <value>
+                <fullName>Short Codes</fullName>
+                <default>false</default>
+                <label>Short Codes</label>
+            </value>
+            <value>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+                <label>Social Media</label>
+            </value>
+            <value>
+                <fullName>Programmatic</fullName>
+                <default>false</default>
+                <label>Programmatic</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

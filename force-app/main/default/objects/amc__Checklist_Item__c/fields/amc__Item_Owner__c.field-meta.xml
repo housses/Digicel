@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Item_Owner__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Links to the Role record of the person responsible for this Checklist Item</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Links to the Role record of the person responsible for this Checklist Item</inlineHelpText>
+    <label>Item Owner</label>
+    <referenceTo>amc__Role__c</referenceTo>
+    <relationshipLabel>Checklist Items</relationshipLabel>
+    <relationshipName>Checklist_Items</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

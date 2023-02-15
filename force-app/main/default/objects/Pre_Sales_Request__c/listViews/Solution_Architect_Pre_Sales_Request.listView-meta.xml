@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solution_Architect_Pre_Sales_Request</fullName>
+    <columns>NAME</columns>
+    <columns>PSR_Type__c</columns>
+    <columns>Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Digicel_Country__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>Solution Architect</label>
+    <queue>Solution_Architect</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

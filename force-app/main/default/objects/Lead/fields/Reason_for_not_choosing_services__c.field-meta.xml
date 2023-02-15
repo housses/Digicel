@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_not_choosing_services__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason for not choosing services</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Interested/PTV Customer</fullName>
+                <default>false</default>
+                <label>Not Interested/PTV Customer</label>
+            </value>
+            <value>
+                <fullName>Not Interested/Lime Broadband Customer</fullName>
+                <default>false</default>
+                <label>Not Interested/Lime Broadband Customer</label>
+            </value>
+            <value>
+                <fullName>Not Interested/Lime 4G Customer</fullName>
+                <default>false</default>
+                <label>Not Interested/Lime 4G Customer</label>
+            </value>
+            <value>
+                <fullName>Not Interested/Digicel 4G Customer</fullName>
+                <default>false</default>
+                <label>Not Interested/Digicel 4G Customer</label>
+            </value>
+            <value>
+                <fullName>Not Interested/Satellite Internet</fullName>
+                <default>false</default>
+                <label>Not Interested/Satellite Internet</label>
+            </value>
+            <value>
+                <fullName>Not Interested/No Internet or TV</fullName>
+                <default>false</default>
+                <label>Not Interested/No Internet or TV</label>
+            </value>
+            <value>
+                <fullName>Not Interested/No Response</fullName>
+                <default>false</default>
+                <label>Not Interested/No Response</label>
+            </value>
+            <value>
+                <fullName>Not Interested - FLOW Cable</fullName>
+                <default>false</default>
+                <label>Not Interested - FLOW Cable</label>
+            </value>
+            <value>
+                <fullName>Not Interested - FLOW Broadband</fullName>
+                <default>false</default>
+                <label>Not Interested - FLOW Broadband</label>
+            </value>
+            <value>
+                <fullName>Not Interested - FLOW landline</fullName>
+                <default>false</default>
+                <label>Not Interested - FLOW landline</label>
+            </value>
+            <value>
+                <fullName>Not Interested - BLINK Cable</fullName>
+                <default>false</default>
+                <label>Not Interested - BLINK Cable</label>
+            </value>
+            <value>
+                <fullName>Not Interested - BLINK Broadband</fullName>
+                <default>false</default>
+                <label>Not Interested - BLINK Broadband</label>
+            </value>
+            <value>
+                <fullName>Not Interested - BLINK landline</fullName>
+                <default>false</default>
+                <label>Not Interested - BLINK landline</label>
+            </value>
+            <value>
+                <fullName>Not Interested - D/VALE Cable</fullName>
+                <default>false</default>
+                <label>Not Interested - D/VALE Cable</label>
+            </value>
+            <value>
+                <fullName>Not Interested - DIRECT TV</fullName>
+                <default>false</default>
+                <label>Not Interested - DIRECT TV</label>
+            </value>
+            <value>
+                <fullName>Not Interested - GREEN DOT Broadband</fullName>
+                <default>false</default>
+                <label>Not Interested - GREEN DOT Broadband</label>
+            </value>
+            <value>
+                <fullName>Not Interested - GREEN DOT Cable</fullName>
+                <default>false</default>
+                <label>Not Interested - GREEN DOT Cable</label>
+            </value>
+            <value>
+                <fullName>Not Interested - Marpin Cable Customer</fullName>
+                <default>false</default>
+                <label>Not Interested - Marpin Cable Customer</label>
+            </value>
+            <value>
+                <fullName>Not Interested - Marpin Broadband Cust.</fullName>
+                <default>false</default>
+                <label>Not Interested - Marpin Broadband Cust.</label>
+            </value>
+            <value>
+                <fullName>Not Interested - LIME Cable Customer</fullName>
+                <default>false</default>
+                <label>Not Interested - LIME Cable Customer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

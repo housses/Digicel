@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Digicel_PNG_Mobile_Advertisement</fullName>
+    <active>true</active>
+    <label>Digicel PNG Mobile Advertisement</label>
+    <picklistValues>
+        <picklist>ActivitySubtype__c</picklist>
+        <values>
+            <fullName>Business Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cold Call%2F Discovery %2F Prospecting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collections</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Care%2F Relationship Building</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposal Review%2F Negotiation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upgrade</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Associated_Product_Subtype__c</picklist>
+        <values>
+            <fullName>Accessory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accessory %2F Add-on</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alarm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Build %2F Deploy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCTV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed User Group %28CUG%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud UC as a Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud US as a Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colocation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connected Fleets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connected Infrastructures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connected People</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connectivity Service BIA Installation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connectivity Service DIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connectivity Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data and Voice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data backup and Disaster Recovery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Firewall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed Telephony</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed Voice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infrastructure Subscription %28IaaS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infrastructure as a Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manage and Operate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managed Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Device and Unified Endpoint Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Device or Unified Endpoint Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Networks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Networking Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premise UC or PBX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premise US or PBX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software as a Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telephony Add-on</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Television</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Toll Free Voice Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Video Survelliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voice Gateway</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Associated_Product__c</picklist>
+        <values>
+            <fullName>Cloud ICT and Business Continuity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connectivity and Networks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internet of Things %28IOT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media Service and Television</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional and Managed Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security and Surveillance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unified Communications and Collaboration</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CallType__c</picklist>
+        <values>
+            <fullName>Incoming Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outgoing Call</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Call_Activity__c</picklist>
+        <values>
+            <fullName>Face to Face</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Call</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ContactType__c</picklist>
+        <values>
+            <fullName>In-Person Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telephone Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Video Conference</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>F2FRequested__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FacetoFaceOutcome__c</picklist>
+        <values>
+            <fullName>Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected in Favor of Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected in Favor of VC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lead_Record_Type_Value_from_Lead__c</picklist>
+        <values>
+            <fullName>Fiji GSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fiji ICT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fiji Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG GSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG ICT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Samoa GSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Samoa ICT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Samoa Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tonga GSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tonga ICT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tonga Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vanuatu GSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vanuatu ICT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vanuatu Mobile</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MeetingActivity__c</picklist>
+        <values>
+            <fullName>Account Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Admin %2F Contract Follow-up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Billing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disconnection - Competitor price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disconnection - Network%2F Technical Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disconnection - Service%2F Care Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disconnection - debt%2F economic%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disconnection Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Downgrade%2F Dilution price of existing product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Downgraded number of connections</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handset</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manager Support Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Product to Existing Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reconnection of Existing Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relationship Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal %2F Resign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upsell New %2F Existing Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upsell Price on Existing Product</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MeetingPurpose__c</picklist>
+        <values>
+            <fullName>Churn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manage %2F Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retain</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MeetingType__c</picklist>
+        <values>
+            <fullName>Existing Customer Follow Up Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>First Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Customer Follow Up Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Second Meeting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Meeting_Stage__c</picklist>
+        <values>
+            <fullName>1st Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2nd Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3rd Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4th Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5th Meeting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Outcome__c</picklist>
+        <values>
+            <fullName>Interest Shown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Answer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unavailable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Number</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PNG_OnHoldReason__c</picklist>
+        <values>
+            <fullName>Pending Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Technical</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deferred</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Waiting on someone else</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SubCallType__c</picklist>
+        <values>
+            <fullName>Existing Customer Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>First Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Second Call</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Outcome_1__c</picklist>
+        <values>
+            <fullName>Event Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issues with Digicel Brand%2FImage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Budget at this time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Previous Bad Service Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prices are too high</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Outcome_2__c</picklist>
+        <values>
+            <fullName>Current Provider Options</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home and Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>When is Budget Cycle</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Letter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Quote</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>-None-</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Business Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collections</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contacted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Create Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disconnected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disconnection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discovery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead - Follow Up for Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Negotiation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposal Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposal Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospecting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relationship Building</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sold - Cash Sale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upgrade</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

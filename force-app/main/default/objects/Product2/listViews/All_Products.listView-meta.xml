@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Products</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>Product_Type__c</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>ProductFamilySubtype__c</columns>
+    <columns>Country__c</columns>
+    <columns>PRODUCT2.RECORD_TYPE</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>PRODUCT2.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.FAMILY</field>
+        <operation>equals</operation>
+        <value>Cybersecurity</value>
+    </filters>
+    <filters>
+        <field>Country__c</field>
+        <operation>notEqual</operation>
+        <value>Papua New Guinea</value>
+    </filters>
+    <label>All Products</label>
+</ListView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trends_Go_Live_Date_withPendingApprovals</fullName>
+    <active>true</active>
+    <description>can only be in stage go live and date must be filled in.</description>
+    <errorConditionFormula>IF(CONTAINS(RecordType.DeveloperName, &quot;Trend&quot;),
+AND(NOT(ISBLANK( Go_Live_Date__c )) ,  Pending_Discount_Requests__c &gt; 0)
+
+, FALSE)
+
+&amp;&amp; $Profile.Name &lt;&gt;&quot;System Administrator&quot;</errorConditionFormula>
+    <errorDisplayField>Go_Live_Date__c</errorDisplayField>
+    <errorMessage>You cannot enter a Go Live! date, you still have Products with pending discount approval, or have been rejected. Request the approval of the pending products or delete the ones that have been reject in order to be able to put a Go Live Date.Please verify.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Section__c</fullName>
+    <externalId>false</externalId>
+    <label>Section</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Loop_Country__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Jamaica News</fullName>
+                <default>false</default>
+                <label>Jamaica News</label>
+            </value>
+            <value>
+                <fullName>Cayman News</fullName>
+                <default>false</default>
+                <label>Cayman News</label>
+            </value>
+            <value>
+                <fullName>Global News</fullName>
+                <default>false</default>
+                <label>Global News</label>
+            </value>
+            <value>
+                <fullName>Sports</fullName>
+                <default>false</default>
+                <label>Sports</label>
+            </value>
+            <value>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+                <label>Entertainment</label>
+            </value>
+            <value>
+                <fullName>Business</fullName>
+                <default>false</default>
+                <label>Business</label>
+            </value>
+            <value>
+                <fullName>Our Endz</fullName>
+                <default>false</default>
+                <label>Our Endz</label>
+            </value>
+            <value>
+                <fullName>Loop Lens</fullName>
+                <default>false</default>
+                <label>Loop Lens</label>
+            </value>
+            <value>
+                <fullName>Events</fullName>
+                <default>false</default>
+                <label>Events</label>
+            </value>
+            <value>
+                <fullName>Community</fullName>
+                <default>false</default>
+                <label>Community</label>
+            </value>
+            <value>
+                <fullName>Run of Site</fullName>
+                <default>false</default>
+                <label>Run of Site</label>
+            </value>
+            <value>
+                <fullName>Homepage</fullName>
+                <default>false</default>
+                <label>Homepage</label>
+            </value>
+            <value>
+                <fullName>Barbados News</fullName>
+                <default>false</default>
+                <label>Barbados News</label>
+            </value>
+            <value>
+                <fullName>Curacao News</fullName>
+                <default>false</default>
+                <label>Curacao News</label>
+            </value>
+            <value>
+                <fullName>TT News</fullName>
+                <default>false</default>
+                <label>TT News</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Panamá</controllingFieldValue>
+            <controllingFieldValue>St. Kitts</controllingFieldValue>
+            <controllingFieldValue>St. Lucia</controllingFieldValue>
+            <controllingFieldValue>St. Vincent</controllingFieldValue>
+            <controllingFieldValue>Suriname</controllingFieldValue>
+            <controllingFieldValue>Turks &amp; Caicos</controllingFieldValue>
+            <controllingFieldValue>Antigua</controllingFieldValue>
+            <controllingFieldValue>Bermuda</controllingFieldValue>
+            <controllingFieldValue>British Virgin Islands</controllingFieldValue>
+            <controllingFieldValue>Dominica</controllingFieldValue>
+            <controllingFieldValue>El Salvador</controllingFieldValue>
+            <controllingFieldValue>French Guiana</controllingFieldValue>
+            <controllingFieldValue>Grenada</controllingFieldValue>
+            <controllingFieldValue>Guadeloupe</controllingFieldValue>
+            <controllingFieldValue>Guyana</controllingFieldValue>
+            <controllingFieldValue>Haiti</controllingFieldValue>
+            <controllingFieldValue>Jamaica</controllingFieldValue>
+            <controllingFieldValue>Cayman</controllingFieldValue>
+            <controllingFieldValue>Barbados</controllingFieldValue>
+            <controllingFieldValue>Curacao</controllingFieldValue>
+            <controllingFieldValue>Trinidad &amp; Tobago</controllingFieldValue>
+            <controllingFieldValue>Aruba</controllingFieldValue>
+            <controllingFieldValue>Bonaire</controllingFieldValue>
+            <controllingFieldValue>Global</controllingFieldValue>
+            <controllingFieldValue>Anguilla</controllingFieldValue>
+            <controllingFieldValue>Martinique</controllingFieldValue>
+            <controllingFieldValue>Montserrat</controllingFieldValue>
+            <valueName>Global News</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panamá</controllingFieldValue>
+            <controllingFieldValue>St. Kitts</controllingFieldValue>
+            <controllingFieldValue>St. Lucia</controllingFieldValue>
+            <controllingFieldValue>St. Vincent</controllingFieldValue>
+            <controllingFieldValue>Suriname</controllingFieldValue>
+            <controllingFieldValue>Turks &amp; Caicos</controllingFieldValue>
+            <controllingFieldValue>Antigua</controllingFieldValue>
+            <controllingFieldValue>Bermuda</controllingFieldValue>
+            <controllingFieldValue>British Virgin Islands</controllingFieldValue>
+            <controllingFieldValue>Dominica</controllingFieldValue>
+            <controllingFieldValue>El Salvador</controllingFieldValue>
+            <controllingFieldValue>French Guiana</controllingFieldValue>
+            <controllingFieldValue>Grenada</controllingFieldValue>
+            <controllingFieldValue>Guadeloupe</controllingFieldValue>
+            <controllingFieldValue>Guyana</controllingFieldValue>
+            <controllingFieldValue>Haiti</controllingFieldValue>
+            <controllingFieldValue>Jamaica</controllingFieldValue>
+            <controllingFieldValue>Cayman</controllingFieldValue>
+            <controllingFieldValue>Barbados</controllingFieldValue>
+            <controllingFieldValue>Curacao</controllingFieldValue>
+            <controllingFieldValue>Trinidad &amp; Tobago</controllingFieldValue>
+            <controllingFieldValue>Aruba</controllingFieldValue>
+            <controllingFieldValue>Bonaire</controllingFieldValue>
+            <controllingFieldValue>Global</controllingFieldValue>
+            <controllingFieldValue>Anguilla</controllingFieldValue>
+            <controllingFieldValue>Martinique</controllingFieldValue>
+            <controllingFieldValue>Montserrat</controllingFieldValue>
+            <valueName>Sports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panamá</controllingFieldValue>
+            <controllingFieldValue>St. Kitts</controllingFieldValue>
+            <controllingFieldValue>St. Lucia</controllingFieldValue>
+            <controllingFieldValue>St. Vincent</controllingFieldValue>
+            <controllingFieldValue>Suriname</controllingFieldValue>
+            <controllingFieldValue>Turks &amp; Caicos</controllingFieldValue>
+            <controllingFieldValue>Antigua</controllingFieldValue>
+            <controllingFieldValue>Bermuda</controllingFieldValue>
+            <controllingFieldValue>British Virgin Islands</controllingFieldValue>
+            <controllingFieldValue>Dominica</controllingFieldValue>
+            <controllingFieldValue>El Salvador</controllingFieldValue>
+            <controllingFieldValue>French Guiana</controllingFieldValue>
+            <controllingFieldValue>Grenada</controllingFieldValue>
+            <controllingFieldValue>Guadeloupe</controllingFieldValue>
+            <controllingFieldValue>Guyana</controllingFieldValue>
+            <controllingFieldValue>Haiti</controllingFieldValue>
+            <controllingFieldValue>Jamaica</controllingFieldValue>
+            <controllingFieldValue>Cayman</controllingFieldValue>
+            <controllingFieldValue>Barbados</controllingFieldValue>
+            <controllingFieldValue>Curacao</controllingFieldValue>
+            <controllingFieldValue>Trinidad &amp; Tobago</controllingFieldValue>
+            <controllingFieldValue>Aruba</controllingFieldValue>
+            <controllingFieldValue>Bonaire</controllingFieldValue>
+            <controllingFieldValue>Global</controllingFieldValue>
+            <controllingFieldValue>Anguilla</controllingFieldValue>
+            <controllingFieldValue>Martinique</controllingFieldValue>
+            <controllingFieldValue>Montserrat</controllingFieldValue>
+            <valueName>Entertainment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panamá</controllingFieldValue>
+            <controllingFieldValue>St. Kitts</controllingFieldValue>
+            <controllingFieldValue>St. Lucia</controllingFieldValue>
+            <controllingFieldValue>St. Vincent</controllingFieldValue>
+            <controllingFieldValue>Suriname</controllingFieldValue>
+            <controllingFieldValue>Turks &amp; Caicos</controllingFieldValue>
+            <controllingFieldValue>Antigua</controllingFieldValue>
+            <controllingFieldValue>Bermuda</controllingFieldValue>
+            <controllingFieldValue>British Virgin Islands</controllingFieldValue>
+            <controllingFieldValue>Dominica</controllingFieldValue>
+            <controllingFieldValue>El Salvador</controllingFieldValue>
+            <controllingFieldValue>French Guiana</controllingFieldValue>
+            <controllingFieldValue>Grenada</controllingFieldValue>
+            <controllingFieldValue>Guadeloupe</controllingFieldValue>
+            <controllingFieldValue>Guyana</controllingFieldValue>
+            <controllingFieldValue>Haiti</controllingFieldValue>
+            <controllingFieldValue>Jamaica</controllingFieldValue>
+            <controllingFieldValue>Cayman</controllingFieldValue>
+            <controllingFieldValue>Barbados</controllingFieldValue>
+            <controllingFieldValue>Curacao</controllingFieldValue>
+            <controllingFieldValue>Trinidad &amp; Tobago</controllingFieldValue>
+            <controllingFieldValue>Aruba</controllingFieldValue>
+            <controllingFieldValue>Bonaire</controllingFieldValue>
+            <controllingFieldValue>Global</controllingFieldValue>
+            <controllingFieldValue>Anguilla</controllingFieldValue>
+            <controllingFieldValue>Martinique</controllingFieldValue>
+            <controllingFieldValue>Montserrat</controllingFieldValue>
+            <valueName>Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panamá</controllingFieldValue>
+            <controllingFieldValue>St. Kitts</controllingFieldValue>
+            <controllingFieldValue>St. Lucia</controllingFieldValue>
+            <controllingFieldValue>St. Vincent</controllingFieldValue>
+            <controllingFieldValue>Suriname</controllingFieldValue>
+            <controllingFieldValue>Turks &amp; Caicos</controllingFieldValue>
+            <controllingFieldValue>Antigua</controllingFieldValue>
+            <controllingFieldValue>Bermuda</controllingFieldValue>
+            <controllingFieldValue>British Virgin Islands</controllingFieldValue>
+            <controllingFieldValue>Dominica</controllingFieldValue>
+            <controllingFieldValue>El Salvador</controllingFieldValue>
+            <controllingFieldValue>French Guiana</controllingFieldValue>
+            <controllingFieldValue>Grenada</controllingFieldValue>
+            <controllingFieldValue>Guadeloupe</controllingFieldValue>
+            <controllingFieldValue>Guyana</controllingFieldValue>
+            <controllingFieldValue>Haiti</controllingFieldValue>
+            <controllingFieldValue>Jamaica</controllingFieldValue>
+            <controllingFieldValue>Cayman</controllingFieldValue>
+            <controllingFieldValue>Barbados</controllingFieldValue>
+            <controllingFieldValue>Curacao</controllingFieldValue>
+            <controllingFieldValue>Trinidad &amp; Tobago</controllingFieldValue>
+            <controllingFieldValue>Aruba</controllingFieldValue>
+            <controllingFieldValue>Bonaire</controllingFieldValue>
+            <controllingFieldValue>Global</controllingFieldValue>
+            <controllingFieldValue>Anguilla</controllingFieldValue>
+            <controllingFieldValue>Martinique</controllingFieldValue>
+            <controllingFieldValue>Montserrat</controllingFieldValue>
+            <valueName>Loop Lens</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panamá</controllingFieldValue>
+            <controllingFieldValue>St. Kitts</controllingFieldValue>
+            <controllingFieldValue>St. Lucia</controllingFieldValue>
+            <controllingFieldValue>St. Vincent</controllingFieldValue>
+            <controllingFieldValue>Suriname</controllingFieldValue>
+            <controllingFieldValue>Turks &amp; Caicos</controllingFieldValue>
+            <controllingFieldValue>Antigua</controllingFieldValue>
+            <controllingFieldValue>Bermuda</controllingFieldValue>
+            <controllingFieldValue>British Virgin Islands</controllingFieldValue>
+            <controllingFieldValue>Dominica</controllingFieldValue>
+            <controllingFieldValue>El Salvador</controllingFieldValue>
+            <controllingFieldValue>French Guiana</controllingFieldValue>
+            <controllingFieldValue>Grenada</controllingFieldValue>
+            <controllingFieldValue>Guadeloupe</controllingFieldValue>
+            <controllingFieldValue>Guyana</controllingFieldValue>
+            <controllingFieldValue>Haiti</controllingFieldValue>
+            <controllingFieldValue>Jamaica</controllingFieldValue>
+            <controllingFieldValue>Cayman</controllingFieldValue>
+            <controllingFieldValue>Barbados</controllingFieldValue>
+            <controllingFieldValue>Curacao</controllingFieldValue>
+            <controllingFieldValue>Trinidad &amp; Tobago</controllingFieldValue>
+            <controllingFieldValue>Aruba</controllingFieldValue>
+            <controllingFieldValue>Bonaire</controllingFieldValue>
+            <controllingFieldValue>Global</controllingFieldValue>
+            <controllingFieldValue>Anguilla</controllingFieldValue>
+            <controllingFieldValue>Martinique</controllingFieldValue>
+            <controllingFieldValue>Montserrat</controllingFieldValue>
+            <valueName>Events</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panamá</controllingFieldValue>
+            <controllingFieldValue>St. Kitts</controllingFieldValue>
+            <controllingFieldValue>St. Lucia</controllingFieldValue>
+            <controllingFieldValue>St. Vincent</controllingFieldValue>
+            <controllingFieldValue>Suriname</controllingFieldValue>
+            <controllingFieldValue>Turks &amp; Caicos</controllingFieldValue>
+            <controllingFieldValue>Antigua</controllingFieldValue>
+            <controllingFieldValue>Bermuda</controllingFieldValue>
+            <controllingFieldValue>British Virgin Islands</controllingFieldValue>
+            <controllingFieldValue>Dominica</controllingFieldValue>
+            <controllingFieldValue>El Salvador</controllingFieldValue>
+            <controllingFieldValue>French Guiana</controllingFieldValue>
+            <controllingFieldValue>Grenada</controllingFieldValue>
+            <controllingFieldValue>Guadeloupe</controllingFieldValue>
+            <controllingFieldValue>Guyana</controllingFieldValue>
+            <controllingFieldValue>Haiti</controllingFieldValue>
+            <controllingFieldValue>Jamaica</controllingFieldValue>
+            <controllingFieldValue>Cayman</controllingFieldValue>
+            <controllingFieldValue>Barbados</controllingFieldValue>
+            <controllingFieldValue>Curacao</controllingFieldValue>
+            <controllingFieldValue>Trinidad &amp; Tobago</controllingFieldValue>
+            <controllingFieldValue>Aruba</controllingFieldValue>
+            <controllingFieldValue>Bonaire</controllingFieldValue>
+            <controllingFieldValue>Global</controllingFieldValue>
+            <controllingFieldValue>Anguilla</controllingFieldValue>
+            <controllingFieldValue>Martinique</controllingFieldValue>
+            <controllingFieldValue>Montserrat</controllingFieldValue>
+            <valueName>Community</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panamá</controllingFieldValue>
+            <controllingFieldValue>St. Kitts</controllingFieldValue>
+            <controllingFieldValue>St. Lucia</controllingFieldValue>
+            <controllingFieldValue>St. Vincent</controllingFieldValue>
+            <controllingFieldValue>Suriname</controllingFieldValue>
+            <controllingFieldValue>Turks &amp; Caicos</controllingFieldValue>
+            <controllingFieldValue>Antigua</controllingFieldValue>
+            <controllingFieldValue>Bermuda</controllingFieldValue>
+            <controllingFieldValue>British Virgin Islands</controllingFieldValue>
+            <controllingFieldValue>Dominica</controllingFieldValue>
+            <controllingFieldValue>El Salvador</controllingFieldValue>
+            <controllingFieldValue>French Guiana</controllingFieldValue>
+            <controllingFieldValue>Grenada</controllingFieldValue>
+            <controllingFieldValue>Guadeloupe</controllingFieldValue>
+            <controllingFieldValue>Guyana</controllingFieldValue>
+            <controllingFieldValue>Haiti</controllingFieldValue>
+            <controllingFieldValue>Jamaica</controllingFieldValue>
+            <controllingFieldValue>Cayman</controllingFieldValue>
+            <controllingFieldValue>Barbados</controllingFieldValue>
+            <controllingFieldValue>Curacao</controllingFieldValue>
+            <controllingFieldValue>Trinidad &amp; Tobago</controllingFieldValue>
+            <controllingFieldValue>Aruba</controllingFieldValue>
+            <controllingFieldValue>Bonaire</controllingFieldValue>
+            <controllingFieldValue>Global</controllingFieldValue>
+            <controllingFieldValue>Anguilla</controllingFieldValue>
+            <controllingFieldValue>Martinique</controllingFieldValue>
+            <controllingFieldValue>Montserrat</controllingFieldValue>
+            <valueName>Run of Site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Panamá</controllingFieldValue>
+            <controllingFieldValue>St. Kitts</controllingFieldValue>
+            <controllingFieldValue>St. Lucia</controllingFieldValue>
+            <controllingFieldValue>St. Vincent</controllingFieldValue>
+            <controllingFieldValue>Suriname</controllingFieldValue>
+            <controllingFieldValue>Turks &amp; Caicos</controllingFieldValue>
+            <controllingFieldValue>Antigua</controllingFieldValue>
+            <controllingFieldValue>Bermuda</controllingFieldValue>
+            <controllingFieldValue>British Virgin Islands</controllingFieldValue>
+            <controllingFieldValue>Dominica</controllingFieldValue>
+            <controllingFieldValue>El Salvador</controllingFieldValue>
+            <controllingFieldValue>French Guiana</controllingFieldValue>
+            <controllingFieldValue>Grenada</controllingFieldValue>
+            <controllingFieldValue>Guadeloupe</controllingFieldValue>
+            <controllingFieldValue>Guyana</controllingFieldValue>
+            <controllingFieldValue>Haiti</controllingFieldValue>
+            <controllingFieldValue>Jamaica</controllingFieldValue>
+            <controllingFieldValue>Cayman</controllingFieldValue>
+            <controllingFieldValue>Barbados</controllingFieldValue>
+            <controllingFieldValue>Curacao</controllingFieldValue>
+            <controllingFieldValue>Trinidad &amp; Tobago</controllingFieldValue>
+            <controllingFieldValue>Aruba</controllingFieldValue>
+            <controllingFieldValue>Bonaire</controllingFieldValue>
+            <controllingFieldValue>Global</controllingFieldValue>
+            <controllingFieldValue>Anguilla</controllingFieldValue>
+            <controllingFieldValue>Martinique</controllingFieldValue>
+            <controllingFieldValue>Montserrat</controllingFieldValue>
+            <valueName>Homepage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bermuda</controllingFieldValue>
+            <controllingFieldValue>Barbados</controllingFieldValue>
+            <valueName>Barbados News</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jamaica</controllingFieldValue>
+            <valueName>Jamaica News</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jamaica</controllingFieldValue>
+            <valueName>Our Endz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cayman</controllingFieldValue>
+            <valueName>Cayman News</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Curacao</controllingFieldValue>
+            <valueName>Curacao News</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Trinidad &amp; Tobago</controllingFieldValue>
+            <valueName>TT News</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

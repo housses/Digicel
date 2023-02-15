@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Digicel_PNG_ICT_GSM</fullName>
+    <fields>Name</fields>
+    <fields>PNG_ProductType__c</fields>
+    <fields>PNG_ProductFamily__c</fields>
+    <fields>PNG_ChargeType__c</fields>
+    <fields>PNG_Quality__c</fields>
+    <fields>IsActive</fields>
+    <label>Digicel PNG ICT &amp; GSM</label>
+</CompactLayout>

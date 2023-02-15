@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revenue_Assurance_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Revenue Assurance Status</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pending Validation</fullName>
+                <default>true</default>
+                <label>Pending Validation</label>
+            </value>
+            <value>
+                <fullName>Urgent Resolution Required</fullName>
+                <default>false</default>
+                <label>Urgent Resolution Required</label>
+            </value>
+            <value>
+                <fullName>Discrepancy</fullName>
+                <default>false</default>
+                <label>Discrepancy</label>
+            </value>
+            <value>
+                <fullName>Validated</fullName>
+                <default>false</default>
+                <label>Validated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

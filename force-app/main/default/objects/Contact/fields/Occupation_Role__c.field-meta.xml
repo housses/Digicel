@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Occupation_Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Occupation / Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accountant</fullName>
+                <default>false</default>
+                <label>Accountant</label>
+            </value>
+            <value>
+                <fullName>Account Manager</fullName>
+                <default>false</default>
+                <label>Account Manager</label>
+            </value>
+            <value>
+                <fullName>Administrator</fullName>
+                <default>false</default>
+                <label>Administrator</label>
+            </value>
+            <value>
+                <fullName>APTC</fullName>
+                <default>false</default>
+                <label>APTC</label>
+            </value>
+            <value>
+                <fullName>Area Distribution Manager</fullName>
+                <default>false</default>
+                <label>Area Distribution Manager</label>
+            </value>
+            <value>
+                <fullName>Assistant Commissioner</fullName>
+                <default>false</default>
+                <label>Assistant Commissioner</label>
+            </value>
+            <value>
+                <fullName>Assistant Manager</fullName>
+                <default>false</default>
+                <label>Assistant Manager</label>
+            </value>
+            <value>
+                <fullName>Assistant Marketing Officer</fullName>
+                <default>false</default>
+                <label>Assistant Marketing Officer</label>
+            </value>
+            <value>
+                <fullName>Barrister and Solicitor</fullName>
+                <default>false</default>
+                <label>Barrister and Solicitor</label>
+            </value>
+            <value>
+                <fullName>BDM / IT</fullName>
+                <default>false</default>
+                <label>BDM / IT</label>
+            </value>
+            <value>
+                <fullName>Bishop</fullName>
+                <default>false</default>
+                <label>Bishop</label>
+            </value>
+            <value>
+                <fullName>Branch Manager</fullName>
+                <default>false</default>
+                <label>Branch Manager</label>
+            </value>
+            <value>
+                <fullName>Business Analyst</fullName>
+                <default>false</default>
+                <label>Business Analyst</label>
+            </value>
+            <value>
+                <fullName>Business Editor</fullName>
+                <default>false</default>
+                <label>Business Editor</label>
+            </value>
+            <value>
+                <fullName>Business Manager</fullName>
+                <default>false</default>
+                <label>Business Manager</label>
+            </value>
+            <value>
+                <fullName>CEO</fullName>
+                <default>false</default>
+                <label>CEO</label>
+            </value>
+            <value>
+                <fullName>CFO</fullName>
+                <default>false</default>
+                <label>CFO</label>
+            </value>
+            <value>
+                <fullName>Chairman</fullName>
+                <default>false</default>
+                <label>Chairman</label>
+            </value>
+            <value>
+                <fullName>Chief Executive Officer</fullName>
+                <default>false</default>
+                <label>Chief Executive Officer</label>
+            </value>
+            <value>
+                <fullName>Chief Financier Officer</fullName>
+                <default>false</default>
+                <label>Chief Financier Officer</label>
+            </value>
+            <value>
+                <fullName>Chief Marketing Officer</fullName>
+                <default>false</default>
+                <label>Chief Marketing Officer</label>
+            </value>
+            <value>
+                <fullName>Chief Operating Officer</fullName>
+                <default>false</default>
+                <label>Chief Operating Officer</label>
+            </value>
+            <value>
+                <fullName>Chief Technical Officer</fullName>
+                <default>false</default>
+                <label>Chief Technical Officer</label>
+            </value>
+            <value>
+                <fullName>CIO</fullName>
+                <default>false</default>
+                <label>CIO</label>
+            </value>
+            <value>
+                <fullName>Commercial Manager</fullName>
+                <default>false</default>
+                <label>Commercial Manager</label>
+            </value>
+            <value>
+                <fullName>Commissioner</fullName>
+                <default>false</default>
+                <label>Commissioner</label>
+            </value>
+            <value>
+                <fullName>Country Manager</fullName>
+                <default>false</default>
+                <label>Country Manager</label>
+            </value>
+            <value>
+                <fullName>CTO</fullName>
+                <default>false</default>
+                <label>CTO</label>
+            </value>
+            <value>
+                <fullName>Customer Service Representative</fullName>
+                <default>false</default>
+                <label>Customer Service Representative</label>
+            </value>
+            <value>
+                <fullName>Data Comms Engineer</fullName>
+                <default>false</default>
+                <label>Data Comms Engineer</label>
+            </value>
+            <value>
+                <fullName>Deputy Director</fullName>
+                <default>false</default>
+                <label>Deputy Director</label>
+            </value>
+            <value>
+                <fullName>Deputy Secretary (Administration &amp; Finance)</fullName>
+                <default>false</default>
+                <label>Deputy Secretary (Administration &amp; Finance)</label>
+            </value>
+            <value>
+                <fullName>Director</fullName>
+                <default>false</default>
+                <label>Director</label>
+            </value>
+            <value>
+                <fullName>Director Finance &amp; Administration</fullName>
+                <default>false</default>
+                <label>Director Finance &amp; Administration</label>
+            </value>
+            <value>
+                <fullName>Director Logistics</fullName>
+                <default>false</default>
+                <label>Director Logistics</label>
+            </value>
+            <value>
+                <fullName>Director of Finance</fullName>
+                <default>false</default>
+                <label>Director of Finance</label>
+            </value>
+            <value>
+                <fullName>Director of Procurement New Zealand &amp; Fiji</fullName>
+                <default>false</default>
+                <label>Director of Procurement New Zealand &amp; Fiji</label>
+            </value>
+            <value>
+                <fullName>Director Technical Operations</fullName>
+                <default>false</default>
+                <label>Director Technical Operations</label>
+            </value>
+            <value>
+                <fullName>Director - Technical Services</fullName>
+                <default>false</default>
+                <label>Director - Technical Services</label>
+            </value>
+            <value>
+                <fullName>Engineer</fullName>
+                <default>false</default>
+                <label>Engineer</label>
+            </value>
+            <value>
+                <fullName>Executive Assistant Manager</fullName>
+                <default>false</default>
+                <label>Executive Assistant Manager</label>
+            </value>
+            <value>
+                <fullName>Finance &amp; Admin Officer</fullName>
+                <default>false</default>
+                <label>Finance &amp; Admin Officer</label>
+            </value>
+            <value>
+                <fullName>Finance Manager</fullName>
+                <default>false</default>
+                <label>Finance Manager</label>
+            </value>
+            <value>
+                <fullName>Finance Officer</fullName>
+                <default>false</default>
+                <label>Finance Officer</label>
+            </value>
+            <value>
+                <fullName>Financial Controller</fullName>
+                <default>false</default>
+                <label>Financial Controller</label>
+            </value>
+            <value>
+                <fullName>First Secretary &amp; Consul</fullName>
+                <default>false</default>
+                <label>First Secretary &amp; Consul</label>
+            </value>
+            <value>
+                <fullName>Fleet Officer</fullName>
+                <default>false</default>
+                <label>Fleet Officer</label>
+            </value>
+            <value>
+                <fullName>General Manager</fullName>
+                <default>false</default>
+                <label>General Manager</label>
+            </value>
+            <value>
+                <fullName>General Manager - Commercial</fullName>
+                <default>false</default>
+                <label>General Manager - Commercial</label>
+            </value>
+            <value>
+                <fullName>General Manager Fiji</fullName>
+                <default>false</default>
+                <label>General Manager Fiji</label>
+            </value>
+            <value>
+                <fullName>General Manager - Finance &amp; IT</fullName>
+                <default>false</default>
+                <label>General Manager - Finance &amp; IT</label>
+            </value>
+            <value>
+                <fullName>General Manager - IT</fullName>
+                <default>false</default>
+                <label>General Manager - IT</label>
+            </value>
+            <value>
+                <fullName>General Manager - Retail Banking</fullName>
+                <default>false</default>
+                <label>General Manager - Retail Banking</label>
+            </value>
+            <value>
+                <fullName>Governance, Planning &amp; Security Manager</fullName>
+                <default>false</default>
+                <label>Governance, Planning &amp; Security Manager</label>
+            </value>
+            <value>
+                <fullName>Governance Manager Pacific</fullName>
+                <default>false</default>
+                <label>Governance Manager Pacific</label>
+            </value>
+            <value>
+                <fullName>Governer</fullName>
+                <default>false</default>
+                <label>Governer</label>
+            </value>
+            <value>
+                <fullName>Group CFO</fullName>
+                <default>false</default>
+                <label>Group CFO</label>
+            </value>
+            <value>
+                <fullName>Group Director of IT</fullName>
+                <default>false</default>
+                <label>Group Director of IT</label>
+            </value>
+            <value>
+                <fullName>Group General Manager</fullName>
+                <default>false</default>
+                <label>Group General Manager</label>
+            </value>
+            <value>
+                <fullName>Group IT Manager</fullName>
+                <default>false</default>
+                <label>Group IT Manager</label>
+            </value>
+            <value>
+                <fullName>Group Managing Director</fullName>
+                <default>false</default>
+                <label>Group Managing Director</label>
+            </value>
+            <value>
+                <fullName>Head of Corporate</fullName>
+                <default>false</default>
+                <label>Head of Corporate</label>
+            </value>
+            <value>
+                <fullName>Head of Electronic Channels</fullName>
+                <default>false</default>
+                <label>Head of Electronic Channels</label>
+            </value>
+            <value>
+                <fullName>Head of Finance</fullName>
+                <default>false</default>
+                <label>Head of Finance</label>
+            </value>
+            <value>
+                <fullName>Head of Infrastructure, Technology &amp; Change, Pacific Banking</fullName>
+                <default>false</default>
+                <label>Head of Infrastructure, Technology &amp; Change, Pacific Banking</label>
+            </value>
+            <value>
+                <fullName>Head of Mission</fullName>
+                <default>false</default>
+                <label>Head of Mission</label>
+            </value>
+            <value>
+                <fullName>Head of Support Services</fullName>
+                <default>false</default>
+                <label>Head of Support Services</label>
+            </value>
+            <value>
+                <fullName>Head of Technology - Pacific, Technology APE&amp;A</fullName>
+                <default>false</default>
+                <label>Head of Technology - Pacific, Technology APE&amp;A</label>
+            </value>
+            <value>
+                <fullName>HR Director</fullName>
+                <default>false</default>
+                <label>HR Director</label>
+            </value>
+            <value>
+                <fullName>HR Manager</fullName>
+                <default>false</default>
+                <label>HR Manager</label>
+            </value>
+            <value>
+                <fullName>ICS Manager NZ &amp; Fiji</fullName>
+                <default>false</default>
+                <label>ICS Manager NZ &amp; Fiji</label>
+            </value>
+            <value>
+                <fullName>ICT Engineer</fullName>
+                <default>false</default>
+                <label>ICT Engineer</label>
+            </value>
+            <value>
+                <fullName>ICT Manager</fullName>
+                <default>false</default>
+                <label>ICT Manager</label>
+            </value>
+            <value>
+                <fullName>Information Managment Officer</fullName>
+                <default>false</default>
+                <label>Information Managment Officer</label>
+            </value>
+            <value>
+                <fullName>Information Technology Manager</fullName>
+                <default>false</default>
+                <label>Information Technology Manager</label>
+            </value>
+            <value>
+                <fullName>Interim - GM</fullName>
+                <default>false</default>
+                <label>Interim - GM</label>
+            </value>
+            <value>
+                <fullName>IS Manager</fullName>
+                <default>false</default>
+                <label>IS Manager</label>
+            </value>
+            <value>
+                <fullName>IT</fullName>
+                <default>false</default>
+                <label>IT</label>
+            </value>
+            <value>
+                <fullName>IT &amp; Operations Transition Manager</fullName>
+                <default>false</default>
+                <label>IT &amp; Operations Transition Manager</label>
+            </value>
+            <value>
+                <fullName>IT Administrator</fullName>
+                <default>false</default>
+                <label>IT Administrator</label>
+            </value>
+            <value>
+                <fullName>IT and Graphics Officer</fullName>
+                <default>false</default>
+                <label>IT and Graphics Officer</label>
+            </value>
+            <value>
+                <fullName>IT Consultant</fullName>
+                <default>false</default>
+                <label>IT Consultant</label>
+            </value>
+            <value>
+                <fullName>IT Director</fullName>
+                <default>false</default>
+                <label>IT Director</label>
+            </value>
+            <value>
+                <fullName>IT Engineer</fullName>
+                <default>false</default>
+                <label>IT Engineer</label>
+            </value>
+            <value>
+                <fullName>IT Manager</fullName>
+                <default>false</default>
+                <label>IT Manager</label>
+            </value>
+            <value>
+                <fullName>IT Officer</fullName>
+                <default>false</default>
+                <label>IT Officer</label>
+            </value>
+            <value>
+                <fullName>IT Operations Manager</fullName>
+                <default>false</default>
+                <label>IT Operations Manager</label>
+            </value>
+            <value>
+                <fullName>IT Support</fullName>
+                <default>false</default>
+                <label>IT Support</label>
+            </value>
+            <value>
+                <fullName>Manager</fullName>
+                <default>false</default>
+                <label>Manager</label>
+            </value>
+            <value>
+                <fullName>Manager Corporate Services</fullName>
+                <default>false</default>
+                <label>Manager Corporate Services</label>
+            </value>
+            <value>
+                <fullName>Manager Finance</fullName>
+                <default>false</default>
+                <label>Manager Finance</label>
+            </value>
+            <value>
+                <fullName>Manager Finance &amp; Administration</fullName>
+                <default>false</default>
+                <label>Manager Finance &amp; Administration</label>
+            </value>
+            <value>
+                <fullName>Manager - Financial Planning</fullName>
+                <default>false</default>
+                <label>Manager - Financial Planning</label>
+            </value>
+            <value>
+                <fullName>Manager Information Systems</fullName>
+                <default>false</default>
+                <label>Manager Information Systems</label>
+            </value>
+            <value>
+                <fullName>Manager Information Technology</fullName>
+                <default>false</default>
+                <label>Manager Information Technology</label>
+            </value>
+            <value>
+                <fullName>Manager Infrastructure Support</fullName>
+                <default>false</default>
+                <label>Manager Infrastructure Support</label>
+            </value>
+            <value>
+                <fullName>Manager Properties</fullName>
+                <default>false</default>
+                <label>Manager Properties</label>
+            </value>
+            <value>
+                <fullName>Managing Director</fullName>
+                <default>false</default>
+                <label>Managing Director</label>
+            </value>
+            <value>
+                <fullName>Marketing and Liaising Officer</fullName>
+                <default>false</default>
+                <label>Marketing and Liaising Officer</label>
+            </value>
+            <value>
+                <fullName>Marketing Officer</fullName>
+                <default>false</default>
+                <label>Marketing Officer</label>
+            </value>
+            <value>
+                <fullName>Minister</fullName>
+                <default>false</default>
+                <label>Minister</label>
+            </value>
+            <value>
+                <fullName>MIS Manager</fullName>
+                <default>false</default>
+                <label>MIS Manager</label>
+            </value>
+            <value>
+                <fullName>National IT Manager</fullName>
+                <default>false</default>
+                <label>National IT Manager</label>
+            </value>
+            <value>
+                <fullName>National Manager</fullName>
+                <default>false</default>
+                <label>National Manager</label>
+            </value>
+            <value>
+                <fullName>Network Engineer</fullName>
+                <default>false</default>
+                <label>Network Engineer</label>
+            </value>
+            <value>
+                <fullName>Operations Manager</fullName>
+                <default>false</default>
+                <label>Operations Manager</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Owner</fullName>
+                <default>false</default>
+                <label>Owner</label>
+            </value>
+            <value>
+                <fullName>Owner / Director</fullName>
+                <default>false</default>
+                <label>Owner / Director</label>
+            </value>
+            <value>
+                <fullName>Owners</fullName>
+                <default>false</default>
+                <label>Owners</label>
+            </value>
+            <value>
+                <fullName>Pacific Islands Forum Secretariat</fullName>
+                <default>false</default>
+                <label>Pacific Islands Forum Secretariat</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>PBX Engineer</fullName>
+                <default>false</default>
+                <label>PBX Engineer</label>
+            </value>
+            <value>
+                <fullName>Personal Assistant</fullName>
+                <default>false</default>
+                <label>Personal Assistant</label>
+            </value>
+            <value>
+                <fullName>PICSOC Organiser</fullName>
+                <default>false</default>
+                <label>PICSOC Organiser</label>
+            </value>
+            <value>
+                <fullName>Principal</fullName>
+                <default>false</default>
+                <label>Principal</label>
+            </value>
+            <value>
+                <fullName>Principal Sports Officer</fullName>
+                <default>false</default>
+                <label>Principal Sports Officer</label>
+            </value>
+            <value>
+                <fullName>Professor</fullName>
+                <default>false</default>
+                <label>Professor</label>
+            </value>
+            <value>
+                <fullName>Project Manager</fullName>
+                <default>false</default>
+                <label>Project Manager</label>
+            </value>
+            <value>
+                <fullName>Property Operations Manager</fullName>
+                <default>false</default>
+                <label>Property Operations Manager</label>
+            </value>
+            <value>
+                <fullName>Regional Director Oceania</fullName>
+                <default>false</default>
+                <label>Regional Director Oceania</label>
+            </value>
+            <value>
+                <fullName>Regional IT Project Manager</fullName>
+                <default>false</default>
+                <label>Regional IT Project Manager</label>
+            </value>
+            <value>
+                <fullName>Regional Manager</fullName>
+                <default>false</default>
+                <label>Regional Manager</label>
+            </value>
+            <value>
+                <fullName>Regional Technology Team</fullName>
+                <default>false</default>
+                <label>Regional Technology Team</label>
+            </value>
+            <value>
+                <fullName>Research and Development Manager</fullName>
+                <default>false</default>
+                <label>Research and Development Manager</label>
+            </value>
+            <value>
+                <fullName>Resort General Managers</fullName>
+                <default>false</default>
+                <label>Resort General Managers</label>
+            </value>
+            <value>
+                <fullName>Resort Manager</fullName>
+                <default>false</default>
+                <label>Resort Manager</label>
+            </value>
+            <value>
+                <fullName>Reverend</fullName>
+                <default>false</default>
+                <label>Reverend</label>
+            </value>
+            <value>
+                <fullName>Sales &amp; Marketing Manager</fullName>
+                <default>false</default>
+                <label>Sales &amp; Marketing Manager</label>
+            </value>
+            <value>
+                <fullName>Sales Manager</fullName>
+                <default>false</default>
+                <label>Sales Manager</label>
+            </value>
+            <value>
+                <fullName>SE</fullName>
+                <default>false</default>
+                <label>SE</label>
+            </value>
+            <value>
+                <fullName>Security Manager</fullName>
+                <default>false</default>
+                <label>Security Manager</label>
+            </value>
+            <value>
+                <fullName>Senior Counsel</fullName>
+                <default>false</default>
+                <label>Senior Counsel</label>
+            </value>
+            <value>
+                <fullName>Senior Project Manager</fullName>
+                <default>false</default>
+                <label>Senior Project Manager</label>
+            </value>
+            <value>
+                <fullName>Senior Trade Commissioner - Pacific</fullName>
+                <default>false</default>
+                <label>Senior Trade Commissioner - Pacific</label>
+            </value>
+            <value>
+                <fullName>Solutions Manager</fullName>
+                <default>false</default>
+                <label>Solutions Manager</label>
+            </value>
+            <value>
+                <fullName>Sourcing Manager - Australasia</fullName>
+                <default>false</default>
+                <label>Sourcing Manager - Australasia</label>
+            </value>
+            <value>
+                <fullName>Systems Admin</fullName>
+                <default>false</default>
+                <label>Systems Admin</label>
+            </value>
+            <value>
+                <fullName>Systems Engineer</fullName>
+                <default>false</default>
+                <label>Systems Engineer</label>
+            </value>
+            <value>
+                <fullName>Technical Director</fullName>
+                <default>false</default>
+                <label>Technical Director</label>
+            </value>
+            <value>
+                <fullName>Technical Manager</fullName>
+                <default>false</default>
+                <label>Technical Manager</label>
+            </value>
+            <value>
+                <fullName>Technology Services Delivery Manager</fullName>
+                <default>false</default>
+                <label>Technology Services Delivery Manager</label>
+            </value>
+            <value>
+                <fullName>Territory Business Manager</fullName>
+                <default>false</default>
+                <label>Territory Business Manager</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

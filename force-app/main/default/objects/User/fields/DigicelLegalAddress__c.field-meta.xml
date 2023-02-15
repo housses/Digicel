@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DigicelLegalAddress__c</fullName>
+    <businessOwnerGroup>SFDC_Admin_Team</businessOwnerGroup>
+    <businessStatus>Active</businessStatus>
+    <complianceGroup>PII;HIPAA;GDPR;PCI;COPPA;CCPA</complianceGroup>
+    <externalId>false</externalId>
+    <formula>Case (Digicel_Country__c,
+&quot;Anguilla&quot;, &quot;Frederick O Harrigan Building,Rock Farm,Anguilla AI-2640&quot;,
+&quot;Antigua and Barbuda&quot;, &quot;P.O. Box W32 Hills Park, Friars Hill Road, St John&apos;s, Antigua and Barbuda&quot;,
+&quot;Aruba&quot;, &quot;L.G. Smith Blvd. 60, Aruba&quot;,
+&quot;Barbados&quot;, &quot;2nd Floor, Williams Tower,Williams Industrial Complex,Warrens, St. Michael, Barbados, BB22026&quot;,
+&quot;Bermuda&quot;, &quot;46 Cedar Ave., Hamilton, Bermuda&quot;,
+&quot;Bonaire&quot;, &quot;Bonaire&quot;,
+&quot;Cayman Islands&quot;, &quot;Cayman Technology Centre, 115 Printer Way, George Town, Cayman Islands, PO Box 700, KY1-1107&quot;,
+&quot;Curaçao&quot;, &quot;Curaçao&quot;,
+&quot;Dominica&quot;, &quot;20 Bath Road, Roseau, Dominica&quot;,
+&quot;El Salvador&quot;, &quot;Calle Chaparrastique #2-A Zona Industrial, Santa Elena, Antiguo Cuscatlán&quot;,
+&quot;French Guiana&quot;, &quot;DIGICEL ANTILLES FRANCAISES GUYANE, Oasis - Quartier Bois Rouge, 97224 Ducos, Martinique&quot;,
+&quot;Grenada&quot;, &quot;Lucas Street, St. George’s, Grenada&quot;,
+&quot;Guadeloupe&quot;, &quot;DIGICEL ANTILLES FRANCAISES GUYANE, Oasis - Quartier Bois Rouge, 97224 Ducos, Martinique&quot;,
+&quot;Guyana&quot;, &quot;Lot 56 High Street, Kingston, Georgetown&quot;,
+&quot;Haiti&quot;, &quot;#151 Angle Ave Jean Paul II &amp; Impasse Duverger, Port-au-Prince&quot;,
+&quot;Jamaica&quot;, &quot;14 Ocean Boulevard, Kingston, Jamaica&quot;,
+&quot;Martinique&quot;, &quot;DIGICEL ANTILLES FRANCAISES GUYANE, Oasis - Quartier Bois Rouge, 97224 Ducos, Martinique&quot;,
+&quot;Panama&quot;, &quot;Panama&quot;,
+&quot;Saint Kitts and Nevis&quot;, &quot;Port Zante, Building 16, Office #4, Basseterre, St. Kitts&quot;,
+&quot;Saint Lucia&quot;, &quot;Willie Volney Drive, Gros Islet, St. Lucia&quot;,
+&quot;Saint Vincent and the Grenadines&quot;, &quot;Vigie Highway, Fountain, St. Vincent&quot;,
+&quot;Suriname&quot;, &quot;Henck Aaronstraat #27-29&quot;,
+&quot;Tres Networks&quot;, &quot;Curaçao&quot;,
+&quot;Trinidad and Tobago&quot;, &quot;Ansa Centre, 11c Maraval Road, Port of Spain, Trinidad and Tobago&quot;,
+&quot;Turks and Caicos Islands&quot;, &quot;991A Leeward Highway, Providenciales, Turks and Caicos Islands&quot;,
+&quot;BVI&quot;, &quot;Jayla Place, Wickhams Cay II, Road Town, Tortola, British Virgin Islands&quot;,
+&quot;FWI&quot;, &quot;DIGICEL ANTILLES FRANCAISES GUYANE, Oasis - Quartier Bois Rouge, 97224 Ducos, Martinique&quot;,
+&quot;Fiji&quot;, &quot;Fiji&quot;,
+&quot;PNG&quot;, &quot;P O Box 1618, Port Moresby, National Capital District, 111, Papua New Guinea&quot;,
+&quot;Samoa&quot;, &quot;Level 2 SNPF Plaza , Savalalo, Apia, Samoa&quot;,
+&quot;Vanuatu&quot;, &quot;PMB9103, Ellouk, Port Vila, Vanuatu&quot;,
+&quot;Tonga&quot;,  &quot;Digicel Tonga, Fatafehi Road, Nuku’alofa, Tonga&quot;,
+&quot;Nauru&quot;, &quot;Aiwo District Nauru&quot;,
+&quot;Reunion&quot;, &quot;La Reunion&quot;,
+&quot;Mayotte&quot;, &quot;Mayotte&quot;,
+&quot;Group Business Team&quot;,&quot;Ansa Centre, 11c Maraval Road, Port of Spain, Trinidad and Tobago&quot;,
+&quot;Carrier Sales&quot;, &quot;14 Ocean Boulevard, Kingston, Jamaica&quot;,
+&quot;Wholesale&quot;, &quot;14 Ocean Boulevard, Kingston, Jamaica&quot;,
+&quot;Digicel International Business&quot;, &quot;14 Ocean Boulevard, Kingston, Jamaica&quot;,
+&quot;Diaspora&quot;, &quot;Miami&quot;,
+&quot;Vendor&quot;, &quot;Ansa Centre, 11c Maraval Road, Port of Spain, Trinidad and Tobago&quot;
+,&quot;&quot;)</formula>
+    <label>Digicel Legal Address</label>
+    <required>false</required>
+    <securityClassification>Internal</securityClassification>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

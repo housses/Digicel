@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_EntitlementType__c</fullName>
+    <externalId>false</externalId>
+    <label>Entitlement Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mobile Services</fullName>
+                <default>false</default>
+                <label>Mobile Services</label>
+            </value>
+            <value>
+                <fullName>Connectivity &amp; Enterprise Services</fullName>
+                <default>false</default>
+                <label>Connectivity &amp; Enterprise Services</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

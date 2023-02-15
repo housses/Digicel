@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cayman_Service_Request_Queue_Work_Order</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Cayman Service Request Queue</label>
+    <queue>Cayman_Service_Request_Queue</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dominica_Pre_Sales_Team_Pre_Sales_Request</fullName>
+    <columns>NAME</columns>
+    <filterScope>Queue</filterScope>
+    <label>Dominica Pre Sales Team</label>
+    <queue>Dominica_Pre_Sales_Team</queue>
+    <sharedTo>
+        <group>All_Dominica_Users</group>
+    </sharedTo>
+</ListView>

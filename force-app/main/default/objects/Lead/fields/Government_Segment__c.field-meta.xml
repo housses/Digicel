@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Government_Segment__c</fullName>
+    <externalId>false</externalId>
+    <label>Government Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Lead_Segment__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Commission</fullName>
+                <default>false</default>
+                <label>Commission</label>
+            </value>
+            <value>
+                <fullName>Fully Owned Enterprise</fullName>
+                <default>false</default>
+                <label>Fully Owned Enterprise</label>
+            </value>
+            <value>
+                <fullName>Government Bodies</fullName>
+                <default>false</default>
+                <label>Government Bodies</label>
+            </value>
+            <value>
+                <fullName>Majority State Owned</fullName>
+                <default>false</default>
+                <label>Majority State Owned</label>
+            </value>
+            <value>
+                <fullName>Ministry</fullName>
+                <default>false</default>
+                <label>Ministry</label>
+            </value>
+            <value>
+                <fullName>Regional Corporation</fullName>
+                <default>false</default>
+                <label>Regional Corporation</label>
+            </value>
+            <value>
+                <fullName>State Enterprise</fullName>
+                <default>false</default>
+                <label>State Enterprise</label>
+            </value>
+            <value>
+                <fullName>Tobago House of Assembly</fullName>
+                <default>false</default>
+                <label>Tobago House of Assembly</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

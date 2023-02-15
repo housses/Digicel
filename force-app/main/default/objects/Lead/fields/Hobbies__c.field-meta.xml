@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hobbies__c</fullName>
+    <externalId>false</externalId>
+    <label>Hobbies</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Arts and crafts</fullName>
+                <default>false</default>
+                <label>Arts and crafts</label>
+            </value>
+            <value>
+                <fullName>Biking</fullName>
+                <default>false</default>
+                <label>Biking</label>
+            </value>
+            <value>
+                <fullName>Carnival</fullName>
+                <default>false</default>
+                <label>Carnival</label>
+            </value>
+            <value>
+                <fullName>Cinema</fullName>
+                <default>false</default>
+                <label>Cinema</label>
+            </value>
+            <value>
+                <fullName>Cricket</fullName>
+                <default>false</default>
+                <label>Cricket</label>
+            </value>
+            <value>
+                <fullName>Cultural activities</fullName>
+                <default>false</default>
+                <label>Cultural activities</label>
+            </value>
+            <value>
+                <fullName>Dancing</fullName>
+                <default>false</default>
+                <label>Dancing</label>
+            </value>
+            <value>
+                <fullName>Decorating</fullName>
+                <default>false</default>
+                <label>Decorating</label>
+            </value>
+            <value>
+                <fullName>Diving</fullName>
+                <default>false</default>
+                <label>Diving</label>
+            </value>
+            <value>
+                <fullName>Fine Art</fullName>
+                <default>false</default>
+                <label>Fine Art</label>
+            </value>
+            <value>
+                <fullName>Fine Dining</fullName>
+                <default>false</default>
+                <label>Fine Dining</label>
+            </value>
+            <value>
+                <fullName>Fishing</fullName>
+                <default>false</default>
+                <label>Fishing</label>
+            </value>
+            <value>
+                <fullName>Flying</fullName>
+                <default>false</default>
+                <label>Flying</label>
+            </value>
+            <value>
+                <fullName>Gardening</fullName>
+                <default>false</default>
+                <label>Gardening</label>
+            </value>
+            <value>
+                <fullName>Golf</fullName>
+                <default>false</default>
+                <label>Golf</label>
+            </value>
+            <value>
+                <fullName>Hiking</fullName>
+                <default>false</default>
+                <label>Hiking</label>
+            </value>
+            <value>
+                <fullName>Jazz festival</fullName>
+                <default>false</default>
+                <label>Jazz festival</label>
+            </value>
+            <value>
+                <fullName>Knitting</fullName>
+                <default>false</default>
+                <label>Knitting</label>
+            </value>
+            <value>
+                <fullName>Movies</fullName>
+                <default>false</default>
+                <label>Movies</label>
+            </value>
+            <value>
+                <fullName>Music</fullName>
+                <default>false</default>
+                <label>Music</label>
+            </value>
+            <value>
+                <fullName>Racquet sports</fullName>
+                <default>false</default>
+                <label>Racquet sports</label>
+            </value>
+            <value>
+                <fullName>Reading</fullName>
+                <default>false</default>
+                <label>Reading</label>
+            </value>
+            <value>
+                <fullName>Riding</fullName>
+                <default>false</default>
+                <label>Riding</label>
+            </value>
+            <value>
+                <fullName>Sailing</fullName>
+                <default>false</default>
+                <label>Sailing</label>
+            </value>
+            <value>
+                <fullName>Singing</fullName>
+                <default>false</default>
+                <label>Singing</label>
+            </value>
+            <value>
+                <fullName>Soccer (football)</fullName>
+                <default>false</default>
+                <label>Soccer (football)</label>
+            </value>
+            <value>
+                <fullName>Squash</fullName>
+                <default>false</default>
+                <label>Squash</label>
+            </value>
+            <value>
+                <fullName>Tennis</fullName>
+                <default>false</default>
+                <label>Tennis</label>
+            </value>
+            <value>
+                <fullName>Travel</fullName>
+                <default>false</default>
+                <label>Travel</label>
+            </value>
+            <value>
+                <fullName>Volleyball</fullName>
+                <default>false</default>
+                <label>Volleyball</label>
+            </value>
+            <value>
+                <fullName>Writing</fullName>
+                <default>false</default>
+                <label>Writing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

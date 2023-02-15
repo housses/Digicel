@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Prevent_Resolved_and_ATNM_Being_True</fullName>
+    <active>true</active>
+    <description>Ensures Resolved and Add to Next Meeting cannot both be true</description>
+    <errorConditionFormula>AND(amc__Add_to_Next_Meeting__c,amc__Resolved__c)</errorConditionFormula>
+    <errorMessage>You cannot set Resolved and Add to Next Meeting as true</errorMessage>
+</ValidationRule>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vndr_Equip_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Vndr Equip Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Digicel In Stock</fullName>
+                <default>false</default>
+                <label>Digicel In Stock</label>
+            </value>
+            <value>
+                <fullName>Digicel PO Rqstd</fullName>
+                <default>false</default>
+                <label>Digicel PO Rqstd</label>
+            </value>
+            <value>
+                <fullName>In Warehouse</fullName>
+                <default>false</default>
+                <label>In Warehouse</label>
+            </value>
+            <value>
+                <fullName>Order Placed</fullName>
+                <default>false</default>
+                <label>Order Placed</label>
+            </value>
+            <value>
+                <fullName>Partial Shipment Rcvd</fullName>
+                <default>false</default>
+                <label>Partial Shipment Rcvd</label>
+            </value>
+            <value>
+                <fullName>Vendor Quote Rqstd</fullName>
+                <default>false</default>
+                <label>Vendor Quote Rqstd</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProRataMRCEst__c</fullName>
+    <externalId>false</externalId>
+    <formula>( 
+MRC__c / 
+CASE( 
+MONTH( Estimated_Bill_Date__c ), 
+9, 30, 
+4, 30, 
+6, 30, 
+11, 30, 
+2, IF(MOD(YEAR(Opportunity.CloseDate), 400) = 0 || (MOD(YEAR(Opportunity.CloseDate), 4) = 0 &amp;&amp; MOD(YEAR(Opportunity.CloseDate), 100) &lt;&gt; 0), 29, 28), 
+31 
+) 
+) 
+* 
+( 
+CASE( 
+MONTH( Estimated_Bill_Date__c ), 
+9, 30, 
+4, 30, 
+6, 30, 
+11, 30, 
+2, IF(MOD(YEAR(Opportunity.CloseDate), 400) = 0 || (MOD(YEAR(Opportunity.CloseDate), 4) = 0 &amp;&amp; MOD(YEAR(Opportunity.CloseDate), 100) &lt;&gt; 0), 29, 28), 
+31 
+)- 
+DAY( Estimated_Bill_Date__c ) +1 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ProRata MRC (Est)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

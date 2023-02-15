@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__P_L_Actual__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL( amc__Billing_Type__c , &quot;Fixed Price&quot;) , amc__Cost_Budget__c - (amc__Hours_Completed_Value_Cost__c + amc__Actual_Project_Expenses__c + amc__Expense_Summary__c), IF( ISPICKVAL(amc__Billing_Type__c, &quot;Fixed Price + Expenses&quot;), (amc__Cost_Budget__c + amc__Actual_Project_Expenses_Billable__c) - (amc__Hours_Completed_Value_Cost__c + amc__Actual_Project_Expenses__c + amc__Expense_Summary__c) , (amc__Hours_Completed_Cost__c + amc__Actual_Project_Expenses_Billable__c + amc__Material_Costs_Scheduled__c) - (amc__Hours_Completed_Value_Cost__c + amc__Actual_Project_Expenses__c + amc__Expense_Summary__c)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Identifies the P&amp;L for the Project based on the Actual figures. If Fixed Price, use the Project Budget, otherwise use the Completed Value Billable - Completed Value Cost + Actual Project Expenses + Mat Costs Completed</inlineHelpText>
+    <label>P&amp;L (Actual)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

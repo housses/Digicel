@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_PreventTechSolutionStagesForGSM</fullName>
+    <active>true</active>
+    <description>Prevent the Quote to go to Technical Feasibility or Solution Design Stages if the Type of Quote is GSM</description>
+    <errorConditionFormula>IF(AND(PNG_QuoteType__c = &apos;GSM&apos;,  RecordType.Name = &apos;Digicel PNG Draft Quote&apos;, ISCHANGED ( Status ),
+OR(ISPICKVAL(Status , &apos;In Technical Feasibility Check&apos;),
+ISPICKVAL(Status , &apos;Technical Feasibility Rejected&apos;),
+ISPICKVAL(Status , &apos;Technical Feasibility Approved&apos;),
+ISPICKVAL(Status , &apos;In Solution Review&apos;),
+ISPICKVAL(Status , &apos;Solution Approved&apos;),
+ISPICKVAL(Status , &apos;Solution Rejected&apos;)))
+,TRUE,FAlSE)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>GSM Quotes do not require Technical Feasibility or Solution Design Approvals</errorMessage>
+</ValidationRule>

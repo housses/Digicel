@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Processing_Status__c</fullName>
+    <description>This field will be deleted after we finish with what we are trying to achieve in the PNG Market.</description>
+    <externalId>false</externalId>
+    <label>Contract Processing Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+                <label>Submitted</label>
+            </value>
+            <value>
+                <fullName>Processing</fullName>
+                <default>false</default>
+                <label>Processing</label>
+            </value>
+            <value>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+                <label>Accepted</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Resubmitted</fullName>
+                <default>false</default>
+                <label>Resubmitted</label>
+            </value>
+            <value>
+                <fullName>Resubmitted - Processing</fullName>
+                <default>false</default>
+                <label>Resubmitted - Processing</label>
+            </value>
+            <value>
+                <fullName>Resubmitted - Accepted</fullName>
+                <default>false</default>
+                <label>Resubmitted - Accepted</label>
+            </value>
+            <value>
+                <fullName>Resubmitted - Rejected</fullName>
+                <default>false</default>
+                <label>Resubmitted - Rejected</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

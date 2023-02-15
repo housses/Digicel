@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_File_Must_be_attached</fullName>
+    <active>false</active>
+    <description>No Opportunity should be at Closed Won or Signed Contract without having a contract record attached via Chatter</description>
+    <errorConditionFormula>AND(
+CASE( StageName,
+&quot;Signed Contract&quot;, 1,
+&quot;Closed Won&quot;, 1,
+&quot;Billed&quot;, 1,
+0) = 1,
+NOT(ContractAttached__c))</errorConditionFormula>
+    <errorMessage>No Opportunity should be at Closed Won or Signed Contract without having a contract record attached via Chatter</errorMessage>
+</ValidationRule>

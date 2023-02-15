@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Guyana Pre Sales Team</name>
+    <queueMembers>
+        <users>
+            <user>bismark.monzon1@digicelgroup.com</user>
+            <user>devindra.sukhu@digicelgroup.com</user>
+            <user>hemnauth.singh1@digicelgroup.com</user>
+            <user>marlon.samaroo1@digicelgroup.com</user>
+            <user>nyall.jodhan@digicelgroup.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Pre_Sales_Request__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Pre_Sales_Update__c</sobjectType>
+    </queueSobject>
+</Queue>

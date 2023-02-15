@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tarka_Customer_ID__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Tarka Customer ID</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>BAN__c.Account__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.PNG_Account__c</valueField>
+        </filterItems>
+        <filterItems>
+            <field>BAN__c.BillingSystem__c</field>
+            <operation>equals</operation>
+            <value>Tarka</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>BAN__c</referenceTo>
+    <relationshipLabel>Tarka Invoice Payments</relationshipLabel>
+    <relationshipName>Tarka_Invoice_Payments</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

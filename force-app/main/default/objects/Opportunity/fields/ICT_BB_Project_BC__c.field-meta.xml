@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ICT_BB_Project_BC__c</fullName>
+    <description>Used in Barbados only to track project Business Case</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use to track project business case</inlineHelpText>
+    <label>ICT BB Project BC</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GOB Project BC</fullName>
+                <default>false</default>
+                <label>GOB Project BC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

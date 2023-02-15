@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Digicel Group Business Solutions - South Pacific Region</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Digicel Group Business Solutions - South Pacific Region</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Digicel_Group_Business_Solutions</parentRole>
+</Role>

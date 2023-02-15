@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owner_Changed_When_Status_is_Assigned</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED( OwnerId ),
+NOT(OR(ISPICKVAL(Status__c ,&quot;Assigned&quot;),ISPICKVAL(Status__c ,&quot;Requested&quot;) )))
+&amp;&amp; $Profile.Name &lt;&gt;&quot;System Administrator&quot;</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>Cannot change Owner unless &quot;Status&quot; field is set to &quot;Assign&quot;</errorMessage>
+</ValidationRule>

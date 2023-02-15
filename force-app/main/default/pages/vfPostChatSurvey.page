@@ -1,0 +1,157 @@
+<apex:page showHeader="false" sidebar="false" controller="controllerPostChatSurvey" cache="false" expires="0" action="{!createSurvey}">
+    <apex:includeScript value="{!URLFOR($Resource.jQuery)}"/>
+    <style>
+        body {margin:20px; }
+        .required label:after {
+            color: #e32;
+            content: ' *';
+            display:inline;
+        }
+        p {font-weight: bolder }
+        .p3{
+            margin:10px 0 0 20px;
+        }
+        .quote {
+            padding-left: 2em;
+            width:auto;
+        }
+        .quote {
+            line-height:1.75em;
+        }
+        .quote a {
+            color:#00F;
+        }
+        .o4 {
+            margin-top:10px;
+            display:none;
+        }
+        .o4 p {
+            font-weight: normal;
+            margin: 0px;
+        }
+        .o4 table{
+            border-spacing: 2px;
+        }
+        .o1,.o2,.o3 {
+            margin-top:10px;
+            display:none;
+        }
+        .o5 {
+            display:block;
+        }
+    </style>
+    
+    <apex:form >
+        <!-- <apex:inputHidden id="ar" value="{!attachedRecords}"/>
+        Attached Records: {!attachedRecords}
+        Attached Records Page: {!$CurrentPage.parameters.attachedRecords} -->
+        
+        <apex:image style="padding-bottom: 10px;" value="/servlet/servlet.ImageServer?id=0150W00000CrqXp&oid=00Dd0000000fRCw&lastMod=1406631071000"/><br/>
+        <apex:outputPanel id="all">
+        
+            <apex:outputPanel rendered="{!AND(showQ1, NOT(showError))}" id="q1">
+                <h3>Please rate your experience by answering the following three (3) questions:</h3>
+                <br/><br/>
+                <div>
+                    <apex:outputLabel value="1. Was your query resolved?"/>&nbsp;
+                    <apex:selectList value="{!answerQ1}" multiselect="false" size="1">
+                        <apex:actionSupport event="onchange" action="{!refreshQ1}" rerender="q1"/>
+                        <apex:selectOptions value="{!optionsQ1}"/>
+                    </apex:selectList>
+                </div>
+                <br/>
+                <apex:outputPanel rendered="{!showCommentsQ1}">
+                    <div>
+                        &nbsp;&nbsp;&nbsp;<apex:outputLabel value="Additional Comments"/>&nbsp;
+                        <apex:inputTextarea value="{!commentsQ1}" rows="2"/>
+                    </div>
+                </apex:outputPanel>
+                <br/>
+                <div>
+                    <apex:outputLabel value="2. Please rate your customer experience:"/>&nbsp;
+                    <apex:selectList value="{!answerQ2}" multiselect="false" size="1">
+                        <apex:actionSupport event="onchange" action="{!refreshQ2}" rerender="q1"/>
+                        <apex:selectOptions value="{!optionsQ2}"/>
+                    </apex:selectList>
+                </div>
+                <br/>
+                <apex:outputPanel rendered="{!showCommentsQ2}">
+                    <div>
+                        &nbsp;&nbsp;&nbsp;<apex:outputLabel value="Additional Comments"/>&nbsp;
+                        <apex:inputTextarea value="{!commentsQ2}" rows="2"/>
+                    </div>
+                </apex:outputPanel>
+                <br/>
+                <div>
+                    <apex:outputLabel value="3. Do you wish to provide additional feedback?"/>&nbsp;
+                    <apex:selectList value="{!answerQ3}" multiselect="false" size="1">
+                        <apex:actionSupport event="onchange" action="{!refreshQ3}" rerender="q1"/>
+                        <apex:selectOptions value="{!optionsQ3}"/>
+                    </apex:selectList>
+                </div>
+                <br/>
+                <apex:outputPanel rendered="{!showCommentsQ3}">
+                    <div>
+                        &nbsp;&nbsp;&nbsp;<apex:outputLabel value="Additional Comments"/>&nbsp;
+                        <apex:inputTextarea value="{!commentsQ3}" rows="2"/>
+                    </div>
+                </apex:outputPanel>
+                <br/>
+                <!-- <apex:commandButton value="Next" action="{!toQ2}" rerender="all"/>-->
+                <apex:commandButton value="Finish" action="{!save}" rerender="all"/>
+            </apex:outputPanel>
+            
+            <!-- <apex:outputPanel rendered="{!showQ2}" id="q2">
+                <h3>Please let us know about your experience with the following three question survey</h3>
+                <div>
+                    <apex:outputLabel value="Please rate your customer experience:"/>
+                    <apex:selectList value="{!answerQ2}" multiselect="false" size="1">
+                        <apex:actionSupport event="onchange" action="{!refreshQ2}" rerender="q2"/>
+                        <apex:selectOptions value="{!optionsQ2}"/>
+                    </apex:selectList>
+                </div>
+                <br/>
+                <apex:outputPanel rendered="{!showCommentsQ2}">
+                    <div>
+                        <apex:outputLabel value="Additional Comments"/>
+                        <apex:inputTextarea value="{!commentsQ2}"/>
+                    </div>
+                </apex:outputPanel>
+                <br/>
+                <apex:commandButton value="Previous" action="{!toQ1}" rerender="all"/>
+                <apex:commandButton value="Next" action="{!toQ3}" rerender="all"/>
+            </apex:outputPanel>
+            
+            <apex:outputPanel rendered="{!showQ3}" id="q3">
+                <h3>Please let us know about your experience with the following three question survey</h3>
+                <div>
+                    <apex:outputLabel value="Do you wish to provide additional feedback?"/>
+                    <apex:selectList value="{!answerQ3}" multiselect="false" size="1">
+                        <apex:actionSupport event="onchange" action="{!refreshQ3}" rerender="q3"/>
+                        <apex:selectOptions value="{!optionsQ3}"/>
+                    </apex:selectList>
+                </div>
+                <br/>
+                <apex:outputPanel rendered="{!showCommentsQ3}">
+                    <div>
+                        <apex:outputLabel value="Additional Comments"/>
+                        <apex:inputTextarea value="{!commentsQ3}"/>
+                    </div>
+                </apex:outputPanel>
+                <br/>
+                <apex:commandButton value="Previous" action="{!toQ2}" rerender="all"/>
+                <apex:commandButton value="Finish" action="{!save}" rerender="all"/>
+            </apex:outputPanel> -->
+            
+            <apex:outputPanel rendered="{!showSuccess}" id="success">
+                <br/>
+                <div><h3>Thank you for your feedback. Your responses will help us improve your Top Up experience. Have a great day.</h3></div>
+            </apex:outputPanel>
+            
+            <apex:outputPanel rendered="{!showError}" id="error">
+                <br/>
+                <div><h3>{!errorMessage}</h3></div>
+            </apex:outputPanel>
+        </apex:outputPanel>
+    </apex:form>
+</apex:page>

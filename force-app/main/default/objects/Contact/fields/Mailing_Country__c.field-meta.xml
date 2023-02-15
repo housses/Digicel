@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mailing_Country__c</fullName>
+    <externalId>false</externalId>
+    <label>Mailing Country</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Anguilla</fullName>
+                <default>false</default>
+                <label>Anguilla</label>
+            </value>
+            <value>
+                <fullName>Antigua And Barbuda</fullName>
+                <default>false</default>
+                <label>Antigua And Barbuda</label>
+            </value>
+            <value>
+                <fullName>Aruba</fullName>
+                <default>false</default>
+                <label>Aruba</label>
+            </value>
+            <value>
+                <fullName>Barbados</fullName>
+                <default>false</default>
+                <label>Barbados</label>
+            </value>
+            <value>
+                <fullName>Bermuda</fullName>
+                <default>false</default>
+                <label>Bermuda</label>
+            </value>
+            <value>
+                <fullName>Bonaire</fullName>
+                <default>false</default>
+                <label>Bonaire</label>
+            </value>
+            <value>
+                <fullName>Cayman Islands</fullName>
+                <default>false</default>
+                <label>Cayman Islands</label>
+            </value>
+            <value>
+                <fullName>Curacao</fullName>
+                <default>false</default>
+                <label>Curacao</label>
+            </value>
+            <value>
+                <fullName>Dominica</fullName>
+                <default>false</default>
+                <label>Dominica</label>
+            </value>
+            <value>
+                <fullName>El Salvador</fullName>
+                <default>false</default>
+                <label>El Salvador</label>
+            </value>
+            <value>
+                <fullName>Fiji</fullName>
+                <default>false</default>
+                <label>Fiji</label>
+            </value>
+            <value>
+                <fullName>French Guiana</fullName>
+                <default>false</default>
+                <label>French Guiana</label>
+            </value>
+            <value>
+                <fullName>Grenada</fullName>
+                <default>false</default>
+                <label>Grenada</label>
+            </value>
+            <value>
+                <fullName>Guadeloupe</fullName>
+                <default>false</default>
+                <label>Guadeloupe</label>
+            </value>
+            <value>
+                <fullName>Guyana</fullName>
+                <default>false</default>
+                <label>Guyana</label>
+            </value>
+            <value>
+                <fullName>Haiti</fullName>
+                <default>false</default>
+                <label>Haiti</label>
+            </value>
+            <value>
+                <fullName>Jamaica</fullName>
+                <default>false</default>
+                <label>Jamaica</label>
+            </value>
+            <value>
+                <fullName>Martinique</fullName>
+                <default>false</default>
+                <label>Martinique</label>
+            </value>
+            <value>
+                <fullName>Nauru</fullName>
+                <default>false</default>
+                <label>Nauru</label>
+            </value>
+            <value>
+                <fullName>Panama</fullName>
+                <default>false</default>
+                <label>Panama</label>
+            </value>
+            <value>
+                <fullName>Papua New Guinea</fullName>
+                <default>false</default>
+                <label>Papua New Guinea</label>
+            </value>
+            <value>
+                <fullName>St. Kitts And Nevis</fullName>
+                <default>false</default>
+                <label>St. Kitts And Nevis</label>
+            </value>
+            <value>
+                <fullName>Samoa</fullName>
+                <default>false</default>
+                <label>Samoa</label>
+            </value>
+            <value>
+                <fullName>Suriname</fullName>
+                <default>false</default>
+                <label>Suriname</label>
+            </value>
+            <value>
+                <fullName>Tonga</fullName>
+                <default>false</default>
+                <label>Tonga</label>
+            </value>
+            <value>
+                <fullName>Turks And Caicos Islands</fullName>
+                <default>false</default>
+                <label>Turks And Caicos Islands</label>
+            </value>
+            <value>
+                <fullName>Vanuatu</fullName>
+                <default>false</default>
+                <label>Vanuatu</label>
+            </value>
+            <value>
+                <fullName>Virgin Islands, British</fullName>
+                <default>false</default>
+                <label>Virgin Islands, British</label>
+            </value>
+            <value>
+                <fullName>St. Lucia</fullName>
+                <default>false</default>
+                <label>St. Lucia</label>
+            </value>
+            <value>
+                <fullName>St. Vincent</fullName>
+                <default>false</default>
+                <label>St. Vincent</label>
+            </value>
+            <value>
+                <fullName>Trinidad and Tobago</fullName>
+                <default>false</default>
+                <label>Trinidad and Tobago</label>
+            </value>
+            <value>
+                <fullName>United States of America</fullName>
+                <default>false</default>
+                <label>United States of America</label>
+            </value>
+            <value>
+                <fullName>Mexico</fullName>
+                <default>false</default>
+                <label>Mexico</label>
+            </value>
+            <value>
+                <fullName>Canada</fullName>
+                <default>false</default>
+                <label>Canada</label>
+            </value>
+            <value>
+                <fullName>United Kingdom</fullName>
+                <default>false</default>
+                <label>United Kingdom</label>
+            </value>
+            <value>
+                <fullName>Spain</fullName>
+                <default>false</default>
+                <label>Spain</label>
+            </value>
+            <value>
+                <fullName>France</fullName>
+                <default>false</default>
+                <label>France</label>
+            </value>
+            <value>
+                <fullName>La Réunion</fullName>
+                <default>false</default>
+                <label>La Réunion</label>
+            </value>
+            <value>
+                <fullName>Saint Martin</fullName>
+                <default>false</default>
+                <label>Saint Martin</label>
+            </value>
+            <value>
+                <fullName>Saint Barthelemy</fullName>
+                <default>false</default>
+                <label>Saint Barthelemy</label>
+            </value>
+            <value>
+                <fullName>Mayotte</fullName>
+                <default>false</default>
+                <label>Mayotte</label>
+            </value>
+            <value>
+                <fullName>Mauritius</fullName>
+                <default>false</default>
+                <label>Mauritius</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

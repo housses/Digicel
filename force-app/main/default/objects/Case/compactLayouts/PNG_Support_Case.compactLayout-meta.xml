@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_Support_Case</fullName>
+    <fields>CaseNumber</fields>
+    <fields>AccountId</fields>
+    <fields>Subject</fields>
+    <fields>ContactId</fields>
+    <fields>Priority</fields>
+    <fields>Status</fields>
+    <label>PNG Support Case</label>
+</CompactLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Project_Owner_Approval_Required__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>amc__Action__r.amc__Milestone__r.amc__Project__r.amc__Project_Owner_Timesheet_Approval_Reqd__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Project Owner Approval Required</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

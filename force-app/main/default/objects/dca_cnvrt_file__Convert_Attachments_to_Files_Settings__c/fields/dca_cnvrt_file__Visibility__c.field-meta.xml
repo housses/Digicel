@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dca_cnvrt_file__Visibility__c</fullName>
+    <defaultValue>&quot;InternalUsers&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The ContentDocumentLink.Visibility value to use for converted files. For any user with permission to view the file, this further controls which set of users can actually see it.
+&quot;InternalUsers&quot; = only internal users with permission to view file (available if communities enabled)
+&quot;AllUsers&quot; = all users, including community users, with permission to view file</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The ContentDocumentLink.Visibility value to use for converted files.
+&quot;InternalUsers&quot; = only internal users with permission to view file (available if communities enabled)
+&quot;AllUsers&quot; = all users, including community users, with permission to view file</inlineHelpText>
+    <label>Visibility</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

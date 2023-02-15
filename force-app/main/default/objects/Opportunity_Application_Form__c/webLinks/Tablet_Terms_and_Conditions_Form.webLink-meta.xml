@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tablet_Terms_and_Conditions_Form</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Tablet Terms and Conditions Form</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://www.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=3b35b40b-3cea-4651-a276-c399c255e322
+&amp;Signer1_UserName={!Opportunity_Application_Form__c.FORMULA_Opportunity_Contact__c}&amp;Signer1_Email={!Opportunity_Application_Form__c.FORMULA_Opportunity_Contact_Email__c}&amp;
+
+activateonly=1&amp;EnvelopeField_DSFSSourceObjectId={!Opportunity_Application_Form__c.Id}</url>
+</WebLink>

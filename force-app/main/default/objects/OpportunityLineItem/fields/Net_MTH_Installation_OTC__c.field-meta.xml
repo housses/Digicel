@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Net_MTH_Installation_OTC__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF((ISPICKVAL( Charge_Type__c,&quot;Installation&quot;) || ISPICKVAL( Charge_Type__c,&quot;OTC&quot;)), TotalPrice *  Margin_markup_percent__c ,0 )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Net MTH Installation/OTC</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

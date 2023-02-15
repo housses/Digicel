@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TotalCAPEXofProject__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Also called capital spending or expenditure. The amount in Business Case to acquire or upgrade productive assets (Eg, CPE, Equipment, MV) in order to increase the capacity or efficiency of the Company over the project duration;</inlineHelpText>
+    <label>Total CAPEX of Project</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

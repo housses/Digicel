@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Person__c</fullName>
+    <externalId>false</externalId>
+    <label>Sales Person</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Christophagna Jean</fullName>
+                <default>false</default>
+                <label>Christophagna Jean</label>
+            </value>
+            <value>
+                <fullName>Guerline Vilmar</fullName>
+                <default>false</default>
+                <label>Guerline Vilmar</label>
+            </value>
+            <value>
+                <fullName>Kridijah Williams</fullName>
+                <default>false</default>
+                <label>Kridijah Williams</label>
+            </value>
+            <value>
+                <fullName>Lisbeth King</fullName>
+                <default>false</default>
+                <label>Lisbeth King</label>
+            </value>
+            <value>
+                <fullName>Myrva Pierre</fullName>
+                <default>false</default>
+                <label>Myrva Pierre</label>
+            </value>
+            <value>
+                <fullName>Shedline Joseph</fullName>
+                <default>false</default>
+                <label>Shedline Joseph</label>
+            </value>
+            <value>
+                <fullName>Sheriel Brutus</fullName>
+                <default>false</default>
+                <label>Sheriel Brutus</label>
+            </value>
+            <value>
+                <fullName>Lindrian Rigby</fullName>
+                <default>false</default>
+                <label>Lindrian Rigby</label>
+            </value>
+            <value>
+                <fullName>Marie St Hilaire</fullName>
+                <default>false</default>
+                <label>Marie St Hilaire</label>
+            </value>
+            <value>
+                <fullName>Gabriella Mascall</fullName>
+                <default>false</default>
+                <label>Gabriella Mascall</label>
+            </value>
+            <value>
+                <fullName>Justin Thomson</fullName>
+                <default>false</default>
+                <label>Justin Thomson</label>
+            </value>
+            <value>
+                <fullName>Antonio Castillo</fullName>
+                <default>false</default>
+                <label>Antonio Castillo</label>
+            </value>
+            <value>
+                <fullName>Karmeka Phillip</fullName>
+                <default>false</default>
+                <label>Karmeka Phillip</label>
+            </value>
+            <value>
+                <fullName>Nikka Murray</fullName>
+                <default>false</default>
+                <label>Nikka Murray</label>
+            </value>
+            <value>
+                <fullName>Keira Salandy</fullName>
+                <default>false</default>
+                <label>Keira Salandy</label>
+            </value>
+            <value>
+                <fullName>Joel Skerritt</fullName>
+                <default>false</default>
+                <label>Joel Skerritt</label>
+            </value>
+            <value>
+                <fullName>Cristie Alexander</fullName>
+                <default>false</default>
+                <label>Cristie Alexander</label>
+            </value>
+            <value>
+                <fullName>Alexia James</fullName>
+                <default>false</default>
+                <label>Alexia James</label>
+            </value>
+            <value>
+                <fullName>Jabari Gilman</fullName>
+                <default>false</default>
+                <label>Jabari Gilman</label>
+            </value>
+            <value>
+                <fullName>Khalid Burke</fullName>
+                <default>false</default>
+                <label>Khalid Burke</label>
+            </value>
+            <value>
+                <fullName>Kendell Gillard</fullName>
+                <default>false</default>
+                <label>Kendell Gillard</label>
+            </value>
+            <value>
+                <fullName>Melissa Cumberbatch</fullName>
+                <default>false</default>
+                <label>Melissa Cumberbatch</label>
+            </value>
+            <value>
+                <fullName>Christine Mannette-Campbell</fullName>
+                <default>false</default>
+                <label>Christine Mannette-Campbell</label>
+            </value>
+            <value>
+                <fullName>Simyah Sylvester</fullName>
+                <default>false</default>
+                <label>Simyah Sylvester</label>
+            </value>
+            <value>
+                <fullName>Dwayne Dookie</fullName>
+                <default>false</default>
+                <label>Dwayne Dookie</label>
+            </value>
+            <value>
+                <fullName>Melissa Ochoa</fullName>
+                <default>false</default>
+                <label>Melissa Ochoa</label>
+            </value>
+            <value>
+                <fullName>Anita Felix</fullName>
+                <default>false</default>
+                <label>Anita Felix</label>
+            </value>
+            <value>
+                <fullName>Vanessa Williams</fullName>
+                <default>false</default>
+                <label>Vanessa Williams</label>
+            </value>
+            <value>
+                <fullName>Leona Nurse</fullName>
+                <default>false</default>
+                <label>Leona Nurse</label>
+            </value>
+            <value>
+                <fullName>Anika Augustine</fullName>
+                <default>false</default>
+                <label>Anika Augustine</label>
+            </value>
+            <value>
+                <fullName>Shivanand Mannah</fullName>
+                <default>false</default>
+                <label>Shivanand Mannah</label>
+            </value>
+            <value>
+                <fullName>Valencia Cox</fullName>
+                <default>false</default>
+                <label>Valencia Cox</label>
+            </value>
+            <value>
+                <fullName>Rabriska Connor</fullName>
+                <default>false</default>
+                <label>Rabriska Connor</label>
+            </value>
+            <value>
+                <fullName>Nadica Richardson</fullName>
+                <default>false</default>
+                <label>Nadica Richardson</label>
+            </value>
+            <value>
+                <fullName>-To Be Determined-</fullName>
+                <default>false</default>
+                <label>-To Be Determined-</label>
+            </value>
+            <value>
+                <fullName>Alexander Kelly</fullName>
+                <default>false</default>
+                <label>Alexander Kelly</label>
+            </value>
+            <value>
+                <fullName>Allanchris Kaon</fullName>
+                <default>false</default>
+                <label>Allanchris Kaon</label>
+            </value>
+            <value>
+                <fullName>Andy Saun</fullName>
+                <default>false</default>
+                <label>Andy Saun</label>
+            </value>
+            <value>
+                <fullName>Barbie Kora</fullName>
+                <default>false</default>
+                <label>Barbie Kora</label>
+            </value>
+            <value>
+                <fullName>Benjamin Justin</fullName>
+                <default>false</default>
+                <label>Benjamin Justin</label>
+            </value>
+            <value>
+                <fullName>Benson Sumani</fullName>
+                <default>false</default>
+                <label>Benson Sumani</label>
+            </value>
+            <value>
+                <fullName>Hyner Atia</fullName>
+                <default>false</default>
+                <label>Hyner Atia</label>
+            </value>
+            <value>
+                <fullName>James Nogoya</fullName>
+                <default>false</default>
+                <label>James Nogoya</label>
+            </value>
+            <value>
+                <fullName>Jason Iari</fullName>
+                <default>false</default>
+                <label>Jason Iari</label>
+            </value>
+            <value>
+                <fullName>Jeffrey Kagil</fullName>
+                <default>false</default>
+                <label>Jeffrey Kagil</label>
+            </value>
+            <value>
+                <fullName>Noah Are-Uti</fullName>
+                <default>false</default>
+                <label>Noah Are-Uti</label>
+            </value>
+            <value>
+                <fullName>Nyron Nudds</fullName>
+                <default>false</default>
+                <label>Nyron Nudds</label>
+            </value>
+            <value>
+                <fullName>Paul Moses</fullName>
+                <default>false</default>
+                <label>Paul Moses</label>
+            </value>
+            <value>
+                <fullName>Peter Bebi</fullName>
+                <default>false</default>
+                <label>Peter Bebi</label>
+            </value>
+            <value>
+                <fullName>Seamona Pumuye</fullName>
+                <default>false</default>
+                <label>Seamona Pumuye</label>
+            </value>
+            <value>
+                <fullName>Rachel Tiamu</fullName>
+                <default>false</default>
+                <label>Rachel Tiamu</label>
+            </value>
+            <value>
+                <fullName>Jochebed Ondassa</fullName>
+                <default>false</default>
+                <label>Jochebed Ondassa</label>
+            </value>
+            <value>
+                <fullName>Iaa Iaupahae</fullName>
+                <default>false</default>
+                <label>Iaa Iaupahae</label>
+            </value>
+            <value>
+                <fullName>Glenda Avetari</fullName>
+                <default>false</default>
+                <label>Glenda Avetari</label>
+            </value>
+            <value>
+                <fullName>Frazier Paul</fullName>
+                <default>false</default>
+                <label>Frazier Paul</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

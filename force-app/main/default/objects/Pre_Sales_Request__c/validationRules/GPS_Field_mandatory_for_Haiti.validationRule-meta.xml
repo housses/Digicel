@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GPS_Field_mandatory_for_Haiti</fullName>
+    <active>true</active>
+    <description>This rules enforces that the GPS field on the PSR is mandatory for only Haiti users</description>
+    <errorConditionFormula>OR(ISBLANK( GPSCoordinates__Latitude__s ),
+   ISBLANK( GPSCoordinates__Longitude__s ))
+&amp;&amp;
+  ISPICKVAL($User.Digicel_Country__c,&apos;Haiti&apos;)</errorConditionFormula>
+    <errorMessage>Please ensue that you have provided the GPS coordinates for the Pre Sales Division</errorMessage>
+</ValidationRule>

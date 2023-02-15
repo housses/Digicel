@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TREND_OnlyHeadcanaddproductRevenueValida</fullName>
+    <active>true</active>
+    <description>ONLY CEO&apos;s, Head of Sales, Regional Head of Sales and Country Manager can add a product when the revenue has been validated</description>
+    <errorConditionFormula>IF(CONTAINS(Opportunity.RecordType.DeveloperName,&quot;Trend&quot;),
+
+IF((NOT(CONTAINS($UserRole.Name, &quot;Trend Head of Sales&quot;)) &amp;&amp; 
+NOT(CONTAINS($UserRole.Name, &quot;Trend Southern Caribbean Director&quot;)) &amp;&amp; 
+NOT(CONTAINS($UserRole.Name, &quot;Trend CEO&quot;)) &amp;&amp; 
+
+NOT(CONTAINS( $UserRole.Name, &quot;Trend Account Manager - PNG&quot;)) &amp;&amp; 
+NOT(CONTAINS( $UserRole.Name, &quot;Trend Regional Head of Sales&quot;)) &amp;&amp; 
+NOT(CONTAINS($UserRole.Name, &quot;Trend Country Manager&quot;)) &amp;&amp;
+
+NOT(CONTAINS($UserRole.Name, &quot;Trend Head of Mobile Advertising - Cayman&quot;))  &amp;&amp; 
+NOT(CONTAINS($UserRole.Name, &quot;Trend Country Manager - Cayman&quot;))  &amp;&amp; 
+NOT(CONTAINS($UserRole.Name, &quot;Trend Sales Executive - Bermuda&quot;))  &amp;&amp; 
+NOT(CONTAINS($UserRole.Name, &quot;Trend Sales Executive - Turks &amp; Caicos&quot;))  &amp;&amp; 
+NOT(CONTAINS($UserRole.Name, &quot;Trend Sales Executive - BVI&quot;))  &amp;&amp; 
+NOT(CONTAINS($UserRole.Name, &quot;Trend Sales Executive - Dominica&quot;))  &amp;&amp;
+NOT(CONTAINS($UserRole.Name, &quot;Trend Sales Executive - Antigua&quot;))  &amp;&amp;
+NOT(CONTAINS($UserRole.Name, &quot;Trend Sales Executive – Anguilla&quot;)) &amp;&amp;
+NOT(CONTAINS($UserRole.Name, &quot;Trend Sales Executive - St.Lucia&quot;)) &amp;&amp;
+NOT(CONTAINS($UserRole.Name, &quot;Trend Sales Executive - St.Vincent&quot;)) &amp;&amp;
+NOT(CONTAINS($UserRole.Name, &quot;Trend Sales Executive - Curacao&quot;)) &amp;&amp;
+NOT(CONTAINS($UserRole.Name, &quot;Trend Sales Executive - Guyana&quot;)) &amp;&amp;
+NOT(CONTAINS($UserRole.Name, &quot;Trend Sales Executive - Aruba&quot;)) &amp;&amp;
+NOT(CONTAINS($UserRole.Name, &quot;Trend Sales Executive - Grenada&quot;))),  
+AND( Opportunity.Revenue_Validated_and_Approved__c ), FALSE)
+
+,false)
+
+&amp;&amp; $Profile.Name &lt;&gt;&quot;System Administrator&quot;</errorConditionFormula>
+    <errorDisplayField>Quantity</errorDisplayField>
+    <errorMessage>You cannot add more products or make changes to the products included. The Revenue has been already validated. If it is required, your supervisor must do the change.</errorMessage>
+</ValidationRule>

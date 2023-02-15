@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BVI_Pre_Sales_Team_Pre_Sales_Request</fullName>
+    <columns>NAME</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Requested_Date__c</columns>
+    <columns>Status__c</columns>
+    <columns>SubStatus__c</columns>
+    <columns>PSR_Type__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Queue</filterScope>
+    <label>BVI Pre Sales Team</label>
+    <queue>BVI_Pre_Sales_Team</queue>
+    <sharedTo>
+        <group>All_BVI_Users</group>
+    </sharedTo>
+</ListView>

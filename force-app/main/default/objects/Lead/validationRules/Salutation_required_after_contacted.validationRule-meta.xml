@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salutation_required_after_contacted</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL( Status,&quot;Contacted&quot;) &amp;&amp; ISPICKVAL( Salutation, &quot;&quot; )</errorConditionFormula>
+    <errorMessage>if the Lead Status is no longer &quot;Open&quot;, the Salution field cannot be blank.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Payment_From</fullName>
+    <columns>RECORDTYPE</columns>
+    <columns>NAME</columns>
+    <columns>FORMULA_Ban_Number__c</columns>
+    <columns>Customer__c</columns>
+    <columns>Company_Contact__c</columns>
+    <columns>Contact_Email__c</columns>
+    <columns>Date_Signed__c</columns>
+    <columns>Received_From__c</columns>
+    <columns>Total_CUG__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Customer_Application_Forms__c.Customer_Payment_From</value>
+    </filters>
+    <label>Customer Payment From</label>
+    <language>en_US</language>
+</ListView>

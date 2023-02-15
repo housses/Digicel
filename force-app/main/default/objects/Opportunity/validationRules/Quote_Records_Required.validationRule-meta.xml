@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Records_Required</fullName>
+    <active>false</active>
+    <description>All Non Standard deals should not be allowed past Solution Design without a quote record</description>
+    <errorConditionFormula>AND(
+NOT(
+ISPICKVAL(Type, &quot;Standard Deal&quot;)),
+CASE( StageName,
+&quot;Id. Decision Makers&quot;, 1,
+&quot;Revenue Validation&quot;, 1,
+&quot;Negotiation&quot;, 1,
+&quot;Proposal Review&quot;, 1,
+&quot;Proposal Acceptance&quot;, 1,
+&quot;Signed Contract&quot;, 1,
+&quot;Billed&quot;, 1,
+0) = 1,
+NOT(QuoteAttached__c)
+)</errorConditionFormula>
+    <errorMessage>All Non Standard deals should not be allowed past Solution Design without a quote record</errorMessage>
+</ValidationRule>

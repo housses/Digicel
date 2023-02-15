@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NBR_Budget</fullName>
+    <columns>NAME</columns>
+    <columns>Market__c</columns>
+    <columns>Calendar_Month__c</columns>
+    <columns>Month__c</columns>
+    <columns>Type__c</columns>
+    <columns>MRR_NBR_Budget__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>HFM_Data__c.Nbr_Budget</value>
+    </filters>
+    <filters>
+        <field>Month__c</field>
+        <operation>greaterThan</operation>
+        <value>3/1/2022</value>
+    </filters>
+    <label>Market NBR Budget</label>
+</ListView>

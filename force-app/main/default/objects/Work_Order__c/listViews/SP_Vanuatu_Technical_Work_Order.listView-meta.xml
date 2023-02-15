@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SP_Vanuatu_Technical_Work_Order</fullName>
+    <filterScope>Queue</filterScope>
+    <label>SP Vanuatu Technical</label>
+    <queue>SP_Vanuatu_Technical</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

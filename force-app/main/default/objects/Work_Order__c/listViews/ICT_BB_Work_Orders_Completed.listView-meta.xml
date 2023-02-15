@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ICT_BB_Work_Orders_Completed</fullName>
+    <columns>WO_Status__c</columns>
+    <columns>NAME</columns>
+    <columns>Completed_Date__c</columns>
+    <columns>MAC_Address__c</columns>
+    <columns>Vlan_Number__c</columns>
+    <columns>Sieral_Number__c</columns>
+    <columns>Terminal_No__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>Barbados</value>
+    </filters>
+    <filters>
+        <field>WO_Status__c</field>
+        <operation>equals</operation>
+        <value>Completed</value>
+    </filters>
+    <label>ICT BB Work Orders Completed</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Barbados_ICT_Admin_Team</group>
+        <group>ICT_BB_Order_Processing_Team</group>
+        <group>ICT_BB_SME_Team</group>
+        <group>ICT_BB_SME_Team_Ex_Manager</group>
+        <group>ICT_BB_Timba_Surveys</group>
+        <group>ICT_Barbados_Account_Managers_All</group>
+        <group>ICT_Barbados_Contractor_Sierra</group>
+        <group>ICT_Barbados_Sales_Managers</group>
+        <group>ICT_Barbados_Technical</group>
+    </sharedTo>
+</ListView>

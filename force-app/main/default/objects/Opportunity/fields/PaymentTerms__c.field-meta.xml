@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PaymentTerms__c</fullName>
+    <externalId>false</externalId>
+    <label>Payment terms</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>PaymentOptions__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>15 jours</fullName>
+                <default>false</default>
+                <label>15 jours</label>
+            </value>
+            <value>
+                <fullName>30 jours</fullName>
+                <default>false</default>
+                <label>30 jours</label>
+            </value>
+            <value>
+                <fullName>45 jours</fullName>
+                <default>false</default>
+                <label>45 jours</label>
+            </value>
+            <value>
+                <fullName>60 jours</fullName>
+                <default>false</default>
+                <label>60 jours</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Prélèvement automatique</controllingFieldValue>
+            <valueName>15 jours</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Virement</controllingFieldValue>
+            <controllingFieldValue>Mandat administratif</controllingFieldValue>
+            <valueName>30 jours</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Virement</controllingFieldValue>
+            <controllingFieldValue>Mandat administratif</controllingFieldValue>
+            <valueName>45 jours</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

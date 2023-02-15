@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Jamaica Pre Sales Team</name>
+    <queueMembers>
+        <users>
+            <user>alistair.clarke@digicelgroup.com</user>
+            <user>chevaldo.davidson@digicelgroup.com</user>
+            <user>derrick.brown1@digicelgroup.com</user>
+            <user>jason.graham2@digicelgroup.com</user>
+            <user>kadi-ann.edwards@digicelgroup.com</user>
+            <user>kurt-patrick.phillips@digicelgroup.com</user>
+            <user>marsha.laing@digicelgroup.com</user>
+            <user>ramon.watson@digicelgroup.com</user>
+            <user>simon.blair@digicelgroup.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Pre_Sales_Request__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Pre_Sales_Update__c</sobjectType>
+    </queueSobject>
+</Queue>

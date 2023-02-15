@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>bda_business@digicelgroup.com</email>
+    <name>Bermuda Web Leads</name>
+    <queueMembers>
+        <roleAndSubordinates>
+            <roleAndSubordinate>Bermuda</roleAndSubordinate>
+        </roleAndSubordinates>
+        <users>
+            <user>charles.o&apos;brien@digicelgroup.com</user>
+            <user>gerry.ryan@digicelgroup.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

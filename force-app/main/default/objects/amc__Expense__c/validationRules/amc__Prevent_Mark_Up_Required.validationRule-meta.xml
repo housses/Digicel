@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Prevent_Mark_Up_Required</fullName>
+    <active>false</active>
+    <description>Prevent Mark Up Required being TRUE if Distance (Km / Miles) &gt; 0</description>
+    <errorConditionFormula>AND(amc__Mark_Up_Required__c,
+ amc__Distance_Km_Miles__c &gt;0
+)</errorConditionFormula>
+    <errorMessage>Mark Up Required cannot be TRUE if Distance (Km / Miles) is greather than 0</errorMessage>
+</ValidationRule>

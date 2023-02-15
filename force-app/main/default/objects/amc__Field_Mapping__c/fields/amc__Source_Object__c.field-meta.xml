@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Source_Object__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Source Object this mapping relates to</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Source Object this mapping relates to</inlineHelpText>
+    <label>Source Object</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

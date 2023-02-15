@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Cost_Forecast__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>if( ISPICKVAL(amc__Project_Day_Rate__c, &quot;Standard&quot;),  amc__Billable_Hourly_Rate__c  *  amc__Hours_Actual__c,  ( amc__Hours_Completed_Cost__c  +  amc__Hours_Remaining_Cost__c) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Provides a cost summary based on the Hours Completed + Hours Remaining. (Previously Labelled Cost Forecast)</inlineHelpText>
+    <label>Billable Forecast</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

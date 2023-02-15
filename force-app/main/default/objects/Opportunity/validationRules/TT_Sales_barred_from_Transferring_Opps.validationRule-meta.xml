@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TT_Sales_barred_from_Transferring_Opps</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND( 
+$Profile.Name =&quot;Trinidad ICT&amp;GSM - Standard User&quot;, 
+$Profile.Name &lt;&gt;&quot;System Administrator&quot;, 
+$Profile.Name &lt;&gt;&quot;Trinidad Business Solutions Manager&quot;, 
+$UserRole.Name &lt;&gt;&quot;Trinidad - SMB Manager&quot;, 
+$UserRole.Name &lt;&gt;&quot;Trinidad - SMB - BDE Manager 3&quot;, 
+ISCHANGED(OwnerId) 
+)</errorConditionFormula>
+    <errorMessage>You do not have permission to re-assign this Opportunity record. Please contact your Manager or System Administrator.</errorMessage>
+</ValidationRule>

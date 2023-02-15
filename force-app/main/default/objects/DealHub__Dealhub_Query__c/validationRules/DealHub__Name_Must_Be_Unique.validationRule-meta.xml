@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DealHub__Name_Must_Be_Unique</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED( Name )
+),
+NOT(
+ISBLANK (
+VLOOKUP( $ObjectType.DealHub__Dealhub_Query__c.Fields.Name, $ObjectType.DealHub__Dealhub_Query__c.Fields.Name,  Name )
+)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Name Must Be Unique</errorMessage>
+</ValidationRule>

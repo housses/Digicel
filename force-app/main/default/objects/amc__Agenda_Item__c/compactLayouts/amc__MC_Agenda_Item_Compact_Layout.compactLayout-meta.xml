@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__MC_Agenda_Item_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>amc__Resolved__c</fields>
+    <fields>amc__Meeting__c</fields>
+    <fields>amc__Add_to_Next_Meeting__c</fields>
+    <fields>amc__Action__c</fields>
+    <label>MC Agenda Item Compact Layout</label>
+</CompactLayout>

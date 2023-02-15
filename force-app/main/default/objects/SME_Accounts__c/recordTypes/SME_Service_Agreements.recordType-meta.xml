@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SME_Service_Agreements</fullName>
+    <active>true</active>
+    <label>SME Service Agreements</label>
+    <picklistValues>
+        <picklist>Customer_Type__c</picklist>
+        <values>
+            <fullName>Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Data_Product_3G_4G_LTE__c</picklist>
+        <values>
+            <fullName>Data Active - 5GB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Heavy - 7%2E6GB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Light - 3%2E1GB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Max - 16%2E4GB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Smart - 800MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Smart Plus - 1%2E6GB</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sales_Person__c</picklist>
+        <values>
+            <fullName>Alex Tioni</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Andy Kenwal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Andy Salatum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Andy Steven</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Benjamin Kupal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cathy Peko</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daniel Polon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>David Aivia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Douglas Niakra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doulos Boga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emmanuel Mulvivoa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gabriel Kepo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Graham Paulus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hillary Wange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jayson Irau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jethro Webb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Keith Kipma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lambert Buasi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mathew Alois</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michael Allan Melachon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Molly Wasip</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nakon Barnabas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nerbert Wasi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omar Parkop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reka Pake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Robin Kerae</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rodney Hipo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steven Farapo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tomana Tupas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tony Kele</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Security_Question__c</picklist>
+        <values>
+            <fullName>First Pet%27s Name</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mothers Maiden Name</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Your Fathers Birthday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Your Favourite Animal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Your Favourite Colour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Your Favourite Number</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Voice_Product__c</picklist>
+        <values>
+            <fullName>Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chrome - 160 Minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gold - 740 Minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum - 1%2C440 Minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plus - 140 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silver - 280 Minutes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

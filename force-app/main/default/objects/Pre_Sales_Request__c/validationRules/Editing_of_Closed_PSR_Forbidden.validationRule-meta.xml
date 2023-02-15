@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Editing_of_Closed_PSR_Forbidden</fullName>
+    <active>true</active>
+    <description>Once a PSR is Completed or Cancelled, the record becomes locked from further editing.</description>
+    <errorConditionFormula>AND( 
+OR( 
+ISPICKVAL( PRIORVALUE ( Status__c), &quot;Complete&quot;), 
+ISPICKVAL( PRIORVALUE ( Status__c), &quot;Cancelled&quot;) 
+),
+ISCHANGED( Status__c), 
+
+NOT ( $Profile.Name= &quot;Group Business Solutions&quot;),
+NOT ( $Profile.Name= &quot;System Administrator&quot;)
+)</errorConditionFormula>
+    <errorMessage>You are not allowed to edit a Closed Pre Sales Request. 
+
+Please create a new request.</errorMessage>
+</ValidationRule>

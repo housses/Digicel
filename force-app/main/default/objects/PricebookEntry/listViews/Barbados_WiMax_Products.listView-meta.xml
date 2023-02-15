@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Barbados_WiMax_Products</fullName>
+    <booleanFilter>1 AND 2</booleanFilter>
+    <columns>PRODUCT.NAME</columns>
+    <columns>PRODUCT.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT.DEFAULT_PRICE</columns>
+    <columns>PRODUCT.ACTIVE</columns>
+    <columns>PRICEBOOK.NAME</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>PRODUCT.NAME</field>
+        <operation>contains</operation>
+        <value>Residential</value>
+    </filters>
+    <filters>
+        <field>Product2.Country__c</field>
+        <operation>equals</operation>
+        <value>Barbados</value>
+    </filters>
+    <label>Barbados WiMax Products</label>
+    <queue>Barbados Pricebook</queue>
+    <sharedTo>
+        <group>ICT_Barbados_Account_Managers_All</group>
+        <role>Barbados</role>
+        <role>Barbados_Business_Solutions_Presales_Engineer</role>
+        <role>Barbados_Corporate_Sales_Executve</role>
+        <role>Barbados_Corporate_Sales_Manager</role>
+        <role>Barbados_Head_of_Pre_Sales_Service_Delivery</role>
+        <role>Barbados_Retail_Sales_Manager</role>
+        <role>Barbados_Revenue_Assurance</role>
+        <role>Barbados_Sales_Operations</role>
+    </sharedTo>
+</ListView>

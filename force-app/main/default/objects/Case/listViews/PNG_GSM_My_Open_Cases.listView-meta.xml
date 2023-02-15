@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_GSM_My_Open_Cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>Province__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>PNG_CaseType__c</columns>
+    <columns>Case_Category__c</columns>
+    <columns>Case_Request_Type__c</columns>
+    <columns>Case_Request_Sub_Type__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>My Open Cases</label>
+    <sharedTo>
+        <roleAndSubordinates>PNG</roleAndSubordinates>
+        <roleAndSubordinates>PNG_Billing_Legal</roleAndSubordinates>
+    </sharedTo>
+</ListView>

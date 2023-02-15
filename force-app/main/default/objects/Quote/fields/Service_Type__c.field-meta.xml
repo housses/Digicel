@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Service Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Service</fullName>
+                <default>false</default>
+                <label>New Service</label>
+            </value>
+            <value>
+                <fullName>Relocation (To and From)</fullName>
+                <default>false</default>
+                <label>Relocation (To and From)</label>
+            </value>
+            <value>
+                <fullName>Cessation</fullName>
+                <default>false</default>
+                <label>Cessation</label>
+            </value>
+            <value>
+                <fullName>Additional Circuits Trial</fullName>
+                <default>false</default>
+                <label>Additional Circuits Trial</label>
+            </value>
+            <value>
+                <fullName>Service Upgrade</fullName>
+                <default>false</default>
+                <label>Service Upgrade</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

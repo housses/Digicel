@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_of_Exchange_OWA__c</fullName>
+    <description>Used in Digicel Cloud Hosted Exchange Pre Sales Worksheet</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the web version of Microsoft Exchange: 
+Select Full Exchange or OWA only not both</inlineHelpText>
+    <label>No of Exchange OWA</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

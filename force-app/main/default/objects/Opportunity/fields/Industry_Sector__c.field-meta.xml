@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry_Sector__c</fullName>
+    <externalId>false</externalId>
+    <label>Industry Sector</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SOHO</fullName>
+                <default>false</default>
+                <label>SOHO</label>
+            </value>
+            <value>
+                <fullName>SMB</fullName>
+                <default>false</default>
+                <label>SMB</label>
+            </value>
+            <value>
+                <fullName>ENTERPRISE</fullName>
+                <default>false</default>
+                <label>ENTERPRISE</label>
+            </value>
+            <value>
+                <fullName>GOVT</fullName>
+                <default>false</default>
+                <label>GOVT</label>
+            </value>
+            <value>
+                <fullName>MAJOR ACCOUNTS</fullName>
+                <default>false</default>
+                <label>MAJOR ACCOUNTS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

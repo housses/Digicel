@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>PNG - Corporate Care</name>
+    <queueMembers>
+        <users>
+            <user>aidah.warbat@digicelgroup.com</user>
+            <user>amos.ume@digicelgroup.com</user>
+            <user>anthony.hamba@digicelgroup.com</user>
+            <user>brenda.duma@digicelgroup.com</user>
+            <user>geralda.toboka@digicelgroup.com</user>
+            <user>graham.wosley@digicelgroup.com</user>
+            <user>jacob.john@digicelgroup.com</user>
+            <user>john.pokanau@digicelgroup.com</user>
+            <user>jolanda.wohi@digicelgroup.com</user>
+            <user>joseph.vagi@digicelgroup.com</user>
+            <user>joshua.bendo@digicelgroup.com</user>
+            <user>kathy.gabriel@digicelgroup.com</user>
+            <user>kevin.kaife@digicelgroup.com</user>
+            <user>leslie.maliaki@digicelgroup.com</user>
+            <user>mathew.ture@digicelgroup.com</user>
+            <user>michael.aisi@digicelgroup.com</user>
+            <user>misina.varika@digicelgroup.com</user>
+            <user>niaula.kilangis@digicelgroup.com</user>
+            <user>obert.steven@digicelgroup.com</user>
+            <user>paul.yakop@digicelgroup.com</user>
+            <user>simon.andrew@digicelgroup.com</user>
+            <user>solomon.tony@digicelgroup.com</user>
+            <user>sylvester.danny@digicelgroup.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Case_Owner_History__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Billable_Hours_Cannot_Be_Entered</fullName>
+    <active>false</active>
+    <description>If the non-billable indicator on the action is True, then the Hours Scheduled - Billable cannot be greater than Zero.</description>
+    <errorConditionFormula>amc__Non_Billable_Indicator__c = TRUE
+ &amp;&amp; amc__Hours_Scheduled__c &gt; 0</errorConditionFormula>
+    <errorDisplayField>amc__Hours_Scheduled__c</errorDisplayField>
+    <errorMessage>You cannot enter billable hours for this action as the non-billable indicator is set to True.</errorMessage>
+</ValidationRule>

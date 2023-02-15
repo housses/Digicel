@@ -1,0 +1,44 @@
+<apex:page showHeader="false" sidebar="false" cache="false" expires="0">
+<head>
+<meta charset="utf-8"/>
+<title>Digicel Landing Page</title>
+<link href="{!URLFOR($Resource.Linkedin_Landing_Site, '_css/reset.css')}" rel="stylesheet" type="text/css"/>
+<link href="{!URLFOR($Resource.Linkedin_Landing_Site, '_css/main.css')}" rel="stylesheet" type="text/css"/>
+<link href="{!URLFOR($Resource.Linkedin_Landing_Site, '_css/fonts.css')}" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<header id="header">
+  <div id="top-bar"><img src="{!URLFOR($Resource.Linkedin_Landing_Site, '_images/header-top-bar.png')}" alt="Top Bar" /></div>
+  <div id="header-inner">
+    <div id="logo"><a href="http://digicelbusiness.com" target="new"><img src="{!URLFOR($Resource.Linkedin_Landing_Site, '_images/digicel-logo.png')}" alt="Digicel" /></a></div>
+  </div>
+  <div id="sub-header">
+    <div id="sub-header-inner">
+      <hgroup id="sub-header-titles">
+        <h1>Does your business have a plan for natural disaster?</h1>
+        <h2>Ours does.</h2>
+      </hgroup>
+      <div id="laptop"><img src="{!URLFOR($Resource.Linkedin_Landing_Site, '_images/laptop.png')}" alt="Does your business have a plan for natural disaster? Our does." /></div>
+    </div>
+  </div>
+</header>
+<section id="content" style="height: auto !important;margin-top: 80px;">
+  <div id="thanks-box">
+    <h1>Thank you so much for reaching out.</h1>
+    <p>
+    Your information is on it's way, we will contact you soon. <br/> <br/>
+    <a href="http://digicelbusiness.com" target="new">Visit us at Digicel Business</a>
+    </p>
+  </div>
+</section>
+<a href="#top-bar" id="back-to-top">BACK TOP</a>
+<footer id="footer">
+  <div id="linkedin-button">
+    <a href="#" target="new"> 
+        <img src="{!URLFOR($Resource.Linkedin_Landing_Site, '_images/linked-in.png')}" alt="Linked-In" /> 
+    </a>
+    <a href="http://digicelbusiness.com" target="new">DIGICELBUSINESS.COM</a> </div>
+</footer>
+</body>
+</apex:page>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Handler__c</fullName>
+    <externalId>false</externalId>
+    <label>Handler</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Afea Alisha Khatoon</fullName>
+                <default>false</default>
+                <label>Afea Alisha Khatoon</label>
+            </value>
+            <value>
+                <fullName>Alwyn Kuapaitam</fullName>
+                <default>false</default>
+                <label>Alwyn Kuapaitam</label>
+            </value>
+            <value>
+                <fullName>Arthur Tane</fullName>
+                <default>false</default>
+                <label>Arthur Tane</label>
+            </value>
+            <value>
+                <fullName>Daniel Gamoga</fullName>
+                <default>false</default>
+                <label>Daniel Gamoga</label>
+            </value>
+            <value>
+                <fullName>Ellas Terra</fullName>
+                <default>false</default>
+                <label>Ellas Terra</label>
+            </value>
+            <value>
+                <fullName>Eunice Gware</fullName>
+                <default>false</default>
+                <label>Eunice Gware</label>
+            </value>
+            <value>
+                <fullName>Eva Hayes</fullName>
+                <default>false</default>
+                <label>Eva Hayes</label>
+            </value>
+            <value>
+                <fullName>Francesca Kassman Temba</fullName>
+                <default>false</default>
+                <label>Francesca Kassman Temba</label>
+            </value>
+            <value>
+                <fullName>Krishna Sharma</fullName>
+                <default>false</default>
+                <label>Krishna Sharma</label>
+            </value>
+            <value>
+                <fullName>Michael Solomon</fullName>
+                <default>false</default>
+                <label>Michael Solomon</label>
+            </value>
+            <value>
+                <fullName>Roseanne Parau</fullName>
+                <default>false</default>
+                <label>Roseanne Parau</label>
+            </value>
+            <value>
+                <fullName>Tania Mairi Mahuru</fullName>
+                <default>false</default>
+                <label>Tania Mairi Mahuru</label>
+            </value>
+            <value>
+                <fullName>Thomas Taylor Benson</fullName>
+                <default>false</default>
+                <label>Thomas Taylor Benson</label>
+            </value>
+            <value>
+                <fullName>Tukaha Mua</fullName>
+                <default>false</default>
+                <label>Tukaha Mua</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Pain_Points_Impact__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What issues are impacting the business negatively.</inlineHelpText>
+    <label>Business Pain Points &amp; Impact</label>
+    <length>1000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>

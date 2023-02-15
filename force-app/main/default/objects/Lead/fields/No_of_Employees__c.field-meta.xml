@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_of_Employees__c</fullName>
+    <description>The values in this picklist are the agreed upon list of employee groupings across all of Digicel. DO NOT ADD ANY NEW VALUES TO THIS FIELD AND DO NOT AMEND THIS FIELD WITHOUT SPEAKING WITH TONY KENNY</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List the number of people employed in the customers company</inlineHelpText>
+    <label>No. of Employees</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0 - 5 employees</fullName>
+                <default>false</default>
+                <label>0 - 5 employees</label>
+            </value>
+            <value>
+                <fullName>6 - 10 employees</fullName>
+                <default>false</default>
+                <label>6 - 10 employees</label>
+            </value>
+            <value>
+                <fullName>11 - 20 employees</fullName>
+                <default>false</default>
+                <label>11 - 20 employees</label>
+            </value>
+            <value>
+                <fullName>21 - 50 employees</fullName>
+                <default>false</default>
+                <label>21 - 50 employees</label>
+            </value>
+            <value>
+                <fullName>51 - 100 employees</fullName>
+                <default>false</default>
+                <label>51 - 100 employees</label>
+            </value>
+            <value>
+                <fullName>101 - 200 employees</fullName>
+                <default>false</default>
+                <label>101 - 200 employees</label>
+            </value>
+            <value>
+                <fullName>201 - 500 employees</fullName>
+                <default>false</default>
+                <label>201 - 500 employees</label>
+            </value>
+            <value>
+                <fullName>501 - 750 employees</fullName>
+                <default>false</default>
+                <label>501 - 750 employees</label>
+            </value>
+            <value>
+                <fullName>751 - 1000 employees</fullName>
+                <default>false</default>
+                <label>751 - 1000 employees</label>
+            </value>
+            <value>
+                <fullName>1001 - 2000 employees</fullName>
+                <default>false</default>
+                <label>1001 - 2000 employees</label>
+            </value>
+            <value>
+                <fullName>More than 2000 employees</fullName>
+                <default>false</default>
+                <label>More than 2000 employees</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,69 @@
+::-webkit-input-placeholder {
+ color: #113e4d;
+}
+::-moz-placeholder {
+ color: #113e4d;
+}
+#digicel-email-blast {
+	margin: 0 auto;
+	width: 400px;
+}
+#digicel-email-blast select {
+	color: #113e4d;
+	position: relative;
+	clear: both;
+	width: 100%;
+	height: 30px;
+	display: inline-table;
+	margin: 8px 0 20px;
+	border: none;
+	padding: 0 8px;
+	outline: none;
+}
+#digicel-email-blast input {
+	border: none;
+	height: 30px;
+	width: 100%;
+	margin: 8px 0;
+	padding: 0 12px;
+	outline: none;
+}
+#digicel-email-blast #numbers input {
+	width: 49.5%;
+}
+#digicel-email-blast #submit-button {
+	color: #FFF;
+	font-weight: bold;
+	height: 34px;
+	width: 140px;
+	background: #ff2626;
+	margin: 5px 0;
+	padding: 0 5px;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	overflow: hidden;
+}
+#digicel-email-blast #submit {
+	color: #FFF;
+	font-size: 20px;
+	font-weight: bold;
+	height: 23px;
+	width: 136px;
+	background: #F00;
+	margin: 6px 0 0;
+	padding: 0 5px 28px;
+	outline: none;
+	border: none;
+	border-radius: 10px 0 0;
+	-webkit-border-radius: 10px 0 0;
+	-moz-border-radius: 10px 0 0;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+}
+#digicel-email-blast #submit:hover {
+	background: rgba(112, 78, 15, 0.39);
+}

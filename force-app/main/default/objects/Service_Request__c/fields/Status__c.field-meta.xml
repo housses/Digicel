@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <description>Current status of service request</description>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Draft</fullName>
+                <default>false</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Requested</fullName>
+                <default>true</default>
+                <label>Requested</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>With Core Technical</fullName>
+                <default>false</default>
+                <label>With Core Technical</label>
+            </value>
+            <value>
+                <fullName>Sent to Contractor</fullName>
+                <default>false</default>
+                <label>Sent to Contractor</label>
+            </value>
+            <value>
+                <fullName>Installed</fullName>
+                <default>false</default>
+                <label>Installed</label>
+            </value>
+            <value>
+                <fullName>Returned to Sales</fullName>
+                <default>false</default>
+                <label>Returned to Sales</label>
+            </value>
+            <value>
+                <fullName>Returned to Service Del</fullName>
+                <default>false</default>
+                <label>Returned to Service Del</label>
+            </value>
+            <value>
+                <fullName>On Hold More Info Rqd</fullName>
+                <default>false</default>
+                <label>On Hold More Info Rqd</label>
+            </value>
+            <value>
+                <fullName>Customer Hold</fullName>
+                <default>false</default>
+                <label>Customer Hold</label>
+            </value>
+            <value>
+                <fullName>FTTH FATs Req</fullName>
+                <default>false</default>
+                <label>FTTH FATs Req</label>
+            </value>
+            <value>
+                <fullName>In Trial</fullName>
+                <default>false</default>
+                <label>In Trial</label>
+            </value>
+            <value>
+                <fullName>Complete</fullName>
+                <default>false</default>
+                <label>Complete</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
