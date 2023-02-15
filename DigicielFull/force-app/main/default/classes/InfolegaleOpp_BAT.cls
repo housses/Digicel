@@ -18,7 +18,7 @@ global class InfolegaleOpp_BAT implements Database.Batchable<sObject>, Database.
      * @return query locator for retrieved opportunties
      */
     global Database.QueryLocator start(Database.BatchableContext bc) {    
-        return Database.getQueryLocator([SELECT Id, AccountId, StageName, Account.Owner.Digicel_Country__c FROM Opportunity WHERE Id IN :setIdOpp AND Account.Owner.Digicel_Country__c = 'FWI' ]);            
+        return Database.getQueryLocator([SELECT Id, Score_INFOLEGALE__c, AccountId, StageName, Account.Owner.Digicel_Country__c FROM Opportunity WHERE Id IN :setIdOpp AND Account.Owner.Digicel_Country__c = 'FWI' ]);            
     }
 
     /**
@@ -33,7 +33,7 @@ global class InfolegaleOpp_BAT implements Database.Batchable<sObject>, Database.
         for(Opportunity opp : listOpps){
             setIdAccount.add(opp.AccountId);
         }
-        List<Account> listAcc = [SELECT Id, INFOLEGALERating__c, Registration_Number__c,Description FROM Account WHERE Id IN :setIdAccount];
+        List<Account> listAcc = [SELECT Id, INFOLEGALERating__c, Registration_Number__c,LastSychroInfolegale__c FROM Account WHERE Id IN :setIdAccount];
 
 
         if(listOpps.size() > 0 && listAcc.size()>0){
@@ -47,12 +47,12 @@ global class InfolegaleOpp_BAT implements Database.Batchable<sObject>, Database.
                         InfolegaleWrapper repBody = InfolegaleWrapper.parse(resScore.getBody());
                         score = repBody.score;
                         acc.INFOLEGALERating__c = score;
-                        acc.Description = 'Derière synchro:'  + Datetime.now(); 
+                        acc.LastSychroInfolegale__c = 'Derière synchro:'  + Datetime.now(); 
                     } else {
-                        if(acc.Description == ''){
-                            acc.Description = 'Erreur lors de l\'appel à infogreffe le ' + Datetime.now() + ' : ' + resScore.getBody(); 
+                        if(acc.LastSychroInfolegale__c == ''){
+                            acc.LastSychroInfolegale__c = 'Erreur lors de l\'appel à infogreffe le ' + Datetime.now() + ' : ' + resScore.getBody(); 
                         }else {
-                            acc.Description = acc.Description + '; Erreur lors de l\'appel à infogreffe le ' + Datetime.now() + ' : ' + resScore.getBody(); 
+                            acc.LastSychroInfolegale__c = acc.LastSychroInfolegale__c + '; Erreur lors de l\'appel à infogreffe le ' + Datetime.now() + ' : ' + resScore.getBody(); 
                         }
                     }
                     accToUpdate.add(acc);

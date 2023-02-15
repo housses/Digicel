@@ -87,7 +87,6 @@ global class InfolegaleWebService {
     public static HttpResponse getDataInfolegale(String siren) { 
         String token = InfolegaleWebService.returnToken();
         String url = InfolegaleWebService.getNamedCustomLabelBasedOnOrg();
-        system.debug('token:' + token);
         HttpRequest req = new HttpRequest();
         Http http = new Http();
         String bearer = 'Bearer ' + token;

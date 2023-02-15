@@ -18,7 +18,7 @@ global class Infolegale_BAT implements Database.Batchable<sObject>, Database.All
      * @return query locator for retrieved accounts
      */
     global Database.QueryLocator start(Database.BatchableContext bc) {        
-        return Database.getQueryLocator([SELECT Id, INFOLEGALERating__c, Registration_Number__c, Description FROM Account WHERE Id IN :setIdAccount AND Owner.Digicel_Country__c = 'FWI']);            
+        return Database.getQueryLocator([SELECT Id, INFOLEGALERating__c, Registration_Number__c, LastSychroInfolegale__c FROM Account WHERE Id IN :setIdAccount AND Owner.Digicel_Country__c = 'FWI']);            
     }
 
     /**
