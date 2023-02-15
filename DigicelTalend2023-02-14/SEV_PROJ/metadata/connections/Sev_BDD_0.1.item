@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_x4UAADJ4Ee2R4oTNGZI1UA" name="Sev_BDD" id="_mhi8EDJ4Ee2R4oTNGZI1UA" label="Sev_BDD" dataPackage="_QqYi0DM5Ee2R4oTNGZI1UA _QqYi0TM5Ee2R4oTNGZI1UA _QqYi0jM5Ee2R4oTNGZI1UA _QqYi0zM5Ee2R4oTNGZI1UA _QqYi1DM5Ee2R4oTNGZI1UA _QqYi1TM5Ee2R4oTNGZI1UA _QqYi1jM5Ee2R4oTNGZI1UA _QqYi1zM5Ee2R4oTNGZI1UA _QqYi2DM5Ee2R4oTNGZI1UA _QqYi2TM5Ee2R4oTNGZI1UA _QqYi2jM5Ee2R4oTNGZI1UA _QqYi2zM5Ee2R4oTNGZI1UA _QqYi3DM5Ee2R4oTNGZI1UA _QqYi3TM5Ee2R4oTNGZI1UA _QqYi3jM5Ee2R4oTNGZI1UA _QqYi3zM5Ee2R4oTNGZI1UA _QqYi4DM5Ee2R4oTNGZI1UA _QqYi4TM5Ee2R4oTNGZI1UA _QqYi4jM5Ee2R4oTNGZI1UA _QqYi4zM5Ee2R4oTNGZI1UA _QqYi5DM5Ee2R4oTNGZI1UA _QqYi5TM5Ee2R4oTNGZI1UA _QqYi5jM5Ee2R4oTNGZI1UA _QqYi5zM5Ee2R4oTNGZI1UA _QqYi6DM5Ee2R4oTNGZI1UA _QqYi6TM5Ee2R4oTNGZI1UA _QqYi6jM5Ee2R4oTNGZI1UA _QqYi6zM5Ee2R4oTNGZI1UA _QqYi7DM5Ee2R4oTNGZI1UA _QqYi7TM5Ee2R4oTNGZI1UA _QqYi7jM5Ee2R4oTNGZI1UA _QqYi7zM5Ee2R4oTNGZI1UA _QqYi8DM5Ee2R4oTNGZI1UA _QqYi8TM5Ee2R4oTNGZI1UA _QqYi8jM5Ee2R4oTNGZI1UA _QqYi8zM5Ee2R4oTNGZI1UA _QqYi9DM5Ee2R4oTNGZI1UA _QqYi9TM5Ee2R4oTNGZI1UA _QqYi9jM5Ee2R4oTNGZI1UA _QqYi9zM5Ee2R4oTNGZI1UA _QqYi-DM5Ee2R4oTNGZI1UA _QqYi-TM5Ee2R4oTNGZI1UA _QqYi-jM5Ee2R4oTNGZI1UA _QqYi-zM5Ee2R4oTNGZI1UA _QqYi_DM5Ee2R4oTNGZI1UA _QqYi_TM5Ee2R4oTNGZI1UA _QqYi_jM5Ee2R4oTNGZI1UA _QqYi_zM5Ee2R4oTNGZI1UA _QqYjADM5Ee2R4oTNGZI1UA _QqYjATM5Ee2R4oTNGZI1UA _QqYjAjM5Ee2R4oTNGZI1UA _QqYjAzM5Ee2R4oTNGZI1UA _QqYjBDM5Ee2R4oTNGZI1UA _QqYjBjM5Ee2R4oTNGZI1UA _QqYjBzM5Ee2R4oTNGZI1UA _QqYjCDM5Ee2R4oTNGZI1UA _QqYjCTM5Ee2R4oTNGZI1UA _QqYjCjM5Ee2R4oTNGZI1UA _QqYjCzM5Ee2R4oTNGZI1UA _QqYjDDM5Ee2R4oTNGZI1UA _QqYjDTM5Ee2R4oTNGZI1UA _QqYjDjM5Ee2R4oTNGZI1UA _QqYjDzM5Ee2R4oTNGZI1UA _QqYjEDM5Ee2R4oTNGZI1UA _QqYjETM5Ee2R4oTNGZI1UA _QqYjEjM5Ee2R4oTNGZI1UA _QqYjEzM5Ee2R4oTNGZI1UA _QqYjFDM5Ee2R4oTNGZI1UA _QqYjFTM5Ee2R4oTNGZI1UA _QqYjFjM5Ee2R4oTNGZI1UA _QqYjFzM5Ee2R4oTNGZI1UA _QqYjGDM5Ee2R4oTNGZI1UA _QqYjGTM5Ee2R4oTNGZI1UA _QqYjGjM5Ee2R4oTNGZI1UA _QqYjGzM5Ee2R4oTNGZI1UA _QqYjHDM5Ee2R4oTNGZI1UA _QqYjHTM5Ee2R4oTNGZI1UA _QqYjHjM5Ee2R4oTNGZI1UA _QqYjHzM5Ee2R4oTNGZI1UA _QqYjIDM5Ee2R4oTNGZI1UA _QqYjITM5Ee2R4oTNGZI1UA _QqYjIjM5Ee2R4oTNGZI1UA _QqYjIzM5Ee2R4oTNGZI1UA _QqYjJDM5Ee2R4oTNGZI1UA _QqYjJTM5Ee2R4oTNGZI1UA _QqYjJjM5Ee2R4oTNGZI1UA _QqYjJzM5Ee2R4oTNGZI1UA _QqYjKDM5Ee2R4oTNGZI1UA _0I0HlTKWEe2R4oTNGZI1UA _Xk4PwDM5Ee2R4oTNGZI1UA" DatabaseType="Oracle with service name" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@(description=(address=(protocol=tcp)(host=digimqsvpredb)(port=1521))(connect_data=(service_name=DGCPRF2B)))" dbVersionString="ORACLE_11" Port="1521" Username="sales" Password="enc:system.encryption.key.v1:E5LBIrZw+e16zrC0AqGIJnLAmLbgh/E43zvpSLotAc00dg==" ServerName="digimqsvpredb" DatasourceName="" FileFieldName="" SID="DGCPRF2B" SqlSynthax="" StringQuote="" NullChar="" DbmsId="oracle_id" ProductId="ORACLE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_x4UAATJ4Ee2R4oTNGZI1UA" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_x5EN8DJ4Ee2R4oTNGZI1UA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_x5EN8TJ4Ee2R4oTNGZI1UA" tag="Status" value=""/>
+    <taggedValue xmi:id="_x5EN8jJ4Ee2R4oTNGZI1UA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_x5EN8zJ4Ee2R4oTNGZI1UA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_x5EN9DJ4Ee2R4oTNGZI1UA" tag="Description" value=""/>
+    <taggedValue xmi:id="_x5EN9TJ4Ee2R4oTNGZI1UA" tag="Author" value=""/>
+    <taggedValue xmi:id="_x5EN9jJ4Ee2R4oTNGZI1UA" tag="otherParameter"/>
+    <taggedValue xmi:id="_x5XI4DJ4Ee2R4oTNGZI1UA" tag="DB ProductName" value="Oracle"/>
+    <taggedValue xmi:id="_x5XI4TJ4Ee2R4oTNGZI1UA" tag="DB ProductVersion" value="Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production&#xA;With the Partitioning, OLAP, Data Mining and Real Application Testing options"/>
+    <taggedValue xmi:id="_x5XI4jJ4Ee2R4oTNGZI1UA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_x4UAAjJ4Ee2R4oTNGZI1UA" key="CONN_PARA_KEY_USERNAME" value="sales"/>
+    <parameters xmi:id="_Elp-ADJ7Ee2R4oTNGZI1UA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi0DM5Ee2R4oTNGZI1UA" name="ANONYMOUS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi0TM5Ee2R4oTNGZI1UA" name="APEX_030200" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi0jM5Ee2R4oTNGZI1UA" name="APEX_PUBLIC_USER" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi0zM5Ee2R4oTNGZI1UA" name="APPQOSSYS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi1DM5Ee2R4oTNGZI1UA" name="APP_READONLY" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi1TM5Ee2R4oTNGZI1UA" name="BBARAY_APP" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi1jM5Ee2R4oTNGZI1UA" name="BBARAY_INS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi1zM5Ee2R4oTNGZI1UA" name="BJOHANE" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi2DM5Ee2R4oTNGZI1UA" name="BNICOLAS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi2TM5Ee2R4oTNGZI1UA" name="BPELAGE2" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi2jM5Ee2R4oTNGZI1UA" name="CGLORIAN" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi2zM5Ee2R4oTNGZI1UA" name="CPHITRYON" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi3DM5Ee2R4oTNGZI1UA" name="CTXSYS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi3TM5Ee2R4oTNGZI1UA" name="DBSNMP" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi3jM5Ee2R4oTNGZI1UA" name="DDUBOIS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi3zM5Ee2R4oTNGZI1UA" name="DGCDBA" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi4DM5Ee2R4oTNGZI1UA" name="DGCPRD1B_LIM" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi4TM5Ee2R4oTNGZI1UA" name="DGCPRD1B_SVR" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi4jM5Ee2R4oTNGZI1UA" name="DIGIMOBI" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi4zM5Ee2R4oTNGZI1UA" name="DIP" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi5DM5Ee2R4oTNGZI1UA" name="EAUBIN" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi5TM5Ee2R4oTNGZI1UA" name="ED" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi5jM5Ee2R4oTNGZI1UA" name="EMMONCHER" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi5zM5Ee2R4oTNGZI1UA" name="ENG_SUPPORT" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi6DM5Ee2R4oTNGZI1UA" name="ESBDP_USER" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi6TM5Ee2R4oTNGZI1UA" name="EXFSYS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi6jM5Ee2R4oTNGZI1UA" name="FARDUIN" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi6zM5Ee2R4oTNGZI1UA" name="FLOWS_030000" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi7DM5Ee2R4oTNGZI1UA" name="FLOWS_FILES" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi7TM5Ee2R4oTNGZI1UA" name="FVERNON" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi7jM5Ee2R4oTNGZI1UA" name="GUEST" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi7zM5Ee2R4oTNGZI1UA" name="INSTALLER" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi8DM5Ee2R4oTNGZI1UA" name="JJEAN" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi8TM5Ee2R4oTNGZI1UA" name="JLUNDY" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi8jM5Ee2R4oTNGZI1UA" name="JULYSSE" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi8zM5Ee2R4oTNGZI1UA" name="KMOGADE" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi9DM5Ee2R4oTNGZI1UA" name="KVIRTOS3" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi9TM5Ee2R4oTNGZI1UA" name="LDAVIDNOR" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi9jM5Ee2R4oTNGZI1UA" name="LMS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi9zM5Ee2R4oTNGZI1UA" name="MDAPHNEE" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi-DM5Ee2R4oTNGZI1UA" name="MDDATA" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi-TM5Ee2R4oTNGZI1UA" name="MDSYS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi-jM5Ee2R4oTNGZI1UA" name="MGMT_VIEW" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi-zM5Ee2R4oTNGZI1UA" name="MIS_QUERY" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi_DM5Ee2R4oTNGZI1UA" name="MLOUE_APP" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi_TM5Ee2R4oTNGZI1UA" name="MLOUE_INS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi_jM5Ee2R4oTNGZI1UA" name="MLOUE_SUP" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYi_zM5Ee2R4oTNGZI1UA" name="MREXUME" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjADM5Ee2R4oTNGZI1UA" name="MSBILLING" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjATM5Ee2R4oTNGZI1UA" name="NLEBIL" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjAjM5Ee2R4oTNGZI1UA" name="NLEBIL_TECH_ADMIN" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjAzM5Ee2R4oTNGZI1UA" name="OEMUSR_RO" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjBDM5Ee2R4oTNGZI1UA" name="OLAPSYS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjBjM5Ee2R4oTNGZI1UA" name="ORACLE_OCM" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjBzM5Ee2R4oTNGZI1UA" name="ORDDATA" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjCDM5Ee2R4oTNGZI1UA" name="ORDPLUGINS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjCTM5Ee2R4oTNGZI1UA" name="ORDSYS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjCjM5Ee2R4oTNGZI1UA" name="OUTLN" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjCzM5Ee2R4oTNGZI1UA" name="OWBSYS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjDDM5Ee2R4oTNGZI1UA" name="PERFSTAT" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjDTM5Ee2R4oTNGZI1UA" name="PJFRANCOIS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjDjM5Ee2R4oTNGZI1UA" name="RAJU_TECH_ADMIN" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjDzM5Ee2R4oTNGZI1UA" name="RAMS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjEDM5Ee2R4oTNGZI1UA" name="RDELICE" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjETM5Ee2R4oTNGZI1UA" name="RETIENNE" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjEjM5Ee2R4oTNGZI1UA" name="SALES" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjEzM5Ee2R4oTNGZI1UA" name="SDENIS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjFDM5Ee2R4oTNGZI1UA" name="SI_INFORMTN_SCHEMA" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjFTM5Ee2R4oTNGZI1UA" name="SMOGADE" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjFjM5Ee2R4oTNGZI1UA" name="SPATIAL_CSW_ADMIN_USR" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjFzM5Ee2R4oTNGZI1UA" name="SPATIAL_WFS_ADMIN_USR" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjGDM5Ee2R4oTNGZI1UA" name="SPETIT" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjGTM5Ee2R4oTNGZI1UA" name="SRVDBA" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjGjM5Ee2R4oTNGZI1UA" name="SSILDILLIA" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjGzM5Ee2R4oTNGZI1UA" name="SVADMIN" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjHDM5Ee2R4oTNGZI1UA" name="SYS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjHTM5Ee2R4oTNGZI1UA" name="SYSMAN" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjHjM5Ee2R4oTNGZI1UA" name="SYSTEM" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjHzM5Ee2R4oTNGZI1UA" name="SYS_ADMIN" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjIDM5Ee2R4oTNGZI1UA" name="TASK" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjITM5Ee2R4oTNGZI1UA" name="TPSYSADM" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjIjM5Ee2R4oTNGZI1UA" name="TRESOAP" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjIzM5Ee2R4oTNGZI1UA" name="WEBCARE" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjJDM5Ee2R4oTNGZI1UA" name="WFONTIN" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjJTM5Ee2R4oTNGZI1UA" name="WMSYS" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjJjM5Ee2R4oTNGZI1UA" name="XDB" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjJzM5Ee2R4oTNGZI1UA" name="XS$NULL" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_QqYjKDM5Ee2R4oTNGZI1UA" name="YFEDE" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_0I0HlTKWEe2R4oTNGZI1UA" name="OPS$DGCPRD1B" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_vTSbQTM4Ee2R4oTNGZI1UA" name="DGC_RATE_FILE_EXTRACT" id="_vTSbQDM4Ee2R4oTNGZI1UA" label="DGC_RATE_FILE_EXTRACT" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbQjM4Ee2R4oTNGZI1UA" name="TASK_QUEUE_ID" label="TASK_QUEUE_ID" length="15" sourceType="NUMBER" talendType="id_BigDecimal" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbRjM4Ee2R4oTNGZI1UA" name="ACCOUNT_NAME" label="ACCOUNT_NAME" length="30" sourceType="VARCHAR2" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbSjM4Ee2R4oTNGZI1UA" name="NORMALISED_EVENT_ID" label="NORMALISED_EVENT_ID" length="15" sourceType="NUMBER" talendType="id_BigDecimal" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbTjM4Ee2R4oTNGZI1UA" name="LAST_MODIFIED" label="LAST_MODIFIED" sourceType="DATE" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbUjM4Ee2R4oTNGZI1UA" name="NORMALISED_EVENT_TYPE_ID" label="NORMALISED_EVENT_TYPE_ID" length="8" sourceType="NUMBER" talendType="id_BigDecimal" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbVjM4Ee2R4oTNGZI1UA" name="NORMALISED_EVENT_FILE_ID" label="NORMALISED_EVENT_FILE_ID" length="15" sourceType="NUMBER" talendType="id_BigDecimal" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbWjM4Ee2R4oTNGZI1UA" name="FILE_RECORD_NR" label="FILE_RECORD_NR" length="10" sourceType="NUMBER" talendType="id_BigDecimal" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbXjM4Ee2R4oTNGZI1UA" name="EXTERNAL_FILE_RECORD_NR" label="EXTERNAL_FILE_RECORD_NR" length="10" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbYjM4Ee2R4oTNGZI1UA" name="A_PARTY_ID" label="A_PARTY_ID" length="64" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbZjM4Ee2R4oTNGZI1UA" name="B_PARTY_ID" label="B_PARTY_ID" length="64" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbajM4Ee2R4oTNGZI1UA" name="B_PARTY_NETWORK_ID" label="B_PARTY_NETWORK_ID" length="64" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbbjM4Ee2R4oTNGZI1UA" name="B_PARTY_NAME" label="B_PARTY_NAME" length="64" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbcjM4Ee2R4oTNGZI1UA" name="C_PARTY_ID" label="C_PARTY_ID" length="64" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbdjM4Ee2R4oTNGZI1UA" name="C_PARTY_NETWORK_ID" label="C_PARTY_NETWORK_ID" length="64" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbejM4Ee2R4oTNGZI1UA" name="C_PARTY_NAME" label="C_PARTY_NAME" length="64" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbfjM4Ee2R4oTNGZI1UA" name="C_PARTY_CELL_ID" label="C_PARTY_CELL_ID" length="20" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbgjM4Ee2R4oTNGZI1UA" name="CHARGE_START_DATE" label="CHARGE_START_DATE" sourceType="DATE" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbhjM4Ee2R4oTNGZI1UA" name="EVENT_CLASS_CODE" label="EVENT_CLASS_CODE" length="2" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbijM4Ee2R4oTNGZI1UA" name="EVENT_TYPE_CODE" label="EVENT_TYPE_CODE" length="8" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbjjM4Ee2R4oTNGZI1UA" name="EVENT_SUB_TYPE_CODE" label="EVENT_SUB_TYPE_CODE" length="8" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbkjM4Ee2R4oTNGZI1UA" name="DURATION" label="DURATION" precision="-127" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbljM4Ee2R4oTNGZI1UA" name="VOLUME" label="VOLUME" precision="-127" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbmjM4Ee2R4oTNGZI1UA" name="RATE_BAND" label="RATE_BAND" length="40" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbnjM4Ee2R4oTNGZI1UA" name="CHARGE_ID" label="CHARGE_ID" length="15" sourceType="NUMBER" talendType="id_BigDecimal" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbojM4Ee2R4oTNGZI1UA" name="CHARGE" label="CHARGE" length="22" precision="6" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbpjM4Ee2R4oTNGZI1UA" name="PROPORTION" label="PROPORTION" length="22" precision="6" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbqjM4Ee2R4oTNGZI1UA" name="CURRENCY_ID" label="CURRENCY_ID" length="8" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbrjM4Ee2R4oTNGZI1UA" name="ACCOUNT_ID" label="ACCOUNT_ID" length="15" sourceType="NUMBER" talendType="id_BigDecimal" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbsjM4Ee2R4oTNGZI1UA" name="UNINVOICED_IND_CODE" label="UNINVOICED_IND_CODE" length="1" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbtjM4Ee2R4oTNGZI1UA" name="GL_CODE_ID" label="GL_CODE_ID" length="8" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbujM4Ee2R4oTNGZI1UA" name="FROM_GL_CODE_ID" label="FROM_GL_CODE_ID" length="8" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbvjM4Ee2R4oTNGZI1UA" name="RECEIVABLE_TYPE_ID" label="RECEIVABLE_TYPE_ID" length="8" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbwjM4Ee2R4oTNGZI1UA" name="SERVICE_ID" label="SERVICE_ID" length="15" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbxjM4Ee2R4oTNGZI1UA" name="CUSTOMER_NODE_ID" label="CUSTOMER_NODE_ID" length="15" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbyjM4Ee2R4oTNGZI1UA" name="CHARGE_DATE" label="CHARGE_DATE" sourceType="DATE" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSbzjM4Ee2R4oTNGZI1UA" name="TARIFF_ID" label="TARIFF_ID" length="8" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSb0jM4Ee2R4oTNGZI1UA" name="INVOICE_TXT" label="INVOICE_TXT" length="255" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSb1jM4Ee2R4oTNGZI1UA" name="FROM_INVOICE_ID" label="FROM_INVOICE_ID" length="15" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSb2jM4Ee2R4oTNGZI1UA" name="INVOICE_ID" label="INVOICE_ID" length="15" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSb3jM4Ee2R4oTNGZI1UA" name="INVOICE_SECTION_NR" label="INVOICE_SECTION_NR" length="8" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSb4jM4Ee2R4oTNGZI1UA" name="INVOICE_ITEM_NR" label="INVOICE_ITEM_NR" length="8" sourceType="NUMBER" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSb5jM4Ee2R4oTNGZI1UA" name="GENERAL_1" label="GENERAL_1" length="4000" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSb6jM4Ee2R4oTNGZI1UA" name="GENERAL_2" label="GENERAL_2" length="4000" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSb7jM4Ee2R4oTNGZI1UA" name="GENERAL_3" label="GENERAL_3" length="4000" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSb8jM4Ee2R4oTNGZI1UA" name="GENERAL_4" label="GENERAL_4" length="4000" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSb9jM4Ee2R4oTNGZI1UA" name="GENERAL_5" label="GENERAL_5" length="4000" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSb-jM4Ee2R4oTNGZI1UA" name="GENERAL_6" label="GENERAL_6" length="4000" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTSb_jM4Ee2R4oTNGZI1UA" name="GENERAL_7" label="GENERAL_7" length="4000" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTScAjM4Ee2R4oTNGZI1UA" name="GENERAL_8" label="GENERAL_8" length="4000" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTScBjM4Ee2R4oTNGZI1UA" name="GENERAL_9" label="GENERAL_9" length="4000" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTScCjM4Ee2R4oTNGZI1UA" name="GENERAL_10" label="GENERAL_10" length="4000" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTScDjM4Ee2R4oTNGZI1UA" name="CHARGE_GENERAL_1" label="CHARGE_GENERAL_1" length="255" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTScEjM4Ee2R4oTNGZI1UA" name="CHARGE_GENERAL_2" label="CHARGE_GENERAL_2" length="255" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTScFjM4Ee2R4oTNGZI1UA" name="CHARGE_GENERAL_3" label="CHARGE_GENERAL_3" length="255" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTScGjM4Ee2R4oTNGZI1UA" name="CHARGE_GENERAL_4" label="CHARGE_GENERAL_4" length="255" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTScHjM4Ee2R4oTNGZI1UA" name="CHARGE_GENERAL_5" label="CHARGE_GENERAL_5" length="255" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTScIjM4Ee2R4oTNGZI1UA" name="CHARGE_GENERAL_6" label="CHARGE_GENERAL_6" length="255" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTScJjM4Ee2R4oTNGZI1UA" name="CHARGE_GENERAL_7" label="CHARGE_GENERAL_7" length="255" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTScKjM4Ee2R4oTNGZI1UA" name="CHARGE_GENERAL_8" label="CHARGE_GENERAL_8" length="255" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTScLjM4Ee2R4oTNGZI1UA" name="CHARGE_GENERAL_9" label="CHARGE_GENERAL_9" length="255" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_vTScMjM4Ee2R4oTNGZI1UA" name="CHARGE_GENERAL_10" label="CHARGE_GENERAL_10" length="255" sourceType="VARCHAR2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_Xk4PwDM5Ee2R4oTNGZI1UA" name="" dataManager="_x4UAADJ4Ee2R4oTNGZI1UA"/>
+</xmi:XMI>

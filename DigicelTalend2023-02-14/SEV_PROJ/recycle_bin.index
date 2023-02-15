@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>process/demo</deletedFolders>
+  <deletedItems id="_5VtuIDQXEe2i-ak6UbiH3A" path="" type="PROCESS"/>
+  <deletedItems id="_BBOqYDM-Ee2R4oTNGZI1UA" path="" type="PROCESS"/>
+  <deletedItems id="_QKNNUGZ8EeWm5YvsrIoYzQ" path="demo" type="PROCESS"/>
+  <deletedItems id="_VRehgDQwEe2i-ak6UbiH3A" path="invoices" type="PROCESS"/>
+  <deletedItems id="_tQIdkDQxEe2i-ak6UbiH3A" path="" type="salesforce"/>
+</recyclebin:RecycleBin>
