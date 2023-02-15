@@ -26,7 +26,6 @@ global class InvoiceTelesoft_BAT implements Database.Batchable<sObject>, Databas
         HttpResponse resFacture = new HttpResponse();
         resFacture = TelesoftWebService.apiReturnFacturesByDate(lstMonthDateStr,todaysDateStr);
         repBody = FactureTelesoftWrapper.parse(resFacture.getBody());
-        system.debug('repbody: ' + repBody);
         List<String> lstTelesoftNumber = new List<String>();
         for(FactureTelesoftWrapper fac : repBody){
             if(!mapTelesoftNumberFac.containsKey(fac.Compte_client)){
@@ -52,7 +51,6 @@ global class InvoiceTelesoft_BAT implements Database.Batchable<sObject>, Databas
                 }  else {
                     telesoftIds.add(acc.TelesoftNumber__c);
                 }
-                system.debug('mapTelesoftNumberFac:' + mapTelesoftNumberFac);
                 for(String telesoftId : telesoftIds){
                     if(mapTelesoftNumberFac.get(telesoftId) != null){
                         for(FactureTelesoftWrapper fac : mapTelesoftNumberFac.get(telesoftId)){  
@@ -60,8 +58,10 @@ global class InvoiceTelesoft_BAT implements Database.Batchable<sObject>, Databas
                             if(telesoftId == fac.Compte_client){
                                 Invoice__c inv = new Invoice__c();
                                 //inv.InvoiceDate__c = Date.parse(fac.Date_facture);11/02/2023
-                                string[] RFQdate = String.valueOf(fac.Date_facture.trim()).split('/');
-                                inv.InvoiceDate__c = date.valueOf(RFQdate[2] + '-' + RFQdate[1] + '-' + RFQdate[0]);
+                                if(fac.Date_facture != null ){
+                                    string[] RFQdate = String.valueOf(fac.Date_facture.trim()).split('/');
+                                    inv.InvoiceDate__c = date.valueOf(RFQdate[2] + '-' + RFQdate[1] + '-' + RFQdate[0]);
+                                }
                                 inv.ClientNumber__c = fac.Compte_client;
                                 inv.AccountName__c = acc.Id;   
                                 inv.Invoice_Number__c = fac.Id_facture;
