@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>RequiredIfCoCNotSigned</fullName>
-    <active>true</active>
-    <errorConditionFormula>AND(ISPICKVAL(PNG_CoCSignedByCustomer__c, &apos;No&apos;),ISPICKVAL( PNG_CoCNotSignedReason__c, &apos;&apos;),  RecordTypeId=LEFT($Label.PNG_CaseImplementationRecordType,15))</errorConditionFormula>
-    <errorDisplayField>PNG_CoCNotSignedReason__c</errorDisplayField>
-    <errorMessage>You must select the CoC not signed reason.</errorMessage>
-</ValidationRule>

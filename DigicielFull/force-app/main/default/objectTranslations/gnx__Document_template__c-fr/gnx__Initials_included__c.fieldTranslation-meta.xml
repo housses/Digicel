@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help>Uniquement valable pour de la signature certifiée.</help>
-    <label></label>
-    <name>gnx__Initials_included__c</name>
-</CustomFieldTranslation>

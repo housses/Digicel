@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Condition_Value_Mandatory</fullName>
-    <active>true</active>
-    <description>Condition value is required if field type is condition.</description>
-    <errorConditionFormula>IF( AND(ISPICKVAL( Field_Use__c , &quot;Condition&quot;), NOT(ISPICKVAL(Type__c,&quot;In&quot;)),NOT(ISPICKVAL(Type__c,&quot;Not In&quot;))) ,  ISBLANK( Condition_Value__c ) , FALSE)</errorConditionFormula>
-    <errorDisplayField>Condition_Value__c</errorDisplayField>
-    <errorMessage>The condition value is required when field type is &quot;Condition&quot; and Type is not &quot;Not In&quot; and &quot;In&quot;.</errorMessage>
-</ValidationRule>
