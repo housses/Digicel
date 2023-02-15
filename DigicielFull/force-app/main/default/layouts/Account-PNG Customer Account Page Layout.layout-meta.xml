@@ -449,6 +449,10 @@
                 <behavior>Edit</behavior>
                 <field>INFOLEGALERating__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>LastSychroInfolegale__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

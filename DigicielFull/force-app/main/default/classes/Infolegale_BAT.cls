@@ -38,12 +38,12 @@ global class Infolegale_BAT implements Database.Batchable<sObject>, Database.All
                 InfolegaleWrapper repBody = InfolegaleWrapper.parse(resScore.getBody());               
                 score = repBody.score;
                 account.INFOLEGALERating__c = score;
-                account.Description = 'Derière synchro:' + + Datetime.now(); 
+                account.LastSychroInfolegale__c = 'Derière synchro:' + + Datetime.now(); 
             } else {
-                if(account.Description == ''){
-                    account.Description = 'Infolegale_BAT : Error Infologale : Status Code : ' + code;  
+                if(account.LastSychroInfolegale__c == ''){
+                    account.LastSychroInfolegale__c = 'Infolegale_BAT : Error Infologale : Status Code : ' + code;  
                 }else {
-                    account.Description = account.Description + '; Infolegale_BAT : Error Infologale : Status Code : ' + code; 
+                    account.LastSychroInfolegale__c = account.LastSychroInfolegale__c + '; Infolegale_BAT : Error Infologale : Status Code : ' + code; 
                 }
                 
             }
