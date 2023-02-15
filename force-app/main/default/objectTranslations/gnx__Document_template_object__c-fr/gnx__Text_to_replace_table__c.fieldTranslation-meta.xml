@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Texte affiché à la place du tableau si la case supprimer le tableau si vide est cochée et si aucun enfant n&apos;est trouvé</help>
+    <label></label>
+    <name>gnx__Text_to_replace_table__c</name>
+</CustomFieldTranslation>

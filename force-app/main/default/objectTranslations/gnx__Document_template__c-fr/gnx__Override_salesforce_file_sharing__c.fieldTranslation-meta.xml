@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si vous cochez cette case et que vous êtes en politique de version Supprimer et remplacer le fichier, le document anciennement présent sera remplacé même si l&apos;utilisateur faisant une nouvelle génération n&apos;a pas le droit de suppression</help>
+    <label></label>
+    <name>gnx__Override_salesforce_file_sharing__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>CALA - B2B OLD VERSION - IDOM</layout>
+        <sections>
+            <label></label>
+            <section>CAPEX &amp; Project Funding Detail</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Gross Values</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Installation Address</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Net AOP Values</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Opportunity Fulfillment Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CALA - B2B Page Layout -  V2 (DealHub)</layout>
+        <sections>
+            <label></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Approvals</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>CAPEX &amp; Project Funding Detail</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Comments &amp; Updates</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Financial</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Loss Reason Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Opportunity Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Units</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CALA - B2B Page Layout - V1</layout>
+        <sections>
+            <label></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>CAPEX &amp; Project Funding Detail</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Comments &amp; Updates</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Financial</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Loss Reason &amp; Competitor Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Opportunity Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Units</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Digicel PNG ICT &amp; GSM</layout>
+        <sections>
+            <label></label>
+            <section>Approvals Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dates</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>NRR &amp; MRR</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Next Step and Close Plan</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Product Interest &amp; Sale Type Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Digicel PNG ICT &amp; GSM - v2</layout>
+        <sections>
+            <label></label>
+            <section>Approvals Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Capex &amp; Project Funding Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Comments &amp; Updates</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Group Financial Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>NRR &amp; MRR</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Product Interest Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Synced Quote Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Digicel PNG Opportunity Layout</layout>
+        <sections>
+            <label></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Financial</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Loss Reasons</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Service/Product Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Totals</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SP - AllcomMCRP Opportunity Layout</layout>
+        <sections>
+            <label></label>
+            <section>Commission Due Upon Close</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Totals</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SP - PNG ICT - Old Opportunity Layout</layout>
+        <sections>
+            <label></label>
+            <section>ARPU Calculations</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Big Deal Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Business &amp; Solution Requirements</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Installation Address</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Margin Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Net AOP Values</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Net Contract Term Values</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Net Monthly Values</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Totals</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>What you need to Know to Win</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SP - PNG Opportunity Layout</layout>
+        <sections>
+            <label></label>
+            <section>Contract Status</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Financial</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Next Step &amp; Close Plan</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Totals</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SP - PNG Trend</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SP - South Pacific - Opportunity Layout</layout>
+        <sections>
+            <label></label>
+            <section>ARPU Calculations</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Big Deal Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Business &amp; Solution Requirements</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Installation Address</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Margin Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Net AOP Values</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Net Contract Term Values</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Net Monthly Values</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Totals</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>What you need to Know to Win</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SP - South Pacific - Opportunity New Layout</layout>
+        <sections>
+            <label></label>
+            <section>ARPU Calculations</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Big Deal Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Business &amp; Solution Requirements</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Installation Address</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Margin Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Net AOP Values</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Net Contract Term Values</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Net Monthly Values</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Totals</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>What you need to Know to Win</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Trend C&amp;CA Page Layout v2</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Marketing</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>PO Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Trend C&amp;CA Page Layout v3 - DRAFT Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Marketing</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>PO Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>Fi_Details</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Fi_FinancialDetails</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>New_Event_opp</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>New_Task_Opp</name>
+    </quickActions>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Digicel_Business_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Digicel_PNG_Admin</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Digicel_PNG_GSM</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Digicel_PNG_ICT</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Digicel_PNG_TV</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Digicel_Trinidad_Tobago_GSM</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Digicel_Trinidad_Tobago_ICT</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>IDOM_FWI_ICT</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>IDOM_IO_ICT</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>PNG_Digicel_ICT_GSM</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>TrendMedia</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>B2B_All_Regions_Opps_Must_Have_Products</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>B2B_CALA_Account_Industry</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>B2B_CALA_Bill_Date_Greater_Than_Close</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>B2B_CALA_CAPEX_Project_Funding_Detail</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>B2B_CALA_Competitor_Other_is_selected</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>B2B_CALA_Contact_Required_When_Won</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>B2B_CALA_Contract_Attached_Before_Billed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>B2B_CALA_Contract_Start_Before_CW</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>B2B_CALA_Line_Items_Must_Bill_Before_Opp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>B2B_CALA_Only_Admins_Can_Reopen_Opps_NEW</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>B2B_CALA_Opportunity_Closed_lost</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>B2B_CALA_Proposal_Acceptance_Approval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>B2B_CALA_Solution_Design_Approval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>B2B_CALA_System_CloseOff</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>B2B_Closed_Lost_No_Activity_Admin_ONLY</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>B2B_Only_Authorized_Users_can_Bill_Opps</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Barbados_Next_Steps_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Contract_File_Must_be_attached</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>IS2_Close_Date_Not_Prior_To_Created_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>No_Opps_If_Approve_Status_Is_New</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>PNG_ClosedOpportunityIsLocked</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>PNG_Closed_Date_Must_Be_Today</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>PNG_ICT_ISNEW_Prospecting_Qualification</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>PNG_Loss_ReasonValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>PNG_Not_Allowed_To_Change_To_Billed_Opps</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>PNG_Opportunity_OnHold_Reason_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>PNG_PreventCreationIfAccountNotCustomer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>PNG_Solution_Design_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>PNG_TechnicalFeasibilityStage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Quote_Records_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Segmentation_Data_Must_Be_Populated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>TT_Sales_barred_from_Transferring_Opps</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Trend_ISNEW_Prospecting</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Trend_Negotiation_Approval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Trend_Opportunities_Must_Have_Products</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Trend_STAGECHANGE</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Trend_billedatenolessthanclosedate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Trend_recordtype</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Trends_Go_Live_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Trends_Go_Live_Date_withPendingApprovals</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>amc__Ensure_Project_Start_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>amc__Ensure_Project_Template_Specified</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>BDS_Basic_BB_Agreement</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Create_New_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Custom_Clone</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Custom_Create_Quote</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Custom_View_Quotes</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>DealHub__Create_Quote_Classic</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>DealHub__Create_Quote_Lightning</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>DealHub__View_Quotes_Classic</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>DealHub__View_Quotes_Lightning</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Deca156T000005fW7gQAE</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Fibre_Business_BB_Agreement</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Generate_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>MA_MapIt_a0pd0000004wKaIAAU</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>PNG_GSM_Request</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>PNG_ICT_GSM_Contracts</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>SendWithDocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Service_Contracts</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Validate_Document</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>amc__Role_Forecast</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>valt__View_Quotes</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>valt__valooto_prod</name>
+    </webLinks>
+</CustomObjectTranslation>

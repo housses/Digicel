@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_AccountActivationValidation</fullName>
+    <active>true</active>
+    <description>Activate Account by default if its of type Digicel PNG Account</description>
+    <errorConditionFormula>AND(ISNEW(), RecordType.Id = LEFT($Label.PNG_AccountRecordTypeId,15), Active__c  = False)</errorConditionFormula>
+    <errorDisplayField>Active__c</errorDisplayField>
+    <errorMessage>Please Activate the Account.</errorMessage>
+</ValidationRule>

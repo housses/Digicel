@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Broadband_Home_Internet_Packages__c</fullName>
+    <externalId>false</externalId>
+    <label>Broadband Home Internet Packages</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>8MB</fullName>
+                <default>false</default>
+                <label>8MB</label>
+            </value>
+            <value>
+                <fullName>16MB</fullName>
+                <default>false</default>
+                <label>16MB</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

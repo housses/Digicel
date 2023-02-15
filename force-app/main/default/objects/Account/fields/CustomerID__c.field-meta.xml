@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CustomerID__c</fullName>
+    <externalId>false</externalId>
+    <formula>Registration_Number__c  &amp; &quot; - &quot;  &amp;   AccountUniqueID__c</formula>
+    <inlineHelpText>This field combines the &quot;Registration #&quot;  and the  18  digit case sensitive Salesforce account ID to createa  truly  unique ID that we can use to cross reference against external systems</inlineHelpText>
+    <label>Customer ID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

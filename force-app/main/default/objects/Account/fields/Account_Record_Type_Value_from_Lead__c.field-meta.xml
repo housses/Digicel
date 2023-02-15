@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Record_Type_Value_from_Lead__c</fullName>
+    <externalId>false</externalId>
+    <label>Account Record Type Value from Lead</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Digicel PNG Business</fullName>
+                <default>false</default>
+                <label>Digicel PNG Business</label>
+            </value>
+            <value>
+                <fullName>Fiji GSM</fullName>
+                <default>false</default>
+                <label>Fiji GSM</label>
+            </value>
+            <value>
+                <fullName>Fiji ICT</fullName>
+                <default>false</default>
+                <label>Fiji ICT</label>
+            </value>
+            <value>
+                <fullName>Fiji Mobile</fullName>
+                <default>false</default>
+                <label>Fiji Mobile</label>
+            </value>
+            <value>
+                <fullName>PNG GSM</fullName>
+                <default>false</default>
+                <label>PNG GSM</label>
+            </value>
+            <value>
+                <fullName>PNG ICT</fullName>
+                <default>false</default>
+                <label>PNG ICT</label>
+            </value>
+            <value>
+                <fullName>PNG Mobile</fullName>
+                <default>false</default>
+                <label>PNG Mobile</label>
+            </value>
+            <value>
+                <fullName>Samoa GSM</fullName>
+                <default>false</default>
+                <label>Samoa GSM</label>
+            </value>
+            <value>
+                <fullName>Samoa ICT</fullName>
+                <default>false</default>
+                <label>Samoa ICT</label>
+            </value>
+            <value>
+                <fullName>Samoa Mobile</fullName>
+                <default>false</default>
+                <label>Samoa Mobile</label>
+            </value>
+            <value>
+                <fullName>Tonga GSM</fullName>
+                <default>false</default>
+                <label>Tonga GSM</label>
+            </value>
+            <value>
+                <fullName>Tonga ICT</fullName>
+                <default>false</default>
+                <label>Tonga ICT</label>
+            </value>
+            <value>
+                <fullName>Tonga Mobile</fullName>
+                <default>false</default>
+                <label>Tonga Mobile</label>
+            </value>
+            <value>
+                <fullName>Vanuatu GSM</fullName>
+                <default>false</default>
+                <label>Vanuatu GSM</label>
+            </value>
+            <value>
+                <fullName>Vanuatu ICT</fullName>
+                <default>false</default>
+                <label>Vanuatu ICT</label>
+            </value>
+            <value>
+                <fullName>Vanuatu Mobile</fullName>
+                <default>false</default>
+                <label>Vanuatu Mobile</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

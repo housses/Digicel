@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Equipment Order Tracking</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Equipment Orders Tracking</value>
+    </caseValues>
+    <layouts>
+        <layout>Barbados ICT Equipment Tracker</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Equipment Tracking</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Shipment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Equipment Order Tracking Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Equipment Tracking</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Shipment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PNG Equipment Tracker</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Equipment Tracking</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Shipment Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>Barbados_Equipment_Tracker</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>PNG_Equipment_Tracker</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

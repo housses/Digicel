@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Actualización de Pre-venta</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Actualización de Pre-venta</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Barbados Pre Sales Update</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Updates</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>El Salvador Pre Sales Update Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Actualizados</label>
+            <section>Updates</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Haiti Pre Sales Update Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Updates</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PNG Pre Sales Update Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Updates</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Pre Sales Update Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Updates</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel></nameFieldLabel>
+    <recordTypes>
+        <label></label>
+        <name>Pre_Sales_Update</name>
+    </recordTypes>
+</CustomObjectTranslation>

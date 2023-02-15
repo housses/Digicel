@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Corporate_Care_Owner__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field shows the Corporate Care Executive that is currently assigned to the opportunity.</description>
+    <externalId>false</externalId>
+    <label>Corporate Care Owner</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Accounts3</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>
