@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label>Debilidades con el proveedor actual</label>
-    <name>Business_Pain_Points_Impact__c</name>
-</CustomFieldTranslation>
