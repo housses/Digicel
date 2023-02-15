@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenter xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <adapterUrl>https://pgmcc-cti-001.digicelgroup.local:8496/default.html</adapterUrl>
+    <customSettings>{&quot;reqTimeout&quot;:&quot;10000&quot;,&quot;reqStandbyUrl&quot;:&quot;https://pgmcc-cti-002.digicelgroup.local:8496/default.html&quot;,&quot;reqSoftphoneHeight&quot;:&quot;420&quot;,&quot;reqUseApi&quot;:&quot;true&quot;,&quot;reqSoftphoneWidth&quot;:&quot;210&quot;,&quot;reqSalesforceCompatibilityMode&quot;:&quot;Classic_and_Lightning&quot;}</customSettings>
+    <displayName>EICC Open CTI Adapter</displayName>
+    <displayNameLabel>Display Name</displayNameLabel>
+    <internalNameLabel>InternalName</internalNameLabel>
+    <sections>
+        <items>
+            <label>CTI Adapter URL</label>
+            <name>reqAdapterUrl</name>
+            <value>https://pgmcc-cti-001.digicelgroup.local:8496/default.html</value>
+        </items>
+        <items>
+            <label>Use CTI API</label>
+            <name>reqUseApi</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Softphone Height</label>
+            <name>reqSoftphoneHeight</name>
+            <value>420</value>
+        </items>
+        <items>
+            <label>Softphone Width</label>
+            <name>reqSoftphoneWidth</name>
+            <value>210</value>
+        </items>
+        <items>
+            <label>Salesforce Compatibility Mode</label>
+            <name>reqSalesforceCompatibilityMode</name>
+            <value>Classic_and_Lightning</value>
+        </items>
+        <items>
+            <label>Standby Url</label>
+            <name>reqStandbyUrl</name>
+            <value>https://pgmcc-cti-002.digicelgroup.local:8496/default.html</value>
+        </items>
+        <items>
+            <label>Timeout in milliseconds before switching to the Standby Url</label>
+            <name>reqTimeout</name>
+            <value>10000</value>
+        </items>
+        <label>General Information</label>
+        <name>reqGeneralInfo</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Outside Prefix</label>
+            <name>reqOutsidePrefix</name>
+            <value>1</value>
+        </items>
+        <items>
+            <label>Long Distance Prefix</label>
+            <name>reqLongDistPrefix</name>
+            <value>1</value>
+        </items>
+        <items>
+            <label>International Prefix</label>
+            <name>reqInternationalPrefix</name>
+            <value>01</value>
+        </items>
+        <label>Dialing Options</label>
+        <name>reqDialingOptions</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Title</label>
+            <name>reqTitle</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Format CLI</label>
+            <name>reqFormatCli</name>
+            <value>+c (a) n[an]</value>
+        </items>
+        <items>
+            <label>Format Query</label>
+            <name>reqFormatQuery</name>
+            <value>[query]</value>
+        </items>
+        <items>
+            <label>Pop On Queue Calls</label>
+            <name>reqPopOnQueue</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Pop On Direct Calls</label>
+            <name>reqPopOnDirect</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Pop On Internal Calls</label>
+            <name>reqPopOnInternal</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Queues To Pop</label>
+            <name>reqQueuesPop</name>
+            <value>3130</value>
+        </items>
+        <items>
+            <label>Queues To Pop 2</label>
+            <name>reqQueuesPop2</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Queues To Ignore</label>
+            <name>reqQueuesIgnore</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Wrapup Enabled</label>
+            <name>reqWrapupEnabled</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Wrapup Queue Calls Only</label>
+            <name>reqWrapupQueueCallsOnly</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Wrapup On Internal Calls</label>
+            <name>reqWrapupOnInternal</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Log All Calls</label>
+            <name>reqLogAllCalls</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Wrapup Items</label>
+            <name>reqWrapupItems</name>
+            <value>Successful;Try again</value>
+        </items>
+        <items>
+            <label>Pop On Queue Multi-Media Interactions</label>
+            <name>reqPopOnMultiMedia</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Multi-Media Queues To Pop</label>
+            <name>reqMultiMediaQueuePop</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Multi-Media Queues To Pop 2</label>
+            <name>reqMultiMediaQueuePop2</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Multi-Media Queues To Ignore</label>
+            <name>reqMultiMediaQueueIgnore</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Multi-Media Wrapup Mode</label>
+            <name>reqMultiMediaWrapupMode</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Call Result Field</label>
+            <name>reqCallResult</name>
+            <value>CallDisposition</value>
+        </items>
+        <items>
+            <label>Caller ID Field</label>
+            <name>reqCallerId</name>
+            <value>CTI_DNIS__c</value>
+        </items>
+        <items>
+            <label>Call Type Field</label>
+            <name>reqCallType</name>
+            <value>CallType</value>
+        </items>
+        <items>
+            <label>Call Reference Field</label>
+            <name>reqPbxRef</name>
+            <value>PBX_Ref__c</value>
+        </items>
+        <items>
+            <label>Extended Call Type Field</label>
+            <name>reqExtendedCallType</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Query Info Field</label>
+            <name>reqQuery</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Queue Id Field</label>
+            <name>reqQueueId</name>
+            <value>Queue_Id__c</value>
+        </items>
+        <items>
+            <label>WaitTime Field</label>
+            <name>reqWaitTime</name>
+            <value>Wait_Time__c</value>
+        </items>
+        <items>
+            <label>Delivery Name Field</label>
+            <name>reqDeliveryName</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Call Duration (including wait time) Field</label>
+            <name>reqDuration</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Call Wrapup 1 Field</label>
+            <name>reqCallWrapup1</name>
+            <value>Call_Wrapup_1__c</value>
+        </items>
+        <items>
+            <label>Call Wrapup 2 Field</label>
+            <name>reqCallWrapup2</name>
+            <value>Call_Wrapup_2__c</value>
+        </items>
+        <items>
+            <label>Call Wrapup 3 Field</label>
+            <name>reqCallWrapup3</name>
+            <value>Call_Wrapup_3__c</value>
+        </items>
+        <items>
+            <label>Call Free-Form Field</label>
+            <name>reqCallFreeform</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>CTI DNIS Field</label>
+            <name>reqCtiDnis</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Queue Name Field</label>
+            <name>reqQueueName</name>
+            <value>Queue_Name__c</value>
+        </items>
+        <items>
+            <label>Department Field</label>
+            <name>reqDepartment</name>
+            <value>Department__c</value>
+        </items>
+        <items>
+            <label>Call Date Time Field</label>
+            <name>reqCallDateTime</name>
+            <value>Call_Date_Time__c</value>
+        </items>
+        <items>
+            <label>Agent Id Field</label>
+            <name>reqAgentLoginId</name>
+            <value>Agent_Id__c</value>
+        </items>
+        <items>
+            <label>Agent Name Field</label>
+            <name>reqAgentName</name>
+            <value>Agent_Name__c</value>
+        </items>
+        <items>
+            <label>CC Integration Field</label>
+            <name>reqCCIntegration</name>
+            <value>CCIntegration__c</value>
+        </items>
+        <items>
+            <label>Phone Type Value</label>
+            <name>reqPhoneType</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>E-mail Subject Related To RegEx</label>
+            <name>reqEmailSubjectRelatedTo</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Day Before Month</label>
+            <name>reqDayFirst</name>
+            <value>0</value>
+        </items>
+        <items>
+            <label>Notification Timeout (ms)</label>
+            <name>reqNotificationTimeout</name>
+            <value>12000</value>
+        </items>
+        <items>
+            <label>My Calls Today Link</label>
+            <name>reqMyCallsToday</name>
+            <value>00O0W000005HiEvUAK</value>
+        </items>
+        <items>
+            <label>Wrapup Abandoned Calls</label>
+            <name>reqWrapupAbandon</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Wrapup Calls when plug-in not connected</label>
+            <name>reqWrapupStopped</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Wrapup Transferred Calls</label>
+            <name>reqWrapupTransfer</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Include Ignore Button for Wrapups</label>
+            <name>reqIgnoreButton</name>
+            <value>false</value>
+        </items>
+        <items>
+            <label>Set Focus on Call events</label>
+            <name>reqEventFocus</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Check for unsaved activities on exit</label>
+            <name>reqSaveLogCheck</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Default name link (default,first,last,none,old)</label>
+            <name>reqDefaultNameLink</name>
+            <value>default</value>
+        </items>
+        <items>
+            <label>Auto Extension setting</label>
+            <name>reqAutoExtension</name>
+            <value>false</value>
+        </items>
+        <items>
+            <label>Auto Sign On setting</label>
+            <name>reqAutoSignOn</name>
+            <value>false</value>
+        </items>
+        <items>
+            <label>Show Agent Controls</label>
+            <name>reqShowAgentControls</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Pop Url Arguments</label>
+            <name>reqPopArgs</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Pop Url path</label>
+            <name>reqPopUrl</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Call Apex Code on Pop</label>
+            <name>reqPopApex</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Save Record on Pop</label>
+            <name>reqPopSaveRecord</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Apex getUser Class and Function</label>
+            <name>reqApexGetUser</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Transfer Cancel Connect</label>
+            <name>reqTransferCancelConnect</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Max Search Results to Show</label>
+            <name>reqMaxSearchResults</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Default Subject</label>
+            <name>reqSubject</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Multimedia Interaction URL</label>
+            <name>reqMultimediaUrl</name>
+            <value>https://akl-ws2008-3.zeacom.net:8497/getMedia?callRef=[callref]&amp;media=[media]</value>
+        </items>
+        <items>
+            <label>User Settings</label>
+            <name>reqUserSettings</name>
+            <value>popInWrapup=user,popNotification=user,queryPop=user,screenPop=user</value>
+        </items>
+        <items>
+            <label>Other Settings</label>
+            <name>reqOtherSettings</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Other Settings 2</label>
+            <name>reqOtherSettings2</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Other Settings 3</label>
+            <name>reqOtherSettings3</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Other Settings 4</label>
+            <name>reqOtherSettings4</name>
+            <value xsi:nil="true"/>
+        </items>
+        <label>Custom Settings</label>
+        <name>reqCustomSettings</name>
+    </sections>
+</CallCenter>

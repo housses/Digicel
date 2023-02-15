@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>amc__Enforce_Day_Rates_For_Standard</fullName>
-    <active>false</active>
-    <description>When you set Billing Rate or Cost Rate to Standard, you must enter a value in the Billing Day Rate or Cost Day Rate field.</description>
-    <errorConditionFormula>OR(AND(ISPICKVAL( amc__Project_Day_Rate__c , &quot;Standard&quot;), ISBLANK( amc__Day_Rate__c )), AND(ISPICKVAL( amc__Cost_Rate__c , &quot;Standard&quot;), ISBLANK( amc__Cost_Day_Rate__c )))</errorConditionFormula>
-    <errorMessage>If Billing Rate = Standard you must specify a value in Billable Day Rate. If Cost Rate = Standard, you must specify a value in Cost Day Rate</errorMessage>
-</ValidationRule>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>PNG_PreventFromChangingStatusValues</fullName>
-    <active>true</active>
-    <errorConditionFormula>AND( RecordType.Id= LEFT( $Label.PNG_QuoteRecordTypeId ,15), ISCHANGED ( Status ), 
-NOT(ISPICKVAL( PRIORVALUE ( Status ), &apos;Approved&apos;)), OR(ISPICKVAL(Opportunity.PNG_OpportunityType__c , &quot;ICT&quot;), ISPICKVAL(Opportunity.PNG_OpportunityType__c, &quot;ICT &amp; GSM&quot;)) ,OR(ISPICKVAL(Status , &quot;Presented&quot;),ISPICKVAL(Status , &quot;Accepted&quot;),ISPICKVAL(Status , &quot;Denied&quot;)))</errorConditionFormula>
-    <errorDisplayField>Status</errorDisplayField>
-    <errorMessage>Status value cannot be changed without approval</errorMessage>
-</ValidationRule>

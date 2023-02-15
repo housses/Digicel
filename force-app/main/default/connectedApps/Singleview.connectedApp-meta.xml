@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>integrateur@reej-consulting.com</contactEmail>
+    <label>Singleview</label>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com/services/oauth2/callback</callbackUrl>
+        <certificate>MIIEijCCA3KgAwIBAgIOAYZLKW5pAAAAAHUaum8wDQYJKoZIhvcNAQELBQAwgYUxHTAbBgNVBAMMFGNlcnRpZmljYXRTaW5nbGV2aWV3MRgwFgYDVQQLDA8wMEQ1MzAwMDAwMDU0dHQxFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQswCQYDVQQIDAJDQTEMMAoGA1UEBhMDVVNBMB4XDTIzMDIxMzE0MjQxMVoXDTI0MDIxMzEyMDAwMFowgYUxHTAbBgNVBAMMFGNlcnRpZmljYXRTaW5nbGV2aWV3MRgwFgYDVQQLDA8wMEQ1MzAwMDAwMDU0dHQxFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQswCQYDVQQIDAJDQTEMMAoGA1UEBhMDVVNBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApJxCgHTYt/+x+FBPIKZ8kPAtHM2JLlWaG2o0sGa6Xji0hiAYHyFO9E/yrK+vUV271hXF24VqECrbRixS+8Gg+p6mDUZ6iso+WvU6b39E/Im+bWTSh6m2e1nFXfUNkRS/WpY7Da+D8jtvjh+lF9DcGJl02D2eMGF9j/mtjGCgcChOBAwMtEXTkx8dxv7k+7lRrr3Qkme0t8c6//HbiWppiLeigIvJiu0T2k09szhKXRHLWF/3KyeiNvJ9GmzC8M8+qBIvVvOaGfVxJW6zetjbFyv8WqU+CJN3OXL/4QN8Av7BGHCMQtcxcIF1pMqjQwzMrsPyyEIgTFMTkHEnwEt8zwIDAQABo4H1MIHyMB0GA1UdDgQWBBQiLJmW7XkOklvk4ic7l9Ss6GHWLzAPBgNVHRMBAf8EBTADAQH/MIG/BgNVHSMEgbcwgbSAFCIsmZbteQ6SW+TiJzuX1KzoYdYvoYGLpIGIMIGFMR0wGwYDVQQDDBRjZXJ0aWZpY2F0U2luZ2xldmlldzEYMBYGA1UECwwPMDBENTMwMDAwMDA1NHR0MRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQYIOAYZLKW5pAAAAAHUaum8wDQYJKoZIhvcNAQELBQADggEBAINXm/aI7ZezH+DhI/jG6KnYjqcr3yxW/IlQiklcq70mgZwYc3AorJH+jFVFSOFCIopc3uuF1hTtmpo8bEk4QVaMdZhqQb8gv77m8JGumPPrLPlJ4IwrA4EOYD8C8I+6LAG40e3CehjHBOiy/wP7WnSEvApci0FhrNeBKKGhI/Y+lUMfcOLzlP+cssFn7Dd9hJ7xurmmbYLHKfDjjCHcw8BNnv8JjQCgK49sdE2lhZgoGeZMZaIieAOFH6AjG7mTJqkUzUF3UlDPs2M4g0hq5D6e5GfaA9swvEZ0P3GpeyoP/KJKAHaVE/CE+Mra2zK8g0KTu2F+vg2z52GCuVnM5GU=</certificate>
+        <consumerKey>3MVG9ayzKZt5EleFFbWIC0GbDOtSn1UEusMpJwLxgEAfT1QoUDpTcSSSCW4Ddj_J4B9b4iEZVNKA5zyIrKqwC</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

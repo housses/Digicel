@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Tablet_Terms_and_Conditionss</fullName>
-    <active>true</active>
-    <description>Tablet Terms and Conditions</description>
-    <label>Tablet Terms &amp; Conditions</label>
-</RecordType>

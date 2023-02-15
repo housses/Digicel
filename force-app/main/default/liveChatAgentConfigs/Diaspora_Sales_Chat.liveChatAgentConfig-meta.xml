@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatAgentConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoGreeting>Welcome to Digicel Top-Up support. How can I help you today?</autoGreeting>
+    <capacity>1</capacity>
+    <criticalWaitTime>120</criticalWaitTime>
+    <disableTransferConferenceGreeting>false</disableTransferConferenceGreeting>
+    <enableAgentFileTransfer>true</enableAgentFileTransfer>
+    <enableAgentSneakPeek>true</enableAgentSneakPeek>
+    <enableAssistanceFlag>true</enableAssistanceFlag>
+    <enableAutoAwayOnDecline>false</enableAutoAwayOnDecline>
+    <enableAutoAwayOnPushTimeout>false</enableAutoAwayOnPushTimeout>
+    <enableChatConferencing>false</enableChatConferencing>
+    <enableChatMonitoring>true</enableChatMonitoring>
+    <enableChatTransferToAgent>true</enableChatTransferToAgent>
+    <enableChatTransferToButton>false</enableChatTransferToButton>
+    <enableChatTransferToSkill>true</enableChatTransferToSkill>
+    <enableLogoutSound>true</enableLogoutSound>
+    <enableNotifications>true</enableNotifications>
+    <enableRequestSound>true</enableRequestSound>
+    <enableSneakPeek>true</enableSneakPeek>
+    <enableVisitorBlocking>false</enableVisitorBlocking>
+    <enableWhisperMessage>true</enableWhisperMessage>
+    <label>Diaspora Sales Chat</label>
+    <supervisorDefaultAgentStatusFilter>Online</supervisorDefaultAgentStatusFilter>
+    <supervisorDefaultButtonFilter>Chat_Online_Sales</supervisorDefaultButtonFilter>
+    <supervisorDefaultSkillFilter>Diaspora_Sales</supervisorDefaultSkillFilter>
+    <supervisorSkills>
+        <skill>Diaspora_Sales</skill>
+    </supervisorSkills>
+    <transferableSkills>
+        <skill>Diaspora_Sales</skill>
+    </transferableSkills>
+</LiveChatAgentConfig>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>amc__Ensure_Project_Start_Date</fullName>
-    <active>true</active>
-    <description>Ensures required fields are populated if Generate Project = TRUE</description>
-    <errorConditionFormula>AND( amc__Generate_Project__c = TRUE , ISBLANK(amc__Project_Start_Date__c) )</errorConditionFormula>
-    <errorMessage>You must specify a Project Start Date if Generate Project = TRUE</errorMessage>
-</ValidationRule>

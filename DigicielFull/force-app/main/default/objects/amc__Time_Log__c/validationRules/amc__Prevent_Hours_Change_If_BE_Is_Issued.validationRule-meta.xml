@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>amc__Prevent_Hours_Change_If_BE_Is_Issued</fullName>
-    <active>true</active>
-    <description>Prevents a Time Log Hours Completed field being adjusted if it relates to a Billing Event with a Status of Issued</description>
-    <errorConditionFormula>AND(NOT(ISBLANK(amc__Billing_Event_Item__c)) , ISPICKVAL(amc__Billing_Event_Item__r.amc__Billing_Event__r.amc__Status__c, &quot;Issued&quot;) , ISCHANGED(amc__Hours_Completed__c))</errorConditionFormula>
-    <errorMessage>You are unable to modify the Hours Completed of a Time Log that relates to a Billing Event with a Status of Issued</errorMessage>
-</ValidationRule>

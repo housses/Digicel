@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<PostTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
-    <default>false</default>
-    <fields>Contract_Value__c</fields>
-    <fields>Net_AOP_Total__c</fields>
-    <fields>CloseDate</fields>
-    <fields>Estimated_Billed_Date__c</fields>
-    <label>Digicel Business Approval Post</label>
-</PostTemplate>

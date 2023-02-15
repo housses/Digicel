@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>PNG_SetRangeForLongitude</fullName>
-    <active>true</active>
-    <errorConditionFormula>AND( ABS(PNG_Longitude__c) &gt;180, OR(Quote.RecordTypeId =LEFT( $Label.PNG_QuoteRecordTypeId, 15),Quote.RecordTypeId =LEFT( $Label.PNG_ApprovedQuoteRecordType, 15), Quote.RecordTypeId =LEFT($Label.PNG_PNGQuoteRecTypeId , 15)) )</errorConditionFormula>
-    <errorDisplayField>PNG_Longitude__c</errorDisplayField>
-    <errorMessage>Value outside of valid range(-180 to 180) on numeric field Longitude</errorMessage>
-</ValidationRule>
