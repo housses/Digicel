@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>used as part of the recovery program for Hurricane Irma - purpose is to create tickets in salesforce so freshdesk can run reporting from the portal</description>
-    <disableProtocolSecurity>false</disableProtocolSecurity>
-    <isActive>true</isActive>
-    <url>https://digicelb2b.freshdesk.com</url>
-</RemoteSiteSetting>

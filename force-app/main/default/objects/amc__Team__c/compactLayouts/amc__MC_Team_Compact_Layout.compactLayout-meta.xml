@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>amc__MC_Team_Compact_Layout</fullName>
-    <fields>Name</fields>
-    <fields>amc__Active__c</fields>
-    <label>MC Team Compact Layout</label>
-</CompactLayout>

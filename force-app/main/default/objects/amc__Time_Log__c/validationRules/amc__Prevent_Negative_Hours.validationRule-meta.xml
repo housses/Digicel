@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>amc__Prevent_Negative_Hours</fullName>
-    <active>true</active>
-    <description>Ensure the Hours Completed field does not contain a negative value</description>
-    <errorConditionFormula>amc__Hours_Completed__c &lt; 0</errorConditionFormula>
-    <errorMessage>Hours Completed must be 0 or higher</errorMessage>
-</ValidationRule>
