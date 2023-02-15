@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_CALA_Contact_Required_When_Won</fullName>
+    <active>true</active>
+    <description>AND(
+IF( ISBLANK( Opportunity_Contact__c ) , true, false), ISPICKVAL(StageName, &apos;Solution Design&apos;) || ISPICKVAL(StageName, &apos;Proposal Review&apos;) || ISPICKVAL(StageName, &apos;Proposal Acceptance&apos;))</description>
+    <errorConditionFormula>IF(NOT(CONTAINS(RecordType.DeveloperName, &quot;Trend&quot;)) &amp;&amp;
+NOT(CONTAINS(RecordType.DeveloperName, &quot;PNG&quot;)), true, false)
+&amp;&amp; ISBLANK( Opportunity_Contact__c ) 
+&amp;&amp; Estimated_Billed_Date__c &gt; DATE(2019,11,25)
+&amp;&amp; $Profile.Name &lt;&gt;&quot;System Administrator&quot;
+&amp;&amp; $UserRole.Name &lt;&gt;&quot;Jamaica - Service Delivery&quot;
+&amp;&amp; $UserRole.Name &lt;&gt;&quot;Aruba Service Delivery&quot;
+&amp;&amp; $UserRole.Name &lt;&gt;&quot;Barbados Head of Pre Sales &amp; Service Delivery&quot;
+&amp;&amp; $UserRole.Name &lt;&gt;&quot;Bermuda Head of Pre Sales &amp; Service Delivery&quot;
+&amp;&amp; $UserRole.Name &lt;&gt;&quot;Bermuda Service Delivery&quot;
+&amp;&amp; $UserRole.Name &lt;&gt;&quot;Cayman Business Solutions Service Delivery&quot;
+&amp;&amp; $UserRole.Name &lt;&gt;&quot;El Salvador Head of Pre Sales &amp; Service Delivery&quot;
+&amp;&amp; $UserRole.Name &lt;&gt;&quot;El Salvador Service Delivery&quot;
+&amp;&amp; $UserRole.Name &lt;&gt;&quot;Jamaica - Head of Pre Sales &amp; Service Delivery&quot;
+&amp;&amp; $UserRole.Name &lt;&gt;&quot;Panama Head of Pre Sales &amp; Service Delivery&quot;
+&amp;&amp; $UserRole.Name &lt;&gt;&quot;Panama Service Delivery&quot;
+&amp;&amp; $UserRole.Name &lt;&gt;&quot;Trinidad - Head Pre Sales &amp; Service Delivery&quot;
+&amp;&amp; $UserRole.Name &lt;&gt;&quot;Trinidad ICT Service Team Lead&quot;
+&amp;&amp; $UserRole.Name &lt;&gt;&quot;Trinidad ICT Service Delivery Executive&quot;
+&amp;&amp; $UserRole.Name &lt;&gt;&quot;Trinidad - Sales Operations&quot;</errorConditionFormula>
+    <errorDisplayField>Opportunity_Contact__c</errorDisplayField>
+    <errorMessage>An Opportunity Contact must be associated to the opportunity before it is Closed Won or Billed. This is usually the main contact on the customer account or the person who signed the Contract</errorMessage>
+</ValidationRule>

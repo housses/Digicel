@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>PNG - Mobile Reconciliation</name>
+    <queueMembers>
+        <users>
+            <user>ahammad.kunuthuru@digicelgroup.com</user>
+            <user>elis.dorum@digicelgroup.com</user>
+            <user>josaiah.wayamo@digicelgroup.com</user>
+            <user>kolen.nali@digicelgroup.com</user>
+            <user>renai.kedea@digicelgroup.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Case_Owner_History__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

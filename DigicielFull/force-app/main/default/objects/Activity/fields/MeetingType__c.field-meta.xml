@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MeetingType__c</fullName>
+    <externalId>false</externalId>
+    <label>Meeting Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>First Meeting</fullName>
+                <default>false</default>
+                <label>First Meeting</label>
+            </value>
+            <value>
+                <fullName>Second Meeting</fullName>
+                <default>false</default>
+                <label>Second Meeting</label>
+            </value>
+            <value>
+                <fullName>New Customer Follow Up Meeting</fullName>
+                <default>false</default>
+                <label>New Customer Follow Up Meeting</label>
+            </value>
+            <value>
+                <fullName>Existing Customer Follow Up Meeting</fullName>
+                <default>false</default>
+                <label>Existing Customer Follow Up Meeting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

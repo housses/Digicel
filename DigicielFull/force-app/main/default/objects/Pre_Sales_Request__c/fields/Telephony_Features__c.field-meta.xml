@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Telephony_Features__c</fullName>
+    <externalId>false</externalId>
+    <label>Telephony Features</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACD/IVR</fullName>
+                <default>false</default>
+                <label>ACD/IVR</label>
+            </value>
+            <value>
+                <fullName>Conference Bridge</fullName>
+                <default>false</default>
+                <label>Conference Bridge</label>
+            </value>
+            <value>
+                <fullName>Mobility</fullName>
+                <default>false</default>
+                <label>Mobility</label>
+            </value>
+            <value>
+                <fullName>Paging</fullName>
+                <default>false</default>
+                <label>Paging</label>
+            </value>
+            <value>
+                <fullName>Presence</fullName>
+                <default>false</default>
+                <label>Presence</label>
+            </value>
+            <value>
+                <fullName>Voicemail</fullName>
+                <default>false</default>
+                <label>Voicemail</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>7</visibleLines>
+</CustomField>

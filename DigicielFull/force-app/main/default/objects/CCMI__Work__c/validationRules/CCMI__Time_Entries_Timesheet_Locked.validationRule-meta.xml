@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCMI__Time_Entries_Timesheet_Locked</fullName>
+    <active>true</active>
+    <description>When the status of the Timesheet is Submitted or Approved, the hours entered on a Time Entry can&apos;t be modified</description>
+    <errorConditionFormula>(ISNEW() || ISCHANGED(CCMI__Hours__c)) &amp;&amp; (ISPICKVAL(CCMI__Timesheet__r.CCMI__Status__c, &apos;Submitted&apos;) || ISPICKVAL(CCMI__Timesheet__r.CCMI__Status__c, &apos;Approved&apos;))</errorConditionFormula>
+    <errorMessage>Timesheet is locked. The Time Entry can not be modified.</errorMessage>
+</ValidationRule>

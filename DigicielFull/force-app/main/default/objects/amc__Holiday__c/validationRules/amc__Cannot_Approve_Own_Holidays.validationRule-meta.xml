@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Cannot_Approve_Own_Holidays</fullName>
+    <active>false</active>
+    <description>This Validation Rule ensures a person cannot approve their own holiday requests</description>
+    <errorConditionFormula>OR( 
+AND(ISNEW(), ISPICKVAL(amc__Approval_Status__c, &quot;Approved&quot;) , amc__Role__r.amc__User__r.Id = $User.Id ) 
+, 
+AND( ISCHANGED(amc__Approval_Status__c), ISPICKVAL(amc__Approval_Status__c, &quot;Approved&quot;) , amc__Role__r.amc__User__r.Id = $User.Id ) 
+, 
+AND(ISPICKVAL(amc__Approval_Status__c, &quot;Approved&quot;), ISCHANGED( amc__Role__c ), amc__Role__r.amc__User__r.Id = $User.Id ) 
+)</errorConditionFormula>
+    <errorMessage>You cannot approve your own holiday requests</errorMessage>
+</ValidationRule>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>St_Vincent_Service_Request_Queue</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>Account_Name__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Requested_Date__c</columns>
+    <columns>Country__c</columns>
+    <columns>Contact_Name__c</columns>
+    <columns>Completed_Date__c</columns>
+    <columns>Install_Completed_On__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>Saint Vincent and the Grenadines</value>
+    </filters>
+    <label>St. Vincent Service Request Queue</label>
+    <language>en_US</language>
+    <sharedTo>
+        <roleAndSubordinates>St_Vincent</roleAndSubordinates>
+    </sharedTo>
+</ListView>

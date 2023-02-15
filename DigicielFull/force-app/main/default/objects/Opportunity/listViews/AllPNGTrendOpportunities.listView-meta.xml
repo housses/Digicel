@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllPNGTrendOpportunities</fullName>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>012d0000000lLzh</value>
+    </filters>
+    <label>All PNG Trend Opportunities</label>
+    <language>en_US</language>
+    <sharedTo>
+        <roleAndSubordinates>PNG</roleAndSubordinates>
+    </sharedTo>
+</ListView>

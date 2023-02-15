@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ICT_BB_Work_Order_Updates_This_Week</fullName>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Contractor_Update__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_WEEK</value>
+    </filters>
+    <label>ICT BB Work Order Updates This Week</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Barbados_ICT_Admin_Team</group>
+        <group>ICT_BB_Order_Processing_Team</group>
+        <group>ICT_BB_SME_Team</group>
+        <group>ICT_BB_SME_Team_Ex_Manager</group>
+        <group>ICT_BB_Timba_Surveys</group>
+        <group>ICT_Barbados_Account_Managers_All</group>
+        <group>ICT_Barbados_Contractor_Sierra</group>
+        <group>ICT_Barbados_Sales_Managers</group>
+        <group>ICT_Barbados_Technical</group>
+        <group>SFDC_Admin_Team</group>
+    </sharedTo>
+</ListView>

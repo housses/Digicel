@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Charge_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>MRC - Margin % field will default to 100%
+
+Rental or Lease - Margin % field will default to 100%
+
+OTC - Margin % field will default to 0%
+
+Installation - Margin % field will default to 0%
+
+PAYG - Margin % field will default to 0%</inlineHelpText>
+    <label>Charge Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MRC</fullName>
+                <default>false</default>
+                <label>MRC</label>
+            </value>
+            <value>
+                <fullName>OTC</fullName>
+                <default>false</default>
+                <label>OTC</label>
+            </value>
+            <value>
+                <fullName>NRR</fullName>
+                <default>false</default>
+                <label>NRR</label>
+            </value>
+            <value>
+                <fullName>Rental or Lease</fullName>
+                <default>false</default>
+                <label>Rental or Lease</label>
+            </value>
+            <value>
+                <fullName>PAYG</fullName>
+                <default>false</default>
+                <label>PAYG</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

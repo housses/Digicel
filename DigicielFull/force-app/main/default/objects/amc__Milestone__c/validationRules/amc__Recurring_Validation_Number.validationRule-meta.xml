@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Recurring_Validation_Number</fullName>
+    <active>true</active>
+    <description>If Milestone ‘Is Recurring’ = TRUE ensure ‘Number of Recurrences’ and ‘Recurring Frequency’ = TRUE</description>
+    <errorConditionFormula>AND(amc__Is_Recurring__c, ISBLANK(amc__Number_of_Recurrences__c))</errorConditionFormula>
+    <errorDisplayField>amc__Number_of_Recurrences__c</errorDisplayField>
+    <errorMessage>You must set the Number of Recurrences</errorMessage>
+</ValidationRule>

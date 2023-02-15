@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCMI__Milestone_Task__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Detail record to a Milestone Task record</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The milestone task that this sub task is related to</inlineHelpText>
+    <label>Task</label>
+    <referenceTo>CCMI__Milestone_Task__c</referenceTo>
+    <relationshipLabel>Sub Tasks</relationshipLabel>
+    <relationshipName>Milestone_Sub_Tasks</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

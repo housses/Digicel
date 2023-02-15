@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Solution Architect</name>
+    <queueMembers>
+        <users>
+            <user>adrian.scoon@digicelgroup.com</user>
+            <user>annitra.boodoo@digicelgroup.com</user>
+            <user>artie.ramdeen@digicelgroup.com</user>
+            <user>charles.rooks@digicelgroup.com</user>
+            <user>devon.jones@digicelgroup.com</user>
+            <user>dylan.park@digicelgroup.com</user>
+            <user>gordon.neufville@digicelgroup.com</user>
+            <user>imran.alli@digicelgroup.com</user>
+            <user>joel.gooding@digicelgroup.com</user>
+            <user>kelton.edwards(tt)@digicelgroup.com</user>
+            <user>oril.ramkhalawansingh@digicelgroup.com</user>
+            <user>raju.balram@digicelgroup.com</user>
+            <user>ramadhar.maharajh@digicelgroup.com</user>
+            <user>teemal.ramsammy@digicelgroup.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Pre_Sales_Request__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Pre_Sales_Update__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Service_Delivery_Updates__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Service_Request__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Work_Order_Updates__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Work_Order__c</sobjectType>
+    </queueSobject>
+</Queue>

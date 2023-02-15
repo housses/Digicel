@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Manual_Allocation__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Displays the Manual Allocation value of the parent Action, Role Forecast, or Holiday Record</description>
+    <externalId>false</externalId>
+    <formula>OR( amc__Action__r.amc__Manual_Allocation__c, amc__Role_Forecast__r.amc__Manual_Allocation__c, amc__Holiday__r.amc__Manual_Allocation__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Displays the Manual Allocation value of the parent Action, Role Forecast, or Holiday Record</inlineHelpText>
+    <label>Manual Allocation</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

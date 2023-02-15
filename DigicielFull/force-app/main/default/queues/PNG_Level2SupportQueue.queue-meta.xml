@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>PNG - Level 2 Support</name>
+    <queueMembers>
+        <users>
+            <user>agnes.seta@digicelgroup.com</user>
+            <user>djuan.aioro@digicelgroup.com</user>
+            <user>mathew.stephen@digicelgroup.com</user>
+            <user>ora.imani@digicelgroup.com</user>
+            <user>teddy.balun@digicelgroup.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Case_Owner_History__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

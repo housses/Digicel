@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_MakeAccLevelMandatoryForCustomerAcc</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL( Type  ,&apos;Customer&apos;), ISPICKVAL(PNG_Account_Level__c,&apos;&apos;),
+RecordType.Id = LEFT( $Label.PNG_AccountRecordTypeId ,15))</errorConditionFormula>
+    <errorDisplayField>PNG_Account_Level__c</errorDisplayField>
+    <errorMessage>Account Level Must be selected for Accounts of type Customer</errorMessage>
+</ValidationRule>

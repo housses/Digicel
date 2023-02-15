@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Map_Link__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( OR( PNG_Latitude__c  = 0 , PNG_Longitude__c = 0  ) , &quot;Missing Coordinates&quot;, HYPERLINK(&quot;https://www.google.com/maps/place/&quot;&amp; TEXT(PNG_Latitude__c  )&amp;&quot;+&quot;&amp; TEXT(PNG_Longitude__c)&amp;&quot;/@&quot;&amp; TEXT(PNG_Latitude__c)&amp;&quot;,&quot;&amp; TEXT(PNG_Longitude__c)&amp;&quot;,350m/data=!3m1!1e3!&quot;, &quot;View Coordinates in Google Map&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Map Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

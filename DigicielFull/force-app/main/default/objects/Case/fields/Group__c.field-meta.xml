@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group__c</fullName>
+    <description>Created for the Service Operations Center Team in Trinidad</description>
+    <externalId>false</externalId>
+    <label>Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ICT - Field</fullName>
+                <default>false</default>
+                <label>ICT - Field</label>
+            </value>
+            <value>
+                <fullName>ICT - Core</fullName>
+                <default>false</default>
+                <label>ICT - Core</label>
+            </value>
+            <value>
+                <fullName>ICT - Implementation</fullName>
+                <default>false</default>
+                <label>ICT - Implementation</label>
+            </value>
+            <value>
+                <fullName>ICT - Support Operations Center</fullName>
+                <default>false</default>
+                <label>ICT - Support Operations Center</label>
+            </value>
+            <value>
+                <fullName>ICT  - Contractors</fullName>
+                <default>false</default>
+                <label>ICT  - Contractors</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

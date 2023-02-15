@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gnx__Document_template__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Modèle de document</label>
+    <referenceTo>gnx__Document_template__c</referenceTo>
+    <relationshipLabel>Configurations d&apos;entité légale</relationshipLabel>
+    <relationshipName>Legal_entity_configuration</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

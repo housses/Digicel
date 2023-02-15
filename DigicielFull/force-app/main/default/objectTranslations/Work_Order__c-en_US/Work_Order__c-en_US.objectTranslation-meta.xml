@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Work Order</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Work Orders</value>
+    </caseValues>
+    <layouts>
+        <layout>Change Request Work Order</layout>
+        <sections>
+            <label></label>
+            <section>Contact Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contractor Input</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Hold Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Location Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Work Oder Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Desktop Survey Layout</layout>
+        <sections>
+            <label></label>
+            <section>Contact Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contractor Input</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Location Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Disconnection Work Order</layout>
+        <sections>
+            <label></label>
+            <section>Contact Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contractor Input</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Location Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Work Oder Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Field Survey Layout</layout>
+        <sections>
+            <label></label>
+            <section>Contact Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contractor Input</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Hold Detail</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Location Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Installation Work Order</layout>
+        <sections>
+            <label></label>
+            <section>Contact Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contractor Input</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Hold Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Location Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Work Order Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Installation Work Order (PNG) Layout</layout>
+        <sections>
+            <label></label>
+            <section>Contact Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contractor Input</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Hold Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Location Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Work Order Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout</layout>
+        <sections>
+            <label></label>
+            <section>Contact Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contractor Input</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Location Details</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Change_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Desktop_Survey</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Disconnection</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Field_Survey</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Installation</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>TV_Installation</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>ICT_BB_Work_Order_Update_Completed_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>ICT_BB_Work_Order_Update_Schedule_Date</name>
+    </validationRules>
+</CustomObjectTranslation>

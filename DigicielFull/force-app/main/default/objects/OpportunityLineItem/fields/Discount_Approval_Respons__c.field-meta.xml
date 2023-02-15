@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discount_Approval_Respons__c</fullName>
+    <externalId>false</externalId>
+    <label>Discount Approval Response</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Discount_Approval_Request__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pending</fullName>
+                <default>false</default>
+                <label>Pending</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Submitted</controllingFieldValue>
+            <valueName>Pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submitted</controllingFieldValue>
+            <valueName>Approved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submitted</controllingFieldValue>
+            <valueName>Rejected</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Freight_Clearance__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL( Shipping_Mode__c,&quot;Local&quot;),0,  (Supplier_Extended_FOB__c  * 0.15) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Freight + Clearance</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

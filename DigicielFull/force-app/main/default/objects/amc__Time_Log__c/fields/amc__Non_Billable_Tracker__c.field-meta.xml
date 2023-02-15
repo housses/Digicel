@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Non_Billable_Tracker__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Tracks the Non Billable Status of the Time Log taking into account the manual entry in the Non Billable field of this Time Log and any changes that may have occurred on the Non Billable Indicator field of the Parent Action</inlineHelpText>
+    <label>Non Billable Tracker</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

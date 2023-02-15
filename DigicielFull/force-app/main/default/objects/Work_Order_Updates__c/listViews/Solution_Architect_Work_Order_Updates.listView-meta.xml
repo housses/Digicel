@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solution_Architect_Work_Order_Updates</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Solution Architect</label>
+    <queue>Solution_Architect</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Data_Circuit_Infrastructure__c</name>
+    <picklistValues>
+        <masterLabel>New Required</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Use Current</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DelegateGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Group Admin Access</label>
+    <loginAccess>true</loginAccess>
+    <permissionSets>Change Dashboard Colors (LEX)</permissionSets>
+    <permissionSets>Lightning Experience User</permissionSets>
+    <permissionSets>Salesforce Classic Login for LEX Users</permissionSets>
+    <permissionSets>zDeprecated Transfer Records</permissionSets>
+    <permissionSets>zDeprecated Create,Edit Reports &amp; Dashboards</permissionSets>
+    <permissionSets>Salesforce Console User</permissionSets>
+    <roles>Digicel Group Business Solutions</roles>
+</DelegateGroup>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_Level1SupportQueue_Case_Owner_History</fullName>
+    <filterScope>Queue</filterScope>
+    <label>PNG - Level 1 Support</label>
+    <queue>PNG_Level1SupportQueue</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

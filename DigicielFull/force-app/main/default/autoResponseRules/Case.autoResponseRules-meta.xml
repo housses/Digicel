@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Case Autoresponse</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <booleanFilter>1 AND 2 AND 3 AND (4 OR 5) and 6</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Digicel PNG Support Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Name</field>
+                <operation>notEqual</operation>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>notEqual</operation>
+                <value>mailer-daemon@salesforce.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>notEqual</operation>
+                <value>itservicedesk@nac.com.pg</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Contact.HasOptedOutOfEmail</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <replyToEmail>supportservices@digicelgroup.com</replyToEmail>
+            <senderEmail>png_cc_corporateteam@digicelgroup.com</senderEmail>
+            <senderName>Digicel PNG Support Services</senderName>
+            <template>PNG_Email_Templates/PNG_Support_Case_Auto_Response_Contactemail</template>
+        </ruleEntry>
+        <ruleEntry>
+            <booleanFilter>1 AND 2 AND (3 or 4 or 5) and (6 or 7 or 9) and 8</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Digicel PNG Support Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Name</field>
+                <operation>equals</operation>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.ContactEmail</field>
+                <operation>equals</operation>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.FORMULA_Contact_Email__c</field>
+                <operation>equals</operation>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>notEqual</operation>
+                <value>mailer-daemon@salesforce.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>notEqual</operation>
+                <value>itservicedesk@nac.com.pg</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedName</field>
+                <operation>notEqual</operation>
+                <value>Mail Delivery System</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>notEqual</operation>
+                <value>support@imperiumapp.com</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <replyToEmail>supportservices@digicelgroup.com</replyToEmail>
+            <senderEmail>png_cc_corporateteam@digicelgroup.com</senderEmail>
+            <senderName>Digicel PNG Support Services</senderName>
+            <template>PNG_Email_Templates/PNG_Support_Case_Auto_Response_Webemail</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Digicel PNG TV Support Cases</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>notEqual</operation>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <replyToEmail>digitv_supportservices@digicelgroup.com</replyToEmail>
+            <senderEmail>corptvsupport@digicelgroup.com</senderEmail>
+            <senderName>DigiTV SupportServices</senderName>
+            <template>PNG_Digicel_Customer_Service_TV/PNG_TV_Support_Case_Auto_Response_Webemail</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Project_Not_Deposit_to_TM</fullName>
+    <active>true</active>
+    <description>Ensure the Deposit field can only be set to TRUE for Projects where the Billing Type is set to &apos;Deposit to T&amp;M&apos;</description>
+    <errorConditionFormula>AND(amc__Deposit__c = TRUE, NOT(ISPICKVAL(amc__Project__r.amc__Billing_Type__c, &quot;Deposit to T&amp;M&quot;)))</errorConditionFormula>
+    <errorMessage>Deposit can only be set to TRUE if the Project Billing Type is set to &apos;Deposit to T&amp;M&apos;</errorMessage>
+</ValidationRule>

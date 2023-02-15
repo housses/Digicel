@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreventClosingIfCoCSignedDateIsNull</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+RecordTypeId =LEFT( $Label.PNG_CaseImplementationRecordType, 15), ISBLANK( PNG_CoCSignedDate__c ),
+OR(
+NOT(ISPICKVAL(  PNG_CoCSignedByCustomer__c , &apos;No&apos;)),
+NOT(ISPICKVAL(  PNG_CoCSignedByCustomer__c , &apos;Not Required&apos;))), 
+ISPICKVAL( Status , &apos;Closed&apos;),
+ISPICKVAL(  PNG_CoCSignedByCustomer__c , &apos;Yes&apos;))</errorConditionFormula>
+    <errorMessage>Cannot close case as CoC signed Date is blank</errorMessage>
+</ValidationRule>

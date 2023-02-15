@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CannotEditPriceStandardPrice</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+
+OR(Quote.RecordTypeId =LEFT( $Label.PNG_QuoteRecordTypeId, 15), Quote.RecordTypeId =LEFT( $Label.PNG_ApprovedQuoteRecordType, 15), Quote.RecordTypeId =LEFT($Label.PNG_PNGQuoteRecTypeId , 15)), 
+
+(ISCHANGED(UnitPrice)|| (ISNEW()&amp;&amp; UnitPrice &lt; PricebookEntry.UnitPrice)),
+
+Product2.Not_Allowed_to_Change_Standard_Price__c = TRUE &amp;&amp;
+
+Not(
+$Profile.Name = &quot;System Administrator&quot;||
+$Profile.Name = &quot;PNG - Service Manager&quot;||
+$Profile.Name = &quot;PNG - Power User&quot;)
+
+)</errorConditionFormula>
+    <errorDisplayField>UnitPrice</errorDisplayField>
+    <errorMessage>Cannot edit Sales Price for Quote Line items please apply a discount.</errorMessage>
+</ValidationRule>

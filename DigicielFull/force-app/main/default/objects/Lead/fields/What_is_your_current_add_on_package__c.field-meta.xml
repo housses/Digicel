@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_is_your_current_add_on_package__c</fullName>
+    <externalId>false</externalId>
+    <label>What is your current add-on package?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Movie Package</fullName>
+                <default>false</default>
+                <label>Movie Package</label>
+            </value>
+            <value>
+                <fullName>Sports Pack</fullName>
+                <default>false</default>
+                <label>Sports Pack</label>
+            </value>
+            <value>
+                <fullName>Sports Max Pack</fullName>
+                <default>false</default>
+                <label>Sports Max Pack</label>
+            </value>
+            <value>
+                <fullName>Adult Service</fullName>
+                <default>false</default>
+                <label>Adult Service</label>
+            </value>
+            <value>
+                <fullName>HD Package</fullName>
+                <default>false</default>
+                <label>HD Package</label>
+            </value>
+            <value>
+                <fullName>Movie</fullName>
+                <default>false</default>
+                <label>Movie</label>
+            </value>
+            <value>
+                <fullName>Sport</fullName>
+                <default>false</default>
+                <label>Sport</label>
+            </value>
+            <value>
+                <fullName>Adult</fullName>
+                <default>false</default>
+                <label>Adult</label>
+            </value>
+            <value>
+                <fullName>Tier Service</fullName>
+                <default>false</default>
+                <label>Tier Service</label>
+            </value>
+            <value>
+                <fullName>Premium Movie Channels</fullName>
+                <default>false</default>
+                <label>Premium Movie Channels</label>
+            </value>
+            <value>
+                <fullName>Sports Max 1</fullName>
+                <default>false</default>
+                <label>Sports Max 1</label>
+            </value>
+            <value>
+                <fullName>Sports Max 2</fullName>
+                <default>false</default>
+                <label>Sports Max 2</label>
+            </value>
+            <value>
+                <fullName>Sports Max 1 &amp; 2</fullName>
+                <default>false</default>
+                <label>Sports Max 1 &amp; 2</label>
+            </value>
+            <value>
+                <fullName>Bulk Service</fullName>
+                <default>false</default>
+                <label>Bulk Service</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

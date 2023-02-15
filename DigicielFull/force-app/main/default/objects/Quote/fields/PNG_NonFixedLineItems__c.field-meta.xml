@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_NonFixedLineItems__c</fullName>
+    <externalId>false</externalId>
+    <label># Non Fixed Line Items</label>
+    <summaryFilterItems>
+        <field>QuoteLineItem.PNG_FixedVoiceService__c</field>
+        <operation>equals</operation>
+        <value>False</value>
+    </summaryFilterItems>
+    <summaryForeignKey>QuoteLineItem.QuoteId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

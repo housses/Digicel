@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SKN_Pre_Sales_Team_Pre_Sales_Request</fullName>
+    <columns>NAME</columns>
+    <columns>PSR_Type__c</columns>
+    <columns>Status__c</columns>
+    <columns>Requested_Date__c</columns>
+    <columns>Digicel_Country__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>SKN Pre Sales Team</label>
+    <queue>SKN_Pre_Sales_Team</queue>
+    <sharedTo>
+        <group>All_Saint_Kitts_and_Nevis_Users</group>
+    </sharedTo>
+</ListView>

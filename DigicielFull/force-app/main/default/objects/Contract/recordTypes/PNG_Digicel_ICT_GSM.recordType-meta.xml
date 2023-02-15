@@ -1,0 +1,3903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_Digicel_ICT_GSM</fullName>
+    <active>true</active>
+    <label>Digicel PNG ICT &amp; GSM</label>
+    <picklistValues>
+        <picklist>City__c</picklist>
+        <values>
+            <fullName>Acajutla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agua Caliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aguilares</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ahuachapán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Akouménaye</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alegría</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alicoto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anamorós</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anse La Raye</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anse-Bertrand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Antiguo Cuscatlán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apaneca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apastepeque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apatou</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apopa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arambala</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arcatao</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Armenia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arraiján</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atiquizaya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awala-Yalimapo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ayutuxtepeque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Azacualpa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baie-Mahault</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baillif</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basse-Terre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bathsheba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Berlín</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Berricoa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biabou</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bienvenue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bisée</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blackmans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bolívar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bouillante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bridgetown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Byera Village</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bélizon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cacao</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cacaopera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caluco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camopi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canaries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancasque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Candelaria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Candelaria de la Frontera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canefield</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cap Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capesterre-Belle-Eau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capesterre-de-Marie-Galante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Castries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cayenne</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chalatenango</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chalchuapa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chapeltique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chateaubelair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chilanga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chiltiupán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chinameca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chirilagua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Choiseul</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cinquera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Citalá</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Citron</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ciudad Arce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ciudad Barrios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clément</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coatepeque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cojutepeque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colón</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comacarán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comalapa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comasagua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concepción Batres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concepción Quezaltepeque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concepción de Ataco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concepción de Oriente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conchagua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corinto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cormontibo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coulor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crab Hill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuisnahuat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuscatancingo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuyultitán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>David</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delgado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delicias de Concepción</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dennery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deshaies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dolores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dovers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dulce Nombre de María</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Délices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Carmen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Carrizal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Congo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Divisadero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Paisnal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Paraíso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Porvenir</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Refugio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Rosario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Sauce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Triunfo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Tránsito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ereguayquín</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estanzuelas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gare Tigre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Georgetown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gourbeyre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gouyave</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goyave</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grand Santi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grand-Bourg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greenland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grenville</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gros Islet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guacotecti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guadalupe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gualococti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guatajiagua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guaymango</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guazapa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guisanbourg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hillaby%2C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hillsborough</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Holetown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Huizúcar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ilobasco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ilopango</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intipucá</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iracoubo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Izalco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Javouhey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jayaque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jerusalén</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jicalapa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jiquilisco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joateca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jocoaitique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jocoro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Juayúa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jucuapa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jucuarán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jujutla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jutiapa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kaw or Caux</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kingstown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kingstown Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kourou</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Chorrera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Désirade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Forestière</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Laguna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Libertad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Palma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Reina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Unión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laborie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lamentin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Las Cumbres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Las Flores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Las Vueltas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Le Gosier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Le Moule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Les Abymes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lislique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lolotique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lolotiquillo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macouria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mahaut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Malmanoury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marigot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maripasoula</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Masahuat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massacre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matoury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meanguera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meanguera del Golfo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mejicanos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mercedes La Ceiba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mercedes Umaña</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metapán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Micoud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moncagua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monte San Juan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montsinéry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morne-à-l%27Eau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nahuizalco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nahulingo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nejapa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nombre de Jesús</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nueva Concepción</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nueva Esparta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nueva Granada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nueva Guadalupe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nueva Trinidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuevo Cuscatlán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuevo Edén de San Juan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oistins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ojos de Agua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Olocuilta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oratorio de Concepción</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oscar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Osicala</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ouanary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ouaqui</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ozatlán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pacora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panama City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panchimalco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paraíso de Osorio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pasaquina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paul Isnard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perquín</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Petit-Bourg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Petit-Canal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pointe Béhague or Coumarouman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pointe Isère</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pointe Michel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pointe-Noire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pointe-à-Pitre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Polorós</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Port Elizabeth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Port-Louis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portsmouth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Potonico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Puerto El Triunfo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quelepa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quezaltepeque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rochambeau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rosario de Mora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roseau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Régina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rémire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sacacoyo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint David%E2%80%99s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint George%27s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Joseph</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint-Claude</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint-François</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint-Louis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sainte-Anne</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sainte-Rose</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salcoatitán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salisbury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Agustín</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Alejo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Antonio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Antonio Los Ranchos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Antonio Masahuat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Antonio Pajonal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Antonio de la Cruz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Antonio del Monte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Bartolomé Perulapía</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Buenaventura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Carlos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Cayetano Istepeque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Cristóbal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Dionisio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Emigdio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Esteban Catarina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Fernando</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Francisco Chinameca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Francisco Gotera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Francisco Javier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Francisco Lempa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Francisco Menéndez</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Francisco Morazán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Gerardo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Ignacio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Ildefonso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Isidro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Isidro Labrador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Jorge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San José</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San José Guayabal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San José Villanueva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Juan Nonualco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Juan Opico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Juan Talpa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Juan Tepezontes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Julián</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Lorenzo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Luis La Herradura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Luis Talpa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Luis de la Reina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Luis del Carmen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Marcos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Martín</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Matías</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Miguel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Miguel Tepezontes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Miguel de Mercedes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Miguelito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Pablo Tacachico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Pedro Masahuat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Pedro Nonualco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Pedro Perulapán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Pedro Puxtla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Rafael</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Rafael Cedros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Rafael Obrajuelo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Rafael Oriente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Ramón</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Salvador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Sebastián</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Sebastián Salitrillo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Simón</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Vicente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa Ana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa Catarina Masahuat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa Clara</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa Cruz Analquito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa Cruz Michapa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa Elena</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa Isabel Ishuatán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa María</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa María Ostuma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa Rita</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa Rosa Guachipilín</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa Rosa de Lima</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa Tecla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santiago Nonualco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santiago Texacuangos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santiago de María</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santiago de Veraguas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santiago de la Frontera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santo Domingo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santo Domingo de Guzmán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santo Tomás</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sauteurs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saül</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensembra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensuntepeque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sesori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sinnamary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sociedad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sonsonate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sonzacate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soufrière</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soyapango</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Speightstown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St Georges de l%27Oyapock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St-Jean</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St-Laurent du Maroni</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St-Élie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suchitoto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tacuba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Talnique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tamanique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tapalhuaca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tecapán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tecoluca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tejutepeque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tejutla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tenancingo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teotepeque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tepecoyo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tepetitán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terre-de-Bas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terre-de-Haut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Texistepeque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Crane</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To be provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tocumen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tonacatepeque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tonate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tonnégrande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Torola</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trois-Rivières</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turín</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uluazapa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Usulután</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verapaz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Victoria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vieux Fort</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vieux-Fort</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vieux-Habitants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yamabal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yayantique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yoloaiquín</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yucuaiquín</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zacatecoluca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zaragoza</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ContractPriceIncreaseClause__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contract_Term_Years__c</picklist>
+        <values>
+            <fullName>1 Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9 Years</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contract_Type__c</picklist>
+        <values>
+            <fullName>GSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT %26 GSM Cross Sale</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Country__c</picklist>
+        <values>
+            <fullName>Anguilla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Antigua And Barbuda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aruba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barbados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bermuda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bonaire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cambodia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cameroon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cape Verde</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cayman Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central African Republic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>China</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christmas Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cocos %28keeling%29 Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colombia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comoros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Congo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Congo%2C The Democratic Republic Of The</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cook Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Costa Rica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Croatia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Curacao</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cyprus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Czech Republic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CÔte D%27ivoire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denmark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Djibouti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dominica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dominican Republic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ecuador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Egypt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Salvador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equatorial Guinea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eritrea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estonia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ethiopia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falkland Islands %28malvinas%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Faroe Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fiji</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>French Guiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>French Polynesia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>French Southern Territories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gabon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gambia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Georgia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Germany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ghana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gibraltar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greece</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greenland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grenada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guadeloupe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guatemala</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guernsey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guinea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guinea-bissau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guyana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Haiti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heard Island And Mcdonald Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Honduras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hong Kong</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hungary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iceland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>India</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indonesia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iran%2C Islamic Republic Of</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iraq</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ireland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Isle Of Man</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Israel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Italy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jamaica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Japan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jersey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jordan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kazakhstan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kenya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kiribati</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Korea%2C Democratic People%27s Republic Of</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Korea%2C Republic Of</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kuwait</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyrgyzstan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lao People%27s Democratic Republic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Latvia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lebanon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lesotho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liberia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Libyan Arab Jamahiriya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liechtenstein</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lithuania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luxembourg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macao</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macedonia%2C The Former Yugoslav Republic Of</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Madagascar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Malawi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Malaysia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maldives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mali</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Malta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marshall Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Martinique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mauritania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mauritius</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mayotte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Micronesia%2C Federated States Of</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moldova</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monaco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mongolia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montenegro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montserrat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morocco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mozambique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Myanmar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Namibia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nauru</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nepal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Netherlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Netherlands Antilles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Caledonia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Zealand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nicaragua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Niger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nigeria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Niue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Norfolk Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern Mariana Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Norway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pakistan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Palau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Palestinian Territory%2C Occupied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Papua New Guinea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paraguay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Peru</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Philippines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pitcairn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portugal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Puerto Rico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qatar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Romania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Russian Federation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rwanda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint BarthÉlemy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Helena</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Kitts And Nevis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Lucia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Martin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Pierre And Miquelon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Vincent And The Grenadines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Samoa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Marino</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sao Tome And Principe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saudi Arabia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Senegal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Serbia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seychelles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sierra Leone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Singapore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slovakia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slovenia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solomon Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Somalia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Africa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Georgia And The South Sandwich Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sri Lanka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sudan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suriname</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Svalbard And Jan Mayen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swaziland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sweden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switzerland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Syrian Arab Republic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taiwan%2C Province Of China</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tajikistan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tanzania%2C United Republic Of</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thailand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timor-leste</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Togo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tokelau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tonga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trinidad And Tobago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tunisia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turkey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turkmenistan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turks And Caicos Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tuvalu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uganda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ukraine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United Arab Emirates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United Kingdom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United States</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United States Minor Outlying Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uruguay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uzbekistan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vanuatu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vatican City State</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venezuela</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viet Nam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virgin Islands%2C British</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virgin Islands%2C U%2Es%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wallis And Futuna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Western Sahara</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yemen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zambia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimbabwe</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ExpirationNotice__c</picklist>
+        <values>
+            <fullName>180 Days Before Expiration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90 Days Before Expiration</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PNG_Type__c</picklist>
+        <values>
+            <fullName>Business Managed Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud Telephony</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Internet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digicel Fixed Voice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hosted PBX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VSAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voice %26 Data</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Parish_Region_Department__c</picklist>
+        <values>
+            <fullName>Ahuachapán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ambae %26%C2%A0Maéwo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amberguis Cay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ambrym</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anegada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anse la Raye</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apatou</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arima</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Artibonite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awala-Yalimapo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baie-Mahault</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banda Abao</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banda Ariba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banks %26Torres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barbuda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barima - Waini</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basse-Terre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brokopondo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brown Hill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cabañas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camopi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canaries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capesterre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Castries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cayenne</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Province</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chaguanas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chalatenango</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charlestown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charlotte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chimbu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chiriquí</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Choiseul</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christ Church</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clarendon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colón</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commewijne</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coral Gables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coronie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Couva%2FTabaquite%2FTalparo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuscatlán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuyuni - Mazaruni</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daru Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dellis Cay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demerara Mahaica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dennery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Devonshire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diego Martin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EUA - %27Ohonua%C2%A0%28incl%2E Ta%27anga%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EUA - Eua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East Berbice - Corentyne</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East Caicos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East End</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East Sepik</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eastern Highlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Epi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Essequibo Islands - West Demerara</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Forest Reserve</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fort-De-France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Four Seasons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frigate Bay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>George Town</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gourbeyre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gozier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grand Tuck</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grand-Bourg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grand-Santi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grande Anse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gros Islet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gulf Province</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HAA - Ha%27apai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HAA - Pangai-Hihifo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hamilton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hanover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Highlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Highlands - Mt Hagen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iracoubo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jackson Point</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jiwaka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kingston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Korovou</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kourou</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kralendijk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Libertad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Paz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Trinite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Unión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Labasa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laborie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lami</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lautoka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Le Marin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Le Moule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Le Robert</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Le Vauclin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Les Abymes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Levuka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Little Water Cay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macouria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mahaica - Mahaicony</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Malakula</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manchester</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marigot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maripasoula</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marowijne</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matoury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mayaro%2FRio Claro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Micoud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Milne Bay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montsinéry-Tonnegrande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morazán</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morne-a-l Eau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morobe - LAE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morobe - Madang</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morobe - Wewak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morobe Province</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mount Pleasant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NIU - Hihifo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nadi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nakasi%2C 9%C2%BD Miles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nasinu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nausori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Navua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nickerie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nippes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Noord %2F Tanki Leendert</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nord</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nord-Est</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nord-Ouest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Caicos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northern Province</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuigini Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuigini Islands -  Bougainville</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuigini Islands -  East New Britain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuigini Islands -  Kokopo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuigini Islands -  Manus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuigini Islands -  New Ireland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuigini Islands -  West New Britain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Old Man Bay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oranjestad Oost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oranjestad West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otrabanda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ouanary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ouest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paget</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panamá</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Papaïchton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Para</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paradera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paramaribo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parrot Cay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pembroke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Penal%2FDebe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pentecost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Petit-Bourg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pine Cay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PoM - NCD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Point Fortin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pointe-a-Pitre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pomeroon - Supenaam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Port of Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Port-Louis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Potaro - Siparuni</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Princes Town</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Providenciales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rakiraki</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Redonda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remire-Montjoly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Riviere Salee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Road Town</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ross University</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rum Point</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Régina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Andrew</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Andrew Parish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Ann</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Catherine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint David Parish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Elizabeth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint George Parish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint James</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint John Parish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Joseph Parish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Luke Parish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Mark Parish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Mary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Patrick Parish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Paul Parish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Peter Parish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Thomas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint-Georges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint-Laurent-du-Maroni</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint-Louis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint-Élie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sainte-Anne</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sainte-Claude</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sainte-Rose</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salt Cay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Fernando</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Juan%2FLaventille</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Miguel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Nicolas Noord</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Nicolas Zuid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Salvador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Vicente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sandys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sangre Grande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa Ana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa Cruz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santo %26Malo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saramacca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Savaii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Savaneta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Savusavu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saül</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schoelcher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shepherd Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sigatoka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sinnamary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sipaliwini</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siparia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smith%27s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sonsonate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soufrière</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Caicos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Town</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southampton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southern Highlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spanish Town</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spot Bay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spotts Bodden Town</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St Ann</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St Pauls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E Andrew</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E Andrews</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E David</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E George</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E Georges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E James</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E John</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E Joseph</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E Lucy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E Mark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E Michael</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E Patrick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E Peter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E Philip</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E Pierre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E Thomas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sud-Est</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Eastern District</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Fua%27amotu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Ha%27ateiho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Haveluloto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Hofoa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Houma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Kolonga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Lapaha</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Northern District</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Nuku%27alofa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Nukunuku</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Pea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Popua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Southern District</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Tatakamotonga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Tofoa-Koloua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Tokomololo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Vaini</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Veitongo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TON - Western District</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taféa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tavua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To be Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tobago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tortola</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trelawny</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trois-Rivieres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tunapuna%2FPiarco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upolu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upper Demerara - Berbice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upper Takutu - Upper Essequibo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Usulután</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAV - Eastern District</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAV - Hunga%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAV - Leimatu%27a</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAV - Neiafu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAV - Pangaimotu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAV - Vava%27u</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAV - Western District</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vatukoula</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Veraguas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vieux Fort</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vieux-Habitants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virgin Gorda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wanica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warwick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Bay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Caicos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West End</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Sepik</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Western Highlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Western Province</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Westmoreland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Éfaté</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Order_Type__c</picklist>
+        <values>
+            <fullName>Private Network Service</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>PNG_Accepted_Customer_Signed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG_Contract mutually signed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG_Customer_Signed_Approval_Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG_Customer_Signed_Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG_Draft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG_Pre_Send_Approval_Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG_Pre_Send_Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG_Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNG_With_Customer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>StatusPV__c</picklist>
+        <values>
+            <fullName>Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reviewed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

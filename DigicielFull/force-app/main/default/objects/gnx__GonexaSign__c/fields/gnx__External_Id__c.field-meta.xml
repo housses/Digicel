@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gnx__External_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Nécessaire uniquement s&apos;il n&apos;y a pas d&apos;autres moyens pour aller chercher l&apos;information de mise à jour de la signature</description>
+    <externalId>false</externalId>
+    <label>Messaging service - Certified</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

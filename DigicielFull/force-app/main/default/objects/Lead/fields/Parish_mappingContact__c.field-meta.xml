@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parish_mappingContact__c</fullName>
+    <description>DO NOT PLACE IT IN THE LAYOUT!!!
+THIS IS ONLY TO SEND THE VALUE TO THE CONTACT RECORD WHEN LEAD CONVERSION.</description>
+    <externalId>false</externalId>
+    <formula>TEXT( Parish_Region_Department__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Parish mappingContact</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

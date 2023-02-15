@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Power Up Walk-in Clinic</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>https://na52.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F90W000000seYh</url>
+</CustomPageWebLink>

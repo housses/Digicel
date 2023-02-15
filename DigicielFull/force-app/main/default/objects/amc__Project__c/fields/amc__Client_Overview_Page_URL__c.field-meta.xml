@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Client_Overview_Page_URL__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>$Setup.amc__Rates__c.amc__Read_Only_Site__c &amp; &quot;?pid=&quot; &amp; amc__External_Project_Id__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Formula Field: Identifies the URL to provide customer read-only access</inlineHelpText>
+    <label>Client Overview Page URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

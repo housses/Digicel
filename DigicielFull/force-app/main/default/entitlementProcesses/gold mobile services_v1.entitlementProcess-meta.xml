@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <SObjectType>Case</SObjectType>
+    <active>true</active>
+    <businessHours>PNG Business Hours</businessHours>
+    <entryStartDateField>Case.CreatedDate</entryStartDateField>
+    <exitCriteriaFilterItems>
+        <field>Case.IsClosed</field>
+        <operation>equals</operation>
+        <value>true</value>
+    </exitCriteriaFilterItems>
+    <exitCriteriaFilterItems>
+        <field>Case.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Digicel PNG Support Case</value>
+    </exitCriteriaFilterItems>
+    <milestones>
+        <businessHours>PNG Business Hours</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Digicel PNG Support Case</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Request Registration</milestoneName>
+        <minutesToComplete>10</minutesToComplete>
+        <successActions>
+            <name>Case.PNG_UpdateSupportCaseStatusToInProgress</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <actions>
+                <name>Case.PNG_MilestoneHasBeenViolated</name>
+                <type>Task</type>
+            </actions>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>PNG Business Hours</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Digicel PNG Support Case</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>In Progress</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>First Response</milestoneName>
+        <minutesToComplete>60</minutesToComplete>
+        <successActions>
+            <name>Case.PNG_UpdateSupportCaseStatusToWorking</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <actions>
+                <name>Case.PNG_MilestoneFirstResponseTimeBreached</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Case.PNG_MilestoneHasBeenViolated</name>
+                <type>Task</type>
+            </actions>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>PNG Business Hours</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Digicel PNG Support Case</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Working, Pending Sales, Pending Technical, Pending Finance, Installation in Progress</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Case Resolution</milestoneName>
+        <minutesToComplete>1440</minutesToComplete>
+        <successActions>
+            <name>Case.PNG_UpdateSupportCaseStatusToCustomer</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <actions>
+                <name>Case.PNG_MilestoneUpdateEscCaseStatus</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>Case.PNG_UpdateViolationTaskCheckbox</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>Case.PNG_MilestoneHasBeenViolated</name>
+                <type>Task</type>
+            </actions>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <actions>
+                <name>Case.PNG_1HourWarningBeforeMilestoneExpires</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Case.PNG_MilestoneNotificationToTeamLeader</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Case.PNG_MilestoneReminderToCaseOwner</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>-360</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>PNG Business Hours</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Digicel PNG Support Case</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Waiting on Customer</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Customer Update on Resolution</milestoneName>
+        <minutesToComplete>60</minutesToComplete>
+        <successActions>
+            <name>Case.PNG_UpdateSupportCaseStatusToClosed</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <actions>
+                <name>Case.PNG_MilestoneOverdueNotificationToTeamLeader</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Case.PNG_MilestoneHasBeenViolated</name>
+                <type>Task</type>
+            </actions>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <actions>
+                <name>Case.PNG_1HourWarningBeforeMilestoneExpires</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Case.PNG_MilestoneNotificationToTeamLeader</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Case.PNG_MilestoneReminderToCaseOwner</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>-15</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+</EntitlementProcess>

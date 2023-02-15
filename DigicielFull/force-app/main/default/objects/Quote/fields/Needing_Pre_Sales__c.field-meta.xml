@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Needing_Pre_Sales__c</fullName>
+    <externalId>false</externalId>
+    <label># Needing Pre-Sales</label>
+    <summaryFilterItems>
+        <field>QuoteLineItem.PNG_Approvals_Required__c</field>
+        <operation>contains</operation>
+        <value>Pre-Sales</value>
+    </summaryFilterItems>
+    <summaryForeignKey>QuoteLineItem.QuoteId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

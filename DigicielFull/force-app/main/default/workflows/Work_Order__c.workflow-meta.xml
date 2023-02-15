@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>ICT_BB_Work_Order_Status_Updated_to_Cancelled</fullName>
+        <ccEmails>BDS_FTTX_Technical_Support@digicelgroup.com</ccEmails>
+        <description>ICT BB Work Order Status Updated to Cancelled</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ICT_BB_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_Barbados_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_has_been_cancelled</template>
+    </alerts>
+    <alerts>
+        <fullName>ICT_BB_Work_Order_Status_Updated_to_Completed</fullName>
+        <ccEmails>BDS_FTTX_Technical_Support@digicelgroup.com</ccEmails>
+        <description>ICT BB Work Order Status Updated to Completed</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ICT_BB_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_Barbados_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_has_been_Completed</template>
+    </alerts>
+    <alerts>
+        <fullName>ICT_BB_Work_Order_Status_Updated_to_Customer_Hold</fullName>
+        <ccEmails>BDS_FTTX_Technical_Support@digicelgroup.com</ccEmails>
+        <description>ICT BB Work Order Status Updated to Customer Hold</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ICT_BB_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_Barbados_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_is_on_Customer_Hold</template>
+    </alerts>
+    <alerts>
+        <fullName>ICT_BB_Work_Order_Status_Updated_to_Extension_Required</fullName>
+        <ccEmails>BDS_FTTX_Technical_Support@digicelgroup.com</ccEmails>
+        <description>ICT BB Work Order Status Updated to Extension Required</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ICT_BB_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_Barbados_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_Extension_Required</template>
+    </alerts>
+    <alerts>
+        <fullName>ICT_BB_Work_Order_Status_Updated_to_In_Progress</fullName>
+        <ccEmails>BDS_FTTX_Technical_Support@digicelgroup.com</ccEmails>
+        <description>ICT BB Work Order Status Updated to In Progress</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ICT_BB_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_Barbados_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_in_Progress</template>
+    </alerts>
+    <alerts>
+        <fullName>ICT_BB_Work_Order_Status_Updated_to_Not_Service_Ready</fullName>
+        <ccEmails>BDS_FTTX_Technical_Support@digicelgroup.com</ccEmails>
+        <description>ICT BB Work Order Status Updated to Not Service Ready</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ICT_Barbados_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Digicel_Internal/ICT_BB_Work_Order_Not_Service_Ready</template>
+    </alerts>
+    <alerts>
+        <fullName>ICT_BB_Work_Order_Status_Updated_to_Scheduled</fullName>
+        <description>ICT BB Work Order Status Updated to Scheduled</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ICT_BB_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_Barbados_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_Scheduled</template>
+    </alerts>
+    <alerts>
+        <fullName>ICT_BB_Work_Order_Status_Updated_to_Survey_Required</fullName>
+        <ccEmails>BDS_FTTX_Technical_Support@digicelgroup.com</ccEmails>
+        <description>ICT BB Work Order Status Updated to Survey Required</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ICT_BB_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_Barbados_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_requires_a_Survey</template>
+    </alerts>
+    <alerts>
+        <fullName>ICT_BB_Work_Order_Status_updated_to_Reverted_to_Digicel</fullName>
+        <description>ICT BB Work Order Status updated to Reverted to Digicel</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Barbados_ICT_Admin_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_BB_SME_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_Barbados_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_Reverted_to_Digicel</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Work_Order_Requested</fullName>
+        <ccEmails>BDS_FTTX_Technical_Support@digicelgroup.com</ccEmails>
+        <description>New Work Order Requested</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ICT_BB_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_Barbados_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Pilot_Email_Templates/New_Work_Order_Request</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Work_Requested_and_Owner_Changed</fullName>
+        <description>New Work Requested and Owner Changed</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email_Opp_Owner__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_BB_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_Barbados_Contractor_Sierra</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_Barbados_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Pilot_Email_Templates/New_Work_Order_Request_Owner_Changed</template>
+    </alerts>
+    <alerts>
+        <fullName>PNG_New_Work_Order_Requested</fullName>
+        <description>PNG New Work Order Requested</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/New_Work_Order_Request</template>
+    </alerts>
+    <alerts>
+        <fullName>PNG_New_Work_Requested_and_Owner_Changed</fullName>
+        <ccEmails>Jason.Cadet@digicelgroup.com</ccEmails>
+        <ccEmails>BDS_FTTX_Technical_Support@digicelgroup.com</ccEmails>
+        <description>PNG New Work Requested and Owner Changed</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Contractor_Sierra</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/New_Work_Order_Request_Owner_Changed</template>
+    </alerts>
+    <alerts>
+        <fullName>PNG_Work_Order_Owner_Not_Updated_within_24_Hours</fullName>
+        <description>PNG Work Order Owner Not Updated within 24 Hours</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/WO_Owner_Not_Assigned_within_24_hours</template>
+    </alerts>
+    <alerts>
+        <fullName>PNG_Work_Order_Status_Updated_to_Cancelled</fullName>
+        <description>PNG Work Order Status Updated to Cancelled</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_has_been_cancelled</template>
+    </alerts>
+    <alerts>
+        <fullName>PNG_Work_Order_Status_Updated_to_Customer_Hold</fullName>
+        <description>PNG Work Order Status Updated to Customer Hold</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_is_on_Customer_Hold</template>
+    </alerts>
+    <alerts>
+        <fullName>PNG_Work_Order_Status_Updated_to_Extension_Required</fullName>
+        <description>PNG Work Order Status Updated to Extension Required</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_Extension_Required</template>
+    </alerts>
+    <alerts>
+        <fullName>PNG_Work_Order_Status_Updated_to_In_Progress</fullName>
+        <description>PNG Work Order Status Updated to In Progress</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_in_Progress</template>
+    </alerts>
+    <alerts>
+        <fullName>PNG_Work_Order_Status_Updated_to_Not_Service_Ready</fullName>
+        <description>PNG  Work Order Status Updated to Not Service Ready</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Digicel_Internal/ICT_BB_Work_Order_Not_Service_Ready</template>
+    </alerts>
+    <alerts>
+        <fullName>PNG_Work_Order_Status_Updated_to_Scheduled</fullName>
+        <description>PNG Work Order Status Updated to Scheduled</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_Scheduled</template>
+    </alerts>
+    <alerts>
+        <fullName>PNG_Work_Order_Status_Updated_to_Survey_Required</fullName>
+        <description>PNG Work Order Status Updated to Survey Required</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_requires_a_Survey</template>
+    </alerts>
+    <alerts>
+        <fullName>PNG_Work_Order_Status_updated_to_Reverted_to_Digicel</fullName>
+        <description>PNG Work Order Status updated to Reverted to Digicel</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Admin_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_SME_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_Reverted_to_Digicel</template>
+    </alerts>
+    <alerts>
+        <fullName>SP_PNG_New_Work_Order_Requested</fullName>
+        <description>SP PNG New Work Order Requested</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/New_Work_Order_Request</template>
+    </alerts>
+    <alerts>
+        <fullName>SP_PNG_New_Work_Requested_and_Owner_Changed</fullName>
+        <ccEmails>Jason.Cadet@digicelgroup.com</ccEmails>
+        <ccEmails>BDS_FTTX_Technical_Support@digicelgroup.com</ccEmails>
+        <description>SP PNG New Work Requested and Owner Changed</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Contractor_Sierra</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/New_Work_Order_Request_Owner_Changed</template>
+    </alerts>
+    <alerts>
+        <fullName>SP_PNG_Work_Order_Owner_Not_Updated_within_24_Hours</fullName>
+        <description>SP PNG Work Order Owner Not Updated within 24 Hours</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/WO_Owner_Not_Assigned_within_24_hours</template>
+    </alerts>
+    <alerts>
+        <fullName>SP_PNG_Work_Order_Status_Updated_to_Cancelled</fullName>
+        <description>SP PNG Work Order Status Updated to Cancelled</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_has_been_cancelled</template>
+    </alerts>
+    <alerts>
+        <fullName>SP_PNG_Work_Order_Status_Updated_to_Customer_Hold</fullName>
+        <description>SP PNG Work Order Status Updated to Customer Hold</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_is_on_Customer_Hold</template>
+    </alerts>
+    <alerts>
+        <fullName>SP_PNG_Work_Order_Status_Updated_to_Extension_Required</fullName>
+        <description>SP PNG Work Order Status Updated to Extension Required</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_Extension_Required</template>
+    </alerts>
+    <alerts>
+        <fullName>SP_PNG_Work_Order_Status_Updated_to_In_Progress</fullName>
+        <description>SP PNG Work Order Status Updated to In Progress</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_in_Progress</template>
+    </alerts>
+    <alerts>
+        <fullName>SP_PNG_Work_Order_Status_Updated_to_Not_Service_Ready</fullName>
+        <description>SP PNG  Work Order Status Updated to Not Service Ready</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Digicel_Internal/ICT_BB_Work_Order_Not_Service_Ready</template>
+    </alerts>
+    <alerts>
+        <fullName>SP_PNG_Work_Order_Status_Updated_to_Scheduled</fullName>
+        <description>SP PNG Work Order Status Updated to Scheduled</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_Scheduled</template>
+    </alerts>
+    <alerts>
+        <fullName>SP_PNG_Work_Order_Status_Updated_to_Survey_Required</fullName>
+        <description>SP PNG Work Order Status Updated to Survey Required</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Order_Processing_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_requires_a_Survey</template>
+    </alerts>
+    <alerts>
+        <fullName>SP_PNG_Work_Order_Status_updated_to_Reverted_to_Digicel</fullName>
+        <description>SP PNG Work Order Status updated to Reverted to Digicel</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PNG_Admin_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_SME_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>PNG_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_Reverted_to_Digicel</template>
+    </alerts>
+    <alerts>
+        <fullName>SP_Samoa_Work_Order_Status_updated_to_Reverted_to_Digicel</fullName>
+        <description>SP Samoa Work Order Status updated to Reverted to Digicel</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Barbados_ICT_Admin_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_BB_SME_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_Barbados_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_Reverted_to_Digicel</template>
+    </alerts>
+    <alerts>
+        <fullName>Samoa_Work_Order_Status_updated_to_Reverted_to_Digicel</fullName>
+        <description>Samoa Work Order Status updated to Reverted to Digicel</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Barbados_ICT_Admin_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_BB_SME_Team</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>ICT_Barbados_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Pilot_Email_Templates/Work_Order_Reverted_to_Digicel</template>
+    </alerts>
+    <alerts>
+        <fullName>Work_Order_Owner_Not_Updated_within_24_Hours</fullName>
+        <description>Work Order Owner Not Updated within 24 Hours</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ICT_Barbados_Technical</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Pilot_Email_Templates/WO_Owner_Not_Assigned_within_24_hours</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Date_WO_Status_Changed_FROM_Customer_Hol</fullName>
+        <field>Date_Status_Removed_from_Customer_Hold__c</field>
+        <formula>TODAY()</formula>
+        <name>Date WO Status Changed FROM Customer Hol</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Date_WO_Status_Changed_to_Customer_Hold</fullName>
+        <field>Date_Status_Updated_to_Customer_Hold__c</field>
+        <formula>TODAY()</formula>
+        <name>Date WO Status Changed to Customer Hold</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Date_WO_Status_changed_from_Survey_Rqd</fullName>
+        <field>Date_Removed_from_Field_Survey_Rqd__c</field>
+        <formula>TODAY()</formula>
+        <name>Date WO Status changed from Survey Rqd</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Fiji_Work_Order_Assigned_to_Queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>SP_Fiji_Technical</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Fiji Work Order Assigned to Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ICT_BB_WO_Date_Removed_from_Digi</fullName>
+        <field>Date_Status_Removed_Reverted_to_Digicel__c</field>
+        <formula>TODAY()</formula>
+        <name>ICT BB WO Date Removed from Digi</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ICT_BB_WO_Status_Date_Updated_to_Digicel</fullName>
+        <field>Date_Status_Updtd_to_Reverted_to_Digicel__c</field>
+        <formula>TODAY()</formula>
+        <name>ICT BB WO Status Date Updated to Digicel</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ICT_Barbados_Work_Order_Update_Name</fullName>
+        <description>updates the work order name</description>
+        <field>Name</field>
+        <formula>&quot;Work Order&quot; &amp;&quot; &quot; &amp; Service_Request__r.Name</formula>
+        <name>ICT Barbados Work Order Update Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Nauru_Work_Order_Assigned_to_Queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>SP_Nauru_Technical</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Nauru Work Order Assigned to Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PNG_Work_Order_Assigned_to_Queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>PNG_Technical</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>PNG Work Order Assigned to Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SP_Fiji_Work_Order_Assigned_to_Queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>SP_Fiji_Technical</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>SP Fiji Work Order Assigned to Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SP_Nauru_Work_Order_Assigned_to_Queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>SP_Nauru_Technical</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>SP Nauru Work Order Assigned to Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SP_PNG_Work_Order_Assigned_to_Queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>PNG_Technical</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>SP PNG Work Order Assigned to Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SP_Samoa_Work_Order_Assigned_to_Queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>SP_Samoa_Technical</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>SP Samoa Work Order Assigned to Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SP_Tonga_Work_Order_Assigned_to_Queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>SP_Tonga_Technical</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>SP Tonga Work Order Assigned to Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SP_Vanuatu_Work_Order_Assigned_to_Queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>SP_Vanuatu_Technical</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>SP Vanuatu Work Order Assigned to Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Samoa_Work_Order_Assigned_to_Queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>SP_Samoa_Technical</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Samoa Work Order Assigned to Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>South_Pacific_Work_Order_Update_Name</fullName>
+        <description>Updates the work order name.</description>
+        <field>Name</field>
+        <formula>&quot;Work Order&quot; &amp;&quot; &quot; &amp; Service_Request__r.Name</formula>
+        <name>South Pacific Work Order Update Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Tonga_Work_Order_Assigned_to_Queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>SP_Tonga_Technical</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Tonga Work Order Assigned to Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Date_Status_Survey_Required</fullName>
+        <field>Date_Updated_to_Field_Survey_Rqd__c</field>
+        <formula>TODAY()</formula>
+        <name>Update Date Status Survey Required</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Email_Opp_Owner</fullName>
+        <field>Email_Opp_Owner__c</field>
+        <formula>Opportunity_Owner_Email__c</formula>
+        <name>Update Email Opp Owner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Vanuatu_Work_Order_Assigned_to_Queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>SP_Vanuatu_Technical</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Vanuatu Work Order Assigned to Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Work_Order_Assigned_to_Queue</fullName>
+        <field>OwnerId</field>
+        <lookupValue>ICT_Barbados_Technical</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Work Order Assigned to Queue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Barbados - New Work Order Owner Changed</fullName>
+        <actions>
+            <name>New_Work_Requested_and_Owner_Changed</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Update_Email_Opp_Owner</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>sends an alert when work order is created and contractor owner assigned</description>
+        <formula>AND( ISCHANGED(OwnerId), Country__c = &quot;Barbados&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Barbados - Work Order Assigned to Queue</fullName>
+        <actions>
+            <name>Work_Order_Assigned_to_Queue</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Work_Order__c.CreatedDate</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Work_Order__c.Country__c</field>
+            <operation>equals</operation>
+            <value>Barbados</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Barbados - Work Order Updated to Extension Required</fullName>
+        <actions>
+            <name>ICT_BB_Work_Order_Status_Updated_to_Extension_Required</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Work_Order__c.Country__c</field>
+            <operation>equals</operation>
+            <value>Barbados</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Work_Order__c.WO_Status__c</field>
+            <operation>equals</operation>
+            <value>Extension Required</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>WO Audit Field - Update Date Status Customer Hold</fullName>
+        <actions>
+            <name>Date_WO_Status_Changed_to_Customer_Hold</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update the date a status is changed to customer hold</description>
+        <formula>AND(ISCHANGED( WO_Status__c ),
+ISPICKVAL(WO_Status__c, &quot;Customer Hold&quot;))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>WO Audit Field - Update Date Status Revert to Digicel</fullName>
+        <actions>
+            <name>ICT_BB_WO_Status_Date_Updated_to_Digicel</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update the date a status is changed to survey required</description>
+        <formula>AND(ISCHANGED( WO_Status__c ),
+ISPICKVAL(WO_Status__c, &quot;Reverted to Digicel&quot;))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>WO Audit Field - Update Date Status Survey Required</fullName>
+        <actions>
+            <name>Update_Date_Status_Survey_Required</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update the date a status is changed to survey required</description>
+        <formula>AND(ISCHANGED( WO_Status__c ),
+ISPICKVAL(WO_Status__c, &quot;Survey Required&quot;))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>WO Audit Field - Work Order Status Changed to Cancelled</fullName>
+        <actions>
+            <name>ICT_BB_Work_Order_Status_Updated_to_Cancelled</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Work_Order__c.WO_Status__c</field>
+            <operation>equals</operation>
+            <value>Cancelled</value>
+        </criteriaItems>
+        <description>This field update tracks the date that the Work Order status was chnaged to &quot;Cancelled&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>WO Audit Field - Work Order Status Changed to Completed</fullName>
+        <actions>
+            <name>ICT_BB_Work_Order_Status_Updated_to_Completed</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Work_Order__c.WO_Status__c</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </criteriaItems>
+        <description>This field update tracks the date that the Work Order status was chnaged to &quot;Completed&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>WO Audit Field - Work Order Status Changed to Customer Hold</fullName>
+        <actions>
+            <name>ICT_BB_Work_Order_Status_Updated_to_Customer_Hold</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Work_Order__c.WO_Status__c</field>
+            <operation>equals</operation>
+            <value>Customer Hold</value>
+        </criteriaItems>
+        <description>This field update tracks the date that the Work Order status was chnaged to &quot;Customer Hold&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>WO Audit Field - Work Order Status Changed to In Progress</fullName>
+        <actions>
+            <name>ICT_BB_Work_Order_Status_Updated_to_In_Progress</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Work_Order__c.WO_Status__c</field>
+            <operation>equals</operation>
+            <value>In Progress</value>
+        </criteriaItems>
+        <description>This field update tracks the date that the Work Order status was chnaged to &quot;In Progress&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>WO Audit Field - Work Order Status Changed to Not Service Ready</fullName>
+        <actions>
+            <name>ICT_BB_Work_Order_Status_Updated_to_Not_Service_Ready</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Work_Order__c.WO_Status__c</field>
+            <operation>equals</operation>
+            <value>Not Service Ready</value>
+        </criteriaItems>
+        <description>This field update tracks the date that the Work Order status was chnaged to &quot;Not Service Ready&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>WO Audit Field - Work Order Status Changed to Scheduled</fullName>
+        <actions>
+            <name>ICT_BB_Work_Order_Status_Updated_to_Scheduled</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Work_Order__c.WO_Status__c</field>
+            <operation>equals</operation>
+            <value>Scheduled</value>
+        </criteriaItems>
+        <description>This field update tracks the date that the Work Order status was chnaged to &quot;Scheduled&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>WO Audit Field - Work Order Status Changed to Survey Required</fullName>
+        <actions>
+            <name>ICT_BB_Work_Order_Status_Updated_to_Survey_Required</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Work_Order__c.WO_Status__c</field>
+            <operation>equals</operation>
+            <value>Survey Required</value>
+        </criteriaItems>
+        <description>This field update tracks the date that the Work Order status was chnaged to &quot;Survey Required&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>WO Audit Field - Work Order Status Date Removed from Customer Hold</fullName>
+        <actions>
+            <name>Date_WO_Status_Changed_FROM_Customer_Hol</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISCHANGED(WO_Status__c),
+ISPICKVAL(PRIORVALUE(WO_Status__c),&quot;Customer Hold&quot;))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>WO Audit Field - Work Order Status Date Removed from Revert to Digicel</fullName>
+        <actions>
+            <name>ICT_BB_WO_Date_Removed_from_Digi</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISCHANGED(WO_Status__c),
+ISPICKVAL(PRIORVALUE(WO_Status__c),&quot;Reverted to Digicel&quot;))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>WO Audit Field - Work Order Status Date Removed from Survey Required</fullName>
+        <actions>
+            <name>Date_WO_Status_changed_from_Survey_Rqd</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISCHANGED(WO_Status__c),
+ISPICKVAL(PRIORVALUE(WO_Status__c),&quot;Survey Required&quot;))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>WO Audit Field - Work Order Status Reverted to Digicel</fullName>
+        <actions>
+            <name>ICT_BB_Work_Order_Status_updated_to_Reverted_to_Digicel</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Work_Order__c.WO_Status__c</field>
+            <operation>equals</operation>
+            <value>Reverted to Digicel</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Work Order Update Name</fullName>
+        <actions>
+            <name>ICT_Barbados_Work_Order_Update_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Work_Order__c.CreatedDate</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.Digicel_Country__c</field>
+            <operation>notEqual</operation>
+            <value>PNG</value>
+        </criteriaItems>
+        <description>Updates the name of the work order</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

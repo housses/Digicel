@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Opportunities_Pacific_Islands</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Push_Counter__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>Revenue_Validated_and_Approved__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>012d0000000tMdU,012d0000000tMdZ,012d0000000tMde</value>
+    </filters>
+    <label>*All Opportunities - Pacific Islands</label>
+    <language>en_US</language>
+    <sharedTo>
+        <roleAndSubordinates>Digicel_Group_Business_Solutions_South_Pacific_Region</roleAndSubordinates>
+    </sharedTo>
+</ListView>

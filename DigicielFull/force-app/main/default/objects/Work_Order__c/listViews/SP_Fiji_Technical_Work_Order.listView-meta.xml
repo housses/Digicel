@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SP_Fiji_Technical_Work_Order</fullName>
+    <filterScope>Queue</filterScope>
+    <label>SP Fiji Technical</label>
+    <queue>SP_Fiji_Technical</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

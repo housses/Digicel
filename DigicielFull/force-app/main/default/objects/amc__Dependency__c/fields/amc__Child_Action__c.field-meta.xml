@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Child_Action__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Identifies the Action that is the Child in the dependency relationship</inlineHelpText>
+    <label>Child Action</label>
+    <referenceTo>amc__Action__c</referenceTo>
+    <relationshipLabel>Dependencies (Child Action)</relationshipLabel>
+    <relationshipName>Dependencies1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

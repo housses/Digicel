@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Custom Chart Related Object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Custom Chart Related Objects</value>
+    </caseValues>
+    <layouts>
+        <layout>Custom Chart Related Object Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

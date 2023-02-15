@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Associated_Product_Subtype__c</fullName>
+    <externalId>false</externalId>
+    <label>Associated Product Subtype</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advertising</fullName>
+                <default>false</default>
+                <label>Advertising</label>
+            </value>
+            <value>
+                <fullName>Accessory</fullName>
+                <default>false</default>
+                <label>Accessory</label>
+            </value>
+            <value>
+                <fullName>Accessory / Add-on</fullName>
+                <default>false</default>
+                <label>Accessory / Add-on</label>
+            </value>
+            <value>
+                <fullName>Alarm</fullName>
+                <default>false</default>
+                <label>Alarm</label>
+            </value>
+            <value>
+                <fullName>Build / Deploy</fullName>
+                <default>false</default>
+                <label>Build / Deploy</label>
+            </value>
+            <value>
+                <fullName>CCTV</fullName>
+                <default>false</default>
+                <label>CCTV</label>
+            </value>
+            <value>
+                <fullName>Closed User Group (CUG)</fullName>
+                <default>false</default>
+                <label>Closed User Group (CUG)</label>
+            </value>
+            <value>
+                <fullName>Cloud UC as a Service</fullName>
+                <default>false</default>
+                <label>Cloud UC as a Service</label>
+            </value>
+            <value>
+                <fullName>Cloud US as a Service</fullName>
+                <default>false</default>
+                <label>Cloud US as a Service</label>
+            </value>
+            <value>
+                <fullName>Colocation</fullName>
+                <default>false</default>
+                <label>Colocation</label>
+            </value>
+            <value>
+                <fullName>Connected Fleets</fullName>
+                <default>false</default>
+                <label>Connected Fleets</label>
+            </value>
+            <value>
+                <fullName>Connected Infrastructures</fullName>
+                <default>false</default>
+                <label>Connected Infrastructures</label>
+            </value>
+            <value>
+                <fullName>Connected People</fullName>
+                <default>false</default>
+                <label>Connected People</label>
+            </value>
+            <value>
+                <fullName>Connectivity Service BIA Installation</fullName>
+                <default>false</default>
+                <label>Connectivity Service BIA Installation</label>
+            </value>
+            <value>
+                <fullName>Connectivity Service DIA</fullName>
+                <default>false</default>
+                <label>Connectivity Service DIA</label>
+            </value>
+            <value>
+                <fullName>Connectivity Services</fullName>
+                <default>false</default>
+                <label>Connectivity Services</label>
+            </value>
+            <value>
+                <fullName>Data and Voice</fullName>
+                <default>false</default>
+                <label>Data and Voice</label>
+            </value>
+            <value>
+                <fullName>Data backup and Disaster Recovery</fullName>
+                <default>false</default>
+                <label>Data backup and Disaster Recovery</label>
+            </value>
+            <value>
+                <fullName>Firewall</fullName>
+                <default>false</default>
+                <label>Firewall</label>
+            </value>
+            <value>
+                <fullName>Fixed Telephony</fullName>
+                <default>false</default>
+                <label>Fixed Telephony</label>
+            </value>
+            <value>
+                <fullName>Fixed Voice</fullName>
+                <default>false</default>
+                <label>Fixed Voice</label>
+            </value>
+            <value>
+                <fullName>Infrastructure as a Service</fullName>
+                <default>false</default>
+                <label>Infrastructure as a Service</label>
+            </value>
+            <value>
+                <fullName>Infrastructure Subscription (IaaS)</fullName>
+                <default>false</default>
+                <label>Infrastructure Subscription (IaaS)</label>
+            </value>
+            <value>
+                <fullName>Manage and Operate</fullName>
+                <default>false</default>
+                <label>Manage and Operate</label>
+            </value>
+            <value>
+                <fullName>Managed Service</fullName>
+                <default>false</default>
+                <label>Managed Service</label>
+            </value>
+            <value>
+                <fullName>Microsoft</fullName>
+                <default>false</default>
+                <label>Microsoft</label>
+            </value>
+            <value>
+                <fullName>Mobile Advertisement</fullName>
+                <default>false</default>
+                <label>Mobile Advertisement</label>
+            </value>
+            <value>
+                <fullName>Mobile Device and Unified Endpoint Management</fullName>
+                <default>false</default>
+                <label>Mobile Device and Unified Endpoint Management</label>
+            </value>
+            <value>
+                <fullName>Mobile Device or Unified Endpoint Management</fullName>
+                <default>false</default>
+                <label>Mobile Device or Unified Endpoint Management</label>
+            </value>
+            <value>
+                <fullName>Mobile Networks</fullName>
+                <default>false</default>
+                <label>Mobile Networks</label>
+            </value>
+            <value>
+                <fullName>Networking Solutions</fullName>
+                <default>false</default>
+                <label>Networking Solutions</label>
+            </value>
+            <value>
+                <fullName>Premise UC or PBX</fullName>
+                <default>false</default>
+                <label>Premise UC or PBX</label>
+            </value>
+            <value>
+                <fullName>Premise US or PBX</fullName>
+                <default>false</default>
+                <label>Premise US or PBX</label>
+            </value>
+            <value>
+                <fullName>Professional Services</fullName>
+                <default>false</default>
+                <label>Professional Services</label>
+            </value>
+            <value>
+                <fullName>Software as a Service</fullName>
+                <default>false</default>
+                <label>Software as a Service</label>
+            </value>
+            <value>
+                <fullName>Telephony Add-on</fullName>
+                <default>false</default>
+                <label>Telephony Add-on</label>
+            </value>
+            <value>
+                <fullName>Television</fullName>
+                <default>false</default>
+                <label>Television</label>
+            </value>
+            <value>
+                <fullName>Toll Free Voice Services</fullName>
+                <default>false</default>
+                <label>Toll Free Voice Services</label>
+            </value>
+            <value>
+                <fullName>Video Survelliance</fullName>
+                <default>false</default>
+                <label>Video Survelliance</label>
+            </value>
+            <value>
+                <fullName>Voice Gateway</fullName>
+                <default>false</default>
+                <label>Voice Gateway</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

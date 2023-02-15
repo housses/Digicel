@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Add_on_Packages__c</fullName>
+    <externalId>false</externalId>
+    <label>Additional Add on Packages</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adult</fullName>
+                <default>false</default>
+                <label>Adult</label>
+            </value>
+            <value>
+                <fullName>Adult Service</fullName>
+                <default>false</default>
+                <label>Adult Service</label>
+            </value>
+            <value>
+                <fullName>Bulk Service</fullName>
+                <default>false</default>
+                <label>Bulk Service</label>
+            </value>
+            <value>
+                <fullName>Educational Package</fullName>
+                <default>false</default>
+                <label>Educational Package</label>
+            </value>
+            <value>
+                <fullName>HD Package</fullName>
+                <default>false</default>
+                <label>HD Package</label>
+            </value>
+            <value>
+                <fullName>International Package</fullName>
+                <default>false</default>
+                <label>International Package</label>
+            </value>
+            <value>
+                <fullName>Movie</fullName>
+                <default>false</default>
+                <label>Movie</label>
+            </value>
+            <value>
+                <fullName>Movie Package</fullName>
+                <default>false</default>
+                <label>Movie Package</label>
+            </value>
+            <value>
+                <fullName>Movie Package( Only 4 Channels)</fullName>
+                <default>false</default>
+                <label>Movie Package( Only 4 Channels)</label>
+            </value>
+            <value>
+                <fullName>Premium Movie Channels</fullName>
+                <default>false</default>
+                <label>Premium Movie Channels</label>
+            </value>
+            <value>
+                <fullName>Sports</fullName>
+                <default>false</default>
+                <label>Sports</label>
+            </value>
+            <value>
+                <fullName>Sports Max 1</fullName>
+                <default>false</default>
+                <label>Sports Max 1</label>
+            </value>
+            <value>
+                <fullName>Sports Max 2</fullName>
+                <default>false</default>
+                <label>Sports Max 2</label>
+            </value>
+            <value>
+                <fullName>Sports Max 1 &amp; 2</fullName>
+                <default>false</default>
+                <label>Sports Max 1 &amp; 2</label>
+            </value>
+            <value>
+                <fullName>Sports Max Pack</fullName>
+                <default>false</default>
+                <label>Sports Max Pack</label>
+            </value>
+            <value>
+                <fullName>Sports Pack</fullName>
+                <default>false</default>
+                <label>Sports Pack</label>
+            </value>
+            <value>
+                <fullName>Tier Service</fullName>
+                <default>false</default>
+                <label>Tier Service</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

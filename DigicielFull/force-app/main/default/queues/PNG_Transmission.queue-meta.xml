@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>PNG - Transmission</name>
+    <queueMembers>
+        <users>
+            <user>amanda.tolimanaram@digicelgroup.com</user>
+            <user>francis.edo@digicelgroup.com</user>
+            <user>jason.pombo@digicelgroup.com</user>
+            <user>lesliemcneil.ataembo@digicelgroup.com</user>
+            <user>mohy.ali@digicelgroup.com</user>
+            <user>yasser.mohamed@digicelgroup.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Case_Owner_History__c</sobjectType>
+    </queueSobject>
+</Queue>

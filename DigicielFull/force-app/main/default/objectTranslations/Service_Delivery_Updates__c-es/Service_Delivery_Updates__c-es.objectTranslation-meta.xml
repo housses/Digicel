@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Actualización de Solicitud de servicio</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Actualización de Solicitud de servicio</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>BB ICT Service Delivery Update</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>GOB Project Updates</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Sales Rep Update (Area for Sales Rep to Provide Information)</section>
+        </sections>
+        <sections>
+            <label>Actualización</label>
+            <section>Updates From Service Delivery Owner</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PNG Service Delivery Update Page Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Actualización</label>
+            <section>Updates</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Service Delivery Update Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Actualización</label>
+            <section>Updates</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel></nameFieldLabel>
+    <recordTypes>
+        <label></label>
+        <name>Bonaire_Service_Delivery_Update</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Curacao_Service_Delivery_Update</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>El_Salvador_Service_Delivery_Update</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Guadeloupe_Service_Delivery_Update</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Guyana_Service_Delivery_Update</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Haiti_Service_Delivery_Update</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>ICT_Barbados</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Jamaica_Service_Delivery_Update</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Martinique_Service_Delivery_Update</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>PNG_Service_Delivery_Update</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Panama_Service_Delivery_Update</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>SLU_Service_Delivery_Update</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Trinidad_Service_Delivery_Update</name>
+    </recordTypes>
+</CustomObjectTranslation>

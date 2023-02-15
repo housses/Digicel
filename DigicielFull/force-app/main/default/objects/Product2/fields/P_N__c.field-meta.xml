@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>P_N__c</fullName>
+    <externalId>false</externalId>
+    <label>P/N</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cabling Repair</fullName>
+                <default>false</default>
+                <label>Cabling Repair</label>
+            </value>
+            <value>
+                <fullName>GenCons</fullName>
+                <default>false</default>
+                <label>GenCons</label>
+            </value>
+            <value>
+                <fullName>ISP Help</fullName>
+                <default>false</default>
+                <label>ISP Help</label>
+            </value>
+            <value>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+                <label>Maintenance</label>
+            </value>
+            <value>
+                <fullName>OnSite</fullName>
+                <default>false</default>
+                <label>OnSite</label>
+            </value>
+            <value>
+                <fullName>Workshop</fullName>
+                <default>false</default>
+                <label>Workshop</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

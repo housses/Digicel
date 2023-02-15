@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BlackBerry_2_Year_Agreement</fullName>
+    <active>true</active>
+    <description>BlackBerry 2 Year Agreement</description>
+    <label>BlackBerry 2 Year Agreement</label>
+</RecordType>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Exclude_from_Utilisation_Indicator__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(amc__Milestone__r.amc__Exclude_from_Utilisation_Indicator__c = TRUE, TRUE, amc__Exclude_from_Utilisation__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Indicates if this Action should be excluded from the Role Utilisation Report. If the Action &apos;Exclude from Utilisation&apos; Field is set to TRUE, it takes this value, otherwise it takes the value from the Milestone &apos;Exclude from Utilisation Indicator&apos; Field</inlineHelpText>
+    <label>Exclude from Utilisation Indicator</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

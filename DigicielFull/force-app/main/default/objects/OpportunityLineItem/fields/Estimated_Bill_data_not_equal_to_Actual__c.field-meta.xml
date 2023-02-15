@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimated_Bill_data_not_equal_to_Actual__c</fullName>
+    <externalId>false</externalId>
+    <formula>Estimated_Bill_Date__c &lt;&gt;  Actual_Billed_Date__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Estimated Bill data not equal to Actual</label>
+    <type>Checkbox</type>
+</CustomField>

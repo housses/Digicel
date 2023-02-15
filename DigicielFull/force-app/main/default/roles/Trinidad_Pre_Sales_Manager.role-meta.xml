@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Trinidad Pre-Sales Manager</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Trinidad Pre-Sales Manager</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Trinidad_Head_Pre_Sales_Service_Delivery</parentRole>
+</Role>

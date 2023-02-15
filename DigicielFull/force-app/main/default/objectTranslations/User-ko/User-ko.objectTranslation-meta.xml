@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>PersonalInfo_EPIM</name>
+    </fieldSets>
+    <layouts>
+        <layout>Community Member Layout</layout>
+        <layoutType>CommunityMemberLayout</layoutType>
+        <sections>
+            <label></label>
+            <section>Basic Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Chatter Settings</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Language And Locale Settings</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>User Layout</layout>
+        <sections>
+            <label></label>
+            <section>Activation Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Business Justification Comments</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Default Addresses</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Meeting Targets</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>User Segmentation Data</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>User Profile Layout</layout>
+        <layoutType>UserAlt</layoutType>
+        <sections>
+            <label></label>
+            <section>About</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>About Me</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contact</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Sales Targets</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Only_SFDC_Admin_Can_Create_Users</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Users_are_not_able_to_change_NameorEmail</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Clone_User</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Create_Parenthetical_User</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Lightning_Report_All_User_Owned_Accounts</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Lightning_Report_All_User_Owned_Opportunities</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>REPORT_All_User_Owned_Accounts</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>REPORT_All_User_Owned_Activities</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>REPORT_All_User_Owned_Branch_Locations</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>REPORT_All_User_Owned_Contacts</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>REPORT_All_User_Owned_Leads</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>REPORT_All_User_Owned_Opportunities</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>REPORT_All_User_Owned_Opps_with_Products</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>REPORT_All_User_Owned_Tasks_Events</name>
+    </webLinks>
+</CustomObjectTranslation>

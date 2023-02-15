@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_Update_Activation_Date</fullName>
+    <active>true</active>
+    <description>Must update activation date if WiMax install was successful</description>
+    <errorConditionFormula>AND( 
+OR( 
+RecordType.Name = &quot;Installation&quot;, 
+RecordType.Name = &quot;WiMax Survey/Install&quot;), 
+ISPICKVAL( Status__c , &quot;Complete&quot;),
+ISPICKVAL (Unsuccessful__c, &quot;True&quot;),
+ISBLANK(Activated_On__c ))</errorConditionFormula>
+    <errorDisplayField>Activated_On__c</errorDisplayField>
+    <errorMessage>Activated On Date must be entered when changing stage to Complete if the WiMax survey and install was success</errorMessage>
+</ValidationRule>

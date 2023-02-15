@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_SR_Status_Removed_from_Contractor__c</fullName>
+    <description>tracks the date the status is changed from &quot;Sent to Contractor&quot;</description>
+    <externalId>false</externalId>
+    <label>Date SR Status Removed from Contractor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

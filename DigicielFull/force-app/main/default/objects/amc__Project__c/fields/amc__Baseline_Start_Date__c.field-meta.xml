@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Baseline_Start_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Baseline Start Date</label>
+    <summarizedField>amc__Milestone__c.amc__Baseline_Start_Date__c</summarizedField>
+    <summaryForeignKey>amc__Milestone__c.amc__Project__c</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

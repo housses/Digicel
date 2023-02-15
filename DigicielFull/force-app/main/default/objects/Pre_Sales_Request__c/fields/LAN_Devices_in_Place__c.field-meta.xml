@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LAN_Devices_in_Place__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Provide details of the current LAN devices if place, quantities and features supported (i.e. PoE, QoS etc) by location</inlineHelpText>
+    <label>LAN Devices in Place</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

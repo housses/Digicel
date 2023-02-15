@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Product</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Product2.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Digicel PNG, Digicel PNG Data Nets, Digicel PNG NEC, Digicel Nauru, Digicel Fiji, Digicel Vanuatu, Digicel Samoa, Digicel Tonga, Digicel PNG Remington</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Commissions / Targets</relationshipLabel>
+    <relationshipName>Commissions_Targets</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

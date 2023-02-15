@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Change_Amount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Identifies the amount the Project Budget will be changed by</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Identifies the amount the Project Budget will be changed by</inlineHelpText>
+    <label>Change Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

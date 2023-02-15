@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Digicel_Market_Cluster__c</fullName>
+    <description>This field displays any value in the Digicel Country field as the region that the country is associated to. So for example; if a users &quot;Digicel Country&quot; field is populated as &quot;Jamaica&quot;, this field will display &quot;CEO Market Cluster&quot;</description>
+    <externalId>false</externalId>
+    <formula>Case (Digicel_Country__c,
+&quot;Anguilla&quot;, &quot;West Indies Markets&quot;,
+&quot;Antigua and Barbuda&quot;, &quot;West Indies Markets&quot;,
+&quot;Aruba&quot;, &quot;South Caribbean&quot;,
+&quot;Barbados&quot;, &quot;South Caribbean&quot;,
+&quot;Bermuda&quot;, &quot;Atlantic Markets&quot;,
+&quot;Bonaire&quot;, &quot;South Caribbean&quot;,
+&quot;Cayman Islands&quot;, &quot;Atlantic Markets&quot;,
+&quot;Curacao&quot;, &quot;South Caribbean&quot;,
+&quot;Dominica&quot;, &quot;West Indies Markets&quot;,
+&quot;El Salvador&quot;, &quot;Large Opcos&quot;,
+&quot;French Guiana&quot;, &quot;Large Opcos&quot;,
+&quot;Grenada&quot;, &quot;West Indies Markets&quot;,
+&quot;Guadeloupe&quot;, &quot;Large Opcos&quot;,
+&quot;Guyana&quot;, &quot;South Caribbean&quot;,
+&quot;Haiti&quot;, &quot;Large Opcos&quot;,
+&quot;Jamaica&quot;, &quot;Large Opcos&quot;,
+&quot;Martinique&quot;, &quot;Large Opcos&quot;,
+&quot;Panama&quot;, &quot;Panama&quot;,
+&quot;Saint Kitts and Nevis&quot;, &quot;West Indies Markets&quot;,
+&quot;Saint Lucia&quot;, &quot;West Indies Markets&quot;,
+&quot;Saint Vincent and the Grenadines&quot;, &quot;West Indies Markets&quot;,
+&quot;Suriname&quot;, &quot;South Caribbean&quot;,
+&quot;Tres Networks&quot;, &quot;South Caribbean&quot;,
+&quot;Trinidad and Tobago&quot;, &quot;Large Opcos&quot;,
+&quot;Turks and Caicos Islands&quot;, &quot;Atlantic Markets&quot;,
+&quot;BVI&quot;, &quot;West Indies Markets&quot;,
+&quot;FWI&quot;, &quot;Large Opcos&quot;,
+&quot;Fiji&quot;, &quot;Pacific Islands&quot;,
+&quot;PNG&quot;,&quot;PNG&quot;,
+&quot;Samoa&quot;,&quot;Pacific Islands&quot;,
+&quot;Vanuatu&quot;, &quot;Pacific Islands&quot;,
+&quot;Tonga&quot;,&quot;Pacific Islands&quot;,
+&quot;Nauru&quot;,&quot;Pacific Islands&quot;,
+&quot;Reunion&quot;,&quot;Large Opcos&quot;,
+&quot;Mayotte&quot;,&quot;Large Opcos&quot;,
+&quot;Group Business Team&quot;,&quot;GROUP&quot;,
+&quot;Carrier Sales&quot;,&quot;GLOBAL&quot;,
+&quot;Wholesale&quot;,&quot;GLOBAL&quot;,
+&quot;Digicel International Business&quot;, &quot;GLOBAL&quot;,
+&quot;Indian Ocean&quot;, &quot;Large Opcos&quot;,
+&quot;Diaspora&quot;, &quot;Diaspora&quot;,
+&quot;Vendor&quot;,&quot;GROUP&quot;
+,&quot;&quot;)</formula>
+    <label>Digicel Market Cluster</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

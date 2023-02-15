@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_QuoteStatus__c</fullName>
+    <externalId>false</externalId>
+    <label>Quote Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Draft</fullName>
+                <default>false</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Needs Review</fullName>
+                <default>false</default>
+                <label>Needs Review</label>
+            </value>
+            <value>
+                <fullName>In Review</fullName>
+                <default>false</default>
+                <label>In Review</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>In Solution Review</fullName>
+                <default>false</default>
+                <label>In Solution Review</label>
+            </value>
+            <value>
+                <fullName>In Technical Feasibility Check</fullName>
+                <default>false</default>
+                <label>In Technical Feasibility Check</label>
+            </value>
+            <value>
+                <fullName>Solution Approved</fullName>
+                <default>false</default>
+                <label>Solution Approved</label>
+            </value>
+            <value>
+                <fullName>Solution Rejected</fullName>
+                <default>false</default>
+                <label>Solution Rejected</label>
+            </value>
+            <value>
+                <fullName>Technical Feasibility Approved</fullName>
+                <default>false</default>
+                <label>Technical Feasibility Approved</label>
+            </value>
+            <value>
+                <fullName>Technical Feasibility Rejected</fullName>
+                <default>false</default>
+                <label>Technical Feasibility Rejected</label>
+            </value>
+            <value>
+                <fullName>Presented</fullName>
+                <default>false</default>
+                <label>Presented</label>
+            </value>
+            <value>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+                <label>Accepted</label>
+            </value>
+            <value>
+                <fullName>Denied</fullName>
+                <default>false</default>
+                <label>Denied</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

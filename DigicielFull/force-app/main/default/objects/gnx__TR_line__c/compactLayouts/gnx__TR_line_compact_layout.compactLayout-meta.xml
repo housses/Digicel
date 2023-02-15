@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gnx__TR_line_compact_layout</fullName>
+    <fields>Name</fields>
+    <fields>gnx__Tax_receipt__c</fields>
+    <fields>gnx__Transaction_reference__c</fields>
+    <fields>gnx__Amount__c</fields>
+    <fields>gnx__Payment_date__c</fields>
+    <label>TR_line_compact_layout</label>
+</CompactLayout>

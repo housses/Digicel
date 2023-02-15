@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Aruba Service Delivery</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Aruba Service Delivery</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Aruba</parentRole>
+</Role>

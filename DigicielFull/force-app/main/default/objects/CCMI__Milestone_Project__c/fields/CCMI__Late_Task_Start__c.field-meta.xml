@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCMI__Late_Task_Start__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The start date of the first Task marked as &quot;Not Started&quot;</description>
+    <externalId>false</externalId>
+    <label>Late Starting Task Date (System)</label>
+    <summarizedField>CCMI__Milestone_Task__c.CCMI__Start__c</summarizedField>
+    <summaryFilterItems>
+        <field>CCMI__Milestone_Task__c.CCMI__Status_Enum__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </summaryFilterItems>
+    <summaryForeignKey>CCMI__Milestone_Task__c.CCMI__Milestone_Project__c</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

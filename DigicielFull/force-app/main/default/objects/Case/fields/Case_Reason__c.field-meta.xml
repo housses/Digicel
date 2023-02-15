@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>zDepracated - Case Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PIC Request- TBI</fullName>
+                <default>false</default>
+                <label>PIC Request- TBI</label>
+            </value>
+            <value>
+                <fullName>PIC Request- LINK</fullName>
+                <default>false</default>
+                <label>PIC Request- LINK</label>
+            </value>
+            <value>
+                <fullName>Invoice Request</fullName>
+                <default>false</default>
+                <label>Invoice Request</label>
+            </value>
+            <value>
+                <fullName>Account Transfer Request</fullName>
+                <default>false</default>
+                <label>Account Transfer Request</label>
+            </value>
+            <value>
+                <fullName>Account Adjustment- Name Change</fullName>
+                <default>false</default>
+                <label>Account Adjustment- Name Change</label>
+            </value>
+            <value>
+                <fullName>Account Adjustment- Billing Address Change</fullName>
+                <default>false</default>
+                <label>Account Adjustment- Billing Address Change</label>
+            </value>
+            <value>
+                <fullName>Account Adjustment- Payment Method</fullName>
+                <default>false</default>
+                <label>Account Adjustment- Payment Method</label>
+            </value>
+            <value>
+                <fullName>Account Adjustment- General</fullName>
+                <default>false</default>
+                <label>Account Adjustment- General</label>
+            </value>
+            <value>
+                <fullName>Audit Request</fullName>
+                <default>false</default>
+                <label>Audit Request</label>
+            </value>
+            <value>
+                <fullName>New Activation- Voice</fullName>
+                <default>false</default>
+                <label>New Activation- Voice</label>
+            </value>
+            <value>
+                <fullName>New Activation- Voice &amp; Data</fullName>
+                <default>false</default>
+                <label>New Activation- Voice &amp; Data</label>
+            </value>
+            <value>
+                <fullName>New Activation- MBB</fullName>
+                <default>false</default>
+                <label>New Activation- MBB</label>
+            </value>
+            <value>
+                <fullName>New Activation- ILD</fullName>
+                <default>false</default>
+                <label>New Activation- ILD</label>
+            </value>
+            <value>
+                <fullName>New Activation- All Services, Voice, Data &amp; ILD</fullName>
+                <default>false</default>
+                <label>New Activation- All Services, Voice, Data &amp; ILD</label>
+            </value>
+            <value>
+                <fullName>New Activation + Device- Voice</fullName>
+                <default>false</default>
+                <label>New Activation + Device- Voice</label>
+            </value>
+            <value>
+                <fullName>New Activation + Device- Voice &amp; Data</fullName>
+                <default>false</default>
+                <label>New Activation + Device- Voice &amp; Data</label>
+            </value>
+            <value>
+                <fullName>New Activation + Device- MBB</fullName>
+                <default>false</default>
+                <label>New Activation + Device- MBB</label>
+            </value>
+            <value>
+                <fullName>New Activation + Device- All Services, Voice, Data &amp; ILD New Activation- Voice</fullName>
+                <default>false</default>
+                <label>New Activation + Device- All Services, Voice, Data &amp; ILD New Activation- Voice</label>
+            </value>
+            <value>
+                <fullName>Re-Activation- Voice &amp; Data</fullName>
+                <default>false</default>
+                <label>Re-Activation- Voice &amp; Data</label>
+            </value>
+            <value>
+                <fullName>Re-Activation- MBB</fullName>
+                <default>false</default>
+                <label>Re-Activation- MBB</label>
+            </value>
+            <value>
+                <fullName>Re-Activation- ILD</fullName>
+                <default>false</default>
+                <label>Re-Activation- ILD</label>
+            </value>
+            <value>
+                <fullName>Re-Activation- All Services, Voice, Data &amp; ILD</fullName>
+                <default>false</default>
+                <label>Re-Activation- All Services, Voice, Data &amp; ILD</label>
+            </value>
+            <value>
+                <fullName>Re-Activation + Device- Voice</fullName>
+                <default>false</default>
+                <label>Re-Activation + Device- Voice</label>
+            </value>
+            <value>
+                <fullName>Re-Activation + Device- Voice &amp; Data</fullName>
+                <default>false</default>
+                <label>Re-Activation + Device- Voice &amp; Data</label>
+            </value>
+            <value>
+                <fullName>Re-Activation + Device- MBB</fullName>
+                <default>false</default>
+                <label>Re-Activation + Device- MBB</label>
+            </value>
+            <value>
+                <fullName>Re-Activation + Device- All Services, Voice, Data &amp; ILD</fullName>
+                <default>false</default>
+                <label>Re-Activation + Device- All Services, Voice, Data &amp; ILD</label>
+            </value>
+            <value>
+                <fullName>Rate Plan Change- Service Removal</fullName>
+                <default>false</default>
+                <label>Rate Plan Change- Service Removal</label>
+            </value>
+            <value>
+                <fullName>Rate Plan Change- Plan Adjustments</fullName>
+                <default>false</default>
+                <label>Rate Plan Change- Plan Adjustments</label>
+            </value>
+            <value>
+                <fullName>SIM Request- Lost</fullName>
+                <default>false</default>
+                <label>SIM Request- Lost</label>
+            </value>
+            <value>
+                <fullName>SIM Request- Stolen</fullName>
+                <default>false</default>
+                <label>SIM Request- Stolen</label>
+            </value>
+            <value>
+                <fullName>SIM Request- Damaged/Old</fullName>
+                <default>false</default>
+                <label>SIM Request- Damaged/Old</label>
+            </value>
+            <value>
+                <fullName>SIM Request- Micro/Nano SIM Upgrade</fullName>
+                <default>false</default>
+                <label>SIM Request- Micro/Nano SIM Upgrade</label>
+            </value>
+            <value>
+                <fullName>SIM Request-Spare Stock</fullName>
+                <default>false</default>
+                <label>SIM Request-Spare Stock</label>
+            </value>
+            <value>
+                <fullName>SIM Request + Device- Lost</fullName>
+                <default>false</default>
+                <label>SIM Request + Device- Lost</label>
+            </value>
+            <value>
+                <fullName>SIM Request + Device- Stolen</fullName>
+                <default>false</default>
+                <label>SIM Request + Device- Stolen</label>
+            </value>
+            <value>
+                <fullName>SIM Request + Device- Damaged</fullName>
+                <default>false</default>
+                <label>SIM Request + Device- Damaged</label>
+            </value>
+            <value>
+                <fullName>SIM Request + Device- Micro/Nano SIM Upgrade</fullName>
+                <default>false</default>
+                <label>SIM Request + Device- Micro/Nano SIM Upgrade</label>
+            </value>
+            <value>
+                <fullName>Device Repair Request</fullName>
+                <default>false</default>
+                <label>Device Repair Request</label>
+            </value>
+            <value>
+                <fullName>Device Order Request</fullName>
+                <default>false</default>
+                <label>Device Order Request</label>
+            </value>
+            <value>
+                <fullName>Device Warranty Swap Request</fullName>
+                <default>false</default>
+                <label>Device Warranty Swap Request</label>
+            </value>
+            <value>
+                <fullName>Quote Request-Hardware</fullName>
+                <default>false</default>
+                <label>Quote Request-Hardware</label>
+            </value>
+            <value>
+                <fullName>Quote Request-Software</fullName>
+                <default>false</default>
+                <label>Quote Request-Software</label>
+            </value>
+            <value>
+                <fullName>Troubleshooting- Device</fullName>
+                <default>false</default>
+                <label>Troubleshooting- Device</label>
+            </value>
+            <value>
+                <fullName>Troubleshooting- Roaming/ ILD</fullName>
+                <default>false</default>
+                <label>Troubleshooting- Roaming/ ILD</label>
+            </value>
+            <value>
+                <fullName>Troubleshooting- Voice/Data/SMS</fullName>
+                <default>false</default>
+                <label>Troubleshooting- Voice/Data/SMS</label>
+            </value>
+            <value>
+                <fullName>Troubleshooting- BES/BIS/BB ID</fullName>
+                <default>false</default>
+                <label>Troubleshooting- BES/BIS/BB ID</label>
+            </value>
+            <value>
+                <fullName>Number Change</fullName>
+                <default>false</default>
+                <label>Number Change</label>
+            </value>
+            <value>
+                <fullName>3G/4G Upgrade Request</fullName>
+                <default>false</default>
+                <label>3G/4G Upgrade Request</label>
+            </value>
+            <value>
+                <fullName>Voicemail Reset</fullName>
+                <default>false</default>
+                <label>Voicemail Reset</label>
+            </value>
+            <value>
+                <fullName>Voicemail Password Reset</fullName>
+                <default>false</default>
+                <label>Voicemail Password Reset</label>
+            </value>
+            <value>
+                <fullName>Voicemail Disable</fullName>
+                <default>false</default>
+                <label>Voicemail Disable</label>
+            </value>
+            <value>
+                <fullName>Voicemail Enable</fullName>
+                <default>false</default>
+                <label>Voicemail Enable</label>
+            </value>
+            <value>
+                <fullName>Software Upgrade Request</fullName>
+                <default>false</default>
+                <label>Software Upgrade Request</label>
+            </value>
+            <value>
+                <fullName>PIN/PUK Code Request</fullName>
+                <default>false</default>
+                <label>PIN/PUK Code Request</label>
+            </value>
+            <value>
+                <fullName>Phone Insurance Request</fullName>
+                <default>false</default>
+                <label>Phone Insurance Request</label>
+            </value>
+            <value>
+                <fullName>Disconnect Line-Temp</fullName>
+                <default>false</default>
+                <label>Disconnect Line-Temp</label>
+            </value>
+            <value>
+                <fullName>Disconnect Line-Perm</fullName>
+                <default>false</default>
+                <label>Disconnect Line-Perm</label>
+            </value>
+            <value>
+                <fullName>Delivery Request</fullName>
+                <default>false</default>
+                <label>Delivery Request</label>
+            </value>
+            <value>
+                <fullName>Unlock Code Request</fullName>
+                <default>false</default>
+                <label>Unlock Code Request</label>
+            </value>
+            <value>
+                <fullName>Report Request</fullName>
+                <default>false</default>
+                <label>Report Request</label>
+            </value>
+            <value>
+                <fullName>Dispute- Invoice/charges</fullName>
+                <default>false</default>
+                <label>Dispute- Invoice/charges</label>
+            </value>
+            <value>
+                <fullName>Dispute- Roaming Charges</fullName>
+                <default>false</default>
+                <label>Dispute- Roaming Charges</label>
+            </value>
+            <value>
+                <fullName>Dispute- Late Fees</fullName>
+                <default>false</default>
+                <label>Dispute- Late Fees</label>
+            </value>
+            <value>
+                <fullName>Dispute- Device Pricing</fullName>
+                <default>false</default>
+                <label>Dispute- Device Pricing</label>
+            </value>
+            <value>
+                <fullName>Payment- Query</fullName>
+                <default>false</default>
+                <label>Payment- Query</label>
+            </value>
+            <value>
+                <fullName>Payment- Notice</fullName>
+                <default>false</default>
+                <label>Payment- Notice</label>
+            </value>
+            <value>
+                <fullName>Payment</fullName>
+                <default>false</default>
+                <label>Payment</label>
+            </value>
+            <value>
+                <fullName>Proposal/Agreement Request</fullName>
+                <default>false</default>
+                <label>Proposal/Agreement Request</label>
+            </value>
+            <value>
+                <fullName>Accessory Request</fullName>
+                <default>false</default>
+                <label>Accessory Request</label>
+            </value>
+            <value>
+                <fullName>ISP Request</fullName>
+                <default>false</default>
+                <label>ISP Request</label>
+            </value>
+            <value>
+                <fullName>Customer Care Query Redirect</fullName>
+                <default>false</default>
+                <label>Customer Care Query Redirect</label>
+            </value>
+            <value>
+                <fullName>PrePaid Set Up Request</fullName>
+                <default>false</default>
+                <label>PrePaid Set Up Request</label>
+            </value>
+            <value>
+                <fullName>PrePaid Top-Up Request</fullName>
+                <default>false</default>
+                <label>PrePaid Top-Up Request</label>
+            </value>
+            <value>
+                <fullName>Number Availability Request</fullName>
+                <default>false</default>
+                <label>Number Availability Request</label>
+            </value>
+            <value>
+                <fullName>Number Reserve Request</fullName>
+                <default>false</default>
+                <label>Number Reserve Request</label>
+            </value>
+            <value>
+                <fullName>New Activation Request</fullName>
+                <default>false</default>
+                <label>New Activation Request</label>
+            </value>
+            <value>
+                <fullName>Upgrade Service Request</fullName>
+                <default>false</default>
+                <label>Upgrade Service Request</label>
+            </value>
+            <value>
+                <fullName>Service Issue</fullName>
+                <default>false</default>
+                <label>Service Issue</label>
+            </value>
+            <value>
+                <fullName>Service Billing Order</fullName>
+                <default>false</default>
+                <label>Service Billing Order</label>
+            </value>
+            <value>
+                <fullName>Terminate Service Request</fullName>
+                <default>false</default>
+                <label>Terminate Service Request</label>
+            </value>
+            <value>
+                <fullName>Presales-Survey Request</fullName>
+                <default>false</default>
+                <label>Presales-Survey Request</label>
+            </value>
+            <value>
+                <fullName>Billing Query</fullName>
+                <default>false</default>
+                <label>Billing Query</label>
+            </value>
+            <value>
+                <fullName>Demo Request</fullName>
+                <default>false</default>
+                <label>Demo Request</label>
+            </value>
+            <value>
+                <fullName>Pricing Request</fullName>
+                <default>false</default>
+                <label>Pricing Request</label>
+            </value>
+            <value>
+                <fullName>Pricing Request (BOM Only)</fullName>
+                <default>false</default>
+                <label>Pricing Request (BOM Only)</label>
+            </value>
+            <value>
+                <fullName>Proposal Request (BOM &amp; Solution)</fullName>
+                <default>false</default>
+                <label>Proposal Request (BOM &amp; Solution)</label>
+            </value>
+            <value>
+                <fullName>Replacement/Upgrade</fullName>
+                <default>false</default>
+                <label>Replacement/Upgrade</label>
+            </value>
+            <value>
+                <fullName>Mail Issue</fullName>
+                <default>false</default>
+                <label>Mail Issue</label>
+            </value>
+            <value>
+                <fullName>DNS Issue</fullName>
+                <default>false</default>
+                <label>DNS Issue</label>
+            </value>
+            <value>
+                <fullName>Hosting Issue</fullName>
+                <default>false</default>
+                <label>Hosting Issue</label>
+            </value>
+            <value>
+                <fullName>New DNS Request</fullName>
+                <default>false</default>
+                <label>New DNS Request</label>
+            </value>
+            <value>
+                <fullName>New Mail Request</fullName>
+                <default>false</default>
+                <label>New Mail Request</label>
+            </value>
+            <value>
+                <fullName>New Hosting Request</fullName>
+                <default>false</default>
+                <label>New Hosting Request</label>
+            </value>
+            <value>
+                <fullName>ISP Billing Query</fullName>
+                <default>false</default>
+                <label>ISP Billing Query</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Disconnections</controllingFieldValue>
+            <valueName>Disconnect Line-Temp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disconnections</controllingFieldValue>
+            <valueName>Disconnect Line-Perm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISP Service</controllingFieldValue>
+            <valueName>Mail Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISP Service</controllingFieldValue>
+            <valueName>DNS Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISP Service</controllingFieldValue>
+            <valueName>Hosting Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISP Service</controllingFieldValue>
+            <valueName>New DNS Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISP Service</controllingFieldValue>
+            <valueName>New Mail Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISP Service</controllingFieldValue>
+            <valueName>New Hosting Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISP Service</controllingFieldValue>
+            <valueName>ISP Billing Query</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agreements/Reports</controllingFieldValue>
+            <controllingFieldValue>Retention Agreements</controllingFieldValue>
+            <valueName>Audit Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agreements/Reports</controllingFieldValue>
+            <valueName>Phone Insurance Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agreements/Reports</controllingFieldValue>
+            <valueName>Report Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agreements/Reports</controllingFieldValue>
+            <valueName>Proposal/Agreement Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Device Warranty Swap Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>PIN/PUK Code Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Delivery Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Unlock Code Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Customer Care Query Redirect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Number Availability Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Number Reserve Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test SIM</controllingFieldValue>
+            <controllingFieldValue>Visitor SIM</controllingFieldValue>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>New Activation- Voice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test SIM</controllingFieldValue>
+            <controllingFieldValue>Visitor SIM</controllingFieldValue>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>New Activation- Voice &amp; Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test SIM</controllingFieldValue>
+            <controllingFieldValue>Visitor SIM</controllingFieldValue>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>New Activation + Device- Voice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Test SIM</controllingFieldValue>
+            <controllingFieldValue>Visitor SIM</controllingFieldValue>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>New Activation + Device- Voice &amp; Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internet DIA</controllingFieldValue>
+            <valueName>New Activation Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internet DIA</controllingFieldValue>
+            <controllingFieldValue>SIP</controllingFieldValue>
+            <valueName>Upgrade Service Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internet DIA</controllingFieldValue>
+            <controllingFieldValue>Cloud DaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud IaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud DRaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud MDM</controllingFieldValue>
+            <controllingFieldValue>Solution - Cisco</controllingFieldValue>
+            <controllingFieldValue>Solution - Avaya</controllingFieldValue>
+            <controllingFieldValue>SIP</controllingFieldValue>
+            <valueName>Service Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internet DIA</controllingFieldValue>
+            <controllingFieldValue>Cloud DaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud IaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud DRaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud MDM</controllingFieldValue>
+            <controllingFieldValue>SIP</controllingFieldValue>
+            <valueName>Service Billing Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internet DIA</controllingFieldValue>
+            <controllingFieldValue>Cloud DaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud IaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud DRaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud MDM</controllingFieldValue>
+            <controllingFieldValue>SIP</controllingFieldValue>
+            <valueName>Terminate Service Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internet DIA</controllingFieldValue>
+            <controllingFieldValue>Cloud DaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud IaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud DRaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud MDM</controllingFieldValue>
+            <controllingFieldValue>Solution - Cisco</controllingFieldValue>
+            <controllingFieldValue>Solution - Avaya</controllingFieldValue>
+            <controllingFieldValue>SIP</controllingFieldValue>
+            <valueName>Presales-Survey Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internet DIA</controllingFieldValue>
+            <controllingFieldValue>Cloud DaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud IaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud DRaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud MDM</controllingFieldValue>
+            <controllingFieldValue>SIP</controllingFieldValue>
+            <valueName>Billing Query</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cloud DaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud IaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud DRaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud MDM</controllingFieldValue>
+            <valueName>Demo Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cloud DaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud IaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud DRaaS</controllingFieldValue>
+            <controllingFieldValue>Cloud MDM</controllingFieldValue>
+            <valueName>Pricing Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solution - Cisco</controllingFieldValue>
+            <controllingFieldValue>Solution - Avaya</controllingFieldValue>
+            <valueName>Pricing Request (BOM Only)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solution - Cisco</controllingFieldValue>
+            <controllingFieldValue>Solution - Avaya</controllingFieldValue>
+            <valueName>Proposal Request (BOM &amp; Solution)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solution - Cisco</controllingFieldValue>
+            <controllingFieldValue>Solution - Avaya</controllingFieldValue>
+            <valueName>Replacement/Upgrade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Roaming/Long Distance/ISP</controllingFieldValue>
+            <valueName>PIC Request- TBI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Roaming/Long Distance/ISP</controllingFieldValue>
+            <valueName>PIC Request- LINK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Roaming/Long Distance/ISP</controllingFieldValue>
+            <valueName>ISP Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Troubleshooting</controllingFieldValue>
+            <valueName>Device Repair Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Troubleshooting</controllingFieldValue>
+            <valueName>Troubleshooting- Device</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Troubleshooting</controllingFieldValue>
+            <valueName>Troubleshooting- Roaming/ ILD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Troubleshooting</controllingFieldValue>
+            <valueName>Troubleshooting- Voice/Data/SMS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Troubleshooting</controllingFieldValue>
+            <valueName>Troubleshooting- BES/BIS/BB ID</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Troubleshooting</controllingFieldValue>
+            <valueName>Software Upgrade Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>New Activation- MBB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>New Activation- ILD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>New Activation- All Services, Voice, Data &amp; ILD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>New Activation + Device- MBB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>New Activation + Device- All Services, Voice, Data &amp; ILD New Activation- Voice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>Re-Activation- Voice &amp; Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>Re-Activation- MBB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>Re-Activation- ILD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>Re-Activation- All Services, Voice, Data &amp; ILD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>Re-Activation + Device- Voice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>Re-Activation + Device- Voice &amp; Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>Re-Activation + Device- MBB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>Re-Activation + Device- All Services, Voice, Data &amp; ILD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>SIM Request- Lost</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>SIM Request- Stolen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>SIM Request- Damaged/Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>SIM Request- Micro/Nano SIM Upgrade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>SIM Request-Spare Stock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>SIM Request + Device- Lost</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>SIM Request + Device- Stolen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>SIM Request + Device- Damaged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>SIM Request + Device- Micro/Nano SIM Upgrade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>Device Order Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>Quote Request-Hardware</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>Quote Request-Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>Accessory Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>PrePaid Set Up Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Activations/ Purchases</controllingFieldValue>
+            <valueName>PrePaid Top-Up Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rate Plan Adjustments</controllingFieldValue>
+            <valueName>Account Transfer Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rate Plan Adjustments</controllingFieldValue>
+            <valueName>Account Adjustment- Name Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rate Plan Adjustments</controllingFieldValue>
+            <valueName>Account Adjustment- Billing Address Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rate Plan Adjustments</controllingFieldValue>
+            <valueName>Account Adjustment- Payment Method</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rate Plan Adjustments</controllingFieldValue>
+            <valueName>Account Adjustment- General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rate Plan Adjustments</controllingFieldValue>
+            <valueName>Rate Plan Change- Service Removal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rate Plan Adjustments</controllingFieldValue>
+            <valueName>Rate Plan Change- Plan Adjustments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rate Plan Adjustments</controllingFieldValue>
+            <valueName>Number Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rate Plan Adjustments</controllingFieldValue>
+            <valueName>3G/4G Upgrade Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rate Plan Adjustments</controllingFieldValue>
+            <valueName>Voicemail Reset</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rate Plan Adjustments</controllingFieldValue>
+            <valueName>Voicemail Password Reset</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rate Plan Adjustments</controllingFieldValue>
+            <valueName>Voicemail Disable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rate Plan Adjustments</controllingFieldValue>
+            <valueName>Voicemail Enable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billing/ Payment/ Invoice Requests</controllingFieldValue>
+            <valueName>Invoice Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billing/ Payment/ Invoice Requests</controllingFieldValue>
+            <valueName>Dispute- Invoice/charges</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billing/ Payment/ Invoice Requests</controllingFieldValue>
+            <valueName>Dispute- Roaming Charges</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billing/ Payment/ Invoice Requests</controllingFieldValue>
+            <valueName>Dispute- Late Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billing/ Payment/ Invoice Requests</controllingFieldValue>
+            <valueName>Dispute- Device Pricing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billing/ Payment/ Invoice Requests</controllingFieldValue>
+            <valueName>Payment- Query</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billing/ Payment/ Invoice Requests</controllingFieldValue>
+            <valueName>Payment- Notice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billing/ Payment/ Invoice Requests</controllingFieldValue>
+            <valueName>Payment</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

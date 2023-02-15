@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DealHub__Create_Quote_Lightning</fullName>
+    <availability>online</availability>
+    <description>Create_Quote_Lightning</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Create Quote</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>{!URLFOR($Site.Prefix+&apos;/apex/&apos;+$Setup.DealHub__DealHubSetting__c.DealHub__Namespace_Prefix__c+&apos;__DealHub?param=CreateQuoteFromOpp&amp;opportunityId=&apos;+Opportunity.Id)}</url>
+</WebLink>

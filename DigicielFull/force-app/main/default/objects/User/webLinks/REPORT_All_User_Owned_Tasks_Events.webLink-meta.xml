@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>REPORT_All_User_Owned_Tasks_Events</fullName>
+    <availability>online</availability>
+    <description>This custom link opens a report with all Tasks and Events that are owned by the user</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>REPORT: All User Owned Tasks &amp; Events</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/00O0W000005MfN7?pv0={!User.Id}</url>
+</WebLink>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_date__c</fullName>
+    <description>- If an Opportunity is Open and not Close-Won, Fill out this field with the Close Date field
+- If an Opportunity is Closed Won, Fill this field with the Estimated Bill Date
+- If an Opportunity is fully Billed, Populate the Actual Bill Date on the Opp, and use that field for this field</description>
+    <externalId>false</externalId>
+    <label>Opportunity Close Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Date</type>
+</CustomField>

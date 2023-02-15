@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Ensure_only_one_parent_is_entered</fullName>
+    <active>true</active>
+    <description>Ensure only the Parent Milestone, Parent Action or Parent Checklist Item are populated</description>
+    <errorConditionFormula>OR(
+    AND(
+        NOT(ISBLANK( amc__Parent_Milestone__c )),
+        NOT(ISBLANK( amc__Parent_Action__c )),
+        NOT(ISBLANK( amc__Parent_Checklist_Item__c ))
+    ),
+    AND(
+        NOT(ISBLANK( amc__Parent_Milestone__c )),
+        NOT(ISBLANK( amc__Parent_Action__c ))
+    ),
+    AND(
+        NOT(ISBLANK( amc__Parent_Milestone__c )),
+        NOT(ISBLANK( amc__Parent_Checklist_Item__c ))
+    ),
+    AND(
+        NOT(ISBLANK( amc__Parent_Action__c )),
+        NOT(ISBLANK( amc__Parent_Checklist_Item__c ))
+    )
+)</errorConditionFormula>
+    <errorMessage>You can only specify one Parent: A Milestone, an Action or a Checklist Item.</errorMessage>
+</ValidationRule>

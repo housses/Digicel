@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Cost_Hourly_Rate__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(  amc__Cost_Rate__c , &quot;Standard&quot;),  amc__Cost_Day_Rate__c  /  IF(NOT(ISBLANK(amc__Hours_Per_Day__c)), amc__Hours_Per_Day__c, IF(NOT(ISBLANK($Setup.amc__Rates__c.amc__Hours_Per_Day__c)), $Setup.amc__Rates__c.amc__Hours_Per_Day__c, 8)) , 0)</formula>
+    <inlineHelpText>Identifies the Hourly Cost for project this Project. Used to calculate project costs if Billing Rate = Standard</inlineHelpText>
+    <label>Cost Hourly Rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

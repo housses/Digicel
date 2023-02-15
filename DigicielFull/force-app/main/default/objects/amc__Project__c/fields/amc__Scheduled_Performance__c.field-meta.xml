@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Scheduled_Performance__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>If(  amc__Cost_Budget__c   = 0, &quot;No Measurement&quot;, if((( amc__Cost_Schedule__c +  amc__Material_Costs_Scheduled__c +  amc__Anticipated_Project_Expenses__c  ) / amc__Cost_Budget__c)&lt;0.8,
+&quot;Under Project Budget&quot;, 
+if((( amc__Cost_Schedule__c +  amc__Material_Costs_Scheduled__c +  amc__Anticipated_Project_Expenses__c) / amc__Cost_Budget__c)&lt;=1,
+&quot;Within Project Budget&quot;,
+&quot;Over Project Budget&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Shows performance based on Scheduled Hours &amp; Material Costs &amp; Anticipated Project Expenses</inlineHelpText>
+    <label>Scheduled Performance</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -126,7 +126,7 @@ global class InvoiceKaldom_BAT implements Database.Batchable<sObject>, Database.
 
     //call again the batch with increment stardate and endDate stop recursivity when we exeded one year
     global void finish(Database.BatchableContext bc){
-           if(firstNumber < 366){
+           if(firstNumber < 365){
             firstNumber += 7;
             secondNumber += 7;
             Id batchJobId = Database.executebatch(new InvoiceKaldom_BAT(firstNumber,secondNumber), 100);   

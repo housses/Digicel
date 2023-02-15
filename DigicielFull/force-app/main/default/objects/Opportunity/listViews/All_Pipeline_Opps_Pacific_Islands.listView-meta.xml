@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Pipeline_Opps_Pacific_Islands</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Estimated_Billed_Date__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>Push_Counter__c</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Closed Won,Go Live!,Billed,Closed Lost,Lost</value>
+    </filters>
+    <label>*All Pipeline Opps - Pacific Islands</label>
+    <language>en_US</language>
+    <sharedTo>
+        <roleAndSubordinates>Digicel_Group_Business_Solutions_South_Pacific_Region</roleAndSubordinates>
+    </sharedTo>
+</ListView>

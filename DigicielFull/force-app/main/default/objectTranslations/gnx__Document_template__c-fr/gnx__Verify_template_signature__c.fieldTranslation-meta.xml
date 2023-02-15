@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Calcul la signature numérique (checksum) du modèle lors de l&apos;envoie du template et vérifie cette signature lors de la génération</help>
+    <label></label>
+    <name>gnx__Verify_template_signature__c</name>
+</CustomFieldTranslation>

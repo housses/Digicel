@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>City_Town_Suburb__c</fullName>
+    <externalId>false</externalId>
+    <label>City / Town / Suburb</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Province__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Arawa-Kieta</fullName>
+                <default>false</default>
+                <label>Arawa-Kieta</label>
+            </value>
+            <value>
+                <fullName>Buin</fullName>
+                <default>false</default>
+                <label>Buin</label>
+            </value>
+            <value>
+                <fullName>Buka</fullName>
+                <default>false</default>
+                <label>Buka</label>
+            </value>
+            <value>
+                <fullName>Abau</fullName>
+                <default>false</default>
+                <label>Abau</label>
+            </value>
+            <value>
+                <fullName>Bereina</fullName>
+                <default>false</default>
+                <label>Bereina</label>
+            </value>
+            <value>
+                <fullName>Kwikila</fullName>
+                <default>false</default>
+                <label>Kwikila</label>
+            </value>
+            <value>
+                <fullName>Tapini</fullName>
+                <default>false</default>
+                <label>Tapini</label>
+            </value>
+            <value>
+                <fullName>Chuave</fullName>
+                <default>false</default>
+                <label>Chuave</label>
+            </value>
+            <value>
+                <fullName>Gumine</fullName>
+                <default>false</default>
+                <label>Gumine</label>
+            </value>
+            <value>
+                <fullName>Karimui</fullName>
+                <default>false</default>
+                <label>Karimui</label>
+            </value>
+            <value>
+                <fullName>Kerowagi</fullName>
+                <default>false</default>
+                <label>Kerowagi</label>
+            </value>
+            <value>
+                <fullName>Kundiawa</fullName>
+                <default>false</default>
+                <label>Kundiawa</label>
+            </value>
+            <value>
+                <fullName>Yonggomugl</fullName>
+                <default>false</default>
+                <label>Yonggomugl</label>
+            </value>
+            <value>
+                <fullName>Kerevat</fullName>
+                <default>false</default>
+                <label>Kerevat</label>
+            </value>
+            <value>
+                <fullName>Kokopo</fullName>
+                <default>false</default>
+                <label>Kokopo</label>
+            </value>
+            <value>
+                <fullName>Pomio</fullName>
+                <default>false</default>
+                <label>Pomio</label>
+            </value>
+            <value>
+                <fullName>Rabaul</fullName>
+                <default>false</default>
+                <label>Rabaul</label>
+            </value>
+            <value>
+                <fullName>Ambunti</fullName>
+                <default>false</default>
+                <label>Ambunti</label>
+            </value>
+            <value>
+                <fullName>Angoram</fullName>
+                <default>false</default>
+                <label>Angoram</label>
+            </value>
+            <value>
+                <fullName>Maprik</fullName>
+                <default>false</default>
+                <label>Maprik</label>
+            </value>
+            <value>
+                <fullName>Wewak</fullName>
+                <default>false</default>
+                <label>Wewak</label>
+            </value>
+            <value>
+                <fullName>Wosera</fullName>
+                <default>false</default>
+                <label>Wosera</label>
+            </value>
+            <value>
+                <fullName>Yangoru</fullName>
+                <default>false</default>
+                <label>Yangoru</label>
+            </value>
+            <value>
+                <fullName>Asaro</fullName>
+                <default>false</default>
+                <label>Asaro</label>
+            </value>
+            <value>
+                <fullName>Benna</fullName>
+                <default>false</default>
+                <label>Benna</label>
+            </value>
+            <value>
+                <fullName>Goroka</fullName>
+                <default>false</default>
+                <label>Goroka</label>
+            </value>
+            <value>
+                <fullName>Henganofi</fullName>
+                <default>false</default>
+                <label>Henganofi</label>
+            </value>
+            <value>
+                <fullName>Kainantu</fullName>
+                <default>false</default>
+                <label>Kainantu</label>
+            </value>
+            <value>
+                <fullName>Lamari</fullName>
+                <default>false</default>
+                <label>Lamari</label>
+            </value>
+            <value>
+                <fullName>Lufa</fullName>
+                <default>false</default>
+                <label>Lufa</label>
+            </value>
+            <value>
+                <fullName>Okapa</fullName>
+                <default>false</default>
+                <label>Okapa</label>
+            </value>
+            <value>
+                <fullName>Kandep</fullName>
+                <default>false</default>
+                <label>Kandep</label>
+            </value>
+            <value>
+                <fullName>Kompiam</fullName>
+                <default>false</default>
+                <label>Kompiam</label>
+            </value>
+            <value>
+                <fullName>Lagaip-Porgera</fullName>
+                <default>false</default>
+                <label>Lagaip-Porgera</label>
+            </value>
+            <value>
+                <fullName>Wabag</fullName>
+                <default>false</default>
+                <label>Wabag</label>
+            </value>
+            <value>
+                <fullName>Wapenamanda</fullName>
+                <default>false</default>
+                <label>Wapenamanda</label>
+            </value>
+            <value>
+                <fullName>Kerema</fullName>
+                <default>false</default>
+                <label>Kerema</label>
+            </value>
+            <value>
+                <fullName>Kikori</fullName>
+                <default>false</default>
+                <label>Kikori</label>
+            </value>
+            <value>
+                <fullName>Kopiago</fullName>
+                <default>false</default>
+                <label>Kopiago</label>
+            </value>
+            <value>
+                <fullName>Magarima</fullName>
+                <default>false</default>
+                <label>Magarima</label>
+            </value>
+            <value>
+                <fullName>Tari</fullName>
+                <default>false</default>
+                <label>Tari</label>
+            </value>
+            <value>
+                <fullName>Banz</fullName>
+                <default>false</default>
+                <label>Banz</label>
+            </value>
+            <value>
+                <fullName>Minj</fullName>
+                <default>false</default>
+                <label>Minj</label>
+            </value>
+            <value>
+                <fullName>Tabibuga</fullName>
+                <default>false</default>
+                <label>Tabibuga</label>
+            </value>
+            <value>
+                <fullName>Bogia</fullName>
+                <default>false</default>
+                <label>Bogia</label>
+            </value>
+            <value>
+                <fullName>Karkar</fullName>
+                <default>false</default>
+                <label>Karkar</label>
+            </value>
+            <value>
+                <fullName>Madang</fullName>
+                <default>false</default>
+                <label>Madang</label>
+            </value>
+            <value>
+                <fullName>Saidor</fullName>
+                <default>false</default>
+                <label>Saidor</label>
+            </value>
+            <value>
+                <fullName>Simbai</fullName>
+                <default>false</default>
+                <label>Simbai</label>
+            </value>
+            <value>
+                <fullName>Usino</fullName>
+                <default>false</default>
+                <label>Usino</label>
+            </value>
+            <value>
+                <fullName>Lorengau</fullName>
+                <default>false</default>
+                <label>Lorengau</label>
+            </value>
+            <value>
+                <fullName>Alotau</fullName>
+                <default>false</default>
+                <label>Alotau</label>
+            </value>
+            <value>
+                <fullName>Esa&apos;ala</fullName>
+                <default>false</default>
+                <label>Esa&apos;ala</label>
+            </value>
+            <value>
+                <fullName>Kiriwina</fullName>
+                <default>false</default>
+                <label>Kiriwina</label>
+            </value>
+            <value>
+                <fullName>Murua</fullName>
+                <default>false</default>
+                <label>Murua</label>
+            </value>
+            <value>
+                <fullName>Boana</fullName>
+                <default>false</default>
+                <label>Boana</label>
+            </value>
+            <value>
+                <fullName>Bulolo</fullName>
+                <default>false</default>
+                <label>Bulolo</label>
+            </value>
+            <value>
+                <fullName>Gagidu</fullName>
+                <default>false</default>
+                <label>Gagidu</label>
+            </value>
+            <value>
+                <fullName>Kabwum</fullName>
+                <default>false</default>
+                <label>Kabwum</label>
+            </value>
+            <value>
+                <fullName>Kaiapit</fullName>
+                <default>false</default>
+                <label>Kaiapit</label>
+            </value>
+            <value>
+                <fullName>Lae</fullName>
+                <default>false</default>
+                <label>Lae</label>
+            </value>
+            <value>
+                <fullName>Menyamya</fullName>
+                <default>false</default>
+                <label>Menyamya</label>
+            </value>
+            <value>
+                <fullName>Salamaua</fullName>
+                <default>false</default>
+                <label>Salamaua</label>
+            </value>
+            <value>
+                <fullName>Wasu</fullName>
+                <default>false</default>
+                <label>Wasu</label>
+            </value>
+            <value>
+                <fullName>Bomana</fullName>
+                <default>false</default>
+                <label>Bomana</label>
+            </value>
+            <value>
+                <fullName>Boroko</fullName>
+                <default>false</default>
+                <label>Boroko</label>
+            </value>
+            <value>
+                <fullName>Gerehu</fullName>
+                <default>false</default>
+                <label>Gerehu</label>
+            </value>
+            <value>
+                <fullName>Gordons</fullName>
+                <default>false</default>
+                <label>Gordons</label>
+            </value>
+            <value>
+                <fullName>Kilakila</fullName>
+                <default>false</default>
+                <label>Kilakila</label>
+            </value>
+            <value>
+                <fullName>Laloki</fullName>
+                <default>false</default>
+                <label>Laloki</label>
+            </value>
+            <value>
+                <fullName>Port Moresby</fullName>
+                <default>false</default>
+                <label>Port Moresby</label>
+            </value>
+            <value>
+                <fullName>Tokarara</fullName>
+                <default>false</default>
+                <label>Tokarara</label>
+            </value>
+            <value>
+                <fullName>Town</fullName>
+                <default>false</default>
+                <label>Town</label>
+            </value>
+            <value>
+                <fullName>Waigani</fullName>
+                <default>false</default>
+                <label>Waigani</label>
+            </value>
+            <value>
+                <fullName>Kavieng</fullName>
+                <default>false</default>
+                <label>Kavieng</label>
+            </value>
+            <value>
+                <fullName>Namatanai</fullName>
+                <default>false</default>
+                <label>Namatanai</label>
+            </value>
+            <value>
+                <fullName>Kokoda</fullName>
+                <default>false</default>
+                <label>Kokoda</label>
+            </value>
+            <value>
+                <fullName>Popondetta</fullName>
+                <default>false</default>
+                <label>Popondetta</label>
+            </value>
+            <value>
+                <fullName>Aitape</fullName>
+                <default>false</default>
+                <label>Aitape</label>
+            </value>
+            <value>
+                <fullName>Nuku</fullName>
+                <default>false</default>
+                <label>Nuku</label>
+            </value>
+            <value>
+                <fullName>Telefomin</fullName>
+                <default>false</default>
+                <label>Telefomin</label>
+            </value>
+            <value>
+                <fullName>Vanimo</fullName>
+                <default>false</default>
+                <label>Vanimo</label>
+            </value>
+            <value>
+                <fullName>Ialibu</fullName>
+                <default>false</default>
+                <label>Ialibu</label>
+            </value>
+            <value>
+                <fullName>Imbonggu</fullName>
+                <default>false</default>
+                <label>Imbonggu</label>
+            </value>
+            <value>
+                <fullName>Kagua</fullName>
+                <default>false</default>
+                <label>Kagua</label>
+            </value>
+            <value>
+                <fullName>Mendi</fullName>
+                <default>false</default>
+                <label>Mendi</label>
+            </value>
+            <value>
+                <fullName>Nipa</fullName>
+                <default>false</default>
+                <label>Nipa</label>
+            </value>
+            <value>
+                <fullName>Kandrian</fullName>
+                <default>false</default>
+                <label>Kandrian</label>
+            </value>
+            <value>
+                <fullName>Kimbe</fullName>
+                <default>false</default>
+                <label>Kimbe</label>
+            </value>
+            <value>
+                <fullName>Baiyer</fullName>
+                <default>false</default>
+                <label>Baiyer</label>
+            </value>
+            <value>
+                <fullName>Dei</fullName>
+                <default>false</default>
+                <label>Dei</label>
+            </value>
+            <value>
+                <fullName>Mount Hagen</fullName>
+                <default>false</default>
+                <label>Mount Hagen</label>
+            </value>
+            <value>
+                <fullName>Tambul</fullName>
+                <default>false</default>
+                <label>Tambul</label>
+            </value>
+            <value>
+                <fullName>Balimo</fullName>
+                <default>false</default>
+                <label>Balimo</label>
+            </value>
+            <value>
+                <fullName>Daru</fullName>
+                <default>false</default>
+                <label>Daru</label>
+            </value>
+            <value>
+                <fullName>Kiunga</fullName>
+                <default>false</default>
+                <label>Kiunga</label>
+            </value>
+            <value>
+                <fullName>Lihir</fullName>
+                <default>false</default>
+                <label>Lihir</label>
+            </value>
+            <value>
+                <fullName>Finschafen</fullName>
+                <default>false</default>
+                <label>Finschafen</label>
+            </value>
+            <value>
+                <fullName>Moro</fullName>
+                <default>false</default>
+                <label>Moro</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Morobe Province</controllingFieldValue>
+            <valueName>Boana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Morobe Province</controllingFieldValue>
+            <valueName>Bulolo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Morobe Province</controllingFieldValue>
+            <valueName>Gagidu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Morobe Province</controllingFieldValue>
+            <valueName>Kabwum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Morobe Province</controllingFieldValue>
+            <valueName>Kaiapit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Morobe Province</controllingFieldValue>
+            <valueName>Lae</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Morobe Province</controllingFieldValue>
+            <valueName>Menyamya</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Morobe Province</controllingFieldValue>
+            <valueName>Salamaua</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Morobe Province</controllingFieldValue>
+            <valueName>Wasu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Morobe Province</controllingFieldValue>
+            <valueName>Finschafen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central Province</controllingFieldValue>
+            <valueName>Abau</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central Province</controllingFieldValue>
+            <valueName>Bereina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central Province</controllingFieldValue>
+            <valueName>Kwikila</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central Province</controllingFieldValue>
+            <valueName>Tapini</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manus Province</controllingFieldValue>
+            <valueName>Lorengau</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madang Province</controllingFieldValue>
+            <valueName>Bogia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madang Province</controllingFieldValue>
+            <valueName>Karkar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madang Province</controllingFieldValue>
+            <valueName>Madang</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madang Province</controllingFieldValue>
+            <valueName>Saidor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madang Province</controllingFieldValue>
+            <valueName>Simbai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madang Province</controllingFieldValue>
+            <valueName>Usino</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southern Highlands Province</controllingFieldValue>
+            <valueName>Ialibu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southern Highlands Province</controllingFieldValue>
+            <valueName>Imbonggu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southern Highlands Province</controllingFieldValue>
+            <valueName>Kagua</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southern Highlands Province</controllingFieldValue>
+            <valueName>Mendi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southern Highlands Province</controllingFieldValue>
+            <valueName>Nipa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southern Highlands Province</controllingFieldValue>
+            <valueName>Moro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Western Highlands Province</controllingFieldValue>
+            <valueName>Baiyer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Western Highlands Province</controllingFieldValue>
+            <valueName>Dei</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Western Highlands Province</controllingFieldValue>
+            <valueName>Mount Hagen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Western Highlands Province</controllingFieldValue>
+            <valueName>Tambul</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oro Province</controllingFieldValue>
+            <valueName>Kokoda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oro Province</controllingFieldValue>
+            <valueName>Popondetta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>National Capital District</controllingFieldValue>
+            <valueName>Bomana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>National Capital District</controllingFieldValue>
+            <valueName>Boroko</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>National Capital District</controllingFieldValue>
+            <valueName>Gerehu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>National Capital District</controllingFieldValue>
+            <valueName>Gordons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>National Capital District</controllingFieldValue>
+            <valueName>Kilakila</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>National Capital District</controllingFieldValue>
+            <valueName>Laloki</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>National Capital District</controllingFieldValue>
+            <valueName>Port Moresby</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>National Capital District</controllingFieldValue>
+            <valueName>Tokarara</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>National Capital District</controllingFieldValue>
+            <valueName>Town</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>National Capital District</controllingFieldValue>
+            <valueName>Waigani</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hela Province</controllingFieldValue>
+            <valueName>Kopiago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hela Province</controllingFieldValue>
+            <valueName>Magarima</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hela Province</controllingFieldValue>
+            <valueName>Tari</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sandaun Province</controllingFieldValue>
+            <valueName>Aitape</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sandaun Province</controllingFieldValue>
+            <valueName>Nuku</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sandaun Province</controllingFieldValue>
+            <valueName>Telefomin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sandaun Province</controllingFieldValue>
+            <valueName>Vanimo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Milne Bay Province</controllingFieldValue>
+            <valueName>Alotau</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Milne Bay Province</controllingFieldValue>
+            <valueName>Esa&apos;ala</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Milne Bay Province</controllingFieldValue>
+            <valueName>Kiriwina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Milne Bay Province</controllingFieldValue>
+            <valueName>Murua</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jiwaka Province</controllingFieldValue>
+            <valueName>Banz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jiwaka Province</controllingFieldValue>
+            <valueName>Minj</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jiwaka Province</controllingFieldValue>
+            <valueName>Tabibuga</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autonomous Region of Bougainville</controllingFieldValue>
+            <valueName>Arawa-Kieta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autonomous Region of Bougainville</controllingFieldValue>
+            <valueName>Buin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Autonomous Region of Bougainville</controllingFieldValue>
+            <valueName>Buka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Western Province</controllingFieldValue>
+            <valueName>Balimo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Western Province</controllingFieldValue>
+            <valueName>Daru</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Western Province</controllingFieldValue>
+            <valueName>Kiunga</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eastern Highlands Province</controllingFieldValue>
+            <valueName>Asaro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eastern Highlands Province</controllingFieldValue>
+            <valueName>Benna</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eastern Highlands Province</controllingFieldValue>
+            <valueName>Goroka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eastern Highlands Province</controllingFieldValue>
+            <valueName>Henganofi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eastern Highlands Province</controllingFieldValue>
+            <valueName>Kainantu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eastern Highlands Province</controllingFieldValue>
+            <valueName>Lamari</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eastern Highlands Province</controllingFieldValue>
+            <valueName>Lufa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eastern Highlands Province</controllingFieldValue>
+            <valueName>Okapa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Ireland Province</controllingFieldValue>
+            <valueName>Kavieng</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Ireland Province</controllingFieldValue>
+            <valueName>Namatanai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Ireland Province</controllingFieldValue>
+            <valueName>Lihir</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gulf Province</controllingFieldValue>
+            <valueName>Kerema</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gulf Province</controllingFieldValue>
+            <valueName>Kikori</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West New Britain Province</controllingFieldValue>
+            <valueName>Kandrian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West New Britain Province</controllingFieldValue>
+            <valueName>Kimbe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East New Britain Province</controllingFieldValue>
+            <valueName>Kerevat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East New Britain Province</controllingFieldValue>
+            <valueName>Kokopo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East New Britain Province</controllingFieldValue>
+            <valueName>Pomio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East New Britain Province</controllingFieldValue>
+            <valueName>Rabaul</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enga Province</controllingFieldValue>
+            <valueName>Kandep</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enga Province</controllingFieldValue>
+            <valueName>Kompiam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enga Province</controllingFieldValue>
+            <valueName>Lagaip-Porgera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enga Province</controllingFieldValue>
+            <valueName>Wabag</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enga Province</controllingFieldValue>
+            <valueName>Wapenamanda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chimbu Province</controllingFieldValue>
+            <valueName>Chuave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chimbu Province</controllingFieldValue>
+            <valueName>Gumine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chimbu Province</controllingFieldValue>
+            <valueName>Karimui</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chimbu Province</controllingFieldValue>
+            <valueName>Kerowagi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chimbu Province</controllingFieldValue>
+            <valueName>Kundiawa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chimbu Province</controllingFieldValue>
+            <valueName>Yonggomugl</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East Sepik Province</controllingFieldValue>
+            <valueName>Ambunti</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East Sepik Province</controllingFieldValue>
+            <valueName>Angoram</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East Sepik Province</controllingFieldValue>
+            <valueName>Maprik</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East Sepik Province</controllingFieldValue>
+            <valueName>Wewak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East Sepik Province</controllingFieldValue>
+            <valueName>Wosera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East Sepik Province</controllingFieldValue>
+            <valueName>Yangoru</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

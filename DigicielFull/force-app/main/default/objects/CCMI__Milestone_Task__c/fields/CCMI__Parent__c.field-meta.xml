@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCMI__Parent__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>The Task that the current Task is dependent on.</inlineHelpText>
+    <label>Parent Task</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Parent tasks must be from the same project</errorMessage>
+        <filterItems>
+            <field>$Source.CCMI__Milestone_Project__c</field>
+            <operation>equals</operation>
+            <valueField>CCMI__Milestone_Task__c.CCMI__Milestone_Project__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>CCMI__Milestone_Task__c</referenceTo>
+    <relationshipLabel>Milestone Tasks</relationshipLabel>
+    <relationshipName>Child_Tasks</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

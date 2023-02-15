@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Construction</masterLabel>
+        <translation>Construcción</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Energy / Oil and Gas</masterLabel>
+        <translation><!-- Energy / Oil and Gas --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FMCG / Manufacturing</masterLabel>
+        <translation><!-- FMCG / Manufacturing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Financial / Professional Services</masterLabel>
+        <translation><!-- Financial / Professional Services --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Government, Healthcare and Public Services</masterLabel>
+        <translation><!-- Government, Healthcare and Public Services --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ICT</masterLabel>
+        <translation><!-- ICT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tourism / Hospitality</masterLabel>
+        <translation><!-- Tourism / Hospitality --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

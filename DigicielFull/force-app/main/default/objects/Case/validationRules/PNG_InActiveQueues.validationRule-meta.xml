@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PNG_InActiveQueues</fullName>
+    <active>true</active>
+    <description>Users are not allowed to assign cases to the queue list in the validation rule.</description>
+    <errorConditionFormula>AND(ISCHANGED( OwnerId ), OwnerId = &quot;00G0W000003Z90r&quot;)</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>Case Queue InActive. You are not allowed to assign case to this Queue.</errorMessage>
+</ValidationRule>

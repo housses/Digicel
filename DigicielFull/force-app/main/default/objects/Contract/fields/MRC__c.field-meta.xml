@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MRC__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( RecordType.Name = &quot;Digicel PNG ICT&quot;,  Opportunity__r.Total_Monthly_Recurring_Revenue__c ,Opportunity__r.MRC__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Contract MRC</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

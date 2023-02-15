@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Existing_Customers</fullName>
+    <columns>Billing_Country__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Registration_Number__c</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Customer_Segment__c</columns>
+    <columns>Account_Category__c</columns>
+    <columns>ACCOUNT.INDUSTRY</columns>
+    <columns>SubIndustry__c</columns>
+    <columns>ACCOUNT.LAST_ACTIVITY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>PARENT_NAME</columns>
+    <columns>UltimateParentAccountLink__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CustomerType__c</field>
+        <operation>equals</operation>
+        <value>Existing Customer,Winback</value>
+    </filters>
+    <label>All Accounts - Existing Customers</label>
+</ListView>

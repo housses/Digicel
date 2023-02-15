@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__First_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF( ISBLANK(amc__User__r.FirstName) , IF(ISBLANK(amc__Contact__r.FirstName), IF(ISBLANK(amc__Role__r.amc__First_Name__c),&quot;&quot;,amc__Role__r.amc__First_Name__c),amc__Contact__r.FirstName), amc__User__r.FirstName )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Formula: References the First Name of the User or Contact</inlineHelpText>
+    <label>First Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

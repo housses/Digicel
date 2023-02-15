@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gnx__Language_field_on_main_object__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Nom API du champ langue qui sera requêté pour déterminer la langue par défaut affichée sur le composant de génération, si ce champ est vide la langue par défaut sera celle de l&apos;utilisateur</inlineHelpText>
+    <label>Language field on main object</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

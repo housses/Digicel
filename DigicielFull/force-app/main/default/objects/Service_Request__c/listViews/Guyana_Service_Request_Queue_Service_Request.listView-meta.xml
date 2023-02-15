@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Guyana_Service_Request_Queue_Service_Request</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Requested_Date__c</columns>
+    <columns>Completed_Date__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>ICT_Support_Engineer__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>Guyana</value>
+    </filters>
+    <label>Guyana Service Request Queue</label>
+    <language>en_US</language>
+    <sharedTo>
+        <roleAndSubordinates>Guyana</roleAndSubordinates>
+    </sharedTo>
+</ListView>

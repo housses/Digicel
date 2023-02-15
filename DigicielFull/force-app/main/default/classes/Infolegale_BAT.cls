@@ -18,7 +18,7 @@ global class Infolegale_BAT implements Database.Batchable<sObject>, Database.All
      * @return query locator for retrieved accounts
      */
     global Database.QueryLocator start(Database.BatchableContext bc) {        
-        return Database.getQueryLocator([SELECT Id, INFOLEGALERating__c, Registration_Number__c FROM Account WHERE Id IN :setIdAccount AND Owner.Digicel_Country__c = 'FWI']);            
+        return Database.getQueryLocator([SELECT Id, INFOLEGALERating__c, Registration_Number__c, LastSychroInfolegale__c FROM Account WHERE Id IN :setIdAccount AND Owner.Digicel_Country__c = 'FWI']);            
     }
 
     /**
@@ -37,13 +37,17 @@ global class Infolegale_BAT implements Database.Batchable<sObject>, Database.All
             if(code == 200){
                 InfolegaleWrapper repBody = InfolegaleWrapper.parse(resScore.getBody());               
                 score = repBody.score;
-                if(score != account.INFOLEGALERating__c ){
-                    account.INFOLEGALERating__c = score;
-                    accToUpdate.add(account);
-                }
+                account.INFOLEGALERating__c = score;
+                account.LastSychroInfolegale__c = 'Derière synchro:' + + Datetime.now(); 
             } else {
-                throw new MyException('Infolegale_BAT : Error Infologale : Status Code : ' + code);
+                if(account.LastSychroInfolegale__c == ''){
+                    account.LastSychroInfolegale__c = 'Infolegale_BAT : Error Infologale : Status Code : ' + code;  
+                }else {
+                    account.LastSychroInfolegale__c = account.LastSychroInfolegale__c + '; Infolegale_BAT : Error Infologale : Status Code : ' + code; 
+                }
+                
             }
+            accToUpdate.add(account);
         }
 
         if(accToUpdate.size() > 0){

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProRata_MRC_Act__c</fullName>
+    <businessOwnerGroup>SFDC_Admin_Team</businessOwnerGroup>
+    <businessStatus>DeprecateCandidate</businessStatus>
+    <externalId>false</externalId>
+    <formula>(
+MRC__c /
+CASE(
+MONTH( Actual_Billed_Date__c ), 
+9, 30, 
+4, 30, 
+6, 30, 
+11, 30, 
+2, IF(MOD(YEAR(CloseDate), 400) = 0 || (MOD(YEAR(CloseDate), 4) = 0 &amp;&amp; MOD(YEAR(CloseDate), 100) &lt;&gt; 0), 29, 28),
+31
+)
+)
+*
+(
+CASE( 
+MONTH( Actual_Billed_Date__c), 
+9, 30, 
+4, 30, 
+6, 30, 
+11, 30, 
+2, IF(MOD(YEAR(CloseDate), 400) = 0 || (MOD(YEAR(CloseDate), 4) = 0 &amp;&amp; MOD(YEAR(CloseDate), 100) &lt;&gt; 0), 29, 28), 
+31
+)- 
+DAY(  Actual_Billed_Date__c  ) + 1
+)</formula>
+    <label>zDeprecated - ProRata MRC (Act)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <securityClassification>Internal</securityClassification>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Generate_Project__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Set this field to TRUE to auto-generate the Project</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Set this field to TRUE to auto-generate the Project</inlineHelpText>
+    <label>Generate Project</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

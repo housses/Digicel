@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>PNG - Managed Services (Networks)</name>
+    <queueMembers>
+        <users>
+            <user>daniel.maisu@digicelgroup.com</user>
+            <user>gabriel.lauya@digicelgroup.com</user>
+            <user>patrick.ireng@digicelgroup.com</user>
+            <user>tom.gorogo@digicelgroup.com</user>
+            <user>tomu.lawaniyasana@digicelgroup.com</user>
+            <user>tuain.tuain@digicelgroup.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Case_Owner_History__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

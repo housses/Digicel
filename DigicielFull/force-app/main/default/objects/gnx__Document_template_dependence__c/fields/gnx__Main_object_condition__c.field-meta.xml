@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gnx__Main_object_condition__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Condition on main object of main template, If the condition is true, the associate template linked to this dependence is added to the main document</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Condition sur l&apos;objet princpal, si cette condition est vraie ou le champ vide, le document associé est ajoutée au document principal</inlineHelpText>
+    <label>Main object condition</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

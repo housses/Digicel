@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Case Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unable to send top up</fullName>
+                <default>false</default>
+                <label>Unable to send top up</label>
+            </value>
+            <value>
+                <fullName>Unable to login</fullName>
+                <default>false</default>
+                <label>Unable to login</label>
+            </value>
+            <value>
+                <fullName>Unable to register</fullName>
+                <default>false</default>
+                <label>Unable to register</label>
+            </value>
+            <value>
+                <fullName>Did not receive activation email</fullName>
+                <default>false</default>
+                <label>Did not receive activation email</label>
+            </value>
+            <value>
+                <fullName>Payment issues</fullName>
+                <default>false</default>
+                <label>Payment issues</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Credit applied to incorrect number</fullName>
+                <default>false</default>
+                <label>Credit applied to incorrect number</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

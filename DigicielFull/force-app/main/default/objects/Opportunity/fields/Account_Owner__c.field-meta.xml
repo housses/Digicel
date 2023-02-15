@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Owner__c</fullName>
+    <businessOwnerUser>ttsdev_admin@digicelgroup.com.commcloud</businessOwnerUser>
+    <businessStatus>Active</businessStatus>
+    <description>USED BY THE CM TOOL IN TRINIDAD 
+This is required for when an opportunity is submitted to processing for corporate fulfillment.</description>
+    <externalId>false</externalId>
+    <formula>Account.Owner.FirstName   &amp; &quot; &quot; &amp; Account.Owner.LastName</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Account Owner</label>
+    <required>false</required>
+    <securityClassification>Internal</securityClassification>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

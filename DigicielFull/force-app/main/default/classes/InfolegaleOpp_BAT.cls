@@ -33,7 +33,7 @@ global class InfolegaleOpp_BAT implements Database.Batchable<sObject>, Database.
         for(Opportunity opp : listOpps){
             setIdAccount.add(opp.AccountId);
         }
-        List<Account> listAcc = [SELECT Id, INFOLEGALERating__c, Registration_Number__c FROM Account WHERE Id IN :setIdAccount];
+        List<Account> listAcc = [SELECT Id, INFOLEGALERating__c, Registration_Number__c,LastSychroInfolegale__c FROM Account WHERE Id IN :setIdAccount];
 
 
         if(listOpps.size() > 0 && listAcc.size()>0){
@@ -46,11 +46,14 @@ global class InfolegaleOpp_BAT implements Database.Batchable<sObject>, Database.
                     if(code == 200){
                         InfolegaleWrapper repBody = InfolegaleWrapper.parse(resScore.getBody());
                         score = repBody.score;
-                        if(acc.INFOLEGALERating__c != score){
-                            acc.INFOLEGALERating__c = score;   
-                        }
+                        acc.INFOLEGALERating__c = score;
+                        acc.LastSychroInfolegale__c = 'Derière synchro:'  + Datetime.now(); 
                     } else {
-                        acc.Description = 'Erreur lors de l\'appel à infogreffe le ' + Datetime.now() + ' : ' + resScore.getBody(); 
+                        if(acc.LastSychroInfolegale__c == ''){
+                            acc.LastSychroInfolegale__c = 'Erreur lors de l\'appel à infogreffe le ' + Datetime.now() + ' : ' + resScore.getBody(); 
+                        }else {
+                            acc.LastSychroInfolegale__c = acc.LastSychroInfolegale__c + '; Erreur lors de l\'appel à infogreffe le ' + Datetime.now() + ' : ' + resScore.getBody(); 
+                        }
                     }
                     accToUpdate.add(acc);
                 }  

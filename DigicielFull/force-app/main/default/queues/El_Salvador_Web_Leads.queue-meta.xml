@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>El Salvador Web Leads</name>
+    <queueMembers>
+        <users>
+            <user>claudia.riveramontes@digicelgroup.com</user>
+            <user>gerardo.rivera@digicelgroup.com</user>
+            <user>carolina.garzona@digicelgroup.com</user>
+            <user>mauricio.acostarecinos@digicelgroup.com</user>
+            <user>paola.lainez@digicelgroup.com</user>
+            <user>ricardo.hernandez@digicelgroup.com</user>
+            <user>roberto.velasquezalfaro@digicelgroup.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

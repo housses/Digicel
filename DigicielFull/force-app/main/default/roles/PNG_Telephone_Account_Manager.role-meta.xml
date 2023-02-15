@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>PNG - Telephone Account Manager</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>PNG - Telephone Account Manager</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>PNG_Sales_Manager</parentRole>
+</Role>

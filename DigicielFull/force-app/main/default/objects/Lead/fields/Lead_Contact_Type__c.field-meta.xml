@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Contact_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Lead Contact Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GSM</fullName>
+                <default>false</default>
+                <label>GSM</label>
+            </value>
+            <value>
+                <fullName>ICT</fullName>
+                <default>false</default>
+                <label>ICT</label>
+            </value>
+            <value>
+                <fullName>Cable</fullName>
+                <default>false</default>
+                <label>Cable</label>
+            </value>
+            <value>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+                <label>Mobile</label>
+            </value>
+            <value>
+                <fullName>Fiber</fullName>
+                <default>false</default>
+                <label>Fiber</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

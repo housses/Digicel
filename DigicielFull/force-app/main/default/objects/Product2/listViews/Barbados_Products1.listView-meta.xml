@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Barbados_Products1</fullName>
+    <booleanFilter>1 AND 2</booleanFilter>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Charge_Type__c</columns>
+    <columns>Product_Family2__c</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>Country__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>Barbados</value>
+    </filters>
+    <filters>
+        <field>Product_Type__c</field>
+        <operation>equals</operation>
+        <value>ICT</value>
+    </filters>
+    <label>Barbados ICT Products</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Barbados_ICT_Admin_Team</group>
+        <group>ICT_BB_Order_Processing_Team</group>
+        <group>ICT_BB_SME_Team</group>
+        <group>ICT_BB_SME_Team_Ex_Manager</group>
+        <group>ICT_BB_Sales_Team</group>
+        <group>ICT_Barbados_Account_Managers_All</group>
+        <group>ICT_Barbados_Sales_Managers</group>
+        <group>ICT_Barbados_Technical</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AveragePrice__c</fullName>
+    <externalId>false</externalId>
+    <formula>( MRC__c  +  OTC__c )/ (if(MRC__c &gt;0,1,0) + if( OTC__c &gt;0,1,0) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Average Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

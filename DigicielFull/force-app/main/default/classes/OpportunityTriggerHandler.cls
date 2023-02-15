@@ -20,6 +20,7 @@ public with sharing class OpportunityTriggerHandler implements ITriggerHandler {
     }
     
     public void afterUpdate(Map<Id, SObject> newItems, Map<Id, SObject> oldItems) {
+        System.debug('Opp afterUpdate');
         Opportunity_SVE.callInfoLegalApi((Map<Id,Opportunity>)newItems, (Map<Id,Opportunity>)oldItems);
     }
     

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actual_Bill_Date_Blank_Unless_Billed</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+ NOT(ISPICKVAL(SID_Stage__c , &apos;Installed/Billed&apos;)),
+ NOT(ISBLANK(Actual_Billed_Date__c))
+)
+&amp;&amp; $Profile.Name &lt;&gt;&quot;System Administrator&quot;</errorConditionFormula>
+    <errorDisplayField>Actual_Billed_Date__c</errorDisplayField>
+    <errorMessage>Please Only Enter Actual Bill Date When SID Stage is &apos;Installed/Billed&apos;</errorMessage>
+</ValidationRule>

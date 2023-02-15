@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Bundle__c</fullName>
+    <externalId>false</externalId>
+    <label>Data Bundle</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Data Smart - 800MB</fullName>
+                <default>false</default>
+                <label>Data Smart - 800MB</label>
+            </value>
+            <value>
+                <fullName>Data Smart Plus - 1.6GB</fullName>
+                <default>false</default>
+                <label>Data Smart Plus - 1.6GB</label>
+            </value>
+            <value>
+                <fullName>Data Light - 3.1GB</fullName>
+                <default>false</default>
+                <label>Data Light - 3.1GB</label>
+            </value>
+            <value>
+                <fullName>Data Active - 5GB</fullName>
+                <default>false</default>
+                <label>Data Active - 5GB</label>
+            </value>
+            <value>
+                <fullName>Data Heavy - 7.6GB</fullName>
+                <default>false</default>
+                <label>Data Heavy - 7.6GB</label>
+            </value>
+            <value>
+                <fullName>Data Max - 16.4GB</fullName>
+                <default>false</default>
+                <label>Data Max - 16.4GB</label>
+            </value>
+            <value>
+                <fullName>20GB</fullName>
+                <default>false</default>
+                <label>20GB</label>
+            </value>
+            <value>
+                <fullName>40GB</fullName>
+                <default>false</default>
+                <label>40GB</label>
+            </value>
+            <value>
+                <fullName>80GB</fullName>
+                <default>false</default>
+                <label>80GB</label>
+            </value>
+            <value>
+                <fullName>1Mbps Unlimited</fullName>
+                <default>false</default>
+                <label>1Mbps Unlimited</label>
+            </value>
+            <value>
+                <fullName>2Mbps Unlimited</fullName>
+                <default>false</default>
+                <label>2Mbps Unlimited</label>
+            </value>
+            <value>
+                <fullName>4Mbps Unlimited</fullName>
+                <default>false</default>
+                <label>4Mbps Unlimited</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

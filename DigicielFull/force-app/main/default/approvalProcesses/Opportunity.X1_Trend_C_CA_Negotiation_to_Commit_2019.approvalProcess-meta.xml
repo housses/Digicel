@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Owner</field>
+        <field>Account</field>
+        <field>Name</field>
+        <field>StageName</field>
+        <field>Go_Live_Date__c</field>
+        <field>Amount</field>
+        <field>Description</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>declan@trend.media</name>
+                <type>user</type>
+            </approver>
+            <approver>
+                <name>kishner.cowell@digicelgroup.com</name>
+                <type>user</type>
+            </approver>
+            <approver>
+                <name>sean@trend.media</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Opportunity.RecordType</field>
+                <operation>equals</operation>
+                <value>Trend Media</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>RejectRecord</ifCriteriaNotMet>
+        <label>Commitment Approval: C&amp;CA</label>
+        <name>Commitment_Approval_C_CA</name>
+    </approvalStep>
+    <description>This approval process triggers when the stage is changed to &quot;Negotiation&quot;, once approved the stage will be changed to &quot;Commitment&quot;
+
+This affects all Trend opportunities from all markets.</description>
+    <emailTemplate>Trend_Approval_Email_Templates/Trend_Approver_Notification</emailTemplate>
+    <enableMobileDeviceAccess>true</enableMobileDeviceAccess>
+    <entryCriteria>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <criteriaItems>
+            <field>Opportunity.RecordType</field>
+            <operation>equals</operation>
+            <value>Trend Media</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.HasOpportunityLineItem</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Negotiation</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Stage_Negotiation_Approved_Checkbox</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Trend_Approval_Email</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Trend_Stage_Update_Commitment</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Reset_Trend_Opp_Stage_to_Prospecting</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Trend_Rejection_Email</name>
+            <type>Alert</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>1. Trend C&amp;CA Negotiation to Commit 2019</label>
+    <postTemplate>Trend_Chatter_Approval_Notification_Chatter_Template</postTemplate>
+    <processOrder>25</processOrder>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

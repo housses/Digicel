@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FWI_My_Closed_Won_Opps</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Estimated_Billed_Date__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>Push_Counter__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Digicel_Business_Opportunity,Opportunity.IDOM_IO_ICT,Opportunity.IDOM_FWI_ICT,Opportunity.TrendMedia</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>contains</operation>
+        <value>Closed Won,Go Live!</value>
+    </filters>
+    <label>FWI - My Closed Won Opps</label>
+    <language>en_US</language>
+    <sharedTo>
+        <roleAndSubordinates>French_West_Indies</roleAndSubordinates>
+    </sharedTo>
+</ListView>

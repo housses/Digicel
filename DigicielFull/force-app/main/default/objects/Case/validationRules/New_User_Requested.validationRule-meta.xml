@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_User_Requested</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+( ISPICKVAL( Internal_Support_Category__c, &quot;Create New Users&quot;) , 
+OR( 
+ISPICKVAL(  Sales_Channel__c, &quot;&quot; ) ,
+ISPICKVAL(   User_Company_Role__c , &quot;&quot; ) ,
+ISBLANK(  Daily_Meeting_Target__c  ) ,
+ISBLANK(  ICT_Service_MRR__c  ) ,
+ISBLANK(  Mobile_Service_MRR__c  ) ,
+ISBLANK(  Manager_to_Assign__c  ) ,
+ISBLANK(  Existing_User_to_Clone__c  ) ,
+ISBLANK(  New_User_Email_Address__c  ) 
+) 
+)
+&amp;&amp; $Profile.Name &lt;&gt;&quot;System Administrator&quot;</errorConditionFormula>
+    <errorMessage>Please fill out ALL fields in the New User Details section.</errorMessage>
+</ValidationRule>

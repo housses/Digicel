@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_CALA_Only_Admins_Can_Reopen_Opps_NEW</fullName>
+    <active>true</active>
+    <description>This rule prevents anyone except System Admins &amp; the Jamaica Sales Ops team from reopening closed won or billed opportunities
+
+                  ****Any modification to this rule without approval will result in suspension of your salesforce account.****</description>
+    <errorConditionFormula>CASE( StageName , 
+&quot;Prospecting &amp; Qualification&quot;,1, 
+&quot;Solution Design&quot;,1, 
+&quot;Commercial Review&quot;,1,
+&quot;Proposal Review&quot;,1, 
+&quot;Proposal Acceptance&quot;,1, 
+&quot;Closed Won&quot;,1, 
+&quot;Billed&quot;,3,
+&quot;Disconnected&quot;,4,
+&quot;Closed Lost&quot;,5,0) 
+&lt; 
+CASE(PRIORVALUE(StageName) , 
+&quot;Prospecting &amp; Qualification&quot;,1, 
+&quot;Solution Design&quot;,1,
+&quot;Commercial Review&quot;,1, 
+&quot;Proposal Review&quot;,1, 
+&quot;Proposal Acceptance&quot;,1, 
+&quot;Closed Won&quot;,1, 
+&quot;Billed&quot;,3,
+&quot;Disconnected&quot;,4,
+&quot;Closed Lost&quot;,5,0) 
+
+
+&amp;&amp;(
+RecordType.Name = &quot;Digicel Business Opportunity&quot;
+ || RecordType.Name = &quot;IDOM IO ICT&quot;
+ || RecordType.Name = &quot;IDOM FWI ICT&quot;
+)
+
+&amp;&amp; $Profile.Name &lt;&gt;&quot;System Admin Jr&quot; 
+&amp;&amp; $Profile.Name &lt;&gt;&quot;System Administrator&quot; 
+&amp;&amp; $Profile.Name &lt;&gt;&quot;Group Business Solutions&quot; 
+&amp;&amp; $Profile.Name &lt;&gt;&quot;Jamaica - ICT/GSM Power User&quot; 
+&amp;&amp; $Profile.Name &lt;&gt;&quot;Bermuda ICT&amp;GSM - Power User&quot;
+&amp;&amp; $Profile.Name &lt;&gt;&quot;Barbados ICT - Manager&quot; 
+&amp;&amp; $Profile.Name &lt;&gt;&quot;Trinidad ICT&amp;GSM - Power User&quot;
+&amp;&amp; $Profile.Name &lt;&gt;&quot;Trinidad Sales Manager (DealHub) DS&quot; 
+&amp;&amp; $Profile.Name &lt;&gt;&quot;Digicel PNG Sales Operations&quot;
+&amp;&amp; $Profile.Name &lt;&gt;&quot;PNG - Sales Executive&quot;
+&amp;&amp; $Profile.Name &lt;&gt;&quot;PNG - Sales Manager&quot;
+&amp;&amp; $Profile.Name &lt;&gt;&quot;DBS Power User&quot;
+&amp;&amp; $Profile.Name &lt;&gt;&quot;DBS Power User - Dealhub Pilot&quot;
+&amp;&amp; $Profile.Name &lt;&gt;&quot;Jamaica - ICT/GSM Power User - Dealhub Pilot&quot;
+&amp;&amp; $Profile.Name &lt;&gt;&quot;FWI DBS Standard User - Dealhub Pilot&quot;</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>Your attempt to revert the stage of a closed opportunity is not allowed. If you need a new opportunity you can create a clone of this record using the &quot;Clone&quot; button
+
+Closed Opportunities are not allowed to be reopened regardless if they are Lost or Won</errorMessage>
+</ValidationRule>

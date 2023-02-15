@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Configuration__c</fullName>
+    <externalId>false</externalId>
+    <label>Configuration</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Close</fullName>
+                <default>false</default>
+                <label>Close</label>
+            </value>
+            <value>
+                <fullName>DID/DOD Service</fullName>
+                <default>false</default>
+                <label>DID/DOD Service</label>
+            </value>
+            <value>
+                <fullName>Business Phone</fullName>
+                <default>false</default>
+                <label>Business Phone</label>
+            </value>
+            <value>
+                <fullName>Data Services</fullName>
+                <default>false</default>
+                <label>Data Services</label>
+            </value>
+            <value>
+                <fullName>Business Phone With DSL</fullName>
+                <default>false</default>
+                <label>Business Phone With DSL</label>
+            </value>
+            <value>
+                <fullName>DID Services</fullName>
+                <default>false</default>
+                <label>DID Services</label>
+            </value>
+            <value>
+                <fullName>Voice Channel</fullName>
+                <default>false</default>
+                <label>Voice Channel</label>
+            </value>
+            <value>
+                <fullName>Business Centrex</fullName>
+                <default>false</default>
+                <label>Business Centrex</label>
+            </value>
+            <value>
+                <fullName>ISDN Service</fullName>
+                <default>false</default>
+                <label>ISDN Service</label>
+            </value>
+            <value>
+                <fullName>Residential Phone Service</fullName>
+                <default>false</default>
+                <label>Residential Phone Service</label>
+            </value>
+            <value>
+                <fullName>Residential Phone With DSL Service</fullName>
+                <default>false</default>
+                <label>Residential Phone With DSL Service</label>
+            </value>
+            <value>
+                <fullName>Residential Smart Ring</fullName>
+                <default>false</default>
+                <label>Residential Smart Ring</label>
+            </value>
+            <value>
+                <fullName>Business Smart Ring</fullName>
+                <default>false</default>
+                <label>Business Smart Ring</label>
+            </value>
+            <value>
+                <fullName>Telco Phone</fullName>
+                <default>false</default>
+                <label>Telco Phone</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

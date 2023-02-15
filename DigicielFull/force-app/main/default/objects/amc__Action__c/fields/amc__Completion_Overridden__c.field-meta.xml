@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Completion_Overridden__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Identifies whether a User has manually overridden the Completion % value. If this field is TRUE, the Completion % will stop being updated automatically when new Time Logs are entered</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Identifies whether a User has manually overridden the Completion % value. If this field is TRUE, the Completion % will stop being updated automatically when new Time Logs are entered</inlineHelpText>
+    <label>Completion % Overridden</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

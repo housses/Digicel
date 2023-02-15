@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Task_or_Event_Creation</fullName>
+    <active>true</active>
+    <description>You can only create a Task or an Event from an Action, not both.</description>
+    <errorConditionFormula>AND( amc__Event__c = TRUE,  amc__Task__c = TRUE)</errorConditionFormula>
+    <errorDisplayField>amc__Task__c</errorDisplayField>
+    <errorMessage>You can only create a Task or an Event from an Action, noth both.</errorMessage>
+</ValidationRule>

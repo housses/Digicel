@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gnx__Order__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Position of the associate document in the generated file.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Position du modèle associé dans le document final</inlineHelpText>
+    <label>Order</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

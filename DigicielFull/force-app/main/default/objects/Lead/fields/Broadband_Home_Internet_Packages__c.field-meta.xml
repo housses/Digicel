@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Broadband_Home_Internet_Packages__c</fullName>
+    <externalId>false</externalId>
+    <label>Broadband Home Internet Packages</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 MB</fullName>
+                <default>false</default>
+                <label>1 MB</label>
+            </value>
+            <value>
+                <fullName>2 MB</fullName>
+                <default>false</default>
+                <label>2 MB</label>
+            </value>
+            <value>
+                <fullName>4 MB</fullName>
+                <default>false</default>
+                <label>4 MB</label>
+            </value>
+            <value>
+                <fullName>8 MB</fullName>
+                <default>false</default>
+                <label>8 MB</label>
+            </value>
+            <value>
+                <fullName>16 MB</fullName>
+                <default>false</default>
+                <label>16 MB</label>
+            </value>
+            <value>
+                <fullName>Maverick 3mbs</fullName>
+                <default>false</default>
+                <label>Maverick 3mbs</label>
+            </value>
+            <value>
+                <fullName>Power- 8mbs</fullName>
+                <default>false</default>
+                <label>Power- 8mbs</label>
+            </value>
+            <value>
+                <fullName>Extra- 16mbs</fullName>
+                <default>false</default>
+                <label>Extra- 16mbs</label>
+            </value>
+            <value>
+                <fullName>Max 32mbs</fullName>
+                <default>false</default>
+                <label>Max 32mbs</label>
+            </value>
+            <value>
+                <fullName>Pro- 50mbs</fullName>
+                <default>false</default>
+                <label>Pro- 50mbs</label>
+            </value>
+            <value>
+                <fullName>Express Plus</fullName>
+                <default>false</default>
+                <label>Express Plus</label>
+            </value>
+            <value>
+                <fullName>Extreme Plus</fullName>
+                <default>false</default>
+                <label>Extreme Plus</label>
+            </value>
+            <value>
+                <fullName>Turbo</fullName>
+                <default>false</default>
+                <label>Turbo</label>
+            </value>
+            <value>
+                <fullName>Turbo Plus</fullName>
+                <default>false</default>
+                <label>Turbo Plus</label>
+            </value>
+            <value>
+                <fullName>-None-</fullName>
+                <default>false</default>
+                <label>-None-</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

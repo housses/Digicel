@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAPEXCFY__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Also called capital spending or expenditure. The amount in Business Case to acquire or upgrade productive assets (Eg, CPE, Equipment, MV) in order to increase the capacity or efficiency of the Company for the current fiscal year.</inlineHelpText>
+    <label>CAPEX CFY</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

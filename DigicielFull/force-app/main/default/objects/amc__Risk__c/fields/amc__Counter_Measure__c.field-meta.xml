@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>amc__Counter_Measure__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Identifies the strategy selected to counter the risk</inlineHelpText>
+    <label>Counter Measure</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Prevention</fullName>
+                <default>false</default>
+                <label>Prevention</label>
+            </value>
+            <value>
+                <fullName>Reduction</fullName>
+                <default>false</default>
+                <label>Reduction</label>
+            </value>
+            <value>
+                <fullName>Transference</fullName>
+                <default>false</default>
+                <label>Transference</label>
+            </value>
+            <value>
+                <fullName>Acceptance</fullName>
+                <default>false</default>
+                <label>Acceptance</label>
+            </value>
+            <value>
+                <fullName>Contingency</fullName>
+                <default>false</default>
+                <label>Contingency</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
