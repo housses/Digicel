@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>ICT_BB_Digicel_PO_Requested_More_than_3_days_ago</fullName>
+        <description>ICT BB Digicel PO Requested More than 3 days ago</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>geraldine.ryan@digicelgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>keith.kiely@digicelgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>lawrence.burnett@digicelgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>natasha.pestaina@digicelgroup.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Barbados_ICT_Templates/BB_ICT_Digicel_PO_Requested_More_than_3_days_ago</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Equipment_Tracking_Name_Update</fullName>
+        <field>Name</field>
+        <formula>&quot;BB-&quot;&amp;TEXT(Vendor__c)&amp; &apos;- &apos; &amp; ServiceRequest__r.Opportunity__r.Account.Name &amp; &apos;- &apos; &amp;  &quot;Equipment Tracker&quot;</formula>
+        <name>Equipment Tracking Name Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>ICT BB Digicel PO Rqstd More than 3 days ago</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Equipment_Order_Tracking__c.Vndr_Equip_Status__c</field>
+            <operation>equals</operation>
+            <value>Digicel PO Rqstd</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>ICT_BB_Digicel_PO_Requested_More_than_3_days_ago</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Equipment_Order_Tracking__c.Digicel_PO_Date_Rqstd__c</offsetFromField>
+            <timeLength>4</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

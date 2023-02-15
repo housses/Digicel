@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Account_approved_email</fullName>
+        <description>Account approved email</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Account_Approval_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Account_rejected_email</fullName>
+        <description>Account rejected email</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Account_Rejection_Email</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Assign_PNG_Record_Type_to_account</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Digicel_PNG</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Assign PNG Record Type to account</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>MALatitude_c_Purge</fullName>
+        <field>MALatitude__c</field>
+        <name>Account.MALatitude_c_Purge</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>MALongitude_c_Purge</fullName>
+        <field>MALongitude__c</field>
+        <name>Account.MALongitude_c_Purge</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Manager_Approve</fullName>
+        <description>Approved status</description>
+        <field>Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Manager Approve</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Manager_Reject</fullName>
+        <description>Rejected status</description>
+        <field>Approval_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Manager Reject</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Populate_Text_Version_of_Ult_Parent_ID</fullName>
+        <field>UltimateAccountID__c</field>
+        <formula>UltimateParentAccountID__c</formula>
+        <name>Populate Text Version of Ult Parent ID</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Latitude_Lead_Convertion</fullName>
+        <field>GPS__Latitude__s</field>
+        <formula>GPS_Latitude__c</formula>
+        <name>Set Latitude Lead Convertion</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Longitude_Lead_Convertion</fullName>
+        <field>GPS__Longitude__s</field>
+        <formula>GPS_Longitude__c</formula>
+        <name>Set Longitude Lead Convertion</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Set Coordinates Lead Convertion</fullName>
+        <actions>
+            <name>Set_Latitude_Lead_Convertion</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Set_Longitude_Lead_Convertion</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.GPS_Latitude__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.GPS_Longitude__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>UltAcc%3A Auto Populate Ultimate Parent ID</fullName>
+        <actions>
+            <name>Populate_Text_Version_of_Ult_Parent_ID</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>true</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>a0pd0000004wKaFAAU_Purge</fullName>
+        <actions>
+            <name>MALatitude_c_Purge</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>MALongitude_c_Purge</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Account.a0pd0000004wKaFAAU_Purge</description>
+        <formula>OR(ISCHANGED(BillingStreet),ISCHANGED(BillingCity),ISCHANGED(BillingState),ISCHANGED(BillingPostalCode),ISCHANGED(BillingCountry))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>
