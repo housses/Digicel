@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>amc__Enforce_Manual_Billing</fullName>
-    <active>true</active>
-    <description>Ensure Billing Cycle is set to Manual if Billing Type is Controlled on Milestones</description>
-    <errorConditionFormula>AND(ISPICKVAL(amc__Billing_Type__c, &quot;Controlled on Milestones&quot;), NOT(ISPICKVAL(amc__Billing_Cycle__c, &quot;Manual&quot;)))</errorConditionFormula>
-    <errorMessage>Billing Cycle must be ‘Manual&apos; if Billing Type is &apos;Controlled on Milestones</errorMessage>
-</ValidationRule>

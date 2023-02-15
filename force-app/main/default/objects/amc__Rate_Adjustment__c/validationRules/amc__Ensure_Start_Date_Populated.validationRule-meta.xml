@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>amc__Ensure_Start_Date_Populated</fullName>
-    <active>true</active>
-    <description>Ensure the Start Date is populated if the End Date contains a value</description>
-    <errorConditionFormula>AND(NOT(ISBLANK(amc__End_Date__c)), ISBLANK(amc__Start_Date__c))</errorConditionFormula>
-    <errorMessage>You must set a Start Date when specifying an End Date</errorMessage>
-</ValidationRule>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>PNG_Solution_Design_Validation_Rule</fullName>
-    <active>true</active>
-    <errorConditionFormula>AND( RecordType.Id =  LEFT($Label.PNG_OpprtunityRecordTypeId,15) ,OR(ISPICKVAL(SyncedQuote.Status ,&apos;In Solution Review&apos;), ISPICKVAL(SyncedQuote.Status ,&apos;Solution Rejected&apos;)) ,OR(ISPICKVAL( StageName,&apos;Proposal Review&apos;),ISPICKVAL(StageName ,&apos;Proposal Acceptance&apos;) ,ISPICKVAL(StageName,&apos;On Hold&apos;) ,ISPICKVAL(StageName,&apos;Closed Won&apos;) ,ISPICKVAL(StageName,&apos;Closed Lost&apos;)))</errorConditionFormula>
-    <errorDisplayField>StageName</errorDisplayField>
-    <errorMessage>Solution Design Approval is required to proceed</errorMessage>
-</ValidationRule>

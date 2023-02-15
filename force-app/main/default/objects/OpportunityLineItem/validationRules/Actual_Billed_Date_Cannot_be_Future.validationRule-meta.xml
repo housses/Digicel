@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Actual_Billed_Date_Cannot_be_Future</fullName>
-    <active>true</active>
-    <description>Actual billed date should be today or in the past</description>
-    <errorConditionFormula>Actual_Billed_Date__c &gt; TODAY()</errorConditionFormula>
-    <errorDisplayField>Actual_Billed_Date__c</errorDisplayField>
-    <errorMessage>The Actual billed date should not be in the future.</errorMessage>
-</ValidationRule>

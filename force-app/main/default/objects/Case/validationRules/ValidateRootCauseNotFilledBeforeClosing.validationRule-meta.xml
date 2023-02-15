@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>ValidateRootCauseNotFilledBeforeClosing</fullName>
-    <active>false</active>
-    <errorConditionFormula>AND( RecordTypeId =  LEFT( $Label.PNG_CaseSupportRecordType , 15), ISPICKVAL(PNG_RootCause__c , &apos;&apos;),  ISPICKVAL( Status , &apos;Closed&apos;) )</errorConditionFormula>
-    <errorDisplayField>PNG_RootCause__c</errorDisplayField>
-    <errorMessage>Need to fill Root Cause before closing the case</errorMessage>
-</ValidationRule>

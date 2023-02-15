@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Custom_Formula_Field_A_Mandatory</fullName>
-    <active>true</active>
-    <errorConditionFormula>IF( ISPICKVAL( Field_Use__c , &quot;Formula&quot;), ISNULL( Custom_Chart_Field_Number_A__c ), FALSE)</errorConditionFormula>
-    <errorDisplayField>Custom_Chart_Field_Number_A__c</errorDisplayField>
-    <errorMessage>The custom chart field formula A is required if the field use is &quot;Formula&quot;.</errorMessage>
-</ValidationRule>

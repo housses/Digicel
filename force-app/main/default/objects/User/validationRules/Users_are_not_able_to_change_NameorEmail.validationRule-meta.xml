@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Users_are_not_able_to_change_NameorEmail</fullName>
-    <active>true</active>
-    <description>Users are not able to make changes to the Name or Email</description>
-    <errorConditionFormula>(ISCHANGED( FirstName )  ||  ISCHANGED(Digicel_Country__c)  ||  ISCHANGED( LastName ) ||  ISCHANGED( Email ) ) &amp;&amp;  NOT( $User.ProfileId   = &quot;00ed00000013Bqs&quot;)</errorConditionFormula>
-    <errorMessage>SYSTEM MESSAGE: YOU ARE NOT AUTHORIZED TO MAKE THIS CHANGE.</errorMessage>
-</ValidationRule>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>PNG_ClosedCaseIsLocked</fullName>
-    <active>true</active>
-    <errorConditionFormula>AND( OR(LEFT(RecordType.Id,15) = LEFT($Label.PNG_CaseImplementationRecordType,15), LEFT(RecordType.Id,15) = LEFT($Label.PNG_CaseSupportRecordType,15))&amp;&amp;$Profile.Name&lt;&gt;&quot;System Administrator&quot;,
-OR(ISPICKVAL(PRIORVALUE(Status), &apos;Closed&apos;)  = TRUE),ISPICKVAL(PRIORVALUE(Status), &apos;Resolved&apos;)  = TRUE)</errorConditionFormula>
-    <errorMessage>The Case is closed and locked</errorMessage>
-</ValidationRule>

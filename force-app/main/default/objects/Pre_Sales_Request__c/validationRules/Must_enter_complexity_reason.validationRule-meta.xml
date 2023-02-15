@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Must_enter_complexity_reason</fullName>
-    <active>true</active>
-    <errorConditionFormula>ISPICKVAL( Complexity__c , &quot;Complex&quot;) &amp;&amp;  ISBLANK( ComplexityReason__c)</errorConditionFormula>
-    <errorDisplayField>ComplexityReason__c</errorDisplayField>
-    <errorMessage>Please enter a Complexity Reason</errorMessage>
-</ValidationRule>
