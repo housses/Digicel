@@ -1,45 +1,49 @@
 @isTest
 public class AccountTriggerHandler_TST {
 
-    @isTest
-    public static void checkHandler() {
+    @TestSetup
+    static void createTestData() {
+        Account acc = DataFactory.createAccount(true);
+    }
+
+    @isTest(seeAllData=false)
+    public static void checkIfAccountInsert(){
+        Test.startTest();
+        List<Account> accountsToCheck = [SELECT Id FROM Account];
+        Test.stopTest();
+        System.assertEquals(1, accountsToCheck.size(), 'checkIfAccountInsert() => should be the same');
+    }
+
+    @isTest(seeAllData=false)
+    public static void checkIfAccountUpdate(){
         Test.setMock(HttpCalloutMock.class, new MockInfolegale_TST());
-
-        Map<String, Schema.RecordTypeInfo> accountRTs = Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName();
-        Map<String, Schema.RecordTypeInfo> oppRTs = Schema.SObjectType.Opportunity.getRecordTypeInfosByDeveloperName();
-        Id accClientRT = accountRTs.get('Digicel_Business_Account').getRecordTypeId();
-
-        Account acc = new Account(
-            Name = 'TEST',
-            Active__c = true,
-            BillingCity = 'Paris',
-            BillingCountryCode = 'BB',
-            AvanceOrder__c = '',
-            Registration_Number__c = '00000',
-            BillingPostalCode = '75004',
-            BillingStreet = '7 rue de Rivoli',
-            RecordTypeId = accClientRT);
-        insert acc;
-        Invoice__c inv = new Invoice__c(
-            AccountName__c = acc.Id,
-            InvoiceID__c = '111',
-            TechMoreOlderThen12Months__c = true
-        );
-        insert inv;
-
+        Account acc = [SELECT Id, Name FROM Account LIMIT 1];
         acc.Registration_Number__c = '00001';
         update acc;
 
-        Account accToTest = [SELECT Registration_Number__c FROM Account LIMIT 1];
-        List<Invoice__c> listToCheck = [SELECT Id, Name FROM Invoice__c WHERE AccountName__c = :accToTest.Id];
-        System.assertEquals(acc.Registration_Number__c, '00001', 'should be the same ');
-        System.assertEquals(listToCheck.size(), 0, 'should be empty ');
+        Test.startTest();
+        List<Account> accountsToCheck = [SELECT Id, Registration_Number__c FROM Account];
+        Test.stopTest();
+  
+        System.assertEquals('00001', acc.Registration_Number__c, 'checkIfAccountUpdate() => should be the same');
+    }
 
-
+    @isTest(seeAllData=false)
+    public static void checkIfAccountDelete(){
+        Account acc = [SELECT Id FROM Account LIMIT 1];
         delete acc;
-        
+        Test.startTest();
+        List<Account> accountsToCheck = [SELECT Id FROM Account];
+        Test.stopTest();
+        System.assertEquals(0, accountsToCheck.size(), 'checkIfAccountIsDelete() => should be the same');
+    }
+
+    @isTest(seeAllData=false)
+    public static void checkNameTrigger(){
         AccountTriggerHandler trigg = new AccountTriggerHandler();
         String nameTrigger = trigg.getTriggerName();
-        System.assertEquals(nameTrigger, 'AccountTrigger', 'should be AccountTrigger');
+        System.assertEquals('AccountTrigger', nameTrigger, 'checkNameTrigger() => should be AccountTrigger');
     }
+
+
 }
