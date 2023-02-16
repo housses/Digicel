@@ -7,7 +7,7 @@ public class DataFactory {
     * ********************************************************
     */
     public static List<Account> insertAccounts(Integer numRecords, Boolean doInsert) {
-        Test.setMock(HttpCalloutMock.class, new MockInfolegale_TST());
+        Test.setMock(HttpCalloutMock.class, new MockFactory_TST('MockInfolegale'));
         List<Account> results = new List<Account>();
         Map<String, Schema.RecordTypeInfo> accountRTs = Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName();
         Map<String, Schema.RecordTypeInfo> oppRTs = Schema.SObjectType.Opportunity.getRecordTypeInfosByDeveloperName();
@@ -27,7 +27,9 @@ public class DataFactory {
             results.add(record);
         }
         if(doInsert){
+            AccountTriggerHandler.triggerDisabled = true;
             insert results;
+            AccountTriggerHandler.triggerDisabled = false;
         }
         return results;
     }
@@ -38,10 +40,10 @@ public class DataFactory {
     * ********************************************************
     */
     public static Account createAccount(Boolean doInsert) {
-        Test.setMock(HttpCalloutMock.class, new MockInfolegale_TST());
+        Test.setMock(HttpCalloutMock.class, new MockFactory_TST('MockInfolegale'));
       
         Map<String, Schema.RecordTypeInfo> accountRTs = Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName();
-        Map<String, Schema.RecordTypeInfo> oppRTs = Schema.SObjectType.Opportunity.getRecordTypeInfosByDeveloperName();
+        // Map<String, Schema.RecordTypeInfo> oppRTs = Schema.SObjectType.Opportunity.getRecordTypeInfosByDeveloperName();
         Id accClientRT = accountRTs.get('Digicel_Business_Account').getRecordTypeId();
 
         Account record = new Account();
@@ -50,7 +52,7 @@ public class DataFactory {
         record.BillingCity = 'Paris';
         record.BillingCountryCode = 'FR';
         record.AvanceOrder__c = '';
-        record.Registration_Number__c = '878427798';
+        record.Registration_Number__c = '00000';
         record.BillingPostalCode = '75004';
         record.BillingStreet = '7 rue de Rivoli';
         record.RecordTypeId = accClientRT;
@@ -70,7 +72,7 @@ public class DataFactory {
         for (Integer counter = 1; counter <= numRecords; counter++) {
             Invoice__c record = new Invoice__c();
             record.AccountName__c = acc.Id;
-            record.InvoiceID__c = '111';
+            record.InvoiceID__c = '111'+counter;
             record.TechMoreOlderThen12Months__c = true;
             results.add(record);
         }

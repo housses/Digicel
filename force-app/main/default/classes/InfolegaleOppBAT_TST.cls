@@ -42,7 +42,7 @@ public  class InfolegaleOppBAT_TST {
         );
         insert opp;
        
-        Test.setMock(HttpCalloutMock.class, new MockInfolegale_TST());
+        Test.setMock(HttpCalloutMock.class, new MockFactory_TST('MockInfolegale'));
         Test.startTest();
         InfolegaleOpp_BAT httpBatch = new InfolegaleOpp_BAT(new Set<Id>{opp.Id});
         Id batchJobId = Database.executebatch(httpBatch,100);  

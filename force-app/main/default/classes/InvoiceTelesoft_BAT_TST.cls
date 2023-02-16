@@ -25,7 +25,7 @@ public class InvoiceTelesoft_BAT_TST {
             RecordTypeId = accClientRT);
         insert acc;
        
-        Test.setMock(HttpCalloutMock.class, new MockInfolegale_TST());
+        Test.setMock(HttpCalloutMock.class, new MockFactory_TST('MockInfolegale'));
         Test.startTest();
         Infolegale_BAT httpBatch = new Infolegale_BAT(new Set<Id>{acc.Id});
         Id batchJobId = Database.executebatch(httpBatch,100);   

@@ -1,6 +1,7 @@
 @isTest
 public  class InvoiceKaldom_BAT_TST {
 
+
     @TestSetup
     static void makeData(){  
         Map<String, Schema.RecordTypeInfo> accountRTs = Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName();
@@ -28,13 +29,15 @@ public  class InvoiceKaldom_BAT_TST {
     @isTest
     static void testBatchInvoiceKaldom(){
 
-        Test.setMock(HttpCalloutMock.class, new MockLoginKaldom());
+        Test.setMock(HttpCalloutMock.class, new MockFactory_TST('MockLoginKaldom'));
+        Test.setMock(HttpCalloutMock.class, new MockFactory_TST('MockInvoiceKaldom'));
+
         Test.startTest();
         Id batchJobId = Database.executebatch(new InvoiceKaldom_BAT(13,14), 100);   
         Test.stopTest();
         
         List<Invoice__c> listToCheck = [SELECT Id, Name, ClientNumber__c FROM Invoice__c WHERE ClientNumber__c = '2590'];
-        system.assert(listToCheck.size() > 0, 'size should be superior to 0');
+        System.assertEquals(2, listToCheck.size(), 'listToCheck should be equal to 2');
 
     }
 

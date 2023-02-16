@@ -8,6 +8,7 @@ public class KaldomWebService {
 
     public class applicationException extends Exception {}
 
+    
     //Check if we are in sandbox
     public static Boolean isSandbox(){
         String sandboxName = DomainParser.parse(DomainCreator.getOrgMyDomainHostname()).getSandboxName();
@@ -37,7 +38,7 @@ public class KaldomWebService {
     //Parse authentification to get token string
     public static String returnToken(){
         HttpResponse hs = new HttpResponse();	
-        hs = KaldomWebService.apiLogin();
+        hs = !Test.isRunningTest() ? KaldomWebService.apiLogin() : factoryTestAPI.getTestTokenHttpResponse();
         if (hs.getStatusCode() != 200) {
             throw new applicationException('KaldomWebService: Error call authentification, codeStatus:'+ hs.getStatusCode()+'; '+ hs.getBody());
         }
@@ -53,7 +54,7 @@ public class KaldomWebService {
         String token = KaldomWebService.returnToken();
         String body = '{"jwt": "'+token+'"}';
         if(Test.isRunningTest()){
-            Test.setMock(HttpCalloutMock.class, new MockInvoiceKaldom());
+            Test.setMock(HttpCalloutMock.class, new MockFactory_TST('MockInvoiceKaldom'));
         }
         HttpRequest req = new HttpRequest();
         Http http = new Http();

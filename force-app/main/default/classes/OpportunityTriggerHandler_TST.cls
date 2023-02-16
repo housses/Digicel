@@ -2,7 +2,7 @@
 public class OpportunityTriggerHandler_TST {
     @isTest
     public static void checkOpportunityHandler() {
-        Test.setMock(HttpCalloutMock.class, new MockInfolegale_TST());
+        Test.setMock(HttpCalloutMock.class, new MockFactory_TST('MockInfolegale'));
 
         Map<String, Schema.RecordTypeInfo> accountRTs = Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName();
         Map<String, Schema.RecordTypeInfo> oppRTs = Schema.SObjectType.Opportunity.getRecordTypeInfosByDeveloperName();
@@ -36,7 +36,7 @@ public class OpportunityTriggerHandler_TST {
         update opp;
         Opportunity oppToTest = [SELECT StageName FROM Opportunity LIMIT 1];
         delete opp;
-        System.assertEquals(oppToTest.StageName, 'Commercial Review');
+        System.assertEquals(oppToTest.StageName, 'Commercial Review', 'oppToTest.StageName should be "Commercial Review"');
         OpportunityTriggerHandler trigg = new OpportunityTriggerHandler();
         String nameTrigger = trigg.getTriggerName();
         System.assertEquals(nameTrigger, 'OpportunityTrigger', 'should be OpportunityTrigger');
