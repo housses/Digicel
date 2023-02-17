@@ -3,7 +3,7 @@ public class KaldomWebservice_TST {
 
     @isTest 
     static void testCalloutApiLogin() {
-        Test.setMock(HttpCalloutMock.class, new MockFactory_TST('MockInvoiceKaldom'));
+        Test.setMock(HttpCalloutMock.class, new MockFactory_TST('MockLoginKaldom'));
         HttpResponse res = KaldomWebService.apiLogin();
         String contentType = res.getHeader('Content-Type');
         System.assert(contentType == 'application/json', 'contentType should be equal to "application/json"');

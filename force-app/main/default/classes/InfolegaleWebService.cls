@@ -99,7 +99,8 @@ global class InfolegaleWebService {
         HttpResponse response = new HttpResponse();
 
         try {
-            response = http.send(req);
+            // response = http.send(req);
+            response = !Test.isRunningTest() ? http.send(req) : new MockFactory_TST('MockInfolegale').respond(req) ;
             if (response.getStatusCode() != 200){
                 throw new MyException('Error Infolegale server : status code : ' + response.getStatusCode() + response.getBody());
             } 
