@@ -34,7 +34,7 @@ public class InvoiceTelesoft_BAT_TST {
 
         @isTest
         static void testBatchClientTelesoft(){        
-            Test.setMock(HttpCalloutMock.class, new MockInvoiceTelesoft_TST());
+            Test.setMock(HttpCalloutMock.class, new MockFactory_TST('MockInvoiceTelesoft'));
 
             Test.startTest();
             InvoiceTelesoft_BAT httpBatch2 = new InvoiceTelesoft_BAT(0,1);
