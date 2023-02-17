@@ -2,7 +2,7 @@
 public class InvoiceTelesoft_SCH_TST {
     @isTest
     public static void testScheduleClientTelesoft(){
-        Test.setMock(HttpCalloutMock.class, new MockInvoiceTelesoft_TST());
+        Test.setMock(HttpCalloutMock.class, new MockFactory_TST('MockInvoiceTelesoft'));
         
         Test.startTest();
         String cron = '0 0 0 3 9 ? 2035';
